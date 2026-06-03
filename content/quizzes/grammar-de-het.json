@@ -1,0 +1,14 @@
+{
+  "id": "quiz-de-het",
+  "title": "Lidwoorden: de of het?",
+  "skill": "grammar",
+  "questions": [
+    { "id": "q-dehet-1", "skill": "grammar", "format": "mcq", "prompt": "___ huis", "options": ["de", "het"], "answer": "het", "explanation": "'huis' is een het-woord: het huis." },
+    { "id": "q-dehet-2", "skill": "grammar", "format": "mcq", "prompt": "___ man", "options": ["de", "het"], "answer": "de", "explanation": "Personen zijn meestal de-woorden: de man." },
+    { "id": "q-dehet-3", "skill": "grammar", "format": "mcq", "prompt": "___ kind", "options": ["de", "het"], "answer": "het", "explanation": "het kind — maar: de kinderen (meervoud is altijd 'de')." },
+    { "id": "q-dehet-4", "skill": "grammar", "format": "mcq", "prompt": "___ vrouw", "options": ["de", "het"], "answer": "de", "explanation": "de vrouw." },
+    { "id": "q-dehet-5", "skill": "grammar", "format": "mcq", "prompt": "___ boek", "options": ["de", "het"], "answer": "het", "explanation": "het boek." },
+    { "id": "q-dehet-6", "skill": "grammar", "format": "mcq", "prompt": "___ meisje", "options": ["de", "het"], "answer": "het", "explanation": "Verkleinwoorden (-je) zijn altijd het-woorden: het meisje." },
+    { "id": "q-dehet-7", "skill": "grammar", "format": "mcq", "prompt": "___ stad", "options": ["de", "het"], "answer": "de", "explanation": "de stad." }
+  ]
+}

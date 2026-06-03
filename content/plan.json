@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "startDate": "2026-06-02",
+    "examDate": "2026-10-26"
+  },
+  "weeks": [
+    {
+      "id": "wk-01",
+      "weekNumber": 1,
+      "theme": "Kennismaking & opstarten",
+      "dateLabel": "2 – 8 juni",
+      "tasks": [
+        { "id": "t-w1-book", "label": "LINK 0→A2 — Thema 1, oefeningen 1–10", "kind": "book", "ref": "link-0a2-01", "estMinutes": 90, "assignee": "both" },
+        { "id": "t-w1-fc", "label": "Flashcards: Thema 1 woorden (kennismaking)", "kind": "flashcards", "ref": "deck-a2-t01", "estMinutes": 20, "assignee": "both" },
+        { "id": "t-w1-quiz", "label": "Oefenen: lidwoorden de / het", "kind": "quiz", "ref": "quiz-de-het", "estMinutes": 15, "assignee": "both" },
+        { "id": "t-w1-knm", "label": "KNM: basisfeiten over Nederland lezen", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 20, "assignee": "both" },
+        { "id": "t-w1-duo", "label": "Verken de gratis DUO-oefenomgeving", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30, "assignee": "both" },
+        { "id": "t-w1-adm", "label": "Meld je aan bij de gemeente (start je PIP)", "kind": "admin", "estMinutes": 30, "assignee": "both" }
+      ]
+    },
+    {
+      "id": "wk-02",
+      "weekNumber": 2,
+      "theme": "Familie & dagelijks leven",
+      "dateLabel": "9 – 15 juni",
+      "tasks": [
+        { "id": "t-w2-book", "label": "LINK 0→A2 — Thema 2, oefeningen 1–10", "kind": "book", "ref": "link-0a2-02", "estMinutes": 90, "assignee": "both" },
+        { "id": "t-w2-fc", "label": "Flashcards: Thema 2 woorden (familie)", "kind": "flashcards", "ref": "deck-a2-t02", "estMinutes": 20, "assignee": "both" },
+        { "id": "t-w2-fc2", "label": "Flashcards: Thema 1 herhalen", "kind": "flashcards", "ref": "deck-a2-t01", "estMinutes": 10, "assignee": "both" },
+        { "id": "t-w2-quiz", "label": "Oefenen: woordvolgorde", "kind": "quiz", "ref": "quiz-woordvolgorde", "estMinutes": 15, "assignee": "both" },
+        { "id": "t-w2-quiz2", "label": "Oefenen: woorden Thema 1", "kind": "quiz", "ref": "quiz-vocab-t01", "estMinutes": 10, "assignee": "both" },
+        { "id": "t-w2-duo", "label": "DUO: oefenexamen Lezen A2 — deel 1", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30, "assignee": "both" }
+      ]
+    },
+    {
+      "id": "wk-03",
+      "weekNumber": 3,
+      "theme": "Herhaling & luisteren",
+      "dateLabel": "16 – 22 juni",
+      "tasks": [
+        { "id": "t-w3-book", "label": "LINK 0→A2 — Thema 3, oefeningen 1–10", "kind": "book", "ref": "link-0a2-03", "estMinutes": 90, "assignee": "both" },
+        { "id": "t-w3-fc", "label": "Flashcards: alle woorden herhalen", "kind": "flashcards", "estMinutes": 20, "assignee": "both" },
+        { "id": "t-w3-knm", "label": "KNM-feiten herhalen", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 15, "assignee": "both" },
+        { "id": "t-w3-duo", "label": "DUO: oefenexamen Luisteren A2", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30, "assignee": "both" },
+        { "id": "t-w3-speak", "label": "Samen 15 min hardop oefenen (kennismaking + familie)", "kind": "admin", "estMinutes": 15, "assignee": "both" }
+      ]
+    }
+  ]
+}

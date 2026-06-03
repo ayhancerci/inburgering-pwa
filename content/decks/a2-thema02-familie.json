@@ -1,0 +1,28 @@
+{
+  "deck": {
+    "id": "deck-a2-t02",
+    "title": "Thema 2 — Familie",
+    "type": "vocab",
+    "themeId": "link-0a2-02",
+    "lang": "nl-en",
+    "tags": ["a1", "familie"]
+  },
+  "cards": [
+    { "id": "c-t02-01", "deckId": "deck-a2-t02", "front": "de familie", "back": "the family" },
+    { "id": "c-t02-02", "deckId": "deck-a2-t02", "front": "het gezin", "back": "the (immediate) family / household" },
+    { "id": "c-t02-03", "deckId": "deck-a2-t02", "front": "de ouders", "back": "the parents" },
+    { "id": "c-t02-04", "deckId": "deck-a2-t02", "front": "de vader", "back": "the father" },
+    { "id": "c-t02-05", "deckId": "deck-a2-t02", "front": "de moeder", "back": "the mother" },
+    { "id": "c-t02-06", "deckId": "deck-a2-t02", "front": "de man", "back": "the man / husband" },
+    { "id": "c-t02-07", "deckId": "deck-a2-t02", "front": "de vrouw", "back": "the woman / wife" },
+    { "id": "c-t02-08", "deckId": "deck-a2-t02", "front": "de zoon", "back": "the son" },
+    { "id": "c-t02-09", "deckId": "deck-a2-t02", "front": "de dochter", "back": "the daughter" },
+    { "id": "c-t02-10", "deckId": "deck-a2-t02", "front": "het kind", "back": "the child", "hints": ["meervoud: de kinderen"] },
+    { "id": "c-t02-11", "deckId": "deck-a2-t02", "front": "de broer", "back": "the brother" },
+    { "id": "c-t02-12", "deckId": "deck-a2-t02", "front": "de zus", "back": "the sister" },
+    { "id": "c-t02-13", "deckId": "deck-a2-t02", "front": "getrouwd", "back": "married", "examples": ["Wij zijn getrouwd."] },
+    { "id": "c-t02-14", "deckId": "deck-a2-t02", "front": "de verjaardag", "back": "the birthday" },
+    { "id": "c-t02-15", "deckId": "deck-a2-t02", "front": "de leeftijd", "back": "the age" },
+    { "id": "c-t02-16", "deckId": "deck-a2-t02", "front": "jong / oud", "back": "young / old" }
+  ]
+}

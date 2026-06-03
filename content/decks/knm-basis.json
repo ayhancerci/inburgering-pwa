@@ -1,0 +1,21 @@
+{
+  "deck": {
+    "id": "deck-knm-basis",
+    "title": "KNM — Basisfeiten Nederland",
+    "type": "knm",
+    "lang": "nl-nl",
+    "tags": ["knm"]
+  },
+  "cards": [
+    { "id": "knm-01", "deckId": "deck-knm-basis", "front": "Hoeveel provincies heeft Nederland?", "back": "Twaalf provincies." },
+    { "id": "knm-02", "deckId": "deck-knm-basis", "front": "Wat is de hoofdstad van Nederland?", "back": "Amsterdam." },
+    { "id": "knm-03", "deckId": "deck-knm-basis", "front": "In welke stad zit de regering?", "back": "In Den Haag." },
+    { "id": "knm-04", "deckId": "deck-knm-basis", "front": "Wie is het staatshoofd?", "back": "De koning: koning Willem-Alexander." },
+    { "id": "knm-05", "deckId": "deck-knm-basis", "front": "Welke kleuren heeft de Nederlandse vlag?", "back": "Rood, wit en blauw." },
+    { "id": "knm-06", "deckId": "deck-knm-basis", "front": "Wat is de nationale feestdag?", "back": "Koningsdag, op 27 april." },
+    { "id": "knm-07", "deckId": "deck-knm-basis", "front": "Hoe heet het parlement?", "back": "De Staten-Generaal: de Eerste en Tweede Kamer." },
+    { "id": "knm-08", "deckId": "deck-knm-basis", "front": "Welk geld (munt) gebruik je in Nederland?", "back": "De euro." },
+    { "id": "knm-09", "deckId": "deck-knm-basis", "front": "Welke taal is de officiële taal?", "back": "Nederlands (en Fries in Friesland)." },
+    { "id": "knm-10", "deckId": "deck-knm-basis", "front": "Naar welk nummer bel je bij nood?", "back": "112." }
+  ]
+}

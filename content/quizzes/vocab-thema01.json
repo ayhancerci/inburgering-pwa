@@ -1,0 +1,13 @@
+{
+  "id": "quiz-vocab-t01",
+  "title": "Woorden — Thema 1 (kennismaking)",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-voc1-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'aangenaam'?", "options": ["pleased to meet you", "goodbye", "good morning", "thank you"], "answer": "pleased to meet you" },
+    { "id": "q-voc1-2", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'Hoe heet je?'", "options": ["What is your name?", "How are you?", "Where are you from?", "How old are you?"], "answer": "What is your name?" },
+    { "id": "q-voc1-3", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'thank you' (formeel)?", "options": ["dank u wel", "alsjeblieft", "tot ziens", "hallo"], "answer": "dank u wel" },
+    { "id": "q-voc1-4", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'Waar kom je vandaan?'", "options": ["Where are you from?", "Where do you live?", "Where are you going?", "What do you do?"], "answer": "Where are you from?" },
+    { "id": "q-voc1-5", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'goedemorgen'?", "options": ["good morning", "good night", "good afternoon", "goodbye"], "answer": "good morning" },
+    { "id": "q-voc1-6", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'I live in …'?", "options": ["Ik woon in …", "Ik kom uit …", "Ik heet …", "Ik ga naar …"], "answer": "Ik woon in …" }
+  ]
+}

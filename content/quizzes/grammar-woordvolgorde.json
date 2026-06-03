@@ -1,0 +1,13 @@
+{
+  "id": "quiz-woordvolgorde",
+  "title": "Woordvolgorde & werkwoorden",
+  "skill": "grammar",
+  "questions": [
+    { "id": "q-wv-1", "skill": "grammar", "format": "mcq", "prompt": "Welke zin is correct?", "options": ["Ik ga morgen naar Amsterdam.", "Ik morgen ga naar Amsterdam."], "answer": "Ik ga morgen naar Amsterdam.", "explanation": "Het werkwoord staat op plek 2 (de tweede plaats)." },
+    { "id": "q-wv-2", "skill": "grammar", "format": "cloze", "prompt": "Morgen {{1}} ik naar mijn werk. (gaan)", "answer": ["ga"], "explanation": "Begin je met 'morgen', dan komt het werkwoord ervoor: Morgen ga ik… (inversie)." },
+    { "id": "q-wv-3", "skill": "grammar", "format": "cloze", "prompt": "Zij {{1}} elke dag koffie. (drinken)", "answer": ["drinkt"], "explanation": "hij/zij/het → werkwoord + t: zij drinkt." },
+    { "id": "q-wv-4", "skill": "grammar", "format": "mcq", "prompt": "Ik kan goed Nederlands ___.", "options": ["spreken", "spreek", "gesproken"], "answer": "spreken", "explanation": "Na een modaal werkwoord (kan) komt het hele werkwoord aan het eind: spreken." },
+    { "id": "q-wv-5", "skill": "grammar", "format": "mcq", "prompt": "___ je uit Turkije?", "options": ["Kom", "Komt"], "answer": "Kom", "explanation": "Bij een vraag met 'je' verdwijnt de -t: Kom je…?" },
+    { "id": "q-wv-6", "skill": "grammar", "format": "cloze", "prompt": "Wij {{1}} in Utrecht. (wonen)", "answer": ["wonen"], "explanation": "wij/jullie/zij (meervoud) → hele werkwoord: wonen." }
+  ]
+}

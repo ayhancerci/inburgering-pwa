@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import { cx } from './ui'
 import { Guide } from '../features/help/Guide'
+import { useTextSize } from '../store/prefs'
 
 const NAV = [
   { to: '/', label: 'Plan', icon: '🗓️' },
@@ -15,11 +16,18 @@ const INTRO_KEY = 'intro-seen-v1'
 
 export function Layout() {
   const [guideOpen, setGuideOpen] = useState(false)
+  const { size } = useTextSize()
 
   // Auto-open the English how-to on first run.
   useEffect(() => {
     if (!localStorage.getItem(INTRO_KEY)) setGuideOpen(true)
   }, [])
+
+  // Apply the chosen text size globally (scales the rem-based UI).
+  useEffect(() => {
+    const map: Record<string, string> = { normal: '100%', large: '112.5%', xl: '125%' }
+    document.documentElement.style.fontSize = map[size] ?? '100%'
+  }, [size])
 
   const closeGuide = () => {
     localStorage.setItem(INTRO_KEY, '1')

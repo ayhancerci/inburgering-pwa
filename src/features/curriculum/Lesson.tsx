@@ -41,6 +41,9 @@ export function Lesson({
   onBack: () => void
 }) {
   const { show, toggle } = useTranslationPref()
+  const ytUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(
+    `Nederlands leren ${theme.titleNl} A2`,
+  )}`
 
   return (
     <div className="space-y-5">
@@ -144,6 +147,24 @@ export function Lesson({
             </ul>
           )}
           {lesson.writing.model && <ModelAnswer model={lesson.writing.model} />}
+        </Panel>
+      </section>
+
+      <section className="space-y-2">
+        <SectionTitle>📺 Meer over dit thema</SectionTitle>
+        <Panel className="divide-y divide-slate-100">
+          <a href={ytUrl} target="_blank" rel="noreferrer" className="block px-4 py-3">
+            <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
+              🎬 Video's zoeken: {theme.titleNl} <span className="text-sky-500">↗</span>
+            </span>
+            <span className="text-xs text-slate-400">YouTube — Nederlands op A2-niveau</span>
+          </a>
+          <Link to="/quiz" className="block px-4 py-3">
+            <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
+              📚 Alle bronnen <span className="text-sky-500">›</span>
+            </span>
+            <span className="text-xs text-slate-400">video's, lezen, luisteren &amp; oefenexamens</span>
+          </Link>
         </Panel>
       </section>
 

@@ -13,3 +13,17 @@ export const useTranslationPref = create<TranslationPref>()(
     name: 'show-translation',
   }),
 )
+
+export type TextSize = 'normal' | 'large' | 'xl'
+
+interface TextSizePref {
+  size: TextSize
+  setSize: (size: TextSize) => void
+}
+
+/** Global UI text size (scales the rem-based layout). Persisted. */
+export const useTextSize = create<TextSizePref>()(
+  persist((set) => ({ size: 'normal', setSize: (size) => set({ size }) }), {
+    name: 'text-size',
+  }),
+)

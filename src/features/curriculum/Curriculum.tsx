@@ -6,20 +6,33 @@ import { Lesson } from './Lesson'
 import { Basics } from './Basics'
 import type { Theme, BasicsChapter, Lesson as LessonType } from '../../content/schemas'
 
-// Which Basis chapters go in which collapsible group (by id). Keep in sync when adding chapters.
+// Which Basis chapters support each LINK theme (so you can follow the Basis while doing the
+// theme in the book + app). A chapter may support several themes. Keep ids in sync.
+const THEME_BASIS: Record<string, string[]> = {
+  'link-0a2-01': ['basis-begroeten', 'basis-beschrijf-ik', 'basis-voornaamwoorden'],
+  'link-0a2-02': ['basis-boodschappen', 'basis-geld'],
+  'link-0a2-03': ['basis-gevoelens', 'basis-begroeten'],
+  'link-0a2-04': ['basis-favorieten', 'basis-woorden-dagelijks'],
+  'link-0a2-05': ['basis-huren', 'basis-woorden-dagelijks'],
+  'link-0a2-06': ['basis-vervoer', 'basis-ov', 'basis-de-weg'],
+  'link-0a2-07': ['basis-gezondheid', 'basis-woorden-mensen'],
+  'link-0a2-08': ['basis-begroeten', 'basis-de-weg'],
+  'link-0a2-09': ['basis-kleuren-kleding', 'basis-geld', 'basis-internet-digid'],
+  'link-0a2-10': ['basis-noodgevallen'],
+  'link-0a2-11': ['basis-plannen', 'basis-vrije-tijd'],
+  'link-0a2-12': ['basis-inburgering', 'basis-vertellen'],
+  'link-0a2-13': ['basis-huren', 'basis-internet-digid'],
+  'link-0a2-14': ['basis-woorden-mensen', 'basis-telefoneren'],
+  'link-0a2-15': ['basis-vrije-tijd', 'basis-kleuren-kleding'],
+  'link-0a2-16': ['basis-inburgering', 'basis-internet-digid', 'basis-bank-post', 'basis-noodgevallen'],
+  'link-0a2-17': ['basis-brieven', 'basis-beschrijf-ik'],
+  'link-0a2-18': ['basis-natuur-landschap', 'basis-getallen'],
+  'link-0a2-19': ['basis-geld', 'basis-bank-post'],
+  'link-0a2-20': ['basis-mening', 'basis-vertellen', 'basis-internet-digid'],
+}
+
+// General Basis groups (foundational chapters that apply to every theme), shown below the themes.
 const BASIS_GROUPS: { label: string; ids: string[] }[] = [
-  {
-    label: '🔤 Woordenschat',
-    ids: [
-      'basis-getallen',
-      'basis-woorden-mensen',
-      'basis-woorden-dagelijks',
-      'basis-kleuren-kleding',
-      'basis-boodschappen',
-      'basis-natuur-landschap',
-      'basis-vervoer',
-    ],
-  },
   {
     label: '📐 Taal & grammatica',
     ids: [
@@ -35,6 +48,18 @@ const BASIS_GROUPS: { label: string; ids: string[] }[] = [
       'basis-bijzinnen',
       'basis-tijdwoorden',
       'basis-werkwoordenlijst',
+    ],
+  },
+  {
+    label: '🔤 Woordenschat',
+    ids: [
+      'basis-getallen',
+      'basis-woorden-mensen',
+      'basis-woorden-dagelijks',
+      'basis-kleuren-kleding',
+      'basis-boodschappen',
+      'basis-natuur-landschap',
+      'basis-vervoer',
     ],
   },
   {
@@ -112,12 +137,16 @@ function ThemePanel({
   onToggle,
   lesson,
   onOpenLesson,
+  relatedBasis,
+  onOpenBasics,
 }: {
   t: Theme
   isOpen: boolean
   onToggle: () => void
   lesson?: LessonType
   onOpenLesson: () => void
+  relatedBasis: BasicsChapter[]
+  onOpenBasics: (c: BasicsChapter) => void
 }) {
   return (
     <Panel className="overflow-hidden">
@@ -146,6 +175,26 @@ function ThemePanel({
                 uitleg · grammatica · dialoog · schrijven
               </span>
             </button>
+          )}
+
+          {relatedBasis.length > 0 && (
+            <div className="space-y-1.5 rounded-xl bg-indigo-50/60 p-3">
+              <p className="text-xs font-bold uppercase text-indigo-500">📚 Basis bij dit thema</p>
+              <p className="text-xs text-slate-500">
+                Volg deze Basis-hoofdstukken terwijl je dit thema doet (in de app én het boek).
+              </p>
+              {relatedBasis.map((b) => (
+                <button
+                  key={b.id}
+                  onClick={() => onOpenBasics(b)}
+                  className="flex w-full items-center gap-2 rounded-lg bg-white px-3 py-2 text-left ring-1 ring-indigo-100"
+                >
+                  <span className="text-base">{b.icon ?? '📐'}</span>
+                  <span className="flex-1 text-xs font-semibold text-slate-800">{b.titleNl}</span>
+                  <span className="text-slate-300">›</span>
+                </button>
+              ))}
+            </div>
           )}
 
           <ol className="space-y-2">
@@ -211,12 +260,20 @@ function BasicsRow({ chapter, onOpen }: { chapter: BasicsChapter; onOpen: () => 
 export function Curriculum() {
   const { themes, lessons, basics } = loadContent()
   const lessonMap = useMemo(() => new Map(lessons.map((l) => [l.themeId, l])), [lessons])
+  const byId = useMemo(() => new Map(basics.map((c) => [c.id, c])), [basics])
   const [open, setOpen] = useState<string | null>(null)
   const [lessonTheme, setLessonTheme] = useState<Theme | null>(null)
   const [basicsChapter, setBasicsChapter] = useState<BasicsChapter | null>(null)
 
+  const themeBasis = useMemo(() => {
+    const m = new Map<string, BasicsChapter[]>()
+    for (const [themeId, ids] of Object.entries(THEME_BASIS)) {
+      m.set(themeId, ids.map((id) => byId.get(id)).filter((c): c is BasicsChapter => !!c))
+    }
+    return m
+  }, [byId])
+
   const { basisGroups, examen } = useMemo(() => {
-    const byId = new Map(basics.map((c) => [c.id, c]))
     const used = new Set<string>()
     const groups = BASIS_GROUPS.map((g) => {
       const chapters = g.ids.map((id) => byId.get(id)).filter((c): c is BasicsChapter => !!c)
@@ -227,7 +284,7 @@ export function Curriculum() {
     if (leftover.length) groups.push({ label: '🧩 Overig', chapters: leftover })
     const examen = basics.filter((c) => c.category === 'examen')
     return { basisGroups: groups, examen }
-  }, [basics])
+  }, [basics, byId])
 
   if (basicsChapter) {
     return <Basics chapter={basicsChapter} onBack={() => setBasicsChapter(null)} />
@@ -244,8 +301,9 @@ export function Curriculum() {
       <div>
         <h1 className="text-xl font-extrabold text-slate-900">Cursus — LINK 0 → A2</h1>
         <p className="mt-1 text-sm text-slate-500">
-          Tik op een categorie om de hoofdstukken te zien. <span className="font-semibold text-indigo-600">Basis</span>{' '}
-          = bouwstenen, <span className="font-semibold text-rose-600">Examen</span> = uitleg per examen.
+          Open een thema om de les én de <span className="font-semibold text-indigo-600">Basis bij dit thema</span> te
+          zien — die volg je ernaast in de app en in het boek. Daaronder staan de algemene Basis-onderwerpen en de
+          <span className="font-semibold text-rose-600"> Examen</span>-gidsen.
         </p>
       </div>
 
@@ -258,10 +316,15 @@ export function Curriculum() {
             onToggle={() => setOpen(open === t.id ? null : t.id)}
             lesson={lessonMap.get(t.id)}
             onOpenLesson={() => setLessonTheme(t)}
+            relatedBasis={themeBasis.get(t.id) ?? []}
+            onOpenBasics={setBasicsChapter}
           />
         ))}
       </GroupSection>
 
+      <p className="px-1 pt-1 text-xs font-semibold uppercase tracking-wide text-slate-400">
+        Algemene Basis (voor alle thema's)
+      </p>
       {basisGroups.map((g) => (
         <GroupSection key={g.label} label={g.label} count={g.chapters.length}>
           {g.chapters.map((c) => (

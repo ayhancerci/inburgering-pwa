@@ -1,0 +1,308 @@
+{
+  "chapters": [
+    {
+      "id": "basis-feestdagen",
+      "sort": 82,
+      "category": "basis",
+      "icon": "🎉",
+      "titleNl": "Feestdagen & tradities",
+      "titleEn": "Dutch holidays & traditions",
+      "intro": "A friendly tour of the holidays and celebrations you will hear about all year in the Netherlands. Each Dutch line is a short, speakable sentence; tap the speaker to hear it. These topics also come up in the KNM exam.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Holidays through the year",
+          "body": "The Dutch calendar has a few big moments. In spring there is Koningsdag (Kingsday) and Pasen (Easter). At the start of May the country remembers the war and then celebrates freedom. In December come Sinterklaas, Kerst (Christmas) and finally Oud en Nieuw (New Year). You do not need exact details; just know roughly what each one is and when it happens."
+        },
+        {
+          "type": "pairs",
+          "title": "Koningsdag",
+          "note": "Kingsday: a national holiday on 27 April. People wear orange and sell their old things in the street.",
+          "items": [
+            { "nl": "Koningsdag is op 27 april.", "en": "Kingsday is on 27 April." },
+            { "nl": "We vieren de verjaardag van de koning.", "en": "We celebrate the king's birthday." },
+            { "nl": "De koning heet Willem-Alexander.", "en": "The king's name is Willem-Alexander." },
+            { "nl": "Het is een nationale feestdag.", "en": "It is a national holiday." },
+            { "nl": "Veel mensen dragen oranje kleren.", "en": "Many people wear orange clothes (orange is the royal colour)." },
+            { "nl": "Oranje is de kleur van het koningshuis.", "en": "Orange is the colour of the royal family." },
+            { "nl": "Op de vrijmarkt verkopen mensen oude spullen op straat.", "en": "At the flea market (vrijmarkt) people sell their old things in the street." },
+            { "nl": "Kinderen verdienen wat geld met spelletjes.", "en": "Children earn a bit of money with little games." },
+            { "nl": "Overal is muziek en het is heel druk.", "en": "There is music everywhere and it is very busy." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Sinterklaas",
+          "note": "A children's feast on 5 December. The evening of presents is called pakjesavond.",
+          "items": [
+            { "nl": "Sinterklaas vieren we op 5 december.", "en": "We celebrate Sinterklaas on 5 December." },
+            { "nl": "De avond van 5 december heet pakjesavond.", "en": "The evening of 5 December is called pakjesavond (presents evening)." },
+            { "nl": "Sinterklaas is een oude man met een witte baard.", "en": "Sinterklaas is an old man with a white beard." },
+            { "nl": "Hij komt met de boot uit Spanje.", "en": "He comes by boat from Spain (in the story)." },
+            { "nl": "Kinderen krijgen cadeaus van Sinterklaas.", "en": "Children get presents from Sinterklaas." },
+            { "nl": "Het cadeau is het pakje.", "en": "The present is the little parcel (het pakje)." },
+            { "nl": "We eten pepernoten en chocoladeletters.", "en": "We eat pepernoten (small spiced cookies) and chocolate letters." },
+            { "nl": "Kinderen zetten hun schoen bij de verwarming.", "en": "Children put their shoe by the heater (hoping for a small gift)." },
+            { "nl": "Soms hoort er een grappig gedicht bij het cadeau.", "en": "Sometimes a funny poem goes with the present." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Kerst en Oud en Nieuw",
+          "note": "Christmas has two days; the year ends with fireworks and oliebollen.",
+          "items": [
+            { "nl": "Eerste kerstdag is op 25 december.", "en": "Christmas Day (first Christmas day) is on 25 December." },
+            { "nl": "Tweede kerstdag is op 26 december.", "en": "Boxing Day (second Christmas day) is on 26 December." },
+            { "nl": "Met Kerst eten veel families samen.", "en": "At Christmas many families eat together." },
+            { "nl": "In huis staat vaak een kerstboom.", "en": "There is often a Christmas tree (de kerstboom) in the house." },
+            { "nl": "Fijne kerstdagen!", "en": "Merry Christmas! (literally: nice Christmas days)" },
+            { "nl": "Oudejaarsavond is op 31 december.", "en": "New Year's Eve (oudejaarsavond) is on 31 December." },
+            { "nl": "Om twaalf uur steken we vuurwerk af.", "en": "At twelve o'clock we set off fireworks." },
+            { "nl": "Op oudejaarsavond eten we oliebollen.", "en": "On New Year's Eve we eat oliebollen (deep-fried dough balls)." },
+            { "nl": "Om middernacht zeggen we: gelukkig nieuwjaar!", "en": "At midnight we say: happy new year!" },
+            { "nl": "Nieuwjaarsdag, 1 januari, is een vrije dag.", "en": "New Year's Day, 1 January, is a day off." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Pasen, 4 mei en 5 mei",
+          "note": "Easter in spring, then two days at the start of May that belong together.",
+          "items": [
+            { "nl": "Met Pasen vieren we eerste en tweede paasdag.", "en": "At Easter we celebrate the first and second Easter day (Sunday and Monday)." },
+            { "nl": "Pasen valt in het voorjaar.", "en": "Easter falls in the spring." },
+            { "nl": "Kinderen zoeken met Pasen paaseieren.", "en": "At Easter children look for Easter eggs." },
+            { "nl": "Veel mensen eten samen een paasbrunch.", "en": "Many people have an Easter brunch together." },
+            { "nl": "Op 4 mei is de Dodenherdenking.", "en": "On 4 May is the Remembrance of the Dead (we remember the war victims)." },
+            { "nl": "Om acht uur 's avonds zijn we twee minuten stil.", "en": "At eight o'clock in the evening we are silent for two minutes." },
+            { "nl": "Op 5 mei is het Bevrijdingsdag.", "en": "On 5 May it is Liberation Day (the end of World War II in 1945)." },
+            { "nl": "Op 5 mei zijn er bevrijdingsfestivals met muziek.", "en": "On 5 May there are liberation festivals with music." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "4 May and 5 May",
+          "body": "These two days belong together. On 4 May (Dodenherdenking) the whole country remembers the people who died in wars; at 20:00 there are two minutes of silence. The next day, 5 May (Bevrijdingsdag), celebrates the liberation from the German occupation in 1945, with festivals and music. Every five years 5 May is an official day off."
+        },
+        {
+          "type": "pairs",
+          "title": "Een verjaardag vieren",
+          "note": "Celebrating a birthday Dutch-style. Feliciteren means to congratulate.",
+          "items": [
+            { "nl": "Gefeliciteerd met je verjaardag!", "en": "Congratulations on your birthday!" },
+            { "nl": "We feliciteren de jarige.", "en": "We congratulate the birthday person (de jarige)." },
+            { "nl": "Vaak feliciteer je ook de familie.", "en": "Often you also congratulate the family members." },
+            { "nl": "De gasten zitten in een kring.", "en": "The guests sit in a circle (de kring) of chairs." },
+            { "nl": "Er is koffie met taart.", "en": "There is coffee with cake." },
+            { "nl": "Je geeft een hand en zegt gefeliciteerd.", "en": "You shake hands and say congratulations." },
+            { "nl": "Soms neem je een cadeautje mee.", "en": "Sometimes you bring a small present." },
+            { "nl": "We zingen Lang zal ze leven.", "en": "We sing Lang zal ze leven (the Dutch happy birthday song)." },
+            { "nl": "De jarige trakteert op gebak.", "en": "The birthday person treats everyone to a pastry (de traktatie)." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "The birthday circle",
+          "body": "A typical Dutch birthday can feel a little formal at first. Guests often sit in a circle (de kring) and there is coffee with a piece of cake (taart). You congratulate not only the birthday person but also their partner, parents and other close family, saying gefeliciteerd. Do not be surprised if you are congratulated too."
+        },
+        {
+          "type": "example",
+          "q": "Wanneer is Koningsdag?",
+          "qEn": "When is Kingsday?",
+          "options": ["Op 5 december", "Op 27 april", "Op 25 december"],
+          "answer": "Op 27 april",
+          "explanation": "Koningsdag is on 27 April, the king's birthday. 5 December is Sinterklaas and 25 December is Christmas Day."
+        }
+      ]
+    },
+    {
+      "id": "basis-typisch-nl",
+      "sort": 83,
+      "category": "basis",
+      "icon": "🧀",
+      "titleNl": "Typisch Nederlands: gewoontes",
+      "titleEn": "Typical Dutch customs & etiquette",
+      "intro": "A short guide to everyday Dutch habits and manners: being direct, keeping an agenda, arriving on time, splitting the bill, and the famous bikes. Knowing these helps you feel at home and avoid small misunderstandings.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "What feels typically Dutch?",
+          "body": "Two words help explain a lot. The first is gezelligheid, a warm, cosy, sociable feeling that the Dutch love. The second is direct: Dutch people often say what they think in a plain, honest way. This is usually meant to be clear and practical, not rude. Add a strong sense of planning and a bike for everyone, and you have a good picture of daily life."
+        },
+        {
+          "type": "pairs",
+          "title": "Gezelligheid en directheid",
+          "note": "The cosy feeling, and the honest, plain way of talking.",
+          "items": [
+            { "nl": "Gezelligheid is een fijn, warm gevoel als je samen bent.", "en": "Gezelligheid is a nice, warm feeling when you are together; hard to translate exactly." },
+            { "nl": "Wat gezellig dat je er bent!", "en": "How nice (cosy) that you are here!" },
+            { "nl": "Het was een gezellige avond.", "en": "It was a cosy, enjoyable evening." },
+            { "nl": "Nederlanders zijn vaak direct en eerlijk.", "en": "Dutch people are often direct and honest." },
+            { "nl": "Ze zeggen meestal gewoon wat ze denken.", "en": "They usually just say what they think." },
+            { "nl": "Dat is meestal niet onaardig bedoeld.", "en": "That is usually not meant in an unkind way." },
+            { "nl": "Je mag ook gewoon nee zeggen.", "en": "It is also fine to simply say no." },
+            { "nl": "Mensen geven graag hun eerlijke mening.", "en": "People like to give their honest opinion." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De agenda en op tijd komen",
+          "note": "Planning ahead and punctuality matter a lot. De agenda is a diary or planner.",
+          "items": [
+            { "nl": "Veel mensen plannen afspraken ver van tevoren.", "en": "Many people plan appointments far in advance." },
+            { "nl": "Ik kijk even in mijn agenda.", "en": "Let me check my diary/planner for a moment." },
+            { "nl": "Zullen we een afspraak maken?", "en": "Shall we make an appointment?" },
+            { "nl": "Heb je volgende week tijd?", "en": "Do you have time next week?" },
+            { "nl": "Even langskomen zonder afspraak is minder gewoon.", "en": "Dropping by without an appointment is less common." },
+            { "nl": "Op tijd komen is belangrijk.", "en": "Arriving on time is important." },
+            { "nl": "Te laat komen vinden mensen niet netjes.", "en": "People do not think being late is polite." },
+            { "nl": "Bel even als je later bent.", "en": "Give a quick call if you are going to be late." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Samen betalen",
+          "note": "Splitting costs is normal and not seen as mean. A tikkie is a popular payment request app/link.",
+          "items": [
+            { "nl": "We betalen vaak samen.", "en": "We often split the bill (pay together, each their share)." },
+            { "nl": "Zullen we het bedrag delen?", "en": "Shall we split the amount?" },
+            { "nl": "Ik stuur je een tikkie.", "en": "I'll send you a tikkie (a payment request to pay me back)." },
+            { "nl": "Kun je me dat later terugbetalen?", "en": "Can you pay me back later?" },
+            { "nl": "Ieder betaalt voor zichzelf.", "en": "Everyone pays for themselves." },
+            { "nl": "In winkels betalen we meestal met pin.", "en": "In shops we usually pay by debit card (pinnen)." },
+            { "nl": "Contant geld gebruiken we minder.", "en": "We use cash less often." },
+            { "nl": "Bij de koffie krijg je meestal een koekje.", "en": "With your coffee you usually get one biscuit." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "One biscuit with the coffee",
+          "body": "A small but real habit: when you visit and get coffee or tea, you are often offered the biscuit tin once, and people usually take just one koekje. Offering a second round is less common. It is not unfriendly; it is simply normal here, and it goes hand in hand with the love of gezelligheid around the table."
+        },
+        {
+          "type": "pairs",
+          "title": "Gelijkheid en de fiets",
+          "note": "Equality is taken for granted, and almost everyone cycles.",
+          "items": [
+            { "nl": "Mannen en vrouwen zijn gelijk.", "en": "Men and women are equal." },
+            { "nl": "Iedereen heeft dezelfde rechten.", "en": "Everyone has the same rights." },
+            { "nl": "Discriminatie is verboden.", "en": "Discrimination is forbidden." },
+            { "nl": "Bijna iedereen fietst.", "en": "Almost everyone cycles." },
+            { "nl": "Veel mensen gaan met de fiets naar het werk.", "en": "Many people go to work by bike." },
+            { "nl": "Er zijn overal fietspaden.", "en": "There are cycle paths everywhere." },
+            { "nl": "Ook in de regen pakken mensen de fiets.", "en": "People take the bike even in the rain." },
+            { "nl": "Vergeet je fietslicht niet in het donker.", "en": "Do not forget your bike light in the dark." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Kennismaken: de hand geven",
+          "note": "When you meet someone, you usually shake hands and say your name.",
+          "items": [
+            { "nl": "Je geeft een hand en zegt je naam.", "en": "You shake hands and say your name." },
+            { "nl": "Hallo, ik ben Sam. Aangenaam.", "en": "Hello, I am Sam. Pleased to meet you." },
+            { "nl": "Hoe maakt u het?", "en": "How do you do? (polite, formal)" },
+            { "nl": "Leuk je te ontmoeten.", "en": "Nice to meet you (informal)." },
+            { "nl": "Goedemorgen, mevrouw.", "en": "Good morning, madam." },
+            { "nl": "Goedendag, meneer.", "en": "Good day, sir." },
+            { "nl": "Bij vrienden geef je soms drie zoenen.", "en": "With friends you sometimes give three kisses (on the cheek)." },
+            { "nl": "Tot ziens en een fijne dag!", "en": "Goodbye and have a nice day!" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Tutoyeren: je or u?",
+          "body": "Dutch has two words for you: the informal je/jij and the polite u. With older people, officials, or people you do not know, u is the safe and respectful choice. Among friends, colleagues and younger people, je is normal. If someone says je gerust hoor, they are inviting you to use the informal je with them."
+        },
+        {
+          "type": "example",
+          "q": "Je vriend betaalt het eten. Wat zeg je?",
+          "qEn": "Your friend pays for the meal. What do you say?",
+          "options": ["Ik stuur je een tikkie terug voor mijn deel.", "Op tijd komen is belangrijk.", "Wat gezellig dat je er bent!"],
+          "answer": "Ik stuur je een tikkie terug voor mijn deel.",
+          "explanation": "Splitting costs is normal in the Netherlands, so you offer to pay back your share, often with a tikkie. The other two sentences are correct Dutch but do not fit this situation."
+        }
+      ]
+    },
+    {
+      "id": "basis-inburgering",
+      "sort": 85,
+      "category": "basis",
+      "icon": "🎓",
+      "titleNl": "Het inburgeringstraject",
+      "titleEn": "The inburgering process",
+      "intro": "A clear, simple overview of the inburgering process: what the exam parts are, the key words you will hear, and where to get help. The vocabulary here appears constantly in letters from DUO and the gemeente.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "What is inburgering?",
+          "body": "Inburgering means integrating: learning the Dutch language and learning how life in the Netherlands works. Most newcomers must pass the inburgeringsexamen within a set time (de termijn). DUO organises the exams and your gemeente (local council) helps you make a plan. Once you pass, you receive a diploma, which is also an important step towards a permanent residence permit or naturalisation."
+        },
+        {
+          "type": "pairs",
+          "title": "De onderdelen van het examen",
+          "note": "The parts of the exam: four language skills plus knowledge of society (KNM).",
+          "items": [
+            { "nl": "Lezen is het examenonderdeel waarbij je Nederlandse teksten leest.", "en": "Reading (Lezen) is the exam part where you read Dutch texts." },
+            { "nl": "Luisteren is het onderdeel waarbij je naar Nederlands luistert.", "en": "Listening (Luisteren) is the part where you listen to Dutch." },
+            { "nl": "Schrijven is het onderdeel waarbij je in het Nederlands schrijft.", "en": "Writing (Schrijven) is the part where you write in Dutch." },
+            { "nl": "Spreken is het onderdeel waarbij je Nederlands spreekt.", "en": "Speaking (Spreken) is the part where you speak Dutch." },
+            { "nl": "KNM gaat over kennis van de Nederlandse maatschappij.", "en": "KNM is about Knowledge of Dutch Society (how the country works)." },
+            { "nl": "De vier taalonderdelen toetsen je Nederlands.", "en": "The four language parts test your Dutch." },
+            { "nl": "Elk onderdeel doe je apart.", "en": "You do each part separately." },
+            { "nl": "Voor elk onderdeel krijg je een aparte uitslag.", "en": "For each part you get a separate result." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Belangrijke woorden",
+          "note": "Key terms from DUO and gemeente letters.",
+          "items": [
+            { "nl": "Het inburgeringsexamen bestaat uit meerdere onderdelen.", "en": "The integration exam (het inburgeringsexamen) has several parts." },
+            { "nl": "DUO regelt de examens.", "en": "DUO (a government body) organises the exams." },
+            { "nl": "Je doet het examen op de computer.", "en": "You take the exam on the computer." },
+            { "nl": "De PVT is de participatieverklaring.", "en": "The PVT is the participation declaration (you learn about and sign Dutch core values)." },
+            { "nl": "De gemeente helpt je met je plan, het PIP.", "en": "The gemeente (council) helps you with your plan, the PIP (personal integration plan)." },
+            { "nl": "De termijn is de tijd die je hebt om in te burgeren.", "en": "De termijn is the deadline/time limit you have to complete inburgering." },
+            { "nl": "Slagen betekent dat je het examen haalt.", "en": "Slagen means to pass the exam." },
+            { "nl": "Zakken betekent dat je niet slaagt.", "en": "Zakken means to fail (not pass)." },
+            { "nl": "Het diploma krijg je als je geslaagd bent.", "en": "You get the diploma when you have passed." },
+            { "nl": "Een vrijstelling betekent dat je een onderdeel niet hoeft te doen.", "en": "A vrijstelling (exemption) means you do not have to do a part." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "DUO and the gemeente",
+          "body": "Two organisations matter most. DUO is the national body that handles your exams: you book your exam there, take it on the computer, and get your results and diploma from them. Your gemeente (local council) supports you on the way: they help make your PIP (your personal integration plan) and can offer guidance and sometimes courses. Letters from both are official, so read them carefully and note any deadlines."
+        },
+        {
+          "type": "note",
+          "title": "Where to get help",
+          "body": "If something is unclear, ask. You can call or visit your gemeente for help with your plan and your route. For everything about the exam itself (booking, dates, results, exemptions) contact DUO, by phone or through their website with your DigiD. A teacher at a taalschool (language school) or a volunteer can also help you understand letters and prepare."
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen",
+          "note": "Useful sentences when you arrange things.",
+          "items": [
+            { "nl": "Ik wil me inschrijven voor het examen.", "en": "I want to register for the exam." },
+            { "nl": "Wanneer is de uitslag?", "en": "When are the results?" },
+            { "nl": "Ik ben geslaagd voor Lezen.", "en": "I passed Reading." },
+            { "nl": "Helaas ben ik gezakt voor Spreken.", "en": "Unfortunately I failed Speaking." },
+            { "nl": "Ik wil het examen opnieuw doen.", "en": "I want to take the exam again." },
+            { "nl": "Wat is mijn termijn?", "en": "What is my deadline (time limit)?" },
+            { "nl": "Kunt u mij helpen met mijn plan?", "en": "Can you help me with my plan?" },
+            { "nl": "Kom ik in aanmerking voor een vrijstelling?", "en": "Am I eligible for an exemption?" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Welke organisatie regelt de inburgeringsexamens?",
+          "qEn": "Which organisation organises the integration exams?",
+          "options": ["De gemeente", "DUO", "De politie"],
+          "answer": "DUO",
+          "explanation": "DUO organises the exams: you book them and receive your results and diploma there. The gemeente helps you with your plan (the PIP), but does not run the exams."
+        }
+      ]
+    }
+  ]
+}

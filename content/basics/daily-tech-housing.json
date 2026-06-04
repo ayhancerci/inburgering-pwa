@@ -1,0 +1,180 @@
+{
+  "chapters": [
+    {
+      "id": "basis-internet-digid",
+      "sort": 16.8,
+      "category": "basis",
+      "icon": "💻",
+      "titleNl": "Internet, DigiD & de computer",
+      "titleEn": "Internet, DigiD & the computer",
+      "intro": "The everyday words for using a computer, the internet and your DigiD to arrange things online in the Netherlands. Tap 🔊 to hear each Dutch word or phrase spoken.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Why this matters",
+          "body": "In the Netherlands almost everything official is arranged online: an appointment at the gemeente, your taxes, your health insurance. You log in to these sites with your DigiD, so the words on this page come up again and again."
+        },
+        {
+          "type": "pairs",
+          "title": "De computer & het internet",
+          "note": "The core words. Notice de or het in front of each noun.",
+          "items": [
+            { "nl": "de computer", "en": "the computer" },
+            { "nl": "de laptop", "en": "the laptop" },
+            { "nl": "het internet", "en": "the internet" },
+            { "nl": "de wifi", "en": "the wifi" },
+            { "nl": "het wachtwoord", "en": "the password" },
+            { "nl": "inloggen", "en": "to log in" },
+            { "nl": "uitloggen", "en": "to log out" },
+            { "nl": "de e-mail", "en": "the email" },
+            { "nl": "een e-mail versturen", "en": "to send an email" },
+            { "nl": "de bijlage", "en": "the attachment" },
+            { "nl": "de app", "en": "the app" },
+            { "nl": "downloaden", "en": "to download" },
+            { "nl": "het account", "en": "the account" },
+            { "nl": "de website", "en": "the website" },
+            { "nl": "klikken", "en": "to click" },
+            { "nl": "het formulier invullen", "en": "to fill in the form" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "What is DigiD?",
+          "body": "DigiD is your personal digital ID to log in to Dutch government and healthcare websites. You apply for it once with your BSN, then you use the same username and password (and often a code in the DigiD app) every time you arrange something official online. Keep these details safe and never share them by email."
+        },
+        {
+          "type": "pairs",
+          "title": "DigiD & online regelen",
+          "note": "Use these when you arrange official things on the internet.",
+          "items": [
+            { "nl": "DigiD", "en": "your personal digital ID for government and healthcare sites" },
+            { "nl": "inloggen met DigiD", "en": "to log in with DigiD" },
+            { "nl": "online een afspraak maken", "en": "to make an appointment online" },
+            { "nl": "de gemeente online", "en": "the municipality online (their website)" },
+            { "nl": "MijnOverheid", "en": "MijnOverheid (your online government inbox and overview)" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "A safe password",
+          "body": "Choose a wachtwoord that is long and hard to guess, and use a different one for each account. If a site asks for a code from the DigiD app, open the app on your phone and type the code over. The gemeente or the Belastingdienst will never ask for your password by phone or email."
+        },
+        {
+          "type": "pairs",
+          "title": "Problemen met inloggen",
+          "note": "Handy when something does not work online.",
+          "items": [
+            { "nl": "Ik kan niet inloggen.", "en": "I cannot log in." },
+            { "nl": "Ik ben mijn wachtwoord vergeten.", "en": "I have forgotten my password." },
+            { "nl": "De website doet het niet.", "en": "The website is not working." },
+            { "nl": "Het lukt niet om in te loggen.", "en": "I am not managing to log in." },
+            { "nl": "Heeft u internet?", "en": "Do you have internet?" },
+            { "nl": "De verbinding is weg.", "en": "The connection has dropped." },
+            { "nl": "Kunt u mij helpen met de computer?", "en": "Can you help me with the computer?" },
+            { "nl": "Waar moet ik klikken?", "en": "Where do I have to click?" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "U wilt online een afspraak maken bij de gemeente. De website vraagt eerst om uw DigiD. Wat doet u?",
+          "qEn": "You want to make an appointment with the municipality online. The website first asks for your DigiD. What do you do?",
+          "options": [
+            "Ik log in met DigiD.",
+            "Ik stuur mijn wachtwoord in een e-mail.",
+            "Ik bel 112."
+          ],
+          "answer": "Ik log in met DigiD.",
+          "explanation": "Government websites use DigiD to check who you are, so you log in with DigiD. You never send your password by email, and 112 is only for real emergencies."
+        }
+      ]
+    },
+    {
+      "id": "basis-huren",
+      "sort": 5.6,
+      "category": "basis",
+      "icon": "🔑",
+      "titleNl": "Huren & contracten",
+      "titleEn": "Renting & contracts",
+      "intro": "The words and phrases you need to rent a home in the Netherlands, sign a contract and sort out problems with your landlord. Tap 🔊 to hear each Dutch word or phrase spoken.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Renting in the Netherlands",
+          "body": "Most newcomers rent through a woningcorporatie (social housing) or via a makelaar on the private market. You sign a huurcontract, pay a borg up front and then pay the huur every month. If your income is low, you may get huurtoeslag (rent benefit) from the Belastingdienst."
+        },
+        {
+          "type": "pairs",
+          "title": "Huren & het contract",
+          "note": "The core renting words. Notice de or het in front of each noun.",
+          "items": [
+            { "nl": "de huur", "en": "the rent" },
+            { "nl": "het huurcontract", "en": "the rental contract" },
+            { "nl": "de huurder", "en": "the tenant" },
+            { "nl": "de verhuurder", "en": "the landlord" },
+            { "nl": "de woningcorporatie", "en": "the social housing association" },
+            { "nl": "de makelaar", "en": "the (estate) agent" },
+            { "nl": "de borg", "en": "the deposit (security)" },
+            { "nl": "de servicekosten", "en": "the service charges" },
+            { "nl": "de huurtoeslag", "en": "the rent benefit" },
+            { "nl": "het energiecontract", "en": "the energy contract" },
+            { "nl": "de meterstand", "en": "the meter reading" },
+            { "nl": "opzeggen", "en": "to cancel / give notice" },
+            { "nl": "de opzegtermijn", "en": "the notice period" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Borg & service charges",
+          "body": "The borg (also called de waarborgsom) is a deposit you pay before you move in; you get it back when you leave if the home is clean and undamaged. The servicekosten are extra monthly costs on top of the huur, for example for cleaning shared areas. Always read what is and is not included before you sign."
+        },
+        {
+          "type": "pairs",
+          "title": "Reparatie & problemen",
+          "note": "Use these to report a problem and arrange a repair.",
+          "items": [
+            { "nl": "een reparatie melden", "en": "to report a repair" },
+            { "nl": "De kraan lekt.", "en": "The tap is leaking." },
+            { "nl": "De verwarming is kapot.", "en": "The heating is broken." },
+            { "nl": "De monteur komt langs.", "en": "The repair person is coming round." },
+            { "nl": "Wanneer kunt u komen?", "en": "When can you come?" },
+            { "nl": "Er is een lekkage.", "en": "There is a leak." },
+            { "nl": "Het werkt niet meer.", "en": "It does not work anymore." },
+            { "nl": "Kunt u het snel maken?", "en": "Can you fix it quickly?" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Opzeggen & een afspraak maken",
+          "note": "Phrases for giving notice and arranging a time.",
+          "items": [
+            { "nl": "Ik wil de woning opzeggen.", "en": "I want to give notice on the home." },
+            { "nl": "Wat is de opzegtermijn?", "en": "What is the notice period?" },
+            { "nl": "Ik zeg het contract op per 1 juli.", "en": "I am giving notice on the contract as of 1 July." },
+            { "nl": "Kunt u dit schriftelijk bevestigen?", "en": "Can you confirm this in writing?" },
+            { "nl": "Wanneer komt u de meterstand opnemen?", "en": "When are you coming to read the meter?" },
+            { "nl": "Krijg ik de borg terug?", "en": "Do I get the deposit back?" },
+            { "nl": "Past het u maandagochtend?", "en": "Does Monday morning suit you?" },
+            { "nl": "Ik ben thuis na vijf uur.", "en": "I am at home after five o clock." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Reading the meter",
+          "body": "When you move in or out, you note the meterstand (meter reading) for gas, water and electricity. This decides what you pay. Take a photo of the meters on the day you arrive and the day you leave, so there is no discussion later."
+        },
+        {
+          "type": "example",
+          "q": "De verwarming in uw huis is kapot. U belt de verhuurder. Wat zegt u?",
+          "qEn": "The heating in your home is broken. You call the landlord. What do you say?",
+          "options": [
+            "De verwarming is kapot. Wanneer kunt u komen?",
+            "Ik wil graag een kilo kaas.",
+            "Ik ben mijn wachtwoord vergeten."
+          ],
+          "answer": "De verwarming is kapot. Wanneer kunt u komen?",
+          "explanation": "You first say what is wrong (De verwarming is kapot) and then ask when they can come to fix it. The other two answers belong to the cheese counter and to logging in online."
+        }
+      ]
+    }
+  ]
+}

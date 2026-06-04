@@ -1,0 +1,246 @@
+{
+  "chapters": [
+    {
+      "id": "basis-gevoelens",
+      "sort": 3.6,
+      "category": "basis",
+      "icon": "😀",
+      "titleNl": "Gevoelens & emoties",
+      "titleEn": "Feelings & emotions",
+      "intro": "How to say how you feel and ask how someone else is doing. These words come up in almost every conversation, and the examiner likes to hear you talk about yourself. Tap 🔊 to hear each phrase and practise saying it back.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Saying how you feel: ik ben and ik voel me",
+          "body": "There are two easy ways to talk about feelings. You can say ik ben plus an adjective (ik ben blij, ik ben moe), or you can use the reflexive verb zich voelen: ik voel me plus an adjective (ik voel me goed, ik voel me ziek). With voelen you must add the little word me: not ik voel goed but ik voel me goed. To soften a feeling, add een beetje (a bit): ik ben een beetje moe. To make it stronger, add heel or erg: ik ben heel blij, ik ben erg moe."
+        },
+        {
+          "type": "pairs",
+          "title": "Hoe voel je je?",
+          "note": "These are adjectives, so they work after both ik ben and ik voel me. de emotie = the emotion; het gevoel = the feeling.",
+          "items": [
+            { "nl": "blij", "en": "happy / glad" },
+            { "nl": "boos", "en": "angry" },
+            { "nl": "verdrietig", "en": "sad" },
+            { "nl": "moe", "en": "tired" },
+            { "nl": "bang", "en": "afraid / scared" },
+            { "nl": "zenuwachtig", "en": "nervous" },
+            { "nl": "trots", "en": "proud" },
+            { "nl": "verbaasd", "en": "surprised" },
+            { "nl": "gestrest", "en": "stressed" },
+            { "nl": "tevreden", "en": "satisfied / content" },
+            { "nl": "eenzaam", "en": "lonely" },
+            { "nl": "gelukkig", "en": "happy (deeply)" },
+            { "nl": "ziek", "en": "ill / sick" },
+            { "nl": "gezond", "en": "healthy" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Erover praten",
+          "note": "omdat (because) sends the verb to the end: ik ben blij omdat ik vrij ben. Use ik maak me zorgen over to say you are worried about something.",
+          "items": [
+            { "nl": "Ik voel me goed.", "en": "I feel good." },
+            { "nl": "Ik voel me niet lekker.", "en": "I do not feel well." },
+            { "nl": "Ik ben blij omdat het zonnig is.", "en": "I am happy because it is sunny." },
+            { "nl": "Ik ben een beetje moe.", "en": "I am a bit tired." },
+            { "nl": "Hoe voel je je?", "en": "How do you feel? (informal)" },
+            { "nl": "Hoe voelt u zich?", "en": "How do you feel? (formal)" },
+            { "nl": "Ik maak me zorgen over mijn werk.", "en": "I am worried about my work." },
+            { "nl": "Wat is er aan de hand?", "en": "What is the matter? / What is going on?" },
+            { "nl": "Ik ben trots op mijn kinderen.", "en": "I am proud of my children." },
+            { "nl": "Gaat het wel?", "en": "Are you okay?" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Asking how someone else feels",
+          "body": "When you want to know how someone is doing, the most common questions are Hoe gaat het? (How are you?) and Hoe voel je je? (How do you feel?). With someone you address as u, use the formal form: Hoe voelt u zich? If someone looks upset, you can ask Gaat het wel? (Are you okay?) or Wat is er aan de hand? (What is going on?). A kind reply is Ik hoop dat het snel beter gaat (I hope it gets better soon)."
+        },
+        {
+          "type": "example",
+          "q": "Vertel hoe je je vandaag voelt en leg uit waarom.",
+          "qEn": "Say how you feel today and explain why.",
+          "answer": "Vandaag voel ik me goed. Ik ben blij omdat het mooi weer is. Gisteren was ik een beetje moe, maar nu heb ik weer energie. Ik ben ook een beetje zenuwachtig, want ik heb morgen een examen. Maar over het algemeen voel ik me tevreden.",
+          "explanation": "A clear answer names a feeling (ik voel me goed, ik ben blij) and gives a reason with omdat or want (omdat het mooi weer is). Adding een beetje softens a feeling, and a small contrast with maar makes it sound natural. Notice that after vandaag and gisteren the verb comes second: vandaag voel ik, gisteren was ik."
+        }
+      ]
+    },
+    {
+      "id": "basis-vertellen",
+      "sort": 6.9,
+      "category": "basis",
+      "icon": "🗣️",
+      "titleNl": "Vertellen over je dag & vroeger",
+      "titleEn": "Telling about your day & the past",
+      "intro": "How to say what you did today, yesterday or in the past. The examiner often asks you to tell a little story about your day, so these phrases and the perfect tense are very useful. Tap 🔊 to hear each phrase.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "The perfect tense: hebben or zijn + past participle",
+          "body": "To say what you did, Dutch usually uses the perfect tense (de voltooid tijd). You take a form of hebben or zijn plus a past participle (het voltooid deelwoord) at the end of the sentence: ik heb gewerkt (I worked / have worked), ik heb gegeten (I ate). Most verbs use hebben. Verbs of movement and change use zijn: ik ben gegaan (I went), ik ben geweest (I have been), ik ben gekomen (I came). Many participles start with ge- and end in -t or -d, like gemaakt, gewerkt and gespeeld. The participle goes to the end: Vanmorgen heb ik koffie gedronken."
+        },
+        {
+          "type": "pairs",
+          "title": "Over je dag vertellen",
+          "note": "'s Morgens / 's middags / 's avonds = in the morning / afternoon / evening. After a time word like vanmorgen, the verb stays in second place.",
+          "items": [
+            { "nl": "Vanmorgen heb ik ontbeten.", "en": "This morning I had breakfast." },
+            { "nl": "Daarna ben ik naar mijn werk gegaan.", "en": "After that I went to work." },
+            { "nl": "Gisteren heb ik boodschappen gedaan.", "en": "Yesterday I did the shopping." },
+            { "nl": "'s Middags heb ik gewerkt.", "en": "In the afternoon I worked." },
+            { "nl": "'s Avonds heb ik tv gekeken.", "en": "In the evening I watched TV." },
+            { "nl": "Eerst at ik, toen werkte ik, daarna sliep ik.", "en": "First I ate, then I worked, after that I slept." },
+            { "nl": "Het was leuk.", "en": "It was nice / fun." },
+            { "nl": "Het was druk.", "en": "It was busy." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Putting events in order: eerst, toen, daarna",
+          "body": "To tell a story in order, use small linking words. Eerst means first, daarna means after that, and toen means then (in the past). Eerst and daarna keep the verb in second place: Eerst heb ik gegeten, daarna heb ik gewerkt. The word toen sends the verb to second place too but is only for the past: Toen ging ik naar huis. You can also use en daarna (and after that) and ten slotte (finally) to round off your story."
+        },
+        {
+          "type": "pairs",
+          "title": "Vroeger en nu",
+          "note": "vroeger = in the past / back then. The perfect tense also works for last week or last year.",
+          "items": [
+            { "nl": "Vroeger woonde ik in Turkije.", "en": "I used to live in Turkey." },
+            { "nl": "Vorig jaar ben ik naar Nederland gekomen.", "en": "Last year I came to the Netherlands." },
+            { "nl": "Vorige week heb ik een cursus gevolgd.", "en": "Last week I took a course." },
+            { "nl": "Ik heb Nederlands geleerd.", "en": "I have learned Dutch." },
+            { "nl": "Het weekend was rustig.", "en": "The weekend was quiet." },
+            { "nl": "Ik heb mijn familie gebeld.", "en": "I called my family." },
+            { "nl": "We zijn naar het park geweest.", "en": "We went to the park." },
+            { "nl": "Het was een leuke dag.", "en": "It was a nice day." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Vertel over je dag van gisteren: wat heb je gedaan?",
+          "qEn": "Tell about your day yesterday: what did you do?",
+          "answer": "Gisteren ben ik vroeg opgestaan. Vanmorgen heb ik ontbeten en koffie gedronken. Daarna ben ik naar mijn werk gegaan. 's Middags heb ik met mijn collega's geluncht. 's Avonds heb ik gekookt en tv gekeken. Het was een drukke maar leuke dag.",
+          "explanation": "Telling about your day works best in the perfect tense: hebben or zijn plus a participle at the end (heb ontbeten, ben gegaan, heb gekookt). Verbs of movement take zijn (ben opgestaan, ben gegaan), most others take hebben. Order the events with daarna, 's middags and 's avonds, and finish with a short opinion like het was een leuke dag."
+        }
+      ]
+    },
+    {
+      "id": "basis-plannen",
+      "sort": 11.6,
+      "category": "basis",
+      "icon": "📅",
+      "titleNl": "Plannen & de toekomst",
+      "titleEn": "Plans & the future",
+      "intro": "How to talk about what you are going to do: tomorrow, next week or later in life. This is a favourite exam topic, and there is one very easy way to do it. Tap 🔊 to hear each phrase.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "The easy future: gaan + infinitive",
+          "body": "The simplest way to talk about plans is gaan plus an infinitive (the basic verb). You say ik ga plus the action at the end: ik ga koken (I am going to cook), ik ga sporten (I am going to do sport), ik ga werken (I am going to work). This is just like the English I am going to. The infinitive goes to the end of the sentence: Volgende week ga ik op vakantie. You do not need a separate future tense for everyday speaking. To say what you want, use ik wil graag plus an infinitive: ik wil graag reizen (I would like to travel)."
+        },
+        {
+          "type": "pairs",
+          "title": "Over je plannen praten",
+          "note": "Ik ben van plan om and Ik hoop dat send the verb to the end. Misschien (maybe) keeps the verb in second place: misschien ga ik.",
+          "items": [
+            { "nl": "Ik ga morgen werken.", "en": "I am going to work tomorrow." },
+            { "nl": "Ik wil graag op vakantie.", "en": "I would like to go on holiday." },
+            { "nl": "Volgende week ga ik naar de dokter.", "en": "Next week I am going to the doctor." },
+            { "nl": "Volgend jaar wil ik verhuizen.", "en": "Next year I want to move house." },
+            { "nl": "Ik ben van plan om Nederlands te leren.", "en": "I am planning to learn Dutch." },
+            { "nl": "Misschien ga ik vanavond sporten.", "en": "Maybe I will go and do sport tonight." },
+            { "nl": "Ik hoop dat ik mijn examen haal.", "en": "I hope that I pass my exam." },
+            { "nl": "Wat ga jij dit weekend doen?", "en": "What are you going to do this weekend?" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Time words for the future",
+          "body": "A plan sounds clearer when you say when it happens. Useful time words are straks (later today), vanavond (this evening), morgen (tomorrow), overmorgen (the day after tomorrow), volgende week (next week) and volgend jaar (next year). When you start a sentence with a time word, the verb stays in second place: Morgen ga ik zwemmen, Volgende week werk ik niet. You can also be vague with binnenkort (soon) and ooit (one day)."
+        },
+        {
+          "type": "pairs",
+          "title": "Wensen en doelen",
+          "note": "Use these to talk about hopes and longer-term goals. te plus the infinitive goes to the end after van plan om.",
+          "items": [
+            { "nl": "Ik wil graag een goede baan vinden.", "en": "I would like to find a good job." },
+            { "nl": "Ik hoop op mooi weer.", "en": "I hope for nice weather." },
+            { "nl": "Ik ben van plan om te sparen.", "en": "I am planning to save money." },
+            { "nl": "Binnenkort ga ik op cursus.", "en": "Soon I am going to take a course." },
+            { "nl": "Later wil ik een eigen huis.", "en": "Later I want my own house." },
+            { "nl": "We gaan dit jaar verhuizen.", "en": "We are going to move house this year." },
+            { "nl": "Ik wil mijn Nederlands verbeteren.", "en": "I want to improve my Dutch." },
+            { "nl": "Misschien ga ik volgend jaar reizen.", "en": "Maybe I will travel next year." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Vertel over je plannen voor volgende week.",
+          "qEn": "Tell about your plans for next week.",
+          "answer": "Volgende week ga ik veel doen. Op maandag ga ik werken en 's avonds ga ik sporten. Ik ben van plan om woensdag boodschappen te doen. Ik wil graag mijn familie bellen. Misschien ga ik in het weekend naar het park. Ik hoop dat het mooi weer is.",
+          "explanation": "For plans, the easiest pattern is ik ga plus an infinitive at the end: ik ga werken, ik ga sporten. Add variety with ik wil graag, ik ben van plan om ... te ... and misschien ga ik. Start with a time word (volgende week, op maandag) and remember the verb stays in second place: volgende week ga ik."
+        }
+      ]
+    },
+    {
+      "id": "basis-mening",
+      "sort": 20.5,
+      "category": "basis",
+      "icon": "💭",
+      "titleNl": "Je mening geven",
+      "titleEn": "Giving your opinion",
+      "intro": "How to say what you think and whether you agree or not. The Spreken exam often asks for your opinion, so these phrases are worth knowing by heart. Tap 🔊 to hear each phrase.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Three ways to start an opinion",
+          "body": "There are three common openers for giving your opinion. Ik vind dat ... (I think that ...) and Ik denk dat ... (I think that ...) both send the verb to the end of the sentence: Ik vind dat het te duur is. Volgens mij ... (in my view) keeps the verb in second place: Volgens mij is het te duur. Use ik vind for an opinion or judgement, and ik denk for what you believe or expect. All three are polite and work in the exam."
+        },
+        {
+          "type": "pairs",
+          "title": "Je mening geven",
+          "note": "Note the word order: after ik vind dat and ik denk dat the verb goes to the end; after volgens mij it stays second.",
+          "items": [
+            { "nl": "Ik vind dat het een goed idee is.", "en": "I think that it is a good idea." },
+            { "nl": "Volgens mij is het te duur.", "en": "In my view it is too expensive." },
+            { "nl": "Ik denk dat het gaat regenen.", "en": "I think that it is going to rain." },
+            { "nl": "Ik ben het ermee eens.", "en": "I agree with it." },
+            { "nl": "Ik ben het er niet mee eens.", "en": "I do not agree with it." },
+            { "nl": "Dat klopt.", "en": "That is right / correct." },
+            { "nl": "Dat klopt niet.", "en": "That is not right." },
+            { "nl": "Misschien.", "en": "Maybe." },
+            { "nl": "Ik weet het niet zeker.", "en": "I am not sure." },
+            { "nl": "Aan de ene kant ..., aan de andere kant ...", "en": "On the one hand ..., on the other hand ..." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Giving your opinion politely",
+          "body": "To sound polite, soften your opinion a little instead of saying it too bluntly. Start with Ik vind ... or Volgens mij ... rather than a flat statement. When you disagree, it is friendlier to say Dat is waar, maar ... (That is true, but ...) or Misschien, maar ik denk dat ... before you give your own view. You can also show you are not certain with Ik weet het niet zeker (I am not sure) or Ik denk het wel / niet (I think so / I do not think so). Adding eerlijk gezegd (to be honest) or naar mijn mening (in my opinion) makes you sound thoughtful and respectful."
+        },
+        {
+          "type": "pairs",
+          "title": "Beleefd reageren",
+          "note": "Handy phrases for agreeing, disagreeing gently and asking what the other person thinks.",
+          "items": [
+            { "nl": "Dat is waar, maar ...", "en": "That is true, but ..." },
+            { "nl": "Daar ben ik het mee eens.", "en": "I agree with that." },
+            { "nl": "Daar ben ik het niet mee eens.", "en": "I disagree with that." },
+            { "nl": "Eerlijk gezegd vind ik van niet.", "en": "To be honest, I do not think so." },
+            { "nl": "Naar mijn mening is dat beter.", "en": "In my opinion that is better." },
+            { "nl": "Wat vind jij ervan?", "en": "What do you think of it?" },
+            { "nl": "Ik denk het wel.", "en": "I think so." },
+            { "nl": "Ik snap wat je bedoelt.", "en": "I understand what you mean." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Geef je mening over het leren van Nederlands: vind je het belangrijk?",
+          "qEn": "Give your opinion about learning Dutch: do you think it is important?",
+          "answer": "Ik vind dat Nederlands leren heel belangrijk is. Volgens mij kun je dan beter meedoen in de maatschappij. Aan de ene kant is het soms moeilijk, aan de andere kant is het ook leuk. Eerlijk gezegd vind ik praten het lastigst. Maar ik denk dat oefenen echt helpt.",
+          "explanation": "Open with a clear opinion using ik vind dat ... (verb to the end: belangrijk is) or volgens mij (verb second: kun je). Show two sides with aan de ene kant ..., aan de andere kant ..., and soften with eerlijk gezegd. Closing with ik denk dat ... gives a tidy, polite ending that examiners like."
+        }
+      ]
+    }
+  ]
+}

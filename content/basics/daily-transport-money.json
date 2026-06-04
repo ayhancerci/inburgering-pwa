@@ -1,0 +1,170 @@
+{
+  "chapters": [
+    {
+      "id": "basis-ov",
+      "sort": 6.8,
+      "category": "basis",
+      "icon": "🚊",
+      "titleNl": "Met het ov reizen",
+      "titleEn": "Travelling by public transport",
+      "intro": "How to travel by train, bus, tram and metro in the Netherlands, and how to use the OV-chipkaart you tap in and out with. Learn each noun with its de or het, and tap 🔊 to hear it.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "What is the ov?",
+          "body": "Ov is short for openbaar vervoer (public transport): trains, buses, trams and the metro. The trains are run by the NS (Nederlandse Spoorwegen). You can plan any journey in advance with a reisplanner (journey planner) app, which tells you which lines to take and where to change."
+        },
+        {
+          "type": "pairs",
+          "title": "De OV-chipkaart en het kaartje",
+          "note": "These are the words around your card and ticket. The verbs inchecken and uitchecken are the two you use every single trip.",
+          "items": [
+            { "nl": "de OV-chipkaart", "en": "the public transport card (you tap with it)" },
+            { "nl": "inchecken", "en": "to check in (tap the card when you start)" },
+            { "nl": "uitchecken", "en": "to check out (tap the card when you finish)" },
+            { "nl": "opladen", "en": "to top up / load credit onto the card" },
+            { "nl": "het saldo", "en": "the balance / credit on the card" },
+            { "nl": "het kaartje", "en": "the ticket" },
+            { "nl": "het abonnement", "en": "the season ticket / subscription" },
+            { "nl": "de reisplanner", "en": "the journey planner (app)" },
+            { "nl": "overstappen", "en": "to change / transfer (to another line)" },
+            { "nl": "de vertraging", "en": "the delay" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Always check in AND check out",
+          "body": "Every trip you must inchecken when you get on and uitchecken when you get off, by holding your card against the reader (de paal) until it beeps. If you forget to check out, the system cannot see where you stopped, so anders betaal je te veel (otherwise you pay too much). On the train you check in and out at the gates or the posts on the perron, not inside the train."
+        },
+        {
+          "type": "pairs",
+          "title": "Het vervoer (trains, buses & lines)",
+          "note": "Most of these are de-words; het perron and het spoor are het-words, so learn the article with each one.",
+          "items": [
+            { "nl": "de NS", "en": "the Dutch national railway company" },
+            { "nl": "de trein", "en": "the train" },
+            { "nl": "de bus", "en": "the bus" },
+            { "nl": "de tram", "en": "the tram" },
+            { "nl": "de metro", "en": "the metro / underground" },
+            { "nl": "het perron", "en": "the platform" },
+            { "nl": "het spoor", "en": "the track / platform number" },
+            { "nl": "de halte", "en": "the stop (bus or tram)" },
+            { "nl": "het station", "en": "the station" },
+            { "nl": "de conducteur", "en": "the conductor / ticket inspector" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen op reis (handy sentences)",
+          "note": "Use these to ask for help at the station or on the platform.",
+          "items": [
+            { "nl": "Waar moet ik overstappen?", "en": "Where do I have to change?" },
+            { "nl": "Hoe laat gaat de volgende trein?", "en": "What time does the next train go?" },
+            { "nl": "Ik moet eerst inchecken.", "en": "I have to check in first." },
+            { "nl": "Van welk spoor vertrekt de trein?", "en": "From which platform does the train leave?" },
+            { "nl": "Stopt deze bus bij het station?", "en": "Does this bus stop at the station?" },
+            { "nl": "De trein heeft vertraging.", "en": "The train is delayed." },
+            { "nl": "Ik wil mijn kaart opladen.", "en": "I want to top up my card." },
+            { "nl": "Een retour naar Utrecht, alstublieft.", "en": "A return ticket to Utrecht, please." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Single, return and the OV-fiets",
+          "body": "A one-way ticket is an enkele reis and a return is a retour. Children and people over 65 often travel with korting (a discount). At many stations you can rent an OV-fiets (a public bike) to finish the last part of your journey, which fits the Dutch habit of combining train and bike."
+        },
+        {
+          "type": "example",
+          "q": "U stapt uit de trein op het station. Wat moet u doen voordat u naar huis loopt?",
+          "qEn": "You get off the train at the station. What must you do before you walk home?",
+          "options": ["inchecken", "uitchecken", "overstappen"],
+          "answer": "uitchecken",
+          "explanation": "When you finish a journey you uitchecken (check out) at the gate or post, anders betaal je te veel. Inchecken is for when you start, and overstappen is changing to another line mid-trip."
+        }
+      ]
+    },
+    {
+      "id": "basis-bank-post",
+      "sort": 16.7,
+      "category": "basis",
+      "icon": "🏦",
+      "titleNl": "Bij de bank & de post",
+      "titleEn": "At the bank & post",
+      "intro": "The words and sentences you need at the bank and the post office: paying, transferring money, and sending a letter or parcel. Learn each noun with its de or het, and tap 🔊 to hear it.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Banking is mostly digital here",
+          "body": "In the Netherlands almost everyone pays with a pinpas (debit card) and arranges money online with internetbankieren (online banking). Cash (contant) is used less and less, and many shops are pinnen only. Your account number is an IBAN, a long code that starts with NL, which you give to anyone who needs to pay you."
+        },
+        {
+          "type": "pairs",
+          "title": "Bij de bank (at the bank)",
+          "note": "These are de-words. Pinnen is the everyday verb for paying by card, and geld overmaken is sending money from one account to another.",
+          "items": [
+            { "nl": "de bankrekening", "en": "the bank account" },
+            { "nl": "de pinpas", "en": "the debit card" },
+            { "nl": "pinnen", "en": "to pay by debit card" },
+            { "nl": "contant", "en": "cash" },
+            { "nl": "het saldo", "en": "the balance" },
+            { "nl": "geld overmaken", "en": "to transfer money" },
+            { "nl": "de IBAN", "en": "the IBAN (account number)" },
+            { "nl": "internetbankieren", "en": "online banking" },
+            { "nl": "de geldautomaat", "en": "the cash machine / ATM" },
+            { "nl": "de automatische incasso", "en": "the direct debit" },
+            { "nl": "de rekening", "en": "the bill / the account" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Direct debit pays your regular bills",
+          "body": "A handy thing to set up is the automatische incasso (direct debit): you give a company permission to take a fixed amount each month, for example for your rent, energy or insurance. The money then leaves your account automatically, so you never forget to pay. You can always cancel the permission with your bank if something is wrong."
+        },
+        {
+          "type": "pairs",
+          "title": "Bij de post (at the post office)",
+          "note": "The post company is PostNL. A letter is a brief and a parcel is a pakket; you often collect or send these at a pakketpunt inside a shop.",
+          "items": [
+            { "nl": "PostNL", "en": "the Dutch postal company" },
+            { "nl": "het pakket", "en": "the parcel / package" },
+            { "nl": "de brief", "en": "the letter" },
+            { "nl": "de postzegel", "en": "the stamp" },
+            { "nl": "het pakketpunt", "en": "the parcel point (in a shop)" },
+            { "nl": "versturen", "en": "to send / dispatch" },
+            { "nl": "bezorgen", "en": "to deliver" },
+            { "nl": "de brievenbus", "en": "the letterbox / postbox" },
+            { "nl": "de postbode", "en": "the postman / postwoman" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen (handy sentences)",
+          "note": "Use these at the counter of the bank or the pakketpunt.",
+          "items": [
+            { "nl": "Ik wil geld overmaken.", "en": "I want to transfer money." },
+            { "nl": "Kan ik hier pinnen?", "en": "Can I pay by card here?" },
+            { "nl": "Ik wil dit pakket versturen.", "en": "I want to send this parcel." },
+            { "nl": "Waar is het dichtstbijzijnde pakketpunt?", "en": "Where is the nearest parcel point?" },
+            { "nl": "Hoeveel kost een postzegel?", "en": "How much does a stamp cost?" },
+            { "nl": "Mijn pinpas werkt niet.", "en": "My debit card does not work." },
+            { "nl": "Wanneer wordt het pakket bezorgd?", "en": "When will the parcel be delivered?" },
+            { "nl": "Ik wil mijn saldo controleren.", "en": "I want to check my balance." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Sending a letter or parcel",
+          "body": "For a brief you stick a postzegel on it and drop it in a brievenbus. For a pakket you usually buy a label online, then hand it in at a pakketpunt in a supermarket or shop. PostNL will bezorgen (deliver) it, and you can follow it with a track and trace code. If you are not home, the parcel often goes to a neighbour or back to the pakketpunt."
+        },
+        {
+          "type": "example",
+          "q": "U wilt elke maand automatisch uw huur betalen, zodat u het nooit vergeet. Wat regelt u bij de bank?",
+          "qEn": "You want to pay your rent automatically every month so you never forget. What do you arrange at the bank?",
+          "options": ["een automatische incasso", "een postzegel", "een pakketpunt"],
+          "answer": "een automatische incasso",
+          "explanation": "Met een automatische incasso (a direct debit) the fixed amount leaves your account by itself each month. Een postzegel is a stamp for a letter, and een pakketpunt is where you send or collect parcels."
+        }
+      ]
+    }
+  ]
+}

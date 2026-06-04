@@ -1,10 +1,110 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { loadContent } from '../../content'
 import { Panel, Badge, cx } from '../../components/ui'
 import { Lesson } from './Lesson'
 import { Basics } from './Basics'
 import type { Theme, BasicsChapter, Lesson as LessonType } from '../../content/schemas'
+
+// Which Basis chapters go in which collapsible group (by id). Keep in sync when adding chapters.
+const BASIS_GROUPS: { label: string; ids: string[] }[] = [
+  {
+    label: '🔤 Woordenschat',
+    ids: [
+      'basis-getallen',
+      'basis-woorden-mensen',
+      'basis-woorden-dagelijks',
+      'basis-kleuren-kleding',
+      'basis-boodschappen',
+      'basis-natuur-landschap',
+      'basis-vervoer',
+    ],
+  },
+  {
+    label: '📐 Taal & grammatica',
+    ids: [
+      'basis-uitspraak',
+      'basis-voornaamwoorden',
+      'basis-werkwoorden',
+      'basis-grammatica',
+      'basis-voorzetsels',
+      'basis-verbindingswoorden',
+      'basis-vergelijken',
+      'basis-er',
+      'basis-reflexief',
+      'basis-bijzinnen',
+      'basis-tijdwoorden',
+      'basis-werkwoordenlijst',
+    ],
+  },
+  {
+    label: '🙋 Jezelf & sociaal',
+    ids: [
+      'basis-begroeten',
+      'basis-beschrijf-ik',
+      'basis-vrije-tijd',
+      'basis-favorieten',
+      'basis-gevoelens',
+      'basis-mening',
+      'basis-vertellen',
+      'basis-plannen',
+    ],
+  },
+  {
+    label: '🏛️ Praktisch & instanties',
+    ids: [
+      'basis-geld',
+      'basis-brieven',
+      'basis-de-weg',
+      'basis-telefoneren',
+      'basis-noodgevallen',
+      'basis-ov',
+      'basis-bank-post',
+      'basis-internet-digid',
+      'basis-huren',
+      'basis-gezondheid',
+    ],
+  },
+  {
+    label: '🇳🇱 Nederland: cultuur & geschiedenis',
+    ids: [
+      'basis-landen',
+      'basis-beroemde-nederlanders',
+      'basis-geschiedenis',
+      'basis-feestdagen',
+      'basis-typisch-nl',
+      'basis-inburgering',
+    ],
+  },
+]
+
+function GroupSection({
+  label,
+  count,
+  defaultOpen,
+  children,
+}: {
+  label: string
+  count: number
+  defaultOpen?: boolean
+  children: ReactNode
+}) {
+  const [open, setOpen] = useState(!!defaultOpen)
+  return (
+    <div className="space-y-2">
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        className="flex w-full items-center gap-2 rounded-xl bg-slate-100 px-3 py-2.5 text-left"
+      >
+        <span className="flex-1 text-sm font-extrabold text-slate-800">{label}</span>
+        <span className="text-xs font-semibold text-slate-400">{count}</span>
+        <span className="text-slate-400">{open ? '▾' : '▸'}</span>
+      </button>
+      {open && <div className="space-y-2">{children}</div>}
+    </div>
+  )
+}
 
 function ThemePanel({
   t,
@@ -89,9 +189,7 @@ function BasicsRow({ chapter, onOpen }: { chapter: BasicsChapter; onOpen: () => 
   const isExam = chapter.category === 'examen'
   return (
     <button onClick={onOpen} className="w-full text-left">
-      <Panel
-        className={cx('flex items-center gap-3 p-4 ring-1', isExam ? 'ring-rose-100' : 'ring-indigo-100')}
-      >
+      <Panel className={cx('flex items-center gap-3 p-4 ring-1', isExam ? 'ring-rose-100' : 'ring-indigo-100')}>
         <span
           className={cx(
             'grid size-8 shrink-0 place-items-center rounded-full text-base',
@@ -101,17 +199,7 @@ function BasicsRow({ chapter, onOpen }: { chapter: BasicsChapter; onOpen: () => 
           {chapter.icon ?? (isExam ? '🎓' : '📐')}
         </span>
         <span className="flex-1">
-          <span className="flex flex-wrap items-center gap-2">
-            <span className="text-sm font-bold text-slate-900">{chapter.titleNl}</span>
-            <span
-              className={cx(
-                'rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide',
-                isExam ? 'bg-rose-100 text-rose-600' : 'bg-indigo-100 text-indigo-600',
-              )}
-            >
-              {isExam ? 'Examen' : 'Basis'}
-            </span>
-          </span>
+          <span className="block text-sm font-bold text-slate-900">{chapter.titleNl}</span>
           <span className="block text-xs text-slate-500">{chapter.titleEn}</span>
         </span>
         <span className="text-slate-300">›</span>
@@ -120,27 +208,26 @@ function BasicsRow({ chapter, onOpen }: { chapter: BasicsChapter; onOpen: () => 
   )
 }
 
-type Row =
-  | { kind: 'theme'; sort: number; theme: Theme }
-  | { kind: 'basics'; sort: number; chapter: BasicsChapter }
-
-type Filter = 'all' | 'themes' | 'basics' | 'examen'
-
 export function Curriculum() {
   const { themes, lessons, basics } = loadContent()
   const lessonMap = useMemo(() => new Map(lessons.map((l) => [l.themeId, l])), [lessons])
   const [open, setOpen] = useState<string | null>(null)
   const [lessonTheme, setLessonTheme] = useState<Theme | null>(null)
   const [basicsChapter, setBasicsChapter] = useState<BasicsChapter | null>(null)
-  const [filter, setFilter] = useState<Filter>('all')
 
-  const rows = useMemo<Row[]>(() => {
-    const merged: Row[] = [
-      ...themes.map((t) => ({ kind: 'theme' as const, sort: t.number, theme: t })),
-      ...basics.map((b) => ({ kind: 'basics' as const, sort: b.sort, chapter: b })),
-    ]
-    return merged.sort((a, b) => a.sort - b.sort)
-  }, [themes, basics])
+  const { basisGroups, examen } = useMemo(() => {
+    const byId = new Map(basics.map((c) => [c.id, c]))
+    const used = new Set<string>()
+    const groups = BASIS_GROUPS.map((g) => {
+      const chapters = g.ids.map((id) => byId.get(id)).filter((c): c is BasicsChapter => !!c)
+      chapters.forEach((c) => used.add(c.id))
+      return { label: g.label, chapters }
+    }).filter((g) => g.chapters.length > 0)
+    const leftover = basics.filter((c) => c.category !== 'examen' && !used.has(c.id))
+    if (leftover.length) groups.push({ label: '🧩 Overig', chapters: leftover })
+    const examen = basics.filter((c) => c.category === 'examen')
+    return { basisGroups: groups, examen }
+  }, [basics])
 
   if (basicsChapter) {
     return <Basics chapter={basicsChapter} onBack={() => setBasicsChapter(null)} />
@@ -152,65 +239,44 @@ export function Curriculum() {
     }
   }
 
-  const tabs: { key: Filter; label: string }[] = [
-    { key: 'all', label: 'Alles' },
-    { key: 'themes', label: 'Thema’s' },
-    { key: 'basics', label: 'Basis' },
-    { key: 'examen', label: 'Examen' },
-  ]
-  const visible = rows.filter((row) => {
-    if (filter === 'all') return true
-    if (filter === 'themes') return row.kind === 'theme'
-    if (filter === 'basics') return row.kind === 'basics' && row.chapter.category !== 'examen'
-    return row.kind === 'basics' && row.chapter.category === 'examen'
-  })
-
   return (
     <div className="space-y-4">
       <div>
         <h1 className="text-xl font-extrabold text-slate-900">Cursus — LINK 0 → A2</h1>
         <p className="mt-1 text-sm text-slate-500">
-          Tap a chapter for the full lesson. <span className="font-semibold text-indigo-600">Basis</span>{' '}
-          chapters teach the building blocks; <span className="font-semibold text-rose-600">Examen</span>{' '}
-          chapters explain each exam with tips and example questions.
+          Tik op een categorie om de hoofdstukken te zien. <span className="font-semibold text-indigo-600">Basis</span>{' '}
+          = bouwstenen, <span className="font-semibold text-rose-600">Examen</span> = uitleg per examen.
         </p>
       </div>
 
-      <div className="flex gap-1 rounded-xl bg-slate-100 p-1 text-xs font-semibold">
-        {tabs.map((t) => (
-          <button
-            key={t.key}
-            onClick={() => setFilter(t.key)}
-            className={cx(
-              'flex-1 rounded-lg px-2 py-1.5 transition',
-              filter === t.key ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500',
-            )}
-          >
-            {t.label}
-          </button>
+      <GroupSection label="📖 LINK-thema's (0 → A2)" count={themes.length} defaultOpen>
+        {themes.map((t) => (
+          <ThemePanel
+            key={t.id}
+            t={t}
+            isOpen={open === t.id}
+            onToggle={() => setOpen(open === t.id ? null : t.id)}
+            lesson={lessonMap.get(t.id)}
+            onOpenLesson={() => setLessonTheme(t)}
+          />
         ))}
-      </div>
+      </GroupSection>
 
-      <div className="space-y-2">
-        {visible.map((row) =>
-          row.kind === 'basics' ? (
-            <BasicsRow
-              key={row.chapter.id}
-              chapter={row.chapter}
-              onOpen={() => setBasicsChapter(row.chapter)}
-            />
-          ) : (
-            <ThemePanel
-              key={row.theme.id}
-              t={row.theme}
-              isOpen={open === row.theme.id}
-              onToggle={() => setOpen(open === row.theme.id ? null : row.theme.id)}
-              lesson={lessonMap.get(row.theme.id)}
-              onOpenLesson={() => setLessonTheme(row.theme)}
-            />
-          ),
-        )}
-      </div>
+      {basisGroups.map((g) => (
+        <GroupSection key={g.label} label={g.label} count={g.chapters.length}>
+          {g.chapters.map((c) => (
+            <BasicsRow key={c.id} chapter={c} onOpen={() => setBasicsChapter(c)} />
+          ))}
+        </GroupSection>
+      ))}
+
+      {examen.length > 0 && (
+        <GroupSection label="🎓 Examen-gidsen" count={examen.length}>
+          {examen.map((c) => (
+            <BasicsRow key={c.id} chapter={c} onOpen={() => setBasicsChapter(c)} />
+          ))}
+        </GroupSection>
+      )}
     </div>
   )
 }

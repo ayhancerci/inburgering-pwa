@@ -1,0 +1,113 @@
+{
+  "chapters": [
+    {
+      "id": "basis-gezondheid",
+      "sort": 7.5,
+      "category": "basis",
+      "icon": "🩺",
+      "titleNl": "Gezondheid: tandarts, apotheek & ziekenhuis",
+      "titleEn": "Health: dentist, pharmacy & hospital",
+      "intro": "The words and phrases you need at the doctor, the pharmacy, the dentist and the hospital. Tap 🔊 to hear each Dutch phrase spoken.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "Waar ga je heen?",
+          "note": "The places and people in Dutch health care.",
+          "items": [
+            { "nl": "de huisarts", "en": "the GP (family doctor)" },
+            { "nl": "de huisartsenpost", "en": "the after-hours GP clinic" },
+            { "nl": "de tandarts", "en": "the dentist" },
+            { "nl": "de apotheek", "en": "the pharmacy" },
+            { "nl": "het ziekenhuis", "en": "the hospital" },
+            { "nl": "de specialist", "en": "the specialist" },
+            { "nl": "de verpleegkundige", "en": "the nurse" },
+            { "nl": "de spoedeisende hulp", "en": "the emergency department (A&E)" },
+            { "nl": "de afspraak", "en": "the appointment" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Start with the huisarts",
+          "body": "Your huisarts (GP) is always your first contact for medical problems. If you need a specialist or a hospital, the huisarts gives you a verwijzing (referral) first. For urgent problems in the evening, at night or in the weekend, when your own practice is closed, you call the huisartsenpost. In a life-threatening emergency, do not wait: bel 112."
+        },
+        {
+          "type": "pairs",
+          "title": "Klachten & symptomen",
+          "note": "How to say what is wrong with you.",
+          "items": [
+            { "nl": "de pijn", "en": "the pain" },
+            { "nl": "de koorts", "en": "the fever" },
+            { "nl": "de hoest", "en": "the cough" },
+            { "nl": "de keelpijn", "en": "the sore throat" },
+            { "nl": "de hoofdpijn", "en": "the headache" },
+            { "nl": "de buikpijn", "en": "the stomach ache" },
+            { "nl": "de griep", "en": "the flu" },
+            { "nl": "de verkoudheid", "en": "the cold" },
+            { "nl": "misselijk", "en": "nauseous / sick" },
+            { "nl": "duizelig", "en": "dizzy" },
+            { "nl": "gewond", "en": "injured" },
+            { "nl": "moe", "en": "tired" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Bij de apotheek",
+          "note": "At the pharmacy, where you collect medicine. Read the instructions carefully.",
+          "items": [
+            { "nl": "het medicijn", "en": "the medicine" },
+            { "nl": "het recept", "en": "the prescription" },
+            { "nl": "de pijnstiller", "en": "the painkiller" },
+            { "nl": "de zalf", "en": "the ointment / cream" },
+            { "nl": "de pleister", "en": "the plaster / band-aid" },
+            { "nl": "de hoestdrank", "en": "the cough syrup" },
+            { "nl": "drie keer per dag", "en": "three times a day" },
+            { "nl": "voor het eten", "en": "before eating / before meals" },
+            { "nl": "de bijwerking", "en": "the side effect" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Bij de tandarts",
+          "note": "At the dentist. Go for a check-up about twice a year.",
+          "items": [
+            { "nl": "de tand", "en": "the tooth (front)" },
+            { "nl": "de kies", "en": "the molar (back tooth)" },
+            { "nl": "de tandpijn", "en": "the toothache" },
+            { "nl": "de controle", "en": "the check-up" },
+            { "nl": "vullen", "en": "to fill (a tooth)" },
+            { "nl": "poetsen", "en": "to brush (your teeth)" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Mental health matters too",
+          "body": "Health is not only about your body. If you feel down, anxious or stressed for a long time, you can talk about it with your huisarts. The huisarts listens and can give you a verwijzing to the GGZ (geestelijke gezondheidszorg, mental health care) or to a psycholoog. Asking for help is normal and the conversation is confidential."
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen",
+          "note": "Full sentences you can use right away.",
+          "items": [
+            { "nl": "Ik wil een afspraak maken.", "en": "I would like to make an appointment." },
+            { "nl": "Ik heb hier pijn.", "en": "I have pain here." },
+            { "nl": "Ik voel me niet lekker.", "en": "I do not feel well." },
+            { "nl": "Sinds gisteren heb ik koorts.", "en": "I have had a fever since yesterday." },
+            { "nl": "Ik ben verkouden.", "en": "I have a cold." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "U bent ziek. Wie belt u eerst?",
+          "qEn": "You are ill. Who do you contact first?",
+          "options": [
+            "de huisarts",
+            "de specialist",
+            "het ziekenhuis"
+          ],
+          "answer": "de huisarts",
+          "explanation": "In the Netherlands the huisarts (GP) is always your first contact. The huisarts treats you or, if needed, gives a verwijzing (referral) to a specialist or the hospital. You do not go straight to a specialist or the hospital yourself."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "chapters": [
+    {
+      "id": "basis-tijdwoorden",
+      "sort": 0.55,
+      "category": "basis",
+      "icon": "⏱️",
+      "titleNl": "Tijd- en frequentiewoorden",
+      "titleEn": "Time & frequency words",
+      "intro": "Small words that say when and how often something happens. They make your Dutch sound natural and help you answer the questions Wanneer? (When?) and Hoe vaak? (How often?). Tap the speaker to hear each example sentence.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Why these words matter",
+          "body": "Frequency and time words tell the listener when something happens and how often. Most of them sit early in the sentence, right after the verb: Ik ga vaak naar de markt. Learn them inside whole sentences so the word order sticks too."
+        },
+        {
+          "type": "pairs",
+          "title": "Frequentie: hoe vaak?",
+          "note": "Roughly from the most to the least: altijd, meestal, vaak, soms, weleens, zelden, nooit.",
+          "items": [
+            { "nl": "Ik drink altijd koffie in de ochtend.", "en": "I always drink coffee in the morning." },
+            { "nl": "We eten meestal om zes uur.", "en": "We usually eat at six o'clock." },
+            { "nl": "Hij komt vaak te laat.", "en": "He is often late." },
+            { "nl": "Ik kook soms voor mijn buren.", "en": "I sometimes cook for my neighbours." },
+            { "nl": "We gaan weleens naar het strand.", "en": "We go to the beach now and then." },
+            { "nl": "Zij belt zelden op zondag.", "en": "She rarely calls on Sunday." },
+            { "nl": "Ik drink nooit alcohol.", "en": "I never drink alcohol." },
+            { "nl": "Hoe vaak sport je per week?", "en": "How often do you exercise per week?" },
+            { "nl": "Meestal neem ik de fiets naar mijn werk.", "en": "I usually take the bike to work." },
+            { "nl": "Ze is bijna nooit thuis.", "en": "She is almost never at home." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Tijd: wanneer?",
+          "note": "These point to a moment: now, soon, today, yesterday, tomorrow and more.",
+          "items": [
+            { "nl": "Ik heb nu geen tijd.", "en": "I have no time now." },
+            { "nl": "We gaan straks boodschappen doen.", "en": "We are going to do groceries in a bit." },
+            { "nl": "Dat doe ik later wel.", "en": "I'll do that later." },
+            { "nl": "Vandaag is het mooi weer.", "en": "Today the weather is nice." },
+            { "nl": "Gisteren was ik ziek.", "en": "Yesterday I was ill." },
+            { "nl": "Morgen begint mijn cursus.", "en": "Tomorrow my course starts." },
+            { "nl": "Ik sta vroeg op, om zes uur.", "en": "I get up early, at six o'clock." },
+            { "nl": "Hij gaat altijd laat naar bed.", "en": "He always goes to bed late." },
+            { "nl": "Het eten is al klaar.", "en": "The food is ready already." },
+            { "nl": "Ben je nog op je werk?", "en": "Are you still at work?" },
+            { "nl": "De bus is net weg.", "en": "The bus has just left." },
+            { "nl": "Ik woon hier pas een maand.", "en": "I have lived here for only a month." },
+            { "nl": "Het regent weer.", "en": "It is raining again." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "The tricky pair: al and nog",
+          "body": "al means something has happened sooner than expected: Ben je nu al klaar? (Are you ready already?). nog means something is still going on or has not finished: Ik ben nog niet klaar (I'm not finished yet). nog can also mean more: Wil je nog koffie? (Do you want more coffee?)."
+        },
+        {
+          "type": "note",
+          "title": "The tricky pair: net and pas",
+          "body": "net means just now, a moment ago: De trein is net vertrokken (The train just left). pas means not until or only, less than you might think: De winkel gaat pas om tien uur open (The shop doesn't open until ten). With time it stresses that it is little: Ik ken hem pas een week (I've only known him for a week)."
+        },
+        {
+          "type": "example",
+          "q": "De film begint ... om acht uur, niet eerder.",
+          "qEn": "The film doesn't start until eight o'clock, not earlier. — Which word fits?",
+          "options": ["al", "net", "pas"],
+          "answer": "pas",
+          "explanation": "pas means not until / only: De film begint pas om acht uur. al would mean already (sooner than expected), and net means just now, a moment ago."
+        }
+      ]
+    },
+    {
+      "id": "basis-werkwoordenlijst",
+      "sort": 6.95,
+      "category": "basis",
+      "icon": "🏃",
+      "titleNl": "De 50 belangrijkste werkwoorden",
+      "titleEn": "The 50 most useful verbs",
+      "intro": "These fifty verbs cover most of what you say every day. They are listed in the infinitive (the dictionary form), split into four groups so you can learn them in small steps. Tap the speaker to hear how each one sounds.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "How to learn a verb",
+          "body": "Learn each verb together with its perfect tense, because that is what the exam and daily life ask for. For example: werken, ik heb gewerkt (to work, I have worked) and gaan, ik ben gegaan (to go, I have gone). Verbs of movement and change usually take zijn, the rest take hebben."
+        },
+        {
+          "type": "pairs",
+          "title": "Groep 1: de allerbelangrijkste",
+          "note": "Start here: the verbs you simply cannot do without.",
+          "items": [
+            { "nl": "zijn", "en": "to be" },
+            { "nl": "hebben", "en": "to have" },
+            { "nl": "gaan", "en": "to go" },
+            { "nl": "komen", "en": "to come" },
+            { "nl": "doen", "en": "to do" },
+            { "nl": "maken", "en": "to make" },
+            { "nl": "zien", "en": "to see" },
+            { "nl": "weten", "en": "to know (a fact)" },
+            { "nl": "zeggen", "en": "to say" },
+            { "nl": "vragen", "en": "to ask" },
+            { "nl": "geven", "en": "to give" },
+            { "nl": "nemen", "en": "to take" },
+            { "nl": "vinden", "en": "to find / to think (an opinion)" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Groep 2: hulpwerkwoorden en denken",
+          "note": "The modal helpers (kunnen, moeten, willen, mogen, zullen) plus a few common ones.",
+          "items": [
+            { "nl": "kunnen", "en": "to be able to / can" },
+            { "nl": "moeten", "en": "to have to / must" },
+            { "nl": "willen", "en": "to want" },
+            { "nl": "mogen", "en": "to be allowed to / may" },
+            { "nl": "zullen", "en": "shall / will" },
+            { "nl": "denken", "en": "to think" },
+            { "nl": "werken", "en": "to work" },
+            { "nl": "wonen", "en": "to live (somewhere)" },
+            { "nl": "leren", "en": "to learn / to teach" },
+            { "nl": "begrijpen", "en": "to understand" },
+            { "nl": "blijven", "en": "to stay" },
+            { "nl": "worden", "en": "to become" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Groep 3: eten, drinken en op pad",
+          "note": "Daily routines and getting around.",
+          "items": [
+            { "nl": "eten", "en": "to eat" },
+            { "nl": "drinken", "en": "to drink" },
+            { "nl": "koken", "en": "to cook" },
+            { "nl": "kopen", "en": "to buy" },
+            { "nl": "betalen", "en": "to pay" },
+            { "nl": "helpen", "en": "to help" },
+            { "nl": "lopen", "en": "to walk" },
+            { "nl": "fietsen", "en": "to cycle" },
+            { "nl": "rijden", "en": "to drive / to ride" },
+            { "nl": "slapen", "en": "to sleep" },
+            { "nl": "beginnen", "en": "to begin" },
+            { "nl": "stoppen", "en": "to stop" },
+            { "nl": "spelen", "en": "to play" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Groep 4: praten, kijken en regelen",
+          "note": "Communicating, looking and sorting things out.",
+          "items": [
+            { "nl": "lezen", "en": "to read" },
+            { "nl": "schrijven", "en": "to write" },
+            { "nl": "luisteren", "en": "to listen" },
+            { "nl": "kijken", "en": "to look / to watch" },
+            { "nl": "praten", "en": "to talk" },
+            { "nl": "bellen", "en": "to call (phone)" },
+            { "nl": "wachten", "en": "to wait" },
+            { "nl": "zoeken", "en": "to search / to look for" },
+            { "nl": "krijgen", "en": "to get / to receive" },
+            { "nl": "brengen", "en": "to bring" },
+            { "nl": "halen", "en": "to fetch / to get" },
+            { "nl": "openen", "en": "to open" },
+            { "nl": "sluiten", "en": "to close" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Welk werkwoord betekent to buy?",
+          "qEn": "Which verb means to buy?",
+          "options": ["kopen", "koken", "krijgen"],
+          "answer": "kopen",
+          "explanation": "kopen means to buy: Ik koop brood (I buy bread). koken means to cook, and krijgen means to get or receive. Tip: learn it with its perfect tense, kopen, ik heb gekocht."
+        }
+      ]
+    },
+    {
+      "id": "basis-bijzinnen",
+      "sort": 9.95,
+      "category": "basis",
+      "icon": "🔗",
+      "titleNl": "Bijzinnen: die/dat & om te",
+      "titleEn": "Relative clauses, om...te & commands",
+      "intro": "Three handy building blocks for longer, more natural sentences: linking with die and dat, saying why with om ... te, and giving a command. Tap the speaker to hear each example sentence in context.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Linking with die and dat",
+          "body": "Use die or dat to add extra information about a noun, like which or that in English. Choose die for a de-word and dat for a het-word: de man die hier woont (the man who lives here), het boek dat ik lees (the book that I read). The verb in this extra part jumps to the end."
+        },
+        {
+          "type": "pairs",
+          "title": "die of dat?",
+          "note": "die after a de-word, dat after a het-word. The verb goes to the end.",
+          "items": [
+            { "nl": "De vrouw die naast mij woont, is aardig.", "en": "The woman who lives next to me is kind." },
+            { "nl": "De man die daar staat, is mijn buurman.", "en": "The man standing there is my neighbour." },
+            { "nl": "Het huis dat te koop staat, is groot.", "en": "The house that is for sale is big." },
+            { "nl": "Het boek dat ik lees, is spannend.", "en": "The book that I'm reading is exciting." },
+            { "nl": "De fiets die ik koop, is rood.", "en": "The bike that I'm buying is red." },
+            { "nl": "Het kind dat daar speelt, is mijn zoon.", "en": "The child playing there is my son." },
+            { "nl": "Ken je de mensen die hiernaast wonen?", "en": "Do you know the people who live next door?" },
+            { "nl": "Dit is het cadeau dat ik kreeg.", "en": "This is the present that I got." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Saying why: om ... te + infinitief",
+          "body": "To say why you do something (the purpose), Dutch uses om ... te with the verb in the infinitive at the end: Ik ga naar de winkel om brood te kopen (I go to the shop to buy bread). The te comes right before the final verb. It answers the question Waarom? (Why?)."
+        },
+        {
+          "type": "pairs",
+          "title": "om ... te + infinitief",
+          "note": "om at the start, te just before the last verb.",
+          "items": [
+            { "nl": "Ik ga naar de winkel om brood te kopen.", "en": "I'm going to the shop to buy bread." },
+            { "nl": "Zij belt om een afspraak te maken.", "en": "She calls to make an appointment." },
+            { "nl": "We sparen om een huis te kopen.", "en": "We're saving to buy a house." },
+            { "nl": "Hij gaat naar de cursus om Nederlands te leren.", "en": "He goes to the course to learn Dutch." },
+            { "nl": "Ik heb geen tijd om te koken.", "en": "I have no time to cook." },
+            { "nl": "We nemen de trein om op tijd te zijn.", "en": "We take the train to be on time." },
+            { "nl": "Ze gaat naar de dokter om hulp te vragen.", "en": "She goes to the doctor to ask for help." },
+            { "nl": "Ik bel je om gedag te zeggen.", "en": "I'm calling you to say hello." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Giving a command: de gebiedende wijs",
+          "body": "To tell someone to do something, use the stem of the verb (the ik-form without -en): Kom hier! (Come here!), Let op! (Watch out!), Wacht even (Wait a moment). For a polite command you add u and turn it around: Komt u binnen (Do come in). The stem of zitten is zit, so Ga zitten means Sit down."
+        },
+        {
+          "type": "pairs",
+          "title": "Gebiedende wijs: opdrachten",
+          "note": "Just the verb stem, often with op, even or maar to soften it.",
+          "items": [
+            { "nl": "Kom hier!", "en": "Come here!" },
+            { "nl": "Let op!", "en": "Watch out! / Pay attention!" },
+            { "nl": "Ga zitten.", "en": "Sit down." },
+            { "nl": "Wacht even.", "en": "Wait a moment." },
+            { "nl": "Luister goed.", "en": "Listen carefully." },
+            { "nl": "Doe de deur dicht.", "en": "Close the door." },
+            { "nl": "Geef mij het zout, alsjeblieft.", "en": "Pass me the salt, please." },
+            { "nl": "Neem maar een koekje.", "en": "Do have a biscuit." },
+            { "nl": "Bel mij morgen.", "en": "Call me tomorrow." },
+            { "nl": "Komt u binnen.", "en": "Do come in. (polite)" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Het boek ... ik lees, is heel mooi.",
+          "qEn": "The book that I'm reading is very nice. — Which word fits?",
+          "options": ["die", "dat", "wie"],
+          "answer": "dat",
+          "explanation": "boek is a het-word (het boek), so you use dat: het boek dat ik lees. You would use die only after a de-word, for example de film die ik kijk."
+        }
+      ]
+    }
+  ]
+}

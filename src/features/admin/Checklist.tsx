@@ -5,6 +5,7 @@ import { useActiveProfile } from '../../store/profile'
 import { setChecklist } from '../../db/repo'
 import { Panel, Badge } from '../../components/ui'
 import type { ChecklistItemDef } from '../../content/schemas'
+import { BackupCard } from './BackupCard'
 
 const CATEGORY_LABEL: Record<ChecklistItemDef['category'], string> = {
   gemeente: 'Gemeente (PIP · PVT · MAP)',
@@ -80,6 +81,8 @@ export function Checklist() {
           </Panel>
         )
       })}
+      <BackupCard />
+
       {(defs ?? []).length === 0 && (
         <p className="text-center text-sm text-slate-400">Nog geen checklist-items.</p>
       )}

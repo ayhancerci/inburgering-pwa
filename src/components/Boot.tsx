@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { ReactNode } from 'react'
 import { seed } from '../db/seed'
+import { requestPersistentStorage } from '../db/backup'
 
 /** Seeds the local database once, then renders the app. */
 export function Boot({ children }: { children: ReactNode }) {
@@ -8,6 +9,7 @@ export function Boot({ children }: { children: ReactNode }) {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
+    void requestPersistentStorage()
     seed()
       .then(() => setReady(true))
       .catch((e) => {

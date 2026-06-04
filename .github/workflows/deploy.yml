@@ -1,16 +1,23 @@
-name: Build & deploy
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
   workflow_dispatch: {}
 
+# Permissions the deploy needs to publish to Pages via OIDC.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deploy at a time; let an in-progress deploy finish.
 concurrency:
-  group: deploy
-  cancel-in-progress: true
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,26 +30,22 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - name: Deploy dist/ to server (rsync over SSH)
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_USER: ${{ secrets.SSH_USER }}
-          SSH_PORT: ${{ secrets.SSH_PORT }}
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
-        run: |
-          if [ -z "$SSH_HOST" ] || [ -z "$SSH_PRIVATE_KEY" ]; then
-            echo "::notice::Build OK. Deploy skipped — SSH secrets not set yet."
-            echo "Add SSH_PRIVATE_KEY, SSH_HOST, SSH_USER, DEPLOY_PATH (and optional SSH_PORT)"
-            echo "in repo Settings → Secrets and variables → Actions to enable auto-deploy."
-            exit 0
-          fi
-          PORT="${SSH_PORT:-22}"
-          mkdir -p ~/.ssh
-          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -p "$PORT" "$SSH_HOST" >> ~/.ssh/known_hosts 2>/dev/null || true
-          rsync -avz --delete \
-            -e "ssh -i ~/.ssh/deploy_key -p $PORT -o StrictHostKeyChecking=accept-new" \
-            dist/ "$SSH_USER@$SSH_HOST:$DEPLOY_PATH/"
-          echo "Deployed dist/ → $SSH_USER@$SSH_HOST:$DEPLOY_PATH"
+      # GitHub Pages has no server-side rewrites. The app uses client-side
+      # routes (/examens, /cursus, ...), so serve index.html for unknown paths
+      # by shipping it as 404.html too. The router then renders the right page.
+      - run: cp dist/index.html dist/404.html
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

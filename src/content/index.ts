@@ -5,6 +5,7 @@ import {
   checklistFileSchema,
   curriculumFileSchema,
   resourceFileSchema,
+  examsFileSchema,
   type Deck,
   type Card,
   type Question,
@@ -13,6 +14,7 @@ import {
   type ChecklistItemDef,
   type Theme,
   type Resource,
+  type Exam,
 } from './schemas'
 
 export interface QuizDef {
@@ -32,15 +34,18 @@ export interface LoadedContent {
   checklistDefs: ChecklistItemDef[]
   themes: Theme[]
   resources: Resource[]
+  exams: Exam[]
 }
 
 // Vite resolves these globs at build time; values are the parsed JSON objects.
 const deckFiles = import.meta.glob('/content/decks/*.json', { eager: true, import: 'default' })
 const quizFiles = import.meta.glob('/content/quizzes/*.json', { eager: true, import: 'default' })
+const mockFiles = import.meta.glob('/content/mocks/*.json', { eager: true, import: 'default' })
 const planFiles = import.meta.glob('/content/plan.json', { eager: true, import: 'default' })
 const checklistFiles = import.meta.glob('/content/checklist.json', { eager: true, import: 'default' })
 const curriculumFiles = import.meta.glob('/content/curriculum.json', { eager: true, import: 'default' })
 const resourceFiles = import.meta.glob('/content/resources.json', { eager: true, import: 'default' })
+const examFiles = import.meta.glob('/content/exams.json', { eager: true, import: 'default' })
 
 const DEFAULT_META: PlanMeta = { startDate: '2026-06-02' }
 
@@ -73,6 +78,17 @@ export function loadContent(): LoadedContent {
     const { id, title, skill, questions: qs } = parsed.data
     quizzes.push({ id, title, skill, questionIds: qs.map((q) => q.id) })
     for (const q of qs) questions.push({ ...q, quizId: id })
+  }
+
+  // Mock/practice exams: their questions go into the question pool (queried by quizId),
+  // but they are NOT added to `quizzes` so they don't show up in the normal Oefenen list.
+  for (const [path, raw] of Object.entries(mockFiles)) {
+    const parsed = quizFileSchema.safeParse(raw)
+    if (!parsed.success) {
+      console.error(`[content] invalid mock file: ${path}`, parsed.error.issues)
+      continue
+    }
+    for (const q of parsed.data.questions) questions.push({ ...q, quizId: parsed.data.id })
   }
 
   let planWeeks: PlanWeek[] = []
@@ -112,6 +128,25 @@ export function loadContent(): LoadedContent {
     else console.error('[content] invalid resources.json', parsed.error.issues)
   }
 
-  cache = { decks, cards, questions, quizzes, planWeeks, planMeta, checklistDefs, themes, resources }
+  let exams: Exam[] = []
+  const examsRaw = Object.values(examFiles)[0]
+  if (examsRaw) {
+    const parsed = examsFileSchema.safeParse(examsRaw)
+    if (parsed.success) exams = parsed.data.exams
+    else console.error('[content] invalid exams.json', parsed.error.issues)
+  }
+
+  cache = {
+    decks,
+    cards,
+    questions,
+    quizzes,
+    planWeeks,
+    planMeta,
+    checklistDefs,
+    themes,
+    resources,
+    exams,
+  }
   return cache
 }

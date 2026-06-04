@@ -58,3 +58,11 @@ export interface MetaRow {
   key: string
   value: unknown
 }
+
+export interface ExamDate {
+  id: string // `${profileId}:${component}`
+  profileId: string
+  component: string
+  date: string // 'YYYY-MM-DD' or '' (unset)
+  updatedAt: string
+}

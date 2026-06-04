@@ -147,3 +147,21 @@ export const resourceFileSchema = z.object({
 export type ThemeTask = z.infer<typeof themeTaskSchema>
 export type Theme = z.infer<typeof themeSchema>
 export type Resource = z.infer<typeof resourceSchema>
+
+/* ---------- Exams (per-component metadata; dates are per-profile state) ---------- */
+
+export const examSchema = z.object({
+  id: z.string(),
+  titleNl: z.string(),
+  titleEn: z.string(),
+  durationMin: z.number(),
+  officialUrl: z.string(),
+  mockQuizId: z.string().optional(),
+  info: z.string().optional(),
+})
+
+export const examsFileSchema = z.object({
+  exams: z.array(examSchema),
+})
+
+export type Exam = z.infer<typeof examSchema>

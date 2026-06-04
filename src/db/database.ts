@@ -9,6 +9,7 @@ import type {
   PlanProgress,
   ChecklistState,
   MetaRow,
+  ExamDate,
 } from '../types'
 
 export class AppDB extends Dexie {
@@ -26,6 +27,7 @@ export class AppDB extends Dexie {
   quizAttempts!: Table<QuizAttempt, number>
   planProgress!: Table<PlanProgress, string>
   checklistState!: Table<ChecklistState, string>
+  examDates!: Table<ExamDate, string>
   meta!: Table<MetaRow, string>
 
   constructor() {
@@ -44,6 +46,10 @@ export class AppDB extends Dexie {
       planProgress: 'id, profileId, [profileId+taskId]',
       checklistState: 'id, profileId, [profileId+itemId]',
       meta: 'key',
+    })
+    // v2: per-profile exam dates (set separately for each exam component)
+    this.version(2).stores({
+      examDates: 'id, profileId, [profileId+component]',
     })
   }
 }

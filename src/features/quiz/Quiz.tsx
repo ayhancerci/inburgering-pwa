@@ -9,7 +9,7 @@ import { ResourceList } from '../resources/ResourceList'
 import type { Question } from '../../content/schemas'
 
 type Phase = 'select' | 'run' | 'done'
-type Answer = string | string[]
+export type Answer = string | string[]
 
 function norm(s: string): string {
   return s.trim().toLowerCase()
@@ -25,7 +25,7 @@ function blanksCount(q: Question): number {
   return 1
 }
 
-function isCorrect(q: Question, given: Answer | undefined): boolean {
+export function isCorrect(q: Question, given: Answer | undefined): boolean {
   if (given == null) return false
   if (Array.isArray(q.answer)) {
     const g = Array.isArray(given) ? given : [given]
@@ -35,16 +35,16 @@ function isCorrect(q: Question, given: Answer | undefined): boolean {
   return norm(q.answer) === norm(g)
 }
 
-function answerToText(a: Answer | undefined): string {
+export function answerToText(a: Answer | undefined): string {
   if (a == null) return '—'
   return Array.isArray(a) ? a.join(', ') : a || '—'
 }
 
-function correctText(q: Question): string {
+export function correctText(q: Question): string {
   return Array.isArray(q.answer) ? q.answer.join(', ') : q.answer
 }
 
-function QuestionInput({
+export function QuestionInput({
   q,
   value,
   onChange,

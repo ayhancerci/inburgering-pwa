@@ -9,14 +9,23 @@ import { dueCount } from '../../srs/queue'
 import { Panel, ProgressBar, Badge, cx } from '../../components/ui'
 import type { PlanWeek, PlanTask } from '../../content/schemas'
 
-function daysBetween(a: Date, b: Date): number {
-  return Math.floor((b.getTime() - a.getTime()) / 86_400_000)
+function localISODate(d: Date): string {
+  const y = d.getFullYear()
+  const m = String(d.getMonth() + 1).padStart(2, '0')
+  const day = String(d.getDate()).padStart(2, '0')
+  return `${y}-${m}-${day}`
+}
+
+function daysFromTodayTo(iso: string): number {
+  const start = new Date(localISODate(new Date()) + 'T00:00:00')
+  const end = new Date(iso + 'T00:00:00')
+  return Math.round((end.getTime() - start.getTime()) / 86_400_000)
 }
 
 function currentWeekNumber(startDate: string, weeks: PlanWeek[]): number {
   if (weeks.length === 0) return 1
   const start = new Date(startDate + 'T00:00:00')
-  const wk = Math.floor(daysBetween(start, new Date()) / 7) + 1
+  const wk = Math.floor((Date.now() - start.getTime()) / (7 * 86_400_000)) + 1
   const max = Math.max(...weeks.map((w) => w.weekNumber))
   return Math.min(Math.max(wk, 1), max)
 }
@@ -32,7 +41,7 @@ const KIND_ICON: Record<PlanTask['kind'], string> = {
 }
 
 export function Dashboard() {
-  const { planMeta } = loadContent()
+  const { planMeta, exams } = loadContent()
   const { activeId } = useActiveProfile()
 
   const weeks = useLiveQuery(() => db.planWeeks.orderBy('weekNumber').toArray(), [], [] as PlanWeek[])
@@ -42,6 +51,11 @@ export function Dashboard() {
     [],
   )
   const due = useLiveQuery(() => dueCount(activeId), [activeId], 0)
+  const examDates = useLiveQuery(
+    () => db.examDates.where('profileId').equals(activeId).toArray(),
+    [activeId],
+    [],
+  )
 
   const doneSet = useMemo(
     () => new Set((progressRows ?? []).filter((r) => r.status === 'done').map((r) => r.taskId)),
@@ -59,26 +73,42 @@ export function Dashboard() {
     ? (allTasks.filter((t) => doneSet.has(t.id)).length / allTasks.length) * 100
     : 0
 
-  const examDays = planMeta.examDate
-    ? daysBetween(new Date(), new Date(planMeta.examDate + 'T00:00:00'))
-    : null
+  // Next upcoming exam from the user's own per-exam dates.
+  const todayISO = localISODate(new Date())
+  const nextExam = useMemo(() => {
+    const upcoming = (examDates ?? [])
+      .filter((d) => d.date && d.date >= todayISO)
+      .sort((a, b) => a.date.localeCompare(b.date))
+    return upcoming[0] ?? null
+  }, [examDates, todayISO])
+  const nextExamTitle = nextExam ? exams.find((e) => e.id === nextExam.component)?.titleNl : null
+  const nextExamDays = nextExam ? daysFromTodayTo(nextExam.date) : null
 
   return (
     <div className="space-y-4">
       <Panel className="overflow-hidden">
         <div className="bg-yellow-400 px-5 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-2">
             <div>
               <p className="text-xs font-bold uppercase tracking-wide text-slate-700">Week {weekNo}</p>
               <h1 className="text-xl font-extrabold text-slate-900">{week?.theme ?? 'Studieplan'}</h1>
               {week?.dateLabel && <p className="text-xs font-medium text-slate-700">{week.dateLabel}</p>}
             </div>
-            {examDays != null && (
-              <div className="text-right">
-                <p className="text-3xl font-black leading-none text-slate-900">{examDays}</p>
-                <p className="text-[10px] font-bold uppercase text-slate-700">dagen tot examen</p>
-              </div>
-            )}
+            <Link to="/examens" className="shrink-0 text-right">
+              {nextExamDays != null ? (
+                <>
+                  <p className="text-3xl font-black leading-none text-slate-900">{nextExamDays}</p>
+                  <p className="text-[10px] font-bold uppercase text-slate-700">
+                    dagen — {nextExamTitle}
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p className="text-sm font-extrabold text-slate-900">📅 Examens</p>
+                  <p className="text-[10px] font-bold uppercase text-slate-700">stel data in →</p>
+                </>
+              )}
+            </Link>
           </div>
         </div>
         <div className="space-y-1 px-5 py-3">
@@ -107,12 +137,12 @@ export function Dashboard() {
             </div>
           </Panel>
         </Link>
-        <Link to="/quiz">
+        <Link to="/examens">
           <Panel className="flex h-full flex-col justify-between gap-3 p-4">
-            <span className="text-2xl">✍️</span>
+            <span className="text-2xl">⏱️</span>
             <div>
-              <p className="font-bold text-slate-900">Oefenen</p>
-              <p className="text-xs text-slate-500">Grammatica &amp; woorden</p>
+              <p className="font-bold text-slate-900">Examens</p>
+              <p className="text-xs text-slate-500">Data + oefenexamens</p>
             </div>
           </Panel>
         </Link>

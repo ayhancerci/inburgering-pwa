@@ -56,3 +56,18 @@ export async function saveQuizAttempt(attempt: QuizAttempt): Promise<number> {
 export async function renameProfile(id: string, displayName: string): Promise<void> {
   await db.profiles.update(id, { displayName })
 }
+
+/** Set (or clear, with date='') a profile's date for one exam component. */
+export async function setExamDate(
+  profileId: string,
+  component: string,
+  date: string,
+): Promise<void> {
+  await db.examDates.put({
+    id: `${profileId}:${component}`,
+    profileId,
+    component,
+    date,
+    updatedAt: new Date().toISOString(),
+  })
+}

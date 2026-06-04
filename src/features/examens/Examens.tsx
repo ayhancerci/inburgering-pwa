@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { loadContent } from '../../content'
 import { db } from '../../db/database'
@@ -30,6 +31,20 @@ export function Examens() {
   const [mock, setMock] = useState<{ quizId: string; durationMin: number; title: string } | null>(
     null,
   )
+  const [params, setParams] = useSearchParams()
+
+  // Deep-link: /examens?mock=<examId> starts that practice exam straight away (from the dashboard).
+  useEffect(() => {
+    const id = params.get('mock')
+    if (!id) return
+    const ex = exams.find((e) => e.id === id && e.mockQuizId)
+    if (ex)
+      setMock({
+        quizId: ex.mockQuizId!,
+        durationMin: ex.durationMin,
+        title: `${ex.titleNl} — oefenexamen`,
+      })
+  }, [params, exams])
 
   if (mock) {
     return (
@@ -37,7 +52,10 @@ export function Examens() {
         quizId={mock.quizId}
         durationMin={mock.durationMin}
         title={mock.title}
-        onExit={() => setMock(null)}
+        onExit={() => {
+          setMock(null)
+          if (params.get('mock')) setParams({}, { replace: true })
+        }}
       />
     )
   }

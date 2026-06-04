@@ -1,0 +1,545 @@
+{
+  "chapters": [
+    {
+      "id": "basis-getallen",
+      "sort": 0.5,
+      "icon": "🔢",
+      "titleNl": "Getallen, klok & kalender",
+      "titleEn": "Numbers, time & calendar",
+      "intro": "The building blocks you use every single day: counting, telling the time, and the days, months and dates. Tap 🔊 to hear each one in a natural voice.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "Getallen 0–20",
+          "items": [
+            { "nl": "nul", "en": "0 — zero" },
+            { "nl": "één", "en": "1 — one" },
+            { "nl": "twee", "en": "2 — two" },
+            { "nl": "drie", "en": "3 — three" },
+            { "nl": "vier", "en": "4 — four" },
+            { "nl": "vijf", "en": "5 — five" },
+            { "nl": "zes", "en": "6 — six" },
+            { "nl": "zeven", "en": "7 — seven" },
+            { "nl": "acht", "en": "8 — eight" },
+            { "nl": "negen", "en": "9 — nine" },
+            { "nl": "tien", "en": "10 — ten" },
+            { "nl": "elf", "en": "11 — eleven" },
+            { "nl": "twaalf", "en": "12 — twelve" },
+            { "nl": "dertien", "en": "13 — thirteen" },
+            { "nl": "veertien", "en": "14 — fourteen" },
+            { "nl": "vijftien", "en": "15 — fifteen" },
+            { "nl": "zestien", "en": "16 — sixteen" },
+            { "nl": "zeventien", "en": "17 — seventeen" },
+            { "nl": "achttien", "en": "18 — eighteen" },
+            { "nl": "negentien", "en": "19 — nineteen" },
+            { "nl": "twintig", "en": "20 — twenty" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Tientallen & honderd",
+          "items": [
+            { "nl": "tien", "en": "10" },
+            { "nl": "twintig", "en": "20" },
+            { "nl": "dertig", "en": "30" },
+            { "nl": "veertig", "en": "40" },
+            { "nl": "vijftig", "en": "50" },
+            { "nl": "zestig", "en": "60" },
+            { "nl": "zeventig", "en": "70" },
+            { "nl": "tachtig", "en": "80" },
+            { "nl": "negentig", "en": "90" },
+            { "nl": "honderd", "en": "100" },
+            { "nl": "duizend", "en": "1.000 — a thousand" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "21–99: eenheid eerst",
+          "note": "Say the unit first, then 'en', then the ten: vijfentwintig = 5‑and‑20 (25).",
+          "items": [
+            { "nl": "eenentwintig", "en": "21" },
+            { "nl": "tweeëntwintig", "en": "22" },
+            { "nl": "vijfentwintig", "en": "25" },
+            { "nl": "drieëndertig", "en": "33" },
+            { "nl": "achtenveertig", "en": "48" },
+            { "nl": "vijfenvijftig", "en": "55" },
+            { "nl": "negenenzestig", "en": "69" },
+            { "nl": "zevenentachtig", "en": "87" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Big numbers & money",
+          "body": "honderd = 100, duizend = 1.000, een miljoen = 1,000,000. Dutch uses a dot for thousands and a comma for decimals: € 3,50 is 'drie euro vijftig'."
+        },
+        {
+          "type": "pairs",
+          "title": "Rangtelwoorden (1e, 2e, 3e …)",
+          "note": "Use 'de' + the ordinal: de eerste, de tweede. 2nd–7th add ‑de, then mostly ‑ste.",
+          "items": [
+            { "nl": "eerste", "en": "1st — first" },
+            { "nl": "tweede", "en": "2nd — second" },
+            { "nl": "derde", "en": "3rd — third" },
+            { "nl": "vierde", "en": "4th — fourth" },
+            { "nl": "vijfde", "en": "5th — fifth" },
+            { "nl": "zesde", "en": "6th" },
+            { "nl": "zevende", "en": "7th" },
+            { "nl": "achtste", "en": "8th" },
+            { "nl": "negende", "en": "9th" },
+            { "nl": "tiende", "en": "10th" },
+            { "nl": "twintigste", "en": "20th" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De dagen van de week",
+          "note": "Days are written lowercase in Dutch — no capital letter.",
+          "items": [
+            { "nl": "maandag", "en": "Monday" },
+            { "nl": "dinsdag", "en": "Tuesday" },
+            { "nl": "woensdag", "en": "Wednesday" },
+            { "nl": "donderdag", "en": "Thursday" },
+            { "nl": "vrijdag", "en": "Friday" },
+            { "nl": "zaterdag", "en": "Saturday" },
+            { "nl": "zondag", "en": "Sunday" },
+            { "nl": "het weekend", "en": "the weekend" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De maanden",
+          "note": "Months are also lowercase.",
+          "items": [
+            { "nl": "januari", "en": "January" },
+            { "nl": "februari", "en": "February" },
+            { "nl": "maart", "en": "March" },
+            { "nl": "april", "en": "April" },
+            { "nl": "mei", "en": "May" },
+            { "nl": "juni", "en": "June" },
+            { "nl": "juli", "en": "July" },
+            { "nl": "augustus", "en": "August" },
+            { "nl": "september", "en": "September" },
+            { "nl": "oktober", "en": "October" },
+            { "nl": "november", "en": "November" },
+            { "nl": "december", "en": "December" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De seizoenen",
+          "items": [
+            { "nl": "de lente", "en": "spring" },
+            { "nl": "de zomer", "en": "summer" },
+            { "nl": "de herfst", "en": "autumn / fall" },
+            { "nl": "de winter", "en": "winter" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Hoe laat is het? (the clock)",
+          "note": "Watch out: 'half drie' = 2:30 (half TO three), not 3:30. kwart over = quarter past, kwart voor = quarter to.",
+          "items": [
+            { "nl": "Hoe laat is het?", "en": "What time is it?" },
+            { "nl": "Het is één uur.", "en": "It's 1:00." },
+            { "nl": "Het is kwart over twee.", "en": "It's 2:15 (quarter past two)." },
+            { "nl": "Het is half drie.", "en": "It's 2:30 (half to three)." },
+            { "nl": "Het is kwart voor vier.", "en": "It's 3:45 (quarter to four)." },
+            { "nl": "Het is tien over vijf.", "en": "It's 5:10." },
+            { "nl": "Het is tien voor zes.", "en": "It's 5:50." },
+            { "nl": "Het is vijf voor half acht.", "en": "It's 7:25." },
+            { "nl": "Het is vijf over half negen.", "en": "It's 8:35." },
+            { "nl": "Het is twaalf uur 's middags.", "en": "It's 12:00 noon." },
+            { "nl": "Het is middernacht.", "en": "It's midnight." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De datum",
+          "items": [
+            { "nl": "Welke dag is het vandaag?", "en": "What day is it today?" },
+            { "nl": "Vandaag is het maandag.", "en": "Today is Monday." },
+            { "nl": "Wat is de datum?", "en": "What's the date?" },
+            { "nl": "Het is vijf mei.", "en": "It's the 5th of May." },
+            { "nl": "Mijn verjaardag is op twaalf maart.", "en": "My birthday is on 12 March." },
+            { "nl": "gisteren", "en": "yesterday" },
+            { "nl": "vandaag", "en": "today" },
+            { "nl": "morgen", "en": "tomorrow" },
+            { "nl": "overmorgen", "en": "the day after tomorrow" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basis-voornaamwoorden",
+      "sort": 1.5,
+      "icon": "👤",
+      "titleNl": "Voornaamwoorden & lidwoorden",
+      "titleEn": "Pronouns & articles",
+      "intro": "The small words that hold every sentence together: who is doing what (I, you, he…), whose something is (my, your…), and the famous de / het / een.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "Onderwerp — subject (I, you, he…)",
+          "items": [
+            { "nl": "ik", "en": "I" },
+            { "nl": "jij / je", "en": "you (informal)" },
+            { "nl": "u", "en": "you (formal)" },
+            { "nl": "hij", "en": "he" },
+            { "nl": "zij / ze", "en": "she" },
+            { "nl": "het", "en": "it" },
+            { "nl": "wij / we", "en": "we" },
+            { "nl": "jullie", "en": "you (plural)" },
+            { "nl": "zij / ze", "en": "they" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Object — me, you, him…",
+          "items": [
+            { "nl": "mij / me", "en": "me" },
+            { "nl": "jou / je", "en": "you (informal)" },
+            { "nl": "u", "en": "you (formal)" },
+            { "nl": "hem", "en": "him" },
+            { "nl": "haar", "en": "her" },
+            { "nl": "ons", "en": "us" },
+            { "nl": "jullie", "en": "you (plural)" },
+            { "nl": "hen / hun", "en": "them" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Bezittelijk — possessive (my, your…)",
+          "items": [
+            { "nl": "mijn", "en": "my" },
+            { "nl": "jouw / je", "en": "your (informal)" },
+            { "nl": "uw", "en": "your (formal)" },
+            { "nl": "zijn", "en": "his / its" },
+            { "nl": "haar", "en": "her" },
+            { "nl": "ons / onze", "en": "our" },
+            { "nl": "jullie", "en": "your (plural)" },
+            { "nl": "hun", "en": "their" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "u or jij?",
+          "body": "Use 'u' (formal) with strangers, officials, older people and often at work. Use 'jij/je' (informal) with friends, family and children. At an appointment or a counter, it's safest to start with 'u'."
+        },
+        {
+          "type": "pairs",
+          "title": "Aanwijzend — this / that",
+          "note": "deze/die go with de‑words, dit/dat go with het‑words.",
+          "items": [
+            { "nl": "deze", "en": "this (de‑word)" },
+            { "nl": "die", "en": "that (de‑word)" },
+            { "nl": "dit", "en": "this (het‑word)" },
+            { "nl": "dat", "en": "that (het‑word)" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Articles: de, het, een",
+          "body": "Every noun is a 'de‑word' or a 'het‑word'. de = the (about 2/3 of nouns, ALL plurals, and people); het = the (about 1/3, neuter); een = a/an. There's no reliable rule, so learn de/het together with each new noun. Handy: every diminutive (‑je) is a het‑word, e.g. het huisje."
+        },
+        {
+          "type": "pairs",
+          "title": "Voorbeelden — de / het / een",
+          "items": [
+            { "nl": "de man", "en": "the man" },
+            { "nl": "de vrouw", "en": "the woman" },
+            { "nl": "de tafel", "en": "the table" },
+            { "nl": "de auto", "en": "the car" },
+            { "nl": "het huis", "en": "the house" },
+            { "nl": "het kind", "en": "the child" },
+            { "nl": "het meisje", "en": "the girl" },
+            { "nl": "het boek", "en": "the book" },
+            { "nl": "een appel", "en": "an apple" },
+            { "nl": "een idee", "en": "an idea" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basis-landen",
+      "sort": 3.5,
+      "icon": "🌍",
+      "titleNl": "Landen, talen & nationaliteiten",
+      "titleEn": "Countries, languages & nationalities",
+      "intro": "Where you're from, the languages you speak, and how to say it. In Dutch, countries, languages and nationalities all start with a capital letter.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "Landen (countries)",
+          "items": [
+            { "nl": "Nederland", "en": "the Netherlands" },
+            { "nl": "België", "en": "Belgium" },
+            { "nl": "Duitsland", "en": "Germany" },
+            { "nl": "Frankrijk", "en": "France" },
+            { "nl": "Engeland", "en": "England" },
+            { "nl": "Spanje", "en": "Spain" },
+            { "nl": "Italië", "en": "Italy" },
+            { "nl": "Polen", "en": "Poland" },
+            { "nl": "Turkije", "en": "Turkey" },
+            { "nl": "Marokko", "en": "Morocco" },
+            { "nl": "Syrië", "en": "Syria" },
+            { "nl": "Oekraïne", "en": "Ukraine" },
+            { "nl": "Amerika", "en": "America (USA)" },
+            { "nl": "China", "en": "China" },
+            { "nl": "India", "en": "India" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Talen (languages)",
+          "items": [
+            { "nl": "Nederlands", "en": "Dutch" },
+            { "nl": "Engels", "en": "English" },
+            { "nl": "Duits", "en": "German" },
+            { "nl": "Frans", "en": "French" },
+            { "nl": "Spaans", "en": "Spanish" },
+            { "nl": "Arabisch", "en": "Arabic" },
+            { "nl": "Turks", "en": "Turkish" },
+            { "nl": "Pools", "en": "Polish" },
+            { "nl": "Chinees", "en": "Chinese" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Nationaliteiten",
+          "note": "Many have a male and female form: Nederlander (m) / Nederlandse (f).",
+          "items": [
+            { "nl": "Ik ben Nederlander.", "en": "I'm Dutch (man)." },
+            { "nl": "Ik ben Nederlandse.", "en": "I'm Dutch (woman)." },
+            { "nl": "Hij is Belg.", "en": "He's Belgian." },
+            { "nl": "Zij is Duitse.", "en": "She's German." },
+            { "nl": "Ik ben Turks.", "en": "I'm Turkish." },
+            { "nl": "Hij is Marokkaans.", "en": "He's Moroccan." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen",
+          "items": [
+            { "nl": "Waar kom je vandaan?", "en": "Where are you from?" },
+            { "nl": "Ik kom uit Turkije.", "en": "I'm from Turkey." },
+            { "nl": "Ik woon in Nederland.", "en": "I live in the Netherlands." },
+            { "nl": "Welke talen spreek je?", "en": "Which languages do you speak?" },
+            { "nl": "Ik spreek Turks, Engels en een beetje Nederlands.", "en": "I speak Turkish, English and a little Dutch." },
+            { "nl": "Ik leer Nederlands.", "en": "I'm learning Dutch." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basis-werkwoorden",
+      "sort": 6.5,
+      "icon": "⏳",
+      "titleNl": "Werkwoorden & de tijden",
+      "titleEn": "Verbs & tenses",
+      "intro": "How Dutch verbs change for the present, the past and the future — plus the word‑order rules that trip everyone up. Master the present and the perfect tense first; together they cover most daily conversation.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Present tense (tegenwoordige tijd)",
+          "body": "Take the stem (infinitive minus ‑en). ik = stem; jij/u/hij/zij = stem + t; wij/jullie/zij = the full infinitive. With werken (stem 'werk'): ik werk, jij werkt, wij werken."
+        },
+        {
+          "type": "pairs",
+          "title": "werken — to work (present)",
+          "items": [
+            { "nl": "ik werk", "en": "I work" },
+            { "nl": "jij werkt", "en": "you work" },
+            { "nl": "u werkt", "en": "you work (formal)" },
+            { "nl": "hij werkt", "en": "he works" },
+            { "nl": "wij werken", "en": "we work" },
+            { "nl": "jullie werken", "en": "you (pl) work" },
+            { "nl": "zij werken", "en": "they work" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "zijn — to be",
+          "items": [
+            { "nl": "ik ben", "en": "I am" },
+            { "nl": "jij bent", "en": "you are" },
+            { "nl": "hij is", "en": "he is" },
+            { "nl": "wij zijn", "en": "we are" },
+            { "nl": "jullie zijn", "en": "you (pl) are" },
+            { "nl": "zij zijn", "en": "they are" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "hebben — to have",
+          "items": [
+            { "nl": "ik heb", "en": "I have" },
+            { "nl": "jij hebt", "en": "you have" },
+            { "nl": "hij heeft", "en": "he has" },
+            { "nl": "wij hebben", "en": "we have" },
+            { "nl": "jullie hebben", "en": "you (pl) have" },
+            { "nl": "zij hebben", "en": "they have" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Perfect tense (voltooid t.t.) — the everyday past",
+          "body": "To talk about the past, Dutch usually uses hebben/zijn + a past participle (often ge‑…‑t / ‑d / ‑en). Use 'zijn' for movement or a change of state (gaan, komen, worden); otherwise 'hebben'. The participle goes to the END."
+        },
+        {
+          "type": "pairs",
+          "title": "Perfectum — voorbeelden",
+          "items": [
+            { "nl": "Ik heb gewerkt.", "en": "I worked / have worked." },
+            { "nl": "Ik heb gegeten.", "en": "I ate / have eaten." },
+            { "nl": "We hebben tv gekeken.", "en": "We watched TV." },
+            { "nl": "Heb je goed geslapen?", "en": "Did you sleep well?" },
+            { "nl": "Ik ben naar huis gegaan.", "en": "I went home." },
+            { "nl": "Zij is ziek geweest.", "en": "She has been ill." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Simple past (onvoltooid verleden tijd)",
+          "body": "Used for stories and descriptions. Regular verbs add ‑te(n)/‑de(n): werken → werkte, wonen → woonde. Common verbs are irregular: zijn → was/waren, hebben → had, gaan → ging. For everyday speaking you can lean on the perfect tense above."
+        },
+        {
+          "type": "pairs",
+          "title": "Imperfectum — handig",
+          "items": [
+            { "nl": "ik was", "en": "I was" },
+            { "nl": "wij waren", "en": "we were" },
+            { "nl": "ik had", "en": "I had" },
+            { "nl": "ik ging", "en": "I went" },
+            { "nl": "ik wilde", "en": "I wanted" },
+            { "nl": "ik kon", "en": "I could" },
+            { "nl": "het was mooi", "en": "it was nice" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Future (toekomst)",
+          "body": "Easiest: gaan + infinitive for plans — 'Ik ga morgen werken' (I'm going to work tomorrow). Use 'zullen' for promises/offers — 'Ik zal het doen' (I'll do it). Dutch also often just uses the present with a time word: 'Morgen werk ik'."
+        },
+        {
+          "type": "note",
+          "title": "Modal verbs (kunnen, mogen, moeten, willen, zullen)",
+          "body": "These helper verbs send the main verb (an infinitive) to the END of the sentence: 'Ik wil naar huis gaan' (I want to go home)."
+        },
+        {
+          "type": "pairs",
+          "title": "Modale werkwoorden",
+          "items": [
+            { "nl": "ik kan", "en": "I can" },
+            { "nl": "ik mag", "en": "I may / I'm allowed to" },
+            { "nl": "ik moet", "en": "I must / I have to" },
+            { "nl": "ik wil", "en": "I want" },
+            { "nl": "Kun je me helpen?", "en": "Can you help me?" },
+            { "nl": "Mag ik hier zitten?", "en": "May I sit here?" },
+            { "nl": "Ik moet nu gaan.", "en": "I have to go now." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Word order (the big one)",
+          "body": "In a main sentence the verb is ALWAYS the second idea (V2). If you start with something else (e.g. a time), the subject moves after the verb: 'Morgen ga ik…'. Order of the rest: Time – Manner – Place. In a sub‑clause (omdat, dat, als…) the verb jumps to the END."
+        },
+        {
+          "type": "pairs",
+          "title": "Woordvolgorde — voorbeelden",
+          "items": [
+            { "nl": "Ik ga morgen naar de stad.", "en": "I'm going to the city tomorrow." },
+            { "nl": "Morgen ga ik naar de stad.", "en": "Tomorrow I'm going to the city." },
+            { "nl": "Ik blijf thuis omdat ik ziek ben.", "en": "I'm staying home because I'm ill." },
+            { "nl": "Hij zegt dat hij geen tijd heeft.", "en": "He says he has no time." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basis-grammatica",
+      "sort": 9.5,
+      "icon": "📐",
+      "titleNl": "Grammatica: regels, tips & vraagwoorden",
+      "titleEn": "Grammar rules, tips & question words",
+      "intro": "A toolbox of small but essential rules — asking questions, saying 'not / no', making plurals, and being polite — that you'll use in almost every conversation.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "Vraagwoorden (question words)",
+          "items": [
+            { "nl": "wie", "en": "who" },
+            { "nl": "wat", "en": "what" },
+            { "nl": "waar", "en": "where" },
+            { "nl": "wanneer", "en": "when" },
+            { "nl": "waarom", "en": "why" },
+            { "nl": "hoe", "en": "how" },
+            { "nl": "welke", "en": "which" },
+            { "nl": "hoeveel", "en": "how many / how much" },
+            { "nl": "hoe laat", "en": "what time" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Vragen stellen (asking)",
+          "items": [
+            { "nl": "Wie ben jij?", "en": "Who are you?" },
+            { "nl": "Wat is dit?", "en": "What is this?" },
+            { "nl": "Waar woon je?", "en": "Where do you live?" },
+            { "nl": "Wanneer begint het?", "en": "When does it start?" },
+            { "nl": "Hoeveel kost het?", "en": "How much does it cost?" },
+            { "nl": "Hoe laat is het?", "en": "What time is it?" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "niet or geen?",
+          "body": "Use 'geen' before a noun with no article or 'een': 'Ik heb geen tijd' (I have no time). Use 'niet' for everything else — verbs, adjectives, the rest: 'Ik werk niet vandaag' (I'm not working today)."
+        },
+        {
+          "type": "pairs",
+          "title": "niet / geen — voorbeelden",
+          "items": [
+            { "nl": "Ik heb geen geld.", "en": "I have no money." },
+            { "nl": "Er is geen brood meer.", "en": "There's no bread left." },
+            { "nl": "Dat is niet goed.", "en": "That's not good." },
+            { "nl": "Ik rook niet.", "en": "I don't smoke." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Plural (meervoud)",
+          "body": "Most nouns add ‑en (boek → boeken, huis → huizen). Words ending in ‑el, ‑em, ‑en, ‑er or a vowel usually add ‑s (tafel → tafels, appel → appels). A few add ‑'s after a/o/u/i/y (foto → foto's, baby → baby's)."
+        },
+        {
+          "type": "note",
+          "title": "Verkleinwoord: ‑je (diminutive)",
+          "body": "Add ‑je (or ‑tje/‑pje/‑etje) to make something small, cute or casual — very common in Dutch. 'een kopje koffie' = a (little) cup of coffee. Diminutives are ALWAYS het‑words."
+        },
+        {
+          "type": "note",
+          "title": "Adjectives: add ‑e",
+          "body": "Before a noun, an adjective usually takes ‑e: de grote man, de mooie stad, een leuke film. Exception: a het‑word with 'een' takes NO ‑e — 'een groot huis', 'een klein kind'."
+        },
+        {
+          "type": "note",
+          "title": "Separable verbs (opbellen, meenemen…)",
+          "body": "Many verbs split in a main sentence — the prefix jumps to the end. opbellen → 'Ik bel je op' (I'll call you). meenemen → 'Ik neem het mee' (I'll take it). aankomen → 'De trein komt aan'."
+        },
+        {
+          "type": "pairs",
+          "title": "Beleefd & dagelijks (polite & daily)",
+          "items": [
+            { "nl": "alstublieft / alsjeblieft", "en": "please / here you go" },
+            { "nl": "dank u wel / bedankt", "en": "thank you" },
+            { "nl": "sorry / pardon", "en": "sorry / excuse me" },
+            { "nl": "Mag ik...?", "en": "May I...?" },
+            { "nl": "Kunt u dat herhalen?", "en": "Can you repeat that?" },
+            { "nl": "Ik begrijp het niet.", "en": "I don't understand." },
+            { "nl": "Kunt u langzamer praten?", "en": "Can you speak more slowly?" },
+            { "nl": "Hoe zeg je ... in het Nederlands?", "en": "How do you say ... in Dutch?" }
+          ]
+        }
+      ]
+    }
+  ]
+}

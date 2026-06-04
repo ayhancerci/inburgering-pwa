@@ -242,3 +242,32 @@ export const roleplaysFileSchema = z.object({
 
 export type RolePlay = z.infer<typeof roleplaySchema>
 export type RolePlayTurn = z.infer<typeof roleplayTurnSchema>
+
+/* ---------- Basics: foundational reference chapters interleaved in the Cursus ---------- */
+
+export const basicsSectionSchema = z.discriminatedUnion('type', [
+  // An English rule / explanation block.
+  z.object({ type: z.literal('note'), title: z.string().optional(), body: z.string() }),
+  // A list of Dutch terms with English glosses; each Dutch term gets a 🔊 button.
+  z.object({
+    type: z.literal('pairs'),
+    title: z.string(),
+    note: z.string().optional(),
+    items: z.array(z.object({ nl: z.string(), en: z.string() })),
+  }),
+])
+
+export const basicsChapterSchema = z.object({
+  id: z.string(),
+  sort: z.number(), // position among the LINK themes (e.g. 0.5 shows before Thema 1)
+  icon: z.string().optional(),
+  titleNl: z.string(),
+  titleEn: z.string(),
+  intro: z.string(),
+  sections: z.array(basicsSectionSchema),
+})
+
+export const basicsFileSchema = z.object({ chapters: z.array(basicsChapterSchema) })
+
+export type BasicsSection = z.infer<typeof basicsSectionSchema>
+export type BasicsChapter = z.infer<typeof basicsChapterSchema>

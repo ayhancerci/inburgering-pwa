@@ -8,6 +8,7 @@ import {
   examsFileSchema,
   lessonSchema,
   roleplaysFileSchema,
+  basicsFileSchema,
   type Deck,
   type Card,
   type Question,
@@ -19,6 +20,7 @@ import {
   type Exam,
   type Lesson,
   type RolePlay,
+  type BasicsChapter,
 } from './schemas'
 
 export interface QuizDef {
@@ -41,6 +43,7 @@ export interface LoadedContent {
   exams: Exam[]
   lessons: Lesson[]
   roleplays: RolePlay[]
+  basics: BasicsChapter[]
 }
 
 // Vite resolves these globs at build time; values are the parsed JSON objects.
@@ -54,6 +57,7 @@ const curriculumFiles = import.meta.glob('/content/curriculum.json', { eager: tr
 const resourceFiles = import.meta.glob('/content/resources.json', { eager: true, import: 'default' })
 const examFiles = import.meta.glob('/content/exams.json', { eager: true, import: 'default' })
 const roleplayFiles = import.meta.glob('/content/roleplays.json', { eager: true, import: 'default' })
+const basicsFiles = import.meta.glob('/content/basics.json', { eager: true, import: 'default' })
 
 const DEFAULT_META: PlanMeta = { startDate: '2026-06-02' }
 
@@ -162,6 +166,14 @@ export function loadContent(): LoadedContent {
     else console.error('[content] invalid roleplays.json', parsed.error.issues)
   }
 
+  let basics: BasicsChapter[] = []
+  const basicsRaw = Object.values(basicsFiles)[0]
+  if (basicsRaw) {
+    const parsed = basicsFileSchema.safeParse(basicsRaw)
+    if (parsed.success) basics = [...parsed.data.chapters].sort((a, b) => a.sort - b.sort)
+    else console.error('[content] invalid basics.json', parsed.error.issues)
+  }
+
   cache = {
     decks,
     cards,
@@ -175,6 +187,7 @@ export function loadContent(): LoadedContent {
     exams,
     lessons,
     roleplays,
+    basics,
   }
   return cache
 }

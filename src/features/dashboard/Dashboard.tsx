@@ -133,6 +133,15 @@ export function Dashboard() {
     return currentStreak(dates)
   }, [reviewLogs, attempts])
 
+  // In-app practice exams (KNM, Reading, Listening) and your best score so far.
+  const mockExams = exams.filter((e) => e.mockQuizId)
+  const bestByMock = useMemo(() => {
+    const m = new Map<string, number>()
+    for (const a of attempts ?? [])
+      if (a.quizId) m.set(a.quizId, Math.max(m.get(a.quizId) ?? 0, Math.round(a.scorePct)))
+    return m
+  }, [attempts])
+
   return (
     <div className="space-y-4">
       <Panel className="overflow-hidden">
@@ -173,6 +182,46 @@ export function Dashboard() {
             <span>{Math.round(overallPct)}%</span>
           </div>
           <ProgressBar value={overallPct} />
+        </div>
+      </Panel>
+
+      <Panel className="space-y-3 p-4 ring-1 ring-yellow-200">
+        <div className="flex items-center justify-between gap-2">
+          <h2 className="font-bold text-slate-900">🎓 Jouw examen</h2>
+          <Link to="/examens" className="text-xs font-semibold text-sky-600">
+            Alle examens &amp; data →
+          </Link>
+        </div>
+        {nextExamDays != null ? (
+          <p className="text-sm text-slate-700">
+            Nog <span className="text-lg font-black text-slate-900">{nextExamDays}</span> dagen tot
+            je <span className="font-semibold">{nextExamTitle}</span>-examen.
+          </p>
+        ) : (
+          <p className="text-sm text-slate-500">
+            Nog geen datum ingesteld.{' '}
+            <Link to="/examens" className="font-semibold text-sky-600">
+              Stel je examendata in →
+            </Link>
+          </p>
+        )}
+        <div>
+          <p className="mb-1.5 text-xs font-semibold text-slate-500">Oefenexamen (met timer)</p>
+          <div className="flex flex-wrap gap-2">
+            {mockExams.map((ex) => {
+              const best = ex.mockQuizId ? bestByMock.get(ex.mockQuizId) : undefined
+              return (
+                <Link
+                  key={ex.id}
+                  to={`/examens?mock=${ex.id}`}
+                  className="rounded-xl bg-yellow-400 px-3 py-2 text-xs font-semibold text-slate-900"
+                >
+                  ▶ {ex.titleNl}
+                  {best != null ? ` · ${best}%` : ''}
+                </Link>
+              )
+            })}
+          </div>
         </div>
       </Panel>
 

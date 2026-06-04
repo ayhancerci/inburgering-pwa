@@ -1,26 +1,124 @@
 {
   "roleplays": [
     {
-      "id": "rp-gemeente",
-      "titleNl": "Een afspraak maken",
-      "titleEn": "Making an appointment",
-      "setting": "Bij de gemeente",
-      "scenario": "You're at the town hall to arrange a new passport. Practise making an appointment.",
+      "id": "rp-kennismaken-cursus",
+      "themeId": "link-0a2-01",
+      "titleNl": "Jezelf voorstellen",
+      "titleEn": "Introducing yourself",
+      "setting": "Bij de taalschool",
+      "scenario": "You sign up at a language school. Practise saying who you are and giving your details.",
       "turns": [
-        { "speaker": "A", "who": "Medewerker", "nl": "Goedemiddag, waarmee kan ik u helpen?", "en": "Good afternoon, how can I help you?" },
-        { "speaker": "you", "who": "Jij", "nl": "Goedemiddag. Ik wil graag een afspraak maken voor een nieuw paspoort.", "en": "Good afternoon. I'd like to make an appointment for a new passport." },
-        { "speaker": "A", "who": "Medewerker", "nl": "Heeft u uw oude paspoort en een pasfoto bij u?", "en": "Do you have your old passport and a photo with you?" },
-        { "speaker": "you", "who": "Jij", "nl": "Ja, die heb ik bij me.", "en": "Yes, I have them with me." },
-        { "speaker": "A", "who": "Medewerker", "nl": "Wanneer komt het u uit, donderdag of vrijdag?", "en": "When suits you, Thursday or Friday?" },
-        { "speaker": "you", "who": "Jij", "nl": "Donderdag om tien uur, kan dat?", "en": "Thursday at ten o'clock, is that possible?" },
-        { "speaker": "A", "who": "Medewerker", "nl": "Dat is goed. Op welke naam staat de afspraak?", "en": "That's fine. In whose name is the appointment?" },
-        { "speaker": "you", "who": "Jij", "nl": "Op naam van Yilmaz. Moet ik nog iets meenemen?", "en": "In the name of Yilmaz. Should I bring anything else?" },
-        { "speaker": "A", "who": "Medewerker", "nl": "Neem ook uw verblijfsvergunning mee. Tot donderdag!", "en": "Bring your residence permit too. See you Thursday!" },
-        { "speaker": "you", "who": "Jij", "nl": "Dank u wel. Tot donderdag.", "en": "Thank you. See you Thursday." }
+        { "speaker": "A", "who": "Medewerkster", "nl": "Goedemorgen, welkom. Hoe heet u?", "en": "Good morning, welcome. What is your name?" },
+        { "speaker": "you", "who": "Jij", "nl": "Goedemorgen. Ik heet Mert Yilmaz.", "en": "Good morning. My name is Mert Yilmaz." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Kunt u uw achternaam spellen?", "en": "Can you spell your surname?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja: Y-I-L-M-A-Z.", "en": "Yes: Y-I-L-M-A-Z." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Waar komt u vandaan?", "en": "Where are you from?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ik kom uit Turkije, maar ik woon nu in Utrecht.", "en": "I am from Turkey, but I live in Utrecht now." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Wat is uw telefoonnummer?", "en": "What is your phone number?" },
+        { "speaker": "you", "who": "Jij", "nl": "Mijn nummer is 06 12 34 56 78.", "en": "My number is 06 12 34 56 78." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Dank u wel. Ik schrijf u in voor de cursus.", "en": "Thank you. I will sign you up for the course." },
+        { "speaker": "you", "who": "Jij", "nl": "Fijn, dank u wel.", "en": "Great, thank you." }
+      ]
+    },
+    {
+      "id": "rp-supermarkt",
+      "themeId": "link-0a2-02",
+      "titleNl": "Hulp vragen in de winkel",
+      "titleEn": "Asking for help in the shop",
+      "setting": "In de supermarkt",
+      "scenario": "You ask a shop assistant where to find things and when the shop closes.",
+      "turns": [
+        { "speaker": "A", "who": "Medewerkster", "nl": "Goedemiddag, kan ik u helpen?", "en": "Good afternoon, can I help you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, graag. Waar staan de eieren?", "en": "Yes, please. Where are the eggs?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "De eieren staan in gangpad 3, naast de melk.", "en": "The eggs are in aisle 3, next to the milk." },
+        { "speaker": "you", "who": "Jij", "nl": "Bedankt. En heeft u verse vis?", "en": "Thanks. And do you have fresh fish?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Ja, bij de visafdeling achterin.", "en": "Yes, at the fish counter at the back." },
+        { "speaker": "you", "who": "Jij", "nl": "Hoe laat gaat de winkel dicht?", "en": "What time does the shop close?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Vandaag om acht uur.", "en": "Today at eight o'clock." },
+        { "speaker": "you", "who": "Jij", "nl": "Oké, dank u wel.", "en": "Okay, thank you." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Graag gedaan. Prettige dag!", "en": "You're welcome. Have a nice day!" }
+      ]
+    },
+    {
+      "id": "rp-kletspraatje",
+      "themeId": "link-0a2-03",
+      "titleNl": "Een praatje maken",
+      "titleEn": "Making small talk",
+      "setting": "Op straat",
+      "scenario": "You bump into someone you know. Make small talk about the weather and make a plan.",
+      "turns": [
+        { "speaker": "A", "who": "Sanne", "nl": "Hé, hallo! Hoe gaat het met je?", "en": "Hey, hello! How are you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Hoi Sanne! Goed, dank je. En met jou?", "en": "Hi Sanne! Good, thanks. And you?" },
+        { "speaker": "A", "who": "Sanne", "nl": "Ook goed. Lekker weer vandaag, hè?", "en": "Good too. Nice weather today, isn't it?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, heerlijk. Eindelijk zon!", "en": "Yes, lovely. Finally some sun!" },
+        { "speaker": "A", "who": "Sanne", "nl": "Heb je zin om een kopje koffie te drinken?", "en": "Do you fancy having a cup of coffee?" },
+        { "speaker": "you", "who": "Jij", "nl": "Leuk! Maar ik heb nu helaas geen tijd.", "en": "Nice! But unfortunately I don't have time now." },
+        { "speaker": "A", "who": "Sanne", "nl": "Geen probleem. Misschien morgen?", "en": "No problem. Maybe tomorrow?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, morgen is goed. Tot morgen!", "en": "Yes, tomorrow is fine. See you tomorrow!" },
+        { "speaker": "A", "who": "Sanne", "nl": "Tot morgen!", "en": "See you tomorrow!" }
+      ]
+    },
+    {
+      "id": "rp-restaurant",
+      "themeId": "link-0a2-04",
+      "titleNl": "Eten bestellen",
+      "titleEn": "Ordering food",
+      "setting": "In het restaurant",
+      "scenario": "You order a meal in a restaurant and ask for the bill.",
+      "turns": [
+        { "speaker": "A", "who": "Serveerster", "nl": "Goedenavond. Heeft u al gekozen?", "en": "Good evening. Have you chosen yet?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja. Ik wil graag de tomatensoep en daarna de vis.", "en": "Yes. I'd like the tomato soup and then the fish." },
+        { "speaker": "A", "who": "Serveerster", "nl": "Wilt u er brood bij?", "en": "Would you like bread with that?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, lekker. En een glas water, alstublieft.", "en": "Yes, please. And a glass of water, please." },
+        { "speaker": "A", "who": "Serveerster", "nl": "Wilt u nog iets drinken?", "en": "Would you like anything else to drink?" },
+        { "speaker": "you", "who": "Jij", "nl": "Een kopje koffie na het eten, graag.", "en": "A coffee after the meal, please." },
+        { "speaker": "A", "who": "Serveerster", "nl": "Prima. Smakelijk eten!", "en": "Fine. Enjoy your meal!" },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel. Mag ik straks de rekening?", "en": "Thank you. May I have the bill later?" },
+        { "speaker": "A", "who": "Serveerster", "nl": "Natuurlijk, ik breng hem zo.", "en": "Of course, I'll bring it shortly." }
+      ]
+    },
+    {
+      "id": "rp-bezichtiging",
+      "themeId": "link-0a2-05",
+      "titleNl": "Een woning bezichtigen",
+      "titleEn": "Viewing a home",
+      "setting": "Bij een huurwoning",
+      "scenario": "You view a flat to rent and ask about the rooms, the rent and when it's available.",
+      "turns": [
+        { "speaker": "A", "who": "Makelaar", "nl": "Welkom. Dit is de woonkamer. Wat vindt u ervan?", "en": "Welcome. This is the living room. What do you think?" },
+        { "speaker": "you", "who": "Jij", "nl": "Mooi en licht! Hoeveel slaapkamers zijn er?", "en": "Nice and bright! How many bedrooms are there?" },
+        { "speaker": "A", "who": "Makelaar", "nl": "Er zijn twee slaapkamers en een balkon.", "en": "There are two bedrooms and a balcony." },
+        { "speaker": "you", "who": "Jij", "nl": "En wat is de huur per maand?", "en": "And what is the rent per month?" },
+        { "speaker": "A", "who": "Makelaar", "nl": "De huur is 950 euro, inclusief gas en water.", "en": "The rent is 950 euros, including gas and water." },
+        { "speaker": "you", "who": "Jij", "nl": "Is er ook een wasmachine?", "en": "Is there a washing machine too?" },
+        { "speaker": "A", "who": "Makelaar", "nl": "Nee, die moet u zelf meenemen.", "en": "No, you have to bring that yourself." },
+        { "speaker": "you", "who": "Jij", "nl": "Duidelijk. Wanneer is de woning vrij?", "en": "Clear. When is the home available?" },
+        { "speaker": "A", "who": "Makelaar", "nl": "Vanaf 1 juli.", "en": "From the 1st of July." },
+        { "speaker": "you", "who": "Jij", "nl": "Top. Ik denk er graag over na.", "en": "Great. I'd like to think it over." }
+      ]
+    },
+    {
+      "id": "rp-station",
+      "themeId": "link-0a2-06",
+      "titleNl": "De trein en de weg",
+      "titleEn": "The train and directions",
+      "setting": "Op het station",
+      "scenario": "At the station you ask about the train, where to buy a ticket and whether you need to change.",
+      "turns": [
+        { "speaker": "A", "who": "NS-medewerker", "nl": "Goedemiddag, kan ik u helpen?", "en": "Good afternoon, can I help you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, hoe laat gaat de trein naar Amsterdam?", "en": "Yes, what time does the train to Amsterdam leave?" },
+        { "speaker": "A", "who": "NS-medewerker", "nl": "Over tien minuten, van spoor 5.", "en": "In ten minutes, from platform 5." },
+        { "speaker": "you", "who": "Jij", "nl": "Waar kan ik een kaartje kopen?", "en": "Where can I buy a ticket?" },
+        { "speaker": "A", "who": "NS-medewerker", "nl": "Bij de gele automaat, daar rechts.", "en": "At the yellow machine, over there on the right." },
+        { "speaker": "you", "who": "Jij", "nl": "Moet ik overstappen?", "en": "Do I have to change trains?" },
+        { "speaker": "A", "who": "NS-medewerker", "nl": "Nee, het is een directe trein.", "en": "No, it's a direct train." },
+        { "speaker": "you", "who": "Jij", "nl": "Fijn. Dank u wel voor de hulp.", "en": "Great. Thank you for your help." },
+        { "speaker": "A", "who": "NS-medewerker", "nl": "Goede reis!", "en": "Have a good trip!" }
       ]
     },
     {
       "id": "rp-huisarts",
+      "themeId": "link-0a2-07",
       "titleNl": "Naar de dokter bellen",
       "titleEn": "Calling the doctor",
       "setting": "Bij de huisarts",
@@ -39,24 +137,8 @@
       ]
     },
     {
-      "id": "rp-school",
-      "titleNl": "Je kind ziek melden",
-      "titleEn": "Reporting your child sick",
-      "setting": "Op school",
-      "scenario": "You call your child's primary school to report them sick.",
-      "turns": [
-        { "speaker": "A", "who": "Leerkracht", "nl": "Basisschool De Regenboog, goedemorgen.", "en": "De Regenboog primary school, good morning." },
-        { "speaker": "you", "who": "Jij", "nl": "Goedemorgen, u spreekt met de moeder van Sara uit groep 4.", "en": "Good morning, this is Sara's mother, from group 4." },
-        { "speaker": "A", "who": "Leerkracht", "nl": "Goedemorgen. Wat kan ik voor u doen?", "en": "Good morning. What can I do for you?" },
-        { "speaker": "you", "who": "Jij", "nl": "Ik wil Sara ziek melden. Ze is verkouden en heeft koorts.", "en": "I want to report Sara sick. She has a cold and a fever." },
-        { "speaker": "A", "who": "Leerkracht", "nl": "Wat vervelend. Blijft ze vandaag thuis?", "en": "That's a shame. Is she staying home today?" },
-        { "speaker": "you", "who": "Jij", "nl": "Ja, ze blijft thuis. Misschien ook morgen.", "en": "Yes, she's staying home. Maybe tomorrow too." },
-        { "speaker": "A", "who": "Leerkracht", "nl": "Oké, ik geef het door aan de juf. Beterschap!", "en": "Okay, I'll let the teacher know. Get well soon!" },
-        { "speaker": "you", "who": "Jij", "nl": "Dank u wel. Tot ziens.", "en": "Thank you. Goodbye." }
-      ]
-    },
-    {
       "id": "rp-buren",
+      "themeId": "link-0a2-08",
       "titleNl": "Kennismaken met de buren",
       "titleEn": "Meeting the neighbours",
       "setting": "In de buurt",
@@ -74,6 +156,7 @@
     },
     {
       "id": "rp-winkel",
+      "themeId": "link-0a2-09",
       "titleNl": "Iets ruilen in de winkel",
       "titleEn": "Exchanging an item",
       "setting": "In de winkel",
@@ -89,6 +172,220 @@
         { "speaker": "you", "who": "Jij", "nl": "Perfect. Moet ik iets bijbetalen?", "en": "Perfect. Do I need to pay extra?" },
         { "speaker": "A", "who": "Verkoper", "nl": "Nee, het is dezelfde prijs. Fijne dag!", "en": "No, it's the same price. Have a nice day!" },
         { "speaker": "you", "who": "Jij", "nl": "Dank u wel, u ook.", "en": "Thank you, you too." }
+      ]
+    },
+    {
+      "id": "rp-politie",
+      "themeId": "link-0a2-10",
+      "titleNl": "Aangifte doen",
+      "titleEn": "Filing a police report",
+      "setting": "Bij de politie",
+      "scenario": "Your bike has been stolen. You go to the police to report it.",
+      "turns": [
+        { "speaker": "A", "who": "Agent", "nl": "Goedemiddag. Wat kan ik voor u doen?", "en": "Good afternoon. What can I do for you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Mijn fiets is gestolen. Ik wil aangifte doen.", "en": "My bike has been stolen. I want to file a report." },
+        { "speaker": "A", "who": "Agent", "nl": "Wat vervelend. Waar stond de fiets?", "en": "How annoying. Where was the bike?" },
+        { "speaker": "you", "who": "Jij", "nl": "Bij het station, op slot.", "en": "At the station, locked." },
+        { "speaker": "A", "who": "Agent", "nl": "Wanneer is het gebeurd?", "en": "When did it happen?" },
+        { "speaker": "you", "who": "Jij", "nl": "Gisteravond, tussen zes en acht uur.", "en": "Last night, between six and eight o'clock." },
+        { "speaker": "A", "who": "Agent", "nl": "Heeft u het framenummer?", "en": "Do you have the frame number?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, dat staat op het bonnetje thuis.", "en": "Yes, it's on the receipt at home." },
+        { "speaker": "A", "who": "Agent", "nl": "Goed. Ik maak de aangifte voor u op.", "en": "Good. I'll write up the report for you." },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel.", "en": "Thank you." }
+      ]
+    },
+    {
+      "id": "rp-bioscoop",
+      "themeId": "link-0a2-11",
+      "titleNl": "Afspreken met een vriend",
+      "titleEn": "Making plans with a friend",
+      "setting": "Aan de telefoon",
+      "scenario": "A friend invites you to the cinema. Agree on the film, the time and where to meet.",
+      "turns": [
+        { "speaker": "A", "who": "Lisa", "nl": "Hoi! Ga je vrijdag mee naar de bioscoop?", "en": "Hi! Are you coming to the cinema on Friday?" },
+        { "speaker": "you", "who": "Jij", "nl": "Leuk! Welke film gaan jullie kijken?", "en": "Nice! Which film are you going to watch?" },
+        { "speaker": "A", "who": "Lisa", "nl": "Een nieuwe Nederlandse komedie.", "en": "A new Dutch comedy." },
+        { "speaker": "you", "who": "Jij", "nl": "Hoe laat begint de film?", "en": "What time does the film start?" },
+        { "speaker": "A", "who": "Lisa", "nl": "Om half acht. Zullen we om zeven uur afspreken?", "en": "At half past seven. Shall we meet at seven?" },
+        { "speaker": "you", "who": "Jij", "nl": "Prima. Waar zullen we afspreken?", "en": "Fine. Where shall we meet?" },
+        { "speaker": "A", "who": "Lisa", "nl": "Bij de ingang van de bioscoop.", "en": "At the entrance of the cinema." },
+        { "speaker": "you", "who": "Jij", "nl": "Top, tot vrijdag!", "en": "Great, see you Friday!" },
+        { "speaker": "A", "who": "Lisa", "nl": "Tot vrijdag!", "en": "See you Friday!" }
+      ]
+    },
+    {
+      "id": "rp-school",
+      "themeId": "link-0a2-12",
+      "titleNl": "Je kind ziek melden",
+      "titleEn": "Reporting your child sick",
+      "setting": "Op school",
+      "scenario": "You call your child's primary school to report them sick.",
+      "turns": [
+        { "speaker": "A", "who": "Leerkracht", "nl": "Basisschool De Regenboog, goedemorgen.", "en": "De Regenboog primary school, good morning." },
+        { "speaker": "you", "who": "Jij", "nl": "Goedemorgen, u spreekt met de moeder van Sara uit groep 4.", "en": "Good morning, this is Sara's mother, from group 4." },
+        { "speaker": "A", "who": "Leerkracht", "nl": "Goedemorgen. Wat kan ik voor u doen?", "en": "Good morning. What can I do for you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ik wil Sara ziek melden. Ze is verkouden en heeft koorts.", "en": "I want to report Sara sick. She has a cold and a fever." },
+        { "speaker": "A", "who": "Leerkracht", "nl": "Wat vervelend. Blijft ze vandaag thuis?", "en": "That's a shame. Is she staying home today?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, ze blijft thuis. Misschien ook morgen.", "en": "Yes, she's staying home. Maybe tomorrow too." },
+        { "speaker": "A", "who": "Leerkracht", "nl": "Oké, ik geef het door aan de juf. Beterschap!", "en": "Okay, I'll let the teacher know. Get well soon!" },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel. Tot ziens.", "en": "Thank you. Goodbye." }
+      ]
+    },
+    {
+      "id": "rp-monteur",
+      "themeId": "link-0a2-13",
+      "titleNl": "Een reparatie regelen",
+      "titleEn": "Arranging a repair",
+      "setting": "Aan de telefoon",
+      "scenario": "Your washing machine is broken. You call customer service to arrange a repair.",
+      "turns": [
+        { "speaker": "A", "who": "Medewerkster", "nl": "Klantenservice, goedemorgen.", "en": "Customer service, good morning." },
+        { "speaker": "you", "who": "Jij", "nl": "Goedemorgen. Mijn wasmachine is kapot.", "en": "Good morning. My washing machine is broken." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Wat is er precies aan de hand?", "en": "What exactly is the matter?" },
+        { "speaker": "you", "who": "Jij", "nl": "Hij maakt een raar geluid en doet het niet meer.", "en": "It makes a strange noise and doesn't work anymore." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Ik stuur een monteur. Wanneer kunt u thuis zijn?", "en": "I'll send a repairman. When can you be home?" },
+        { "speaker": "you", "who": "Jij", "nl": "Morgenochtend kan ik thuis zijn.", "en": "I can be home tomorrow morning." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "De monteur komt tussen negen en twaalf uur.", "en": "The repairman will come between nine and twelve." },
+        { "speaker": "you", "who": "Jij", "nl": "Prima. Wat kost het?", "en": "Fine. What does it cost?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Het voorrijden is gratis.", "en": "The call-out is free." },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel.", "en": "Thank you." }
+      ]
+    },
+    {
+      "id": "rp-familie",
+      "themeId": "link-0a2-14",
+      "titleNl": "Familie bellen",
+      "titleEn": "Calling family",
+      "setting": "Aan de telefoon",
+      "scenario": "You call family to arrange a visit next weekend.",
+      "turns": [
+        { "speaker": "A", "who": "Elif", "nl": "Hoi! Wat leuk dat je belt. Hoe is het?", "en": "Hi! How nice that you're calling. How are you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Goed! We willen graag een keer langskomen.", "en": "Good! We'd like to come by sometime." },
+        { "speaker": "A", "who": "Elif", "nl": "Wat leuk! Wanneer komen jullie?", "en": "How lovely! When are you coming?" },
+        { "speaker": "you", "who": "Jij", "nl": "Past volgende week zaterdag?", "en": "Does next Saturday work?" },
+        { "speaker": "A", "who": "Elif", "nl": "Ja, prima. Blijven jullie eten?", "en": "Yes, fine. Are you staying for dinner?" },
+        { "speaker": "you", "who": "Jij", "nl": "Graag. Zal ik iets meenemen?", "en": "Gladly. Shall I bring something?" },
+        { "speaker": "A", "who": "Elif", "nl": "Een toetje is leuk.", "en": "A dessert would be nice." },
+        { "speaker": "you", "who": "Jij", "nl": "Doe ik. Tot zaterdag!", "en": "I'll do that. See you Saturday!" },
+        { "speaker": "A", "who": "Elif", "nl": "Tot zaterdag, doei!", "en": "See you Saturday, bye!" }
+      ]
+    },
+    {
+      "id": "rp-sportclub",
+      "themeId": "link-0a2-15",
+      "titleNl": "Lid worden van een club",
+      "titleEn": "Joining a club",
+      "setting": "Bij de sportclub",
+      "scenario": "You sign up at a sports club and ask about lessons, the price and what to bring.",
+      "turns": [
+        { "speaker": "A", "who": "Medewerkster", "nl": "Hallo! Wilt u lid worden?", "en": "Hello! Would you like to become a member?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, ik wil graag gaan zwemmen.", "en": "Yes, I'd like to go swimming." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "We hebben lessen op maandag en woensdag.", "en": "We have lessons on Monday and Wednesday." },
+        { "speaker": "you", "who": "Jij", "nl": "Hoeveel kost het per maand?", "en": "How much does it cost per month?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Dertig euro per maand.", "en": "Thirty euros per month." },
+        { "speaker": "you", "who": "Jij", "nl": "Kan ik eerst een proefles doen?", "en": "Can I do a trial lesson first?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Natuurlijk, dat is gratis.", "en": "Of course, that's free." },
+        { "speaker": "you", "who": "Jij", "nl": "Wat moet ik meenemen?", "en": "What should I bring?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Een badpak en een handdoek.", "en": "A swimsuit and a towel." },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel, tot maandag!", "en": "Thank you, see you Monday!" }
+      ]
+    },
+    {
+      "id": "rp-gemeente",
+      "themeId": "link-0a2-16",
+      "titleNl": "Een afspraak maken",
+      "titleEn": "Making an appointment",
+      "setting": "Bij de gemeente",
+      "scenario": "You're at the town hall to arrange a new passport. Practise making an appointment.",
+      "turns": [
+        { "speaker": "A", "who": "Medewerker", "nl": "Goedemiddag, waarmee kan ik u helpen?", "en": "Good afternoon, how can I help you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Goedemiddag. Ik wil graag een afspraak maken voor een nieuw paspoort.", "en": "Good afternoon. I'd like to make an appointment for a new passport." },
+        { "speaker": "A", "who": "Medewerker", "nl": "Heeft u uw oude paspoort en een pasfoto bij u?", "en": "Do you have your old passport and a photo with you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, die heb ik bij me.", "en": "Yes, I have them with me." },
+        { "speaker": "A", "who": "Medewerker", "nl": "Wanneer komt het u uit, donderdag of vrijdag?", "en": "When suits you, Thursday or Friday?" },
+        { "speaker": "you", "who": "Jij", "nl": "Donderdag om tien uur, kan dat?", "en": "Thursday at ten o'clock, is that possible?" },
+        { "speaker": "A", "who": "Medewerker", "nl": "Dat is goed. Op welke naam staat de afspraak?", "en": "That's fine. In whose name is the appointment?" },
+        { "speaker": "you", "who": "Jij", "nl": "Op naam van Yilmaz. Moet ik nog iets meenemen?", "en": "In the name of Yilmaz. Should I bring anything else?" },
+        { "speaker": "A", "who": "Medewerker", "nl": "Neem ook uw verblijfsvergunning mee. Tot donderdag!", "en": "Bring your residence permit too. See you Thursday!" },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel. Tot donderdag.", "en": "Thank you. See you Thursday." }
+      ]
+    },
+    {
+      "id": "rp-sollicitatie",
+      "themeId": "link-0a2-17",
+      "titleNl": "Een sollicitatiegesprek",
+      "titleEn": "A job interview",
+      "setting": "Op gesprek",
+      "scenario": "You have a short job interview. Talk about your experience and your strengths.",
+      "turns": [
+        { "speaker": "A", "who": "Mevrouw Jansen", "nl": "Welkom. Vertel eens, waarom solliciteert u?", "en": "Welcome. Tell me, why are you applying?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ik zoek werk en ik vind dit een leuk bedrijf.", "en": "I'm looking for work and I think this is a nice company." },
+        { "speaker": "A", "who": "Mevrouw Jansen", "nl": "Wat voor werk heeft u eerder gedaan?", "en": "What kind of work have you done before?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ik heb vijf jaar in een magazijn gewerkt.", "en": "I worked in a warehouse for five years." },
+        { "speaker": "A", "who": "Mevrouw Jansen", "nl": "Wat zijn uw sterke punten?", "en": "What are your strengths?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ik ben betrouwbaar en ik werk hard.", "en": "I'm reliable and I work hard." },
+        { "speaker": "A", "who": "Mevrouw Jansen", "nl": "Kunt u in het weekend werken?", "en": "Can you work at the weekend?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, dat is geen probleem.", "en": "Yes, that's no problem." },
+        { "speaker": "A", "who": "Mevrouw Jansen", "nl": "Mooi. We laten snel iets weten.", "en": "Good. We'll let you know soon." },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel voor het gesprek.", "en": "Thank you for the interview." }
+      ]
+    },
+    {
+      "id": "rp-asiel",
+      "themeId": "link-0a2-18",
+      "titleNl": "Een huisdier uitzoeken",
+      "titleEn": "Choosing a pet",
+      "setting": "In het dierenasiel",
+      "scenario": "At the animal shelter you choose a cat and ask what you need at home.",
+      "turns": [
+        { "speaker": "A", "who": "Medewerkster", "nl": "Welkom. Zoekt u een hond of een kat?", "en": "Welcome. Are you looking for a dog or a cat?" },
+        { "speaker": "you", "who": "Jij", "nl": "Een kat, graag. Voor in huis.", "en": "A cat, please. For indoors." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Deze poes is twee jaar en heel lief.", "en": "This cat is two years old and very sweet." },
+        { "speaker": "you", "who": "Jij", "nl": "Is ze gezond?", "en": "Is she healthy?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Ja, ze is gezond en gevaccineerd.", "en": "Yes, she's healthy and vaccinated." },
+        { "speaker": "you", "who": "Jij", "nl": "Wat moet ik thuis klaarzetten?", "en": "What should I prepare at home?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Een mand, voer en een kattenbak.", "en": "A basket, food and a litter box." },
+        { "speaker": "you", "who": "Jij", "nl": "Mag ik haar meenemen?", "en": "May I take her home?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Ja, vult u eerst dit formulier in.", "en": "Yes, please fill in this form first." },
+        { "speaker": "you", "who": "Jij", "nl": "Natuurlijk, dank u wel!", "en": "Of course, thank you!" }
+      ]
+    },
+    {
+      "id": "rp-belasting",
+      "themeId": "link-0a2-19",
+      "titleNl": "Een vraag over de belasting",
+      "titleEn": "A question about your taxes",
+      "setting": "Aan de telefoon",
+      "scenario": "You call the tax information line about your assessment and ask to pay in instalments.",
+      "turns": [
+        { "speaker": "A", "who": "Medewerkster", "nl": "BelastingTelefoon, goedemiddag.", "en": "Tax information line, good afternoon." },
+        { "speaker": "you", "who": "Jij", "nl": "Goedemiddag. Ik heb een vraag over mijn aanslag.", "en": "Good afternoon. I have a question about my tax assessment." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Wat is uw burgerservicenummer?", "en": "What is your citizen service number (BSN)?" },
+        { "speaker": "you", "who": "Jij", "nl": "Een, twee, drie, vier, vijf, zes, zeven, acht, negen.", "en": "One, two, three, four, five, six, seven, eight, nine." },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Dank u. Wat is uw vraag?", "en": "Thank you. What is your question?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ik snap het bedrag niet. Kunt u het uitleggen?", "en": "I don't understand the amount. Can you explain it?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "U moet 200 euro betalen vóór 1 augustus.", "en": "You have to pay 200 euros before the 1st of August." },
+        { "speaker": "you", "who": "Jij", "nl": "Kan ik in termijnen betalen?", "en": "Can I pay in instalments?" },
+        { "speaker": "A", "who": "Medewerkster", "nl": "Ja, dat kunt u online regelen.", "en": "Yes, you can arrange that online." },
+        { "speaker": "you", "who": "Jij", "nl": "Fijn, dank u wel.", "en": "Great, thank you." }
+      ]
+    },
+    {
+      "id": "rp-nieuws",
+      "themeId": "link-0a2-20",
+      "titleNl": "Praten over het nieuws",
+      "titleEn": "Talking about the news",
+      "setting": "Op het werk",
+      "scenario": "A colleague tells you about the news. React and talk about what happened.",
+      "turns": [
+        { "speaker": "A", "who": "Nora", "nl": "Heb je het nieuws gisteren gezien?", "en": "Did you see the news yesterday?" },
+        { "speaker": "you", "who": "Jij", "nl": "Nee, wat is er gebeurd?", "en": "No, what happened?" },
+        { "speaker": "A", "who": "Nora", "nl": "Er was een grote storm in het noorden.", "en": "There was a big storm in the north." },
+        { "speaker": "you", "who": "Jij", "nl": "Echt? Was er veel schade?", "en": "Really? Was there much damage?" },
+        { "speaker": "A", "who": "Nora", "nl": "Ja, veel bomen zijn omgewaaid.", "en": "Yes, many trees blew down." },
+        { "speaker": "you", "who": "Jij", "nl": "Wat erg. Ik kijk vanavond het journaal.", "en": "How awful. I'll watch the news tonight." },
+        { "speaker": "A", "who": "Nora", "nl": "Goed idee. Het stond ook op Nu.nl.", "en": "Good idea. It was on Nu.nl too." },
+        { "speaker": "you", "who": "Jij", "nl": "Bedankt voor de tip!", "en": "Thanks for the tip!" }
       ]
     }
   ]

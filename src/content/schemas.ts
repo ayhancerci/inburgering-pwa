@@ -144,6 +144,7 @@ export const curriculumFileSchema = z.object({
 
 export const resourceSchema = z.object({
   id: z.string(),
+  themeId: z.string().optional(), // tag to a LINK theme; untagged = general (shown in Oefenen)
   title: z.string(),
   url: z.string(),
   type: z.enum(['practice', 'video', 'reading', 'listening', 'grammar', 'podcast', 'knm', 'vocab']),
@@ -192,6 +193,7 @@ export const grammarPointSchema = z.object({
 
 export const dialogueLineSchema = z.object({
   speaker: z.string(),
+  voice: z.enum(['f', 'm']).optional(), // which TTS voice; defaults by speaker order if absent
   nl: z.string(),
   en: z.string(),
 })
@@ -218,6 +220,7 @@ export type Lesson = z.infer<typeof lessonSchema>
 
 export const roleplayTurnSchema = z.object({
   speaker: z.enum(['A', 'you']), // 'A' = the other person (audio), 'you' = your model line
+  voice: z.enum(['f', 'm']).optional(), // override; defaults to f for 'A', m for 'you'
   who: z.string(),
   nl: z.string(),
   en: z.string(),
@@ -225,6 +228,7 @@ export const roleplayTurnSchema = z.object({
 
 export const roleplaySchema = z.object({
   id: z.string(),
+  themeId: z.string().optional(), // the LINK theme this conversation belongs to
   titleNl: z.string(),
   titleEn: z.string(),
   setting: z.string(),
@@ -237,3 +241,4 @@ export const roleplaysFileSchema = z.object({
 })
 
 export type RolePlay = z.infer<typeof roleplaySchema>
+export type RolePlayTurn = z.infer<typeof roleplayTurnSchema>

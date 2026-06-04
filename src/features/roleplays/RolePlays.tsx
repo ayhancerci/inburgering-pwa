@@ -1,10 +1,17 @@
-import { useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { loadContent } from '../../content'
 import { Panel, Button, cx } from '../../components/ui'
 import { SpeakButton } from '../../components/SpeakButton'
-import { playSequence } from '../../lib/audio'
+import { playSequence, type Voice } from '../../lib/audio'
 import { useTranslationPref } from '../../store/prefs'
-import type { RolePlay } from '../../content/schemas'
+import type { RolePlay, RolePlayTurn } from '../../content/schemas'
+
+// The other person ('A') speaks with the female voice; your line ('you') with the male
+// voice — so a played-back conversation sounds like two different people.
+function turnVoice(t: RolePlayTurn): Voice {
+  return t.voice ?? (t.speaker === 'you' ? 'm' : 'f')
+}
 
 function Player({ rp, onBack }: { rp: RolePlay; onBack: () => void }) {
   const { show, toggle } = useTranslationPref()
@@ -28,7 +35,10 @@ function Player({ rp, onBack }: { rp: RolePlay; onBack: () => void }) {
         {show && <p className="mt-1 text-sm text-slate-500">{rp.scenario}</p>}
       </div>
 
-      <Button className="w-full" onClick={() => playSequence(rp.turns.map((t) => t.nl))}>
+      <Button
+        className="w-full"
+        onClick={() => playSequence(rp.turns.map((t) => ({ text: t.nl, voice: turnVoice(t) })))}
+      >
         ▶ Speel het hele gesprek
       </Button>
 
@@ -54,7 +64,7 @@ function Player({ rp, onBack }: { rp: RolePlay; onBack: () => void }) {
                 </p>
                 <div className="flex items-start gap-2">
                   <p className="flex-1 text-sm text-slate-800">{t.nl}</p>
-                  <SpeakButton text={t.nl} />
+                  <SpeakButton text={t.nl} voice={turnVoice(t)} />
                 </div>
                 {show && <p className="mt-0.5 text-xs text-slate-400">{t.en}</p>}
               </div>
@@ -71,37 +81,86 @@ function Player({ rp, onBack }: { rp: RolePlay; onBack: () => void }) {
 }
 
 export function RolePlays() {
-  const { roleplays } = loadContent()
+  const { roleplays, themes } = loadContent()
   const [active, setActive] = useState<RolePlay | null>(null)
+  const [params, setParams] = useSearchParams()
 
-  if (active) return <Player rp={active} onBack={() => setActive(null)} />
+  // Deep-link: /gesprekken?rp=<id> opens that conversation (used from a lesson).
+  useEffect(() => {
+    const id = params.get('rp')
+    if (!id) return
+    const rp = roleplays.find((r) => r.id === id)
+    if (rp) setActive(rp)
+  }, [params, roleplays])
+
+  // Group conversations by chapter (theme), in curriculum order.
+  const groups = useMemo(() => {
+    const byTheme = new Map<string, RolePlay[]>()
+    const general: RolePlay[] = []
+    for (const rp of roleplays) {
+      if (rp.themeId) {
+        const arr = byTheme.get(rp.themeId) ?? []
+        arr.push(rp)
+        byTheme.set(rp.themeId, arr)
+      } else {
+        general.push(rp)
+      }
+    }
+    const ordered = themes
+      .filter((t) => byTheme.has(t.id))
+      .map((t) => ({
+        key: t.id,
+        label: `Thema ${t.number} · ${t.titleNl}`,
+        items: byTheme.get(t.id)!,
+      }))
+    if (general.length) ordered.push({ key: 'general', label: 'Algemeen', items: general })
+    return ordered
+  }, [roleplays, themes])
+
+  if (active) {
+    const close = () => {
+      setActive(null)
+      if (params.get('rp')) setParams({}, { replace: true })
+    }
+    return <Player rp={active} onBack={close} />
+  }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-5">
       <div>
         <h1 className="text-xl font-extrabold text-slate-900">Gesprekken</h1>
         <p className="mt-1 text-sm text-slate-500">
-          Oefen echte situaties. De app spreekt; jij leest jouw zinnen hardop.
+          Oefen echte situaties — minstens één per hoofdstuk. De app spreekt; jij leest jouw
+          zinnen hardop.
         </p>
       </div>
-      <div className="space-y-2">
-        {roleplays.map((rp) => (
-          <button key={rp.id} onClick={() => setActive(rp)} className="w-full text-left">
-            <Panel className="flex items-center justify-between gap-3 p-4">
-              <span>
-                <span className="block text-sm font-bold text-slate-900">{rp.titleNl}</span>
-                <span className="block text-xs text-slate-500">
-                  {rp.setting} · {rp.titleEn}
-                </span>
-              </span>
-              <span className="text-slate-300">›</span>
-            </Panel>
-          </button>
-        ))}
-        {roleplays.length === 0 && (
-          <p className="text-center text-sm text-slate-400">Nog geen gesprekken.</p>
-        )}
-      </div>
+
+      {groups.map((g) => (
+        <div key={g.key} className="space-y-2">
+          <h2 className="px-1 text-xs font-bold uppercase tracking-wide text-slate-400">
+            {g.label}
+          </h2>
+          <div className="space-y-2">
+            {g.items.map((rp) => (
+              <button key={rp.id} onClick={() => setActive(rp)} className="w-full text-left">
+                <Panel className="flex items-center justify-between gap-3 p-4">
+                  <span>
+                    <span className="block text-sm font-bold text-slate-900">{rp.titleNl}</span>
+                    <span className="block text-xs text-slate-500">
+                      {rp.setting} · {rp.titleEn}
+                    </span>
+                  </span>
+                  <span className="text-slate-300">›</span>
+                </Panel>
+              </button>
+            ))}
+          </div>
+        </div>
+      ))}
+
+      {roleplays.length === 0 && (
+        <p className="text-center text-sm text-slate-400">Nog geen gesprekken.</p>
+      )}
     </div>
   )
 }

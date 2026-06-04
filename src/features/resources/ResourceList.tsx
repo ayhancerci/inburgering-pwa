@@ -26,9 +26,10 @@ const ORDER: Resource['type'][] = [
 
 export function ResourceList() {
   const { resources } = loadContent()
+  // Only the general resources here; chapter-specific ones (themeId) show inside each lesson.
   const groups = ORDER.map((type) => ({
     type,
-    items: resources.filter((r) => r.type === type),
+    items: resources.filter((r) => r.type === type && !r.themeId),
   })).filter((g) => g.items.length > 0)
 
   return (

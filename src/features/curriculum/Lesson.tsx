@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { loadContent } from '../../content'
 import { Panel } from '../../components/ui'
 import { SpeakButton } from '../../components/SpeakButton'
 import { useTranslationPref } from '../../store/prefs'
@@ -41,6 +42,14 @@ export function Lesson({
   onBack: () => void
 }) {
   const { show, toggle } = useTranslationPref()
+  const { roleplays, resources } = loadContent()
+  const themeRoleplays = roleplays.filter((r) => r.themeId === theme.id)
+  const themeResources = resources.filter((r) => r.themeId === theme.id)
+
+  // Give each speaker in the example dialogue its own voice (1st = female, 2nd = male).
+  const speakers: string[] = []
+  for (const l of lesson.dialogue.lines) if (!speakers.includes(l.speaker)) speakers.push(l.speaker)
+
   const ytUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(
     `Nederlands leren ${theme.titleNl} A2`,
   )}`
@@ -120,18 +129,21 @@ export function Lesson({
           {show && lesson.dialogue.title && (
             <p className="text-xs italic text-slate-400">{lesson.dialogue.title}</p>
           )}
-          {lesson.dialogue.lines.map((l, i) => (
-            <div key={i} className="flex items-start gap-2">
-              <SpeakButton text={l.nl} className="mt-0.5" />
-              <div className="flex-1">
-                <p className="text-sm text-slate-800">
-                  <span className="font-bold text-yellow-700">{l.speaker}: </span>
-                  {l.nl}
-                </p>
-                {show && <p className="text-xs text-slate-400">{l.en}</p>}
+          {lesson.dialogue.lines.map((l, i) => {
+            const voice = l.voice ?? (speakers.indexOf(l.speaker) % 2 === 0 ? 'f' : 'm')
+            return (
+              <div key={i} className="flex items-start gap-2">
+                <SpeakButton text={l.nl} voice={voice} className="mt-0.5" />
+                <div className="flex-1">
+                  <p className="text-sm text-slate-800">
+                    <span className="font-bold text-yellow-700">{l.speaker}: </span>
+                    {l.nl}
+                  </p>
+                  {show && <p className="text-xs text-slate-400">{l.en}</p>}
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          })}
         </Panel>
       </section>
 
@@ -150,9 +162,38 @@ export function Lesson({
         </Panel>
       </section>
 
+      {themeRoleplays.length > 0 && (
+        <section className="space-y-2">
+          <SectionTitle>🎭 Oefen het gesprek</SectionTitle>
+          <Panel className="divide-y divide-slate-100">
+            {themeRoleplays.map((rp) => (
+              <Link key={rp.id} to={`/gesprekken?rp=${rp.id}`} className="block px-4 py-3">
+                <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
+                  💬 {rp.titleNl} <span className="text-sky-500">›</span>
+                </span>
+                <span className="text-xs text-slate-400">
+                  {rp.setting}
+                  {show ? ` · ${rp.titleEn}` : ''}
+                </span>
+              </Link>
+            ))}
+          </Panel>
+        </section>
+      )}
+
       <section className="space-y-2">
         <SectionTitle>📺 Meer over dit thema</SectionTitle>
         <Panel className="divide-y divide-slate-100">
+          {themeResources.map((r) => (
+            <a key={r.id} href={r.url} target="_blank" rel="noreferrer" className="block px-4 py-3">
+              <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
+                {r.title} <span className="text-sky-500">↗</span>
+              </span>
+              {r.description && (
+                <span className="block text-xs text-slate-400">{r.description}</span>
+              )}
+            </a>
+          ))}
           <a href={ytUrl} target="_blank" rel="noreferrer" className="block px-4 py-3">
             <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
               🎬 Video's zoeken: {theme.titleNl} <span className="text-sky-500">↗</span>
@@ -163,7 +204,9 @@ export function Lesson({
             <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
               📚 Alle bronnen <span className="text-sky-500">›</span>
             </span>
-            <span className="text-xs text-slate-400">video's, lezen, luisteren &amp; oefenexamens</span>
+            <span className="text-xs text-slate-400">
+              video's, lezen, luisteren &amp; oefenexamens
+            </span>
           </Link>
         </Panel>
       </section>

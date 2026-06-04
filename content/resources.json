@@ -18,6 +18,69 @@
     { "id": "res-eenbeetjenederlands", "title": "Een Beetje Nederlands (podcast)", "url": "https://www.eenbeetjenederlands.nl", "type": "podcast", "skill": "listening", "level": "A2", "free": true, "description": "A podcast in slow, clear Dutch for learners — with full transcripts." },
 
     { "id": "res-dutchgrammar", "title": "Dutch Grammar (dutchgrammar.com)", "url": "https://www.dutchgrammar.com", "type": "grammar", "skill": "grammar", "level": "A2", "free": true, "description": "Clear English explanations of all the Dutch grammar you need." },
-    { "id": "res-zichtbaar", "title": "Zichtbaar Nederlands", "url": "https://zichtbaarnederlands.nl", "type": "grammar", "skill": "grammar", "level": "A2", "free": true, "description": "Visual grammar — word order and sentence structure made simple." }
+    { "id": "res-zichtbaar", "title": "Zichtbaar Nederlands", "url": "https://zichtbaarnederlands.nl", "type": "grammar", "skill": "grammar", "level": "A2", "free": true, "description": "Visual grammar — word order and sentence structure made simple." },
+
+    { "id": "t01-yt", "themeId": "link-0a2-01", "title": "Video's: jezelf voorstellen", "url": "https://www.youtube.com/results?search_query=jezelf+voorstellen+in+het+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Filmpjes over jezelf voorstellen, het alfabet en spellen." },
+    { "id": "t01-digid", "themeId": "link-0a2-01", "title": "DigiD — inloggen bij de overheid", "url": "https://www.digid.nl", "type": "practice", "free": true, "description": "Veel formulieren vul je online in met je DigiD. Lees hoe het werkt." },
+
+    { "id": "t02-yt", "themeId": "link-0a2-02", "title": "Video's: boodschappen doen", "url": "https://www.youtube.com/results?search_query=boodschappen+doen+Nederlands+woordenschat+A2", "type": "video", "level": "A2", "free": true, "description": "Woorden voor de supermarkt en hulp vragen in de winkel." },
+    { "id": "t02-ah", "themeId": "link-0a2-02", "title": "Albert Heijn — webshop", "url": "https://www.ah.nl", "type": "reading", "free": true, "description": "Lees productnamen en aanbiedingen om winkelwoorden te oefenen." },
+
+    { "id": "t03-yt", "themeId": "link-0a2-03", "title": "Video's: een praatje maken", "url": "https://www.youtube.com/results?search_query=small+talk+het+weer+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Praten over het weer, groeten en uitnodigen." },
+    { "id": "t03-buienradar", "themeId": "link-0a2-03", "title": "Buienradar — het weer", "url": "https://www.buienradar.nl", "type": "reading", "free": true, "description": "Lees de weersverwachting in het Nederlands en leer weerwoorden." },
+
+    { "id": "t04-yt", "themeId": "link-0a2-04", "title": "Video's: eten bestellen", "url": "https://www.youtube.com/results?search_query=in+het+restaurant+bestellen+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Bestellen in een restaurant en praten over eten." },
+    { "id": "t04-allerhande", "themeId": "link-0a2-04", "title": "Allerhande — recepten", "url": "https://www.ah.nl/allerhande", "type": "reading", "free": true, "description": "Lees eenvoudige recepten en leer woorden voor eten en koken." },
+
+    { "id": "t05-yt", "themeId": "link-0a2-05", "title": "Video's: wonen en huren", "url": "https://www.youtube.com/results?search_query=een+huis+huren+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Woorden voor kamers, meubels en het huren van een woning." },
+    { "id": "t05-funda", "themeId": "link-0a2-05", "title": "Funda — woningen", "url": "https://www.funda.nl", "type": "reading", "free": true, "description": "Lees advertenties van huizen: kamers, huur en de buurt." },
+
+    { "id": "t06-yt", "themeId": "link-0a2-06", "title": "Video's: reizen en de weg vragen", "url": "https://www.youtube.com/results?search_query=reizen+met+de+trein+de+weg+vragen+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Reizen met het ov en iemand de weg vragen." },
+    { "id": "t06-9292", "themeId": "link-0a2-06", "title": "9292 — reisplanner", "url": "https://9292.nl", "type": "practice", "free": true, "description": "Plan een reis met trein, bus of tram. Goede oefening met tijden en haltes." },
+
+    { "id": "t07-yt", "themeId": "link-0a2-07", "title": "Video's: bij de dokter", "url": "https://www.youtube.com/results?search_query=bij+de+dokter+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Een afspraak maken en je klachten uitleggen." },
+    { "id": "t07-thuisarts", "themeId": "link-0a2-07", "title": "Thuisarts.nl — gezondheid", "url": "https://www.thuisarts.nl", "type": "reading", "free": true, "description": "Betrouwbare, eenvoudige informatie over klachten en de huisarts." },
+
+    { "id": "t08-yt", "themeId": "link-0a2-08", "title": "Video's: in de buurt", "url": "https://www.youtube.com/results?search_query=de+buurt+en+de+buren+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Praten over je buurt en kennismaken met de buren." },
+    { "id": "t08-juridischloket", "themeId": "link-0a2-08", "title": "Het Juridisch Loket — burenoverlast", "url": "https://www.juridischloket.nl", "type": "reading", "free": true, "description": "Gratis advies bij problemen met buren of de woning." },
+
+    { "id": "t09-yt", "themeId": "link-0a2-09", "title": "Video's: kopen en ruilen", "url": "https://www.youtube.com/results?search_query=kleren+kopen+en+ruilen+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Kleren kopen, ruilen en je geld terugvragen." },
+    { "id": "t09-consuwijzer", "themeId": "link-0a2-09", "title": "ConsuWijzer — je rechten", "url": "https://www.consuwijzer.nl", "type": "reading", "free": true, "description": "Wat zijn je rechten als je iets koopt, ruilt of terugstuurt?" },
+
+    { "id": "t10-yt", "themeId": "link-0a2-10", "title": "Video's: veiligheid en de politie", "url": "https://www.youtube.com/results?search_query=112+bellen+en+de+politie+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Een ongeluk melden en de politie bellen." },
+    { "id": "t10-politie", "themeId": "link-0a2-10", "title": "Politie.nl — aangifte doen", "url": "https://www.politie.nl", "type": "practice", "free": true, "description": "Lees hoe en wanneer je aangifte doet of 112 belt." },
+
+    { "id": "t11-yt", "themeId": "link-0a2-11", "title": "Video's: plannen maken", "url": "https://www.youtube.com/results?search_query=afspreken+en+uitnodigen+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Uitnodigen, afspreken en beleefd nee zeggen." },
+    { "id": "t11-bartdepau", "themeId": "link-0a2-11", "title": "Bart de Pau — gratis lessen", "url": "https://www.learndutch.org/", "type": "video", "level": "A2", "free": true, "description": "Gratis videolessen over dagelijkse situaties, zoals afspreken." },
+
+    { "id": "t12-yt", "themeId": "link-0a2-12", "title": "Video's: op school", "url": "https://www.youtube.com/results?search_query=op+school+basisschool+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "School, je kind ziek melden en je studieplannen." },
+    { "id": "t12-klokhuis", "themeId": "link-0a2-12", "title": "Het Klokhuis", "url": "https://hetklokhuis.nl", "type": "video", "free": true, "description": "Korte, leerzame filmpjes in duidelijk Nederlands — goed voor begrip." },
+
+    { "id": "t13-yt", "themeId": "link-0a2-13", "title": "Video's: in en om het huis", "url": "https://www.youtube.com/results?search_query=apparaten+en+reparatie+thuis+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Apparaten, gas en elektriciteit en een reparatie regelen." },
+    { "id": "t13-milieucentraal", "themeId": "link-0a2-13", "title": "Milieu Centraal — energie besparen", "url": "https://www.milieucentraal.nl", "type": "reading", "free": true, "description": "Tips over gas, water en elektriciteit thuis." },
+
+    { "id": "t14-yt", "themeId": "link-0a2-14", "title": "Video's: familie", "url": "https://www.youtube.com/results?search_query=familie+en+relaties+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Familieleden, bezoek en relaties." },
+    { "id": "t14-rijksoverheid", "themeId": "link-0a2-14", "title": "Rijksoverheid — trouwen en samenwonen", "url": "https://www.rijksoverheid.nl/onderwerpen/trouwen-samenlevingscontract-en-geregistreerd-partnerschap", "type": "reading", "free": true, "description": "Officiële informatie over trouwen, samenwonen en scheiden." },
+
+    { "id": "t15-yt", "themeId": "link-0a2-15", "title": "Video's: vrije tijd en sport", "url": "https://www.youtube.com/results?search_query=sport+en+hobby+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Lid worden van een club, sport en hobby's." },
+    { "id": "t15-yt2", "themeId": "link-0a2-15", "title": "Video's: uiterlijk beschrijven", "url": "https://www.youtube.com/results?search_query=uiterlijk+beschrijven+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Woorden om iemands uiterlijk te beschrijven." },
+
+    { "id": "t16-yt", "themeId": "link-0a2-16", "title": "Video's: zaken regelen", "url": "https://www.youtube.com/results?search_query=afval+scheiden+en+het+gemeentehuis+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Afval scheiden, het gemeentehuis en verzekeringen." },
+    { "id": "t16-rijksoverheid", "themeId": "link-0a2-16", "title": "Rijksoverheid.nl", "url": "https://www.rijksoverheid.nl", "type": "practice", "free": true, "description": "Officiële informatie over de overheid, DigiD en zaken online regelen." },
+    { "id": "t16-afval", "themeId": "link-0a2-16", "title": "Milieu Centraal — afval scheiden", "url": "https://www.milieucentraal.nl/afval-scheiden-en-recyclen/", "type": "reading", "free": true, "description": "Waar gooi je het in? Lees hoe je afval scheidt in Nederland." },
+
+    { "id": "t17-yt", "themeId": "link-0a2-17", "title": "Video's: solliciteren", "url": "https://www.youtube.com/results?search_query=solliciteren+in+het+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Je kwaliteiten, je netwerk en een sollicitatiegesprek." },
+    { "id": "t17-werk", "themeId": "link-0a2-17", "title": "UWV werk.nl — werk zoeken", "url": "https://www.werk.nl", "type": "practice", "free": true, "description": "Zoek werk en lees vacatures; oefen sollicitatiewoorden." },
+    { "id": "t17-vacaturebank", "themeId": "link-0a2-17", "title": "Nationale Vacaturebank", "url": "https://www.nationalevacaturebank.nl", "type": "reading", "free": true, "description": "Lees echte vacatures in het Nederlands." },
+
+    { "id": "t18-yt", "themeId": "link-0a2-18", "title": "Video's: natuur en weer", "url": "https://www.youtube.com/results?search_query=de+natuur+en+het+weer+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Het weer, het klimaat, huisdieren en de natuur." },
+    { "id": "t18-staatsbosbeheer", "themeId": "link-0a2-18", "title": "Staatsbosbeheer — natuur", "url": "https://www.staatsbosbeheer.nl", "type": "reading", "free": true, "description": "Lees over natuurgebieden en planten en dieren in Nederland." },
+
+    { "id": "t19-yt", "themeId": "link-0a2-19", "title": "Video's: geld en belasting", "url": "https://www.youtube.com/results?search_query=geld+en+de+belasting+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Geld uitgeven, sparen, budget en de belasting." },
+    { "id": "t19-nibud", "themeId": "link-0a2-19", "title": "Nibud — omgaan met geld", "url": "https://www.nibud.nl", "type": "reading", "free": true, "description": "Tips over budgetteren, sparen en geld uitgeven." },
+    { "id": "t19-belastingdienst", "themeId": "link-0a2-19", "title": "Belastingdienst", "url": "https://www.belastingdienst.nl", "type": "practice", "free": true, "description": "Lees over de aanslag, toeslagen en betalen." },
+
+    { "id": "t20-yt", "themeId": "link-0a2-20", "title": "Video's: media en nieuws", "url": "https://www.youtube.com/results?search_query=het+nieuws+en+sociale+media+Nederlands+A2", "type": "video", "level": "A2", "free": true, "description": "Tv, sociale media en het nieuws." },
+    { "id": "t20-nu", "themeId": "link-0a2-20", "title": "NU.nl — het laatste nieuws", "url": "https://www.nu.nl", "type": "reading", "free": true, "description": "Lees korte nieuwsberichten in het Nederlands." }
   ]
 }

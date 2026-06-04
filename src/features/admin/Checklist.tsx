@@ -7,6 +7,7 @@ import { Panel, Badge } from '../../components/ui'
 import type { ChecklistItemDef } from '../../content/schemas'
 import { BackupCard } from './BackupCard'
 import { TextSizeCard } from './TextSizeCard'
+import { VoiceCard } from './VoiceCard'
 
 const CATEGORY_LABEL: Record<ChecklistItemDef['category'], string> = {
   gemeente: 'Gemeente (PIP · PVT · MAP)',
@@ -82,6 +83,8 @@ export function Checklist() {
           </Panel>
         )
       })}
+      <VoiceCard />
+
       <TextSizeCard />
 
       <BackupCard />

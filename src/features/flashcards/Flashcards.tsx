@@ -9,6 +9,7 @@ import { rateCard } from '../../db/repo'
 import { Rating } from '../../srs/scheduler'
 import type { Grade } from '../../srs/scheduler'
 import { Panel, Button, ProgressBar, cx } from '../../components/ui'
+import { SpeakButton } from '../../components/SpeakButton'
 
 type Phase = 'select' | 'review' | 'done'
 
@@ -136,7 +137,10 @@ export function Flashcards() {
       </div>
 
       <Panel className="flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center">
-        <p className="text-2xl font-bold text-slate-900">{current?.card.front}</p>
+        <div className="flex items-center justify-center gap-3">
+          <p className="text-2xl font-bold text-slate-900">{current?.card.front}</p>
+          {current && <SpeakButton text={current.card.front} />}
+        </div>
         {showBack && (
           <>
             <hr className="w-12 border-slate-200" />

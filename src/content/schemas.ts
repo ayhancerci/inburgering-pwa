@@ -43,6 +43,7 @@ export const questionSchema = z.object({
   skill: skillSchema,
   format: z.enum(['mcq', 'fill_blank', 'cloze']),
   prompt: z.string(),
+  audioText: z.string().optional(), // spoken aloud (TTS) for listening items; not shown unless revealed
   options: z.array(z.string()).optional(),
   answer: z.union([z.string(), z.array(z.string())]),
   explanation: z.string().optional(),

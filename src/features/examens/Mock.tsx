@@ -4,11 +4,49 @@ import { useActiveProfile } from '../../store/profile'
 import { saveQuizAttempt } from '../../db/repo'
 import { Panel, Button, ProgressBar, cx } from '../../components/ui'
 import { QuestionInput, isCorrect, answerToText, correctText, type Answer } from '../quiz/Quiz'
+import { speak } from '../../lib/tts'
 import type { Question } from '../../content/schemas'
 
 function fmt(totalSec: number): string {
   const s = Math.max(0, totalSec)
   return `${Math.floor(s / 60)}:${(s % 60).toString().padStart(2, '0')}`
+}
+
+// Listening item: play the fragment aloud (TTS); transcript hidden until revealed.
+function AudioBlock({ text }: { text: string }) {
+  const [showText, setShowText] = useState(false)
+  return (
+    <div className="space-y-2 rounded-xl bg-sky-50 p-3">
+      <div className="flex items-center gap-2">
+        <button
+          type="button"
+          onClick={() => speak(text)}
+          className="inline-flex items-center gap-2 rounded-xl bg-sky-600 px-4 py-2 text-sm font-bold text-white"
+        >
+          ▶ Speel het fragment af
+        </button>
+        <button
+          type="button"
+          onClick={() => speak(text)}
+          aria-label="Opnieuw afspelen"
+          className="rounded-xl bg-white px-3 py-2 text-sm ring-1 ring-slate-200"
+        >
+          🔁
+        </button>
+      </div>
+      {showText ? (
+        <p className="text-xs text-slate-500">📝 {text}</p>
+      ) : (
+        <button
+          type="button"
+          onClick={() => setShowText(true)}
+          className="text-xs font-semibold text-sky-700 underline"
+        >
+          Toon transcript
+        </button>
+      )}
+    </div>
+  )
 }
 
 export function Mock({
@@ -97,6 +135,9 @@ export function Mock({
                 <span>{ok ? '✅' : '❌'}</span>
                 <div className="flex-1">
                   <p className="whitespace-pre-line text-sm font-medium text-slate-800">{q.prompt}</p>
+                  {q.audioText && (
+                    <p className="mt-1 text-xs italic text-slate-500">🔊 {q.audioText}</p>
+                  )}
                   {!ok && (
                     <p className="mt-1 text-xs text-slate-500">
                       Jouw antwoord: <span className="text-rose-600">{answerToText(given)}</span>
@@ -150,6 +191,7 @@ export function Mock({
       </p>
 
       <Panel className="flex-1 space-y-4 p-5">
+        {q.audioText && <AudioBlock key={q.id} text={q.audioText} />}
         {q.format !== 'cloze' && (
           <p className="whitespace-pre-line text-base font-medium text-slate-900">{q.prompt}</p>
         )}

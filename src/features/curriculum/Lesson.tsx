@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Panel } from '../../components/ui'
+import { SpeakButton } from '../../components/SpeakButton'
 import { useTranslationPref } from '../../store/prefs'
 import type { Lesson as LessonType, Theme } from '../../content/schemas'
 
@@ -74,12 +75,15 @@ export function Lesson({
             <h3 className="font-bold text-slate-900">{g.title}</h3>
             {show && <p className="text-sm leading-relaxed text-slate-700">{g.explanation}</p>}
             {g.examples && g.examples.length > 0 && (
-              <div className="space-y-1 rounded-xl bg-slate-50 p-3">
+              <div className="space-y-1.5 rounded-xl bg-slate-50 p-3">
                 {g.examples.map((ex, j) => (
-                  <p key={j} className="text-sm">
-                    <span className="font-semibold text-slate-800">{ex.nl}</span>
-                    {show && <span className="text-slate-400"> — {ex.en}</span>}
-                  </p>
+                  <div key={j} className="flex items-start gap-2 text-sm">
+                    <SpeakButton text={ex.nl} className="mt-0.5" />
+                    <p>
+                      <span className="font-semibold text-slate-800">{ex.nl}</span>
+                      {show && <span className="text-slate-400"> — {ex.en}</span>}
+                    </p>
+                  </div>
                 ))}
               </div>
             )}
@@ -96,9 +100,12 @@ export function Lesson({
         <SectionTitle>🗣️ Handige zinnen</SectionTitle>
         <Panel className="divide-y divide-slate-100">
           {lesson.phrases.map((p, i) => (
-            <div key={i} className="px-4 py-2">
-              <span className="block text-sm font-semibold text-slate-800">{p.nl}</span>
-              {show && <span className="block text-xs text-slate-400">{p.en}</span>}
+            <div key={i} className="flex items-center gap-2 px-4 py-2">
+              <SpeakButton text={p.nl} />
+              <span className="flex-1">
+                <span className="block text-sm font-semibold text-slate-800">{p.nl}</span>
+                {show && <span className="block text-xs text-slate-400">{p.en}</span>}
+              </span>
             </div>
           ))}
         </Panel>
@@ -111,12 +118,15 @@ export function Lesson({
             <p className="text-xs italic text-slate-400">{lesson.dialogue.title}</p>
           )}
           {lesson.dialogue.lines.map((l, i) => (
-            <div key={i}>
-              <p className="text-sm text-slate-800">
-                <span className="font-bold text-yellow-700">{l.speaker}: </span>
-                {l.nl}
-              </p>
-              {show && <p className="text-xs text-slate-400">{l.en}</p>}
+            <div key={i} className="flex items-start gap-2">
+              <SpeakButton text={l.nl} className="mt-0.5" />
+              <div className="flex-1">
+                <p className="text-sm text-slate-800">
+                  <span className="font-bold text-yellow-700">{l.speaker}: </span>
+                  {l.nl}
+                </p>
+                {show && <p className="text-xs text-slate-400">{l.en}</p>}
+              </div>
             </div>
           ))}
         </Panel>

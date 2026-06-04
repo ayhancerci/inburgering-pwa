@@ -2,7 +2,7 @@
   "exams": [
     { "id": "knm", "titleNl": "KNM", "titleEn": "Knowledge of Dutch Society", "durationMin": 45, "officialUrl": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "mockQuizId": "mock-knm", "info": "40 meerkeuzevragen over de Nederlandse samenleving." },
     { "id": "lezen", "titleNl": "Lezen", "titleEn": "Reading", "durationMin": 65, "officialUrl": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "mockQuizId": "mock-lezen", "info": "Teksten lezen en vragen beantwoorden." },
-    { "id": "luisteren", "titleNl": "Luisteren", "titleEn": "Listening", "durationMin": 45, "officialUrl": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "info": "Video's en audio met vragen — oefen met de officiële versie (met geluid)." },
+    { "id": "luisteren", "titleNl": "Luisteren", "titleEn": "Listening", "durationMin": 45, "officialUrl": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "mockQuizId": "mock-luisteren", "info": "Tik op ▶ om het fragment te horen en beantwoord de vraag. Oefen ook met de officiële versie." },
     { "id": "schrijven", "titleNl": "Schrijven", "titleEn": "Writing", "durationMin": 40, "officialUrl": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "info": "Korte teksten en formulieren schrijven (pen en papier)." },
     { "id": "spreken", "titleNl": "Spreken", "titleEn": "Speaking", "durationMin": 35, "officialUrl": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "info": "Reageren op afbeeldingen en video — oefen met de officiële versie." }
   ]

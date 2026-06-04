@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t19", "title": "Thema 19 — Houd je weleens geld over?", "type": "vocab", "themeId": "link-0a2-19", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t19", "title": "Thema 19 — Houd je weleens geld over?", "type": "vocab", "themeId": "thema-19", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t19-01", "deckId": "deck-t19", "front": "het geld", "back": "the money", "examples": ["Aan het eind van de maand heb ik geen geld meer."] },
     { "id": "c-t19-02", "deckId": "deck-t19", "front": "uitgeven", "back": "to spend (money)", "examples": ["Ik geef te veel geld uit aan kleding."] },

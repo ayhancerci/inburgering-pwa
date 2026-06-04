@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t18", "title": "Thema 18 — De natuur is overal", "type": "vocab", "themeId": "link-0a2-18", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t18", "title": "Thema 18 — De natuur is overal", "type": "vocab", "themeId": "thema-18", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t18-01", "deckId": "deck-t18", "front": "het weer", "back": "the weather", "examples": ["Het weer is vandaag mooi en zonnig."] },
     { "id": "c-t18-02", "deckId": "deck-t18", "front": "de natuur", "back": "the nature", "examples": ["Ik hou van de natuur en wandel graag."] },

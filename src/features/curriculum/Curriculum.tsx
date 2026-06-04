@@ -1,34 +1,34 @@
 import { useMemo, useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { loadContent } from '../../content'
-import { Panel, Badge, cx } from '../../components/ui'
+import { Panel, cx } from '../../components/ui'
 import { Lesson } from './Lesson'
 import { Basics } from './Basics'
 import type { Theme, BasicsChapter, Lesson as LessonType } from '../../content/schemas'
 
-// Which Basis chapters support each LINK theme (so you can follow the Basis while doing the
+// Which Basis chapters support each course theme (so you can follow the Basis while doing the
 // theme in the book + app). A chapter may support several themes. Keep ids in sync.
 const THEME_BASIS: Record<string, string[]> = {
-  'link-0a2-01': ['basis-begroeten', 'basis-beschrijf-ik', 'basis-voornaamwoorden'],
-  'link-0a2-02': ['basis-boodschappen', 'basis-geld'],
-  'link-0a2-03': ['basis-gevoelens', 'basis-begroeten'],
-  'link-0a2-04': ['basis-favorieten', 'basis-woorden-dagelijks'],
-  'link-0a2-05': ['basis-huren', 'basis-woorden-dagelijks'],
-  'link-0a2-06': ['basis-vervoer', 'basis-ov', 'basis-de-weg'],
-  'link-0a2-07': ['basis-gezondheid', 'basis-woorden-mensen'],
-  'link-0a2-08': ['basis-begroeten', 'basis-de-weg'],
-  'link-0a2-09': ['basis-kleuren-kleding', 'basis-geld', 'basis-internet-digid'],
-  'link-0a2-10': ['basis-noodgevallen'],
-  'link-0a2-11': ['basis-plannen', 'basis-vrije-tijd'],
-  'link-0a2-12': ['basis-inburgering', 'basis-vertellen'],
-  'link-0a2-13': ['basis-huren', 'basis-internet-digid'],
-  'link-0a2-14': ['basis-woorden-mensen', 'basis-telefoneren'],
-  'link-0a2-15': ['basis-vrije-tijd', 'basis-kleuren-kleding'],
-  'link-0a2-16': ['basis-inburgering', 'basis-internet-digid', 'basis-bank-post', 'basis-noodgevallen'],
-  'link-0a2-17': ['basis-brieven', 'basis-beschrijf-ik'],
-  'link-0a2-18': ['basis-natuur-landschap', 'basis-getallen'],
-  'link-0a2-19': ['basis-geld', 'basis-bank-post'],
-  'link-0a2-20': ['basis-mening', 'basis-vertellen', 'basis-internet-digid'],
+  'thema-01': ['basis-begroeten', 'basis-beschrijf-ik', 'basis-voornaamwoorden'],
+  'thema-02': ['basis-boodschappen', 'basis-geld'],
+  'thema-03': ['basis-gevoelens', 'basis-begroeten'],
+  'thema-04': ['basis-favorieten', 'basis-woorden-dagelijks'],
+  'thema-05': ['basis-huren', 'basis-woorden-dagelijks'],
+  'thema-06': ['basis-vervoer', 'basis-ov', 'basis-de-weg'],
+  'thema-07': ['basis-gezondheid', 'basis-woorden-mensen'],
+  'thema-08': ['basis-begroeten', 'basis-de-weg'],
+  'thema-09': ['basis-kleuren-kleding', 'basis-geld', 'basis-internet-digid'],
+  'thema-10': ['basis-noodgevallen'],
+  'thema-11': ['basis-plannen', 'basis-vrije-tijd'],
+  'thema-12': ['basis-inburgering', 'basis-vertellen'],
+  'thema-13': ['basis-huren', 'basis-internet-digid'],
+  'thema-14': ['basis-woorden-mensen', 'basis-telefoneren'],
+  'thema-15': ['basis-vrije-tijd', 'basis-kleuren-kleding'],
+  'thema-16': ['basis-inburgering', 'basis-internet-digid', 'basis-bank-post', 'basis-noodgevallen'],
+  'thema-17': ['basis-brieven', 'basis-beschrijf-ik'],
+  'thema-18': ['basis-natuur-landschap', 'basis-getallen'],
+  'thema-19': ['basis-geld', 'basis-bank-post'],
+  'thema-20': ['basis-mening', 'basis-vertellen', 'basis-internet-digid'],
 }
 
 // General Basis groups (foundational chapters that apply to every theme), shown below the themes.
@@ -226,7 +226,6 @@ function ThemePanel({
                 ✍️ Quiz
               </Link>
             )}
-            {t.page && <Badge>p. {t.page}</Badge>}
           </div>
         </div>
       )}
@@ -299,7 +298,7 @@ export function Curriculum() {
   return (
     <div className="space-y-4">
       <div>
-        <h1 className="text-xl font-extrabold text-slate-900">Cursus — LINK 0 → A2</h1>
+        <h1 className="text-xl font-extrabold text-slate-900">Cursus — 0 → A2</h1>
         <p className="mt-1 text-sm text-slate-500">
           Open een thema om de les én de <span className="font-semibold text-indigo-600">Basis bij dit thema</span> te
           zien — die volg je ernaast in de app en in het boek. Daaronder staan de algemene Basis-onderwerpen en de
@@ -307,7 +306,7 @@ export function Curriculum() {
         </p>
       </div>
 
-      <GroupSection label="📖 LINK-thema's (0 → A2)" count={themes.length} defaultOpen>
+      <GroupSection label="📖 Cursusthema's (0 → A2)" count={themes.length} defaultOpen>
         {themes.map((t) => (
           <ThemePanel
             key={t.id}

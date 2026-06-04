@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t13", "title": "Thema 13 — We gebruiken het iedere dag", "type": "vocab", "themeId": "link-0a2-13", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t13", "title": "Thema 13 — We gebruiken het iedere dag", "type": "vocab", "themeId": "thema-13", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t13-01", "deckId": "deck-t13", "front": "de afwasmachine", "back": "the dishwasher", "examples": ["De afwasmachine is kapot."] },
     { "id": "c-t13-02", "deckId": "deck-t13", "front": "de wasmachine", "back": "the washing machine", "examples": ["Ik gebruik de wasmachine iedere dag."] },

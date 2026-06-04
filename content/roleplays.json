@@ -2,7 +2,7 @@
   "roleplays": [
     {
       "id": "rp-kennismaken-cursus",
-      "themeId": "link-0a2-01",
+      "themeId": "thema-01",
       "titleNl": "Jezelf voorstellen",
       "titleEn": "Introducing yourself",
       "setting": "Bij de taalschool",
@@ -22,7 +22,7 @@
     },
     {
       "id": "rp-supermarkt",
-      "themeId": "link-0a2-02",
+      "themeId": "thema-02",
       "titleNl": "Hulp vragen in de winkel",
       "titleEn": "Asking for help in the shop",
       "setting": "In de supermarkt",
@@ -41,7 +41,7 @@
     },
     {
       "id": "rp-kletspraatje",
-      "themeId": "link-0a2-03",
+      "themeId": "thema-03",
       "titleNl": "Een praatje maken",
       "titleEn": "Making small talk",
       "setting": "Op straat",
@@ -60,7 +60,7 @@
     },
     {
       "id": "rp-restaurant",
-      "themeId": "link-0a2-04",
+      "themeId": "thema-04",
       "titleNl": "Eten bestellen",
       "titleEn": "Ordering food",
       "setting": "In het restaurant",
@@ -79,7 +79,7 @@
     },
     {
       "id": "rp-bezichtiging",
-      "themeId": "link-0a2-05",
+      "themeId": "thema-05",
       "titleNl": "Een woning bezichtigen",
       "titleEn": "Viewing a home",
       "setting": "Bij een huurwoning",
@@ -99,7 +99,7 @@
     },
     {
       "id": "rp-station",
-      "themeId": "link-0a2-06",
+      "themeId": "thema-06",
       "titleNl": "De trein en de weg",
       "titleEn": "The train and directions",
       "setting": "Op het station",
@@ -118,7 +118,7 @@
     },
     {
       "id": "rp-huisarts",
-      "themeId": "link-0a2-07",
+      "themeId": "thema-07",
       "titleNl": "Naar de dokter bellen",
       "titleEn": "Calling the doctor",
       "setting": "Bij de huisarts",
@@ -138,7 +138,7 @@
     },
     {
       "id": "rp-buren",
-      "themeId": "link-0a2-08",
+      "themeId": "thema-08",
       "titleNl": "Kennismaken met de buren",
       "titleEn": "Meeting the neighbours",
       "setting": "In de buurt",
@@ -156,7 +156,7 @@
     },
     {
       "id": "rp-winkel",
-      "themeId": "link-0a2-09",
+      "themeId": "thema-09",
       "titleNl": "Iets ruilen in de winkel",
       "titleEn": "Exchanging an item",
       "setting": "In de winkel",
@@ -176,7 +176,7 @@
     },
     {
       "id": "rp-politie",
-      "themeId": "link-0a2-10",
+      "themeId": "thema-10",
       "titleNl": "Aangifte doen",
       "titleEn": "Filing a police report",
       "setting": "Bij de politie",
@@ -196,7 +196,7 @@
     },
     {
       "id": "rp-bioscoop",
-      "themeId": "link-0a2-11",
+      "themeId": "thema-11",
       "titleNl": "Afspreken met een vriend",
       "titleEn": "Making plans with a friend",
       "setting": "Aan de telefoon",
@@ -215,7 +215,7 @@
     },
     {
       "id": "rp-school",
-      "themeId": "link-0a2-12",
+      "themeId": "thema-12",
       "titleNl": "Je kind ziek melden",
       "titleEn": "Reporting your child sick",
       "setting": "Op school",
@@ -233,7 +233,7 @@
     },
     {
       "id": "rp-monteur",
-      "themeId": "link-0a2-13",
+      "themeId": "thema-13",
       "titleNl": "Een reparatie regelen",
       "titleEn": "Arranging a repair",
       "setting": "Aan de telefoon",
@@ -253,7 +253,7 @@
     },
     {
       "id": "rp-familie",
-      "themeId": "link-0a2-14",
+      "themeId": "thema-14",
       "titleNl": "Familie bellen",
       "titleEn": "Calling family",
       "setting": "Aan de telefoon",
@@ -272,7 +272,7 @@
     },
     {
       "id": "rp-sportclub",
-      "themeId": "link-0a2-15",
+      "themeId": "thema-15",
       "titleNl": "Lid worden van een club",
       "titleEn": "Joining a club",
       "setting": "Bij de sportclub",
@@ -292,7 +292,7 @@
     },
     {
       "id": "rp-gemeente",
-      "themeId": "link-0a2-16",
+      "themeId": "thema-16",
       "titleNl": "Een afspraak maken",
       "titleEn": "Making an appointment",
       "setting": "Bij de gemeente",
@@ -312,7 +312,7 @@
     },
     {
       "id": "rp-sollicitatie",
-      "themeId": "link-0a2-17",
+      "themeId": "thema-17",
       "titleNl": "Een sollicitatiegesprek",
       "titleEn": "A job interview",
       "setting": "Op gesprek",
@@ -332,7 +332,7 @@
     },
     {
       "id": "rp-asiel",
-      "themeId": "link-0a2-18",
+      "themeId": "thema-18",
       "titleNl": "Een huisdier uitzoeken",
       "titleEn": "Choosing a pet",
       "setting": "In het dierenasiel",
@@ -352,7 +352,7 @@
     },
     {
       "id": "rp-belasting",
-      "themeId": "link-0a2-19",
+      "themeId": "thema-19",
       "titleNl": "Een vraag over de belasting",
       "titleEn": "A question about your taxes",
       "setting": "Aan de telefoon",
@@ -372,7 +372,7 @@
     },
     {
       "id": "rp-nieuws",
-      "themeId": "link-0a2-20",
+      "themeId": "thema-20",
       "titleNl": "Praten over het nieuws",
       "titleEn": "Talking about the news",
       "setting": "Op het werk",

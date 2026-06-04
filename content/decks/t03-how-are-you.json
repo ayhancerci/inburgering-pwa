@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t03", "title": "Thema 3 — Hoe gaat het?", "type": "vocab", "themeId": "link-0a2-03", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t03", "title": "Thema 3 — Hoe gaat het?", "type": "vocab", "themeId": "thema-03", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t03-01", "deckId": "deck-t03", "front": "Hoe gaat het met je?", "back": "How are you?", "examples": ["Hé Tom, hoe gaat het met je?"] },
     { "id": "c-t03-02", "deckId": "deck-t03", "front": "het gaat goed", "back": "it's going well", "examples": ["Met mij gaat het goed, dank je."] },

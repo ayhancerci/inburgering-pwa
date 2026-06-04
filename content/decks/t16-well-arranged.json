@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t16", "title": "Thema 16 — Goed geregeld", "type": "vocab", "themeId": "link-0a2-16", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t16", "title": "Thema 16 — Goed geregeld", "type": "vocab", "themeId": "thema-16", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t16-01", "deckId": "deck-t16", "front": "het afval", "back": "the waste / rubbish", "examples": ["Het afval wordt op maandag opgehaald."] },
     { "id": "c-t16-02", "deckId": "deck-t16", "front": "scheiden", "back": "to separate (waste)", "examples": ["In Nederland scheiden we het afval."] },

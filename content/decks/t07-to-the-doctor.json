@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t07", "title": "Thema 7 — Naar de dokter", "type": "vocab", "themeId": "link-0a2-07", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t07", "title": "Thema 7 — Naar de dokter", "type": "vocab", "themeId": "thema-07", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t07-01", "deckId": "deck-t07", "front": "de dokter", "back": "the doctor", "examples": ["Ik ga vandaag naar de dokter."] },
     { "id": "c-t07-02", "deckId": "deck-t07", "front": "de huisarts", "back": "the general practitioner (GP)", "examples": ["Mijn huisarts heeft elke ochtend spreekuur."] },

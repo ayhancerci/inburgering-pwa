@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t10", "title": "Thema 10 — Is dat wel veilig?", "type": "vocab", "themeId": "link-0a2-10", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t10", "title": "Thema 10 — Is dat wel veilig?", "type": "vocab", "themeId": "thema-10", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t10-01", "deckId": "deck-t10", "front": "veilig", "back": "safe", "examples": ["Is het hier wel veilig?"] },
     { "id": "c-t10-02", "deckId": "deck-t10", "front": "gevaarlijk", "back": "dangerous", "examples": ["Die weg is heel gevaarlijk."] },

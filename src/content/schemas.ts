@@ -129,7 +129,6 @@ export const themeSchema = z.object({
   number: z.number(),
   titleNl: z.string(),
   titleEn: z.string(),
-  page: z.number().optional(),
   deckId: z.string().optional(),
   quizId: z.string().optional(),
   tip: z.string(),
@@ -144,7 +143,7 @@ export const curriculumFileSchema = z.object({
 
 export const resourceSchema = z.object({
   id: z.string(),
-  themeId: z.string().optional(), // tag to a LINK theme; untagged = general (shown in Oefenen)
+  themeId: z.string().optional(), // tag to a course theme; untagged = general (shown in Oefenen)
   title: z.string(),
   url: z.string(),
   type: z.enum(['practice', 'video', 'reading', 'listening', 'grammar', 'podcast', 'knm', 'vocab']),
@@ -231,7 +230,7 @@ export const roleplayTurnSchema = z.object({
 
 export const roleplaySchema = z.object({
   id: z.string(),
-  themeId: z.string().optional(), // the LINK theme this conversation belongs to
+  themeId: z.string().optional(), // the course theme this conversation belongs to
   titleNl: z.string(),
   titleEn: z.string(),
   setting: z.string(),
@@ -285,7 +284,7 @@ export const basicsSectionSchema = z.discriminatedUnion('type', [
 
 export const basicsChapterSchema = z.object({
   id: z.string(),
-  sort: z.number(), // position among the LINK themes (e.g. 0.5 shows before Thema 1)
+  sort: z.number(), // position among the course themes (e.g. 0.5 shows before Thema 1)
   category: z.enum(['basis', 'examen']).default('basis'),
   icon: z.string().optional(),
   titleNl: z.string(),

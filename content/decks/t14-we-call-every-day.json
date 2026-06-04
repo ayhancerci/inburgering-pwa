@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t14", "title": "Thema 14 — We bellen iedere dag", "type": "vocab", "themeId": "link-0a2-14", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t14", "title": "Thema 14 — We bellen iedere dag", "type": "vocab", "themeId": "thema-14", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t14-01", "deckId": "deck-t14", "front": "bellen", "back": "to call / phone", "examples": ["We bellen iedere dag met oma."] },
     { "id": "c-t14-02", "deckId": "deck-t14", "front": "op bezoek komen", "back": "to come for a visit", "examples": ["Mijn zus komt morgen op bezoek."] },

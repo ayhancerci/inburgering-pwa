@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t17", "title": "Thema 17 — Ik zoek werk", "type": "vocab", "themeId": "link-0a2-17", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t17", "title": "Thema 17 — Ik zoek werk", "type": "vocab", "themeId": "thema-17", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t17-01", "deckId": "deck-t17", "front": "de baan", "back": "the job", "examples": ["Ik zoek een nieuwe baan."] },
     { "id": "c-t17-02", "deckId": "deck-t17", "front": "solliciteren", "back": "to apply (for a job)", "examples": ["Ik ga solliciteren bij een groot bedrijf."] },

@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t04", "title": "Thema 4 — Lekker!", "type": "vocab", "themeId": "link-0a2-04", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t04", "title": "Thema 4 — Lekker!", "type": "vocab", "themeId": "thema-04", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t04-01", "deckId": "deck-t04", "front": "eten", "back": "to eat / food", "examples": ["Wat gaan we vanavond eten?"] },
     { "id": "c-t04-02", "deckId": "deck-t04", "front": "het avondeten", "back": "the dinner / evening meal", "examples": ["Het avondeten is om zes uur."] },

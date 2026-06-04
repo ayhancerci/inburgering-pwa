@@ -6,7 +6,7 @@
     {
       "id": "wk-01", "weekNumber": 1, "theme": "Thema 1 — Wie ben je?", "dateLabel": "2 – 8 juni",
       "tasks": [
-        { "id": "t1-book", "label": "LINK 0→A2 — Thema 1 (Wie ben je?), Taak 1–4", "kind": "book", "ref": "link-0a2-01", "estMinutes": 90 },
+        { "id": "t1-book", "label": "Thema 1 (Wie ben je?), Taak 1–4", "kind": "book", "ref": "thema-01", "estMinutes": 90 },
         { "id": "t1-fc", "label": "Flashcards: Thema 1 woorden", "kind": "flashcards", "ref": "deck-t01", "estMinutes": 20 },
         { "id": "t1-quiz", "label": "Quiz: Thema 1", "kind": "quiz", "ref": "quiz-t01", "estMinutes": 15 },
         { "id": "t1-gram", "label": "Grammatica: lidwoorden de / het", "kind": "quiz", "ref": "quiz-de-het", "estMinutes": 10 },
@@ -17,7 +17,7 @@
     {
       "id": "wk-02", "weekNumber": 2, "theme": "Thema 2 — Boodschappen doen", "dateLabel": "9 – 15 juni",
       "tasks": [
-        { "id": "t2-book", "label": "LINK 0→A2 — Thema 2 (Boodschappen doen)", "kind": "book", "ref": "link-0a2-02", "estMinutes": 90 },
+        { "id": "t2-book", "label": "Thema 2 (Boodschappen doen)", "kind": "book", "ref": "thema-02", "estMinutes": 90 },
         { "id": "t2-fc", "label": "Flashcards: Thema 2 woorden", "kind": "flashcards", "ref": "deck-t02", "estMinutes": 20 },
         { "id": "t2-quiz", "label": "Quiz: Thema 2", "kind": "quiz", "ref": "quiz-t02", "estMinutes": 15 },
         { "id": "t2-gram", "label": "Grammatica: woordvolgorde", "kind": "quiz", "ref": "quiz-woordvolgorde", "estMinutes": 10 },
@@ -27,7 +27,7 @@
     {
       "id": "wk-03", "weekNumber": 3, "theme": "Thema 3 — Hoe gaat het?", "dateLabel": "16 – 22 juni",
       "tasks": [
-        { "id": "t3-book", "label": "LINK 0→A2 — Thema 3 (Hoe gaat het?)", "kind": "book", "ref": "link-0a2-03", "estMinutes": 90 },
+        { "id": "t3-book", "label": "Thema 3 (Hoe gaat het?)", "kind": "book", "ref": "thema-03", "estMinutes": 90 },
         { "id": "t3-fc", "label": "Flashcards: Thema 3 woorden", "kind": "flashcards", "ref": "deck-t03", "estMinutes": 20 },
         { "id": "t3-quiz", "label": "Quiz: Thema 3", "kind": "quiz", "ref": "quiz-t03", "estMinutes": 15 },
         { "id": "t3-speak", "label": "Gesprek: kennismaken met de buren", "kind": "speaking", "estMinutes": 15 },
@@ -37,10 +37,10 @@
     {
       "id": "wk-04", "weekNumber": 4, "theme": "Thema 4–5 — Lekker! · Dit is mijn huis", "dateLabel": "23 – 29 juni",
       "tasks": [
-        { "id": "t4-book", "label": "LINK 0→A2 — Thema 4 (Lekker!)", "kind": "book", "ref": "link-0a2-04", "estMinutes": 75 },
+        { "id": "t4-book", "label": "Thema 4 (Lekker!)", "kind": "book", "ref": "thema-04", "estMinutes": 75 },
         { "id": "t4-fc", "label": "Flashcards: Thema 4 woorden", "kind": "flashcards", "ref": "deck-t04", "estMinutes": 15 },
         { "id": "t4-quiz", "label": "Quiz: Thema 4", "kind": "quiz", "ref": "quiz-t04", "estMinutes": 15 },
-        { "id": "t5-book", "label": "LINK 0→A2 — Thema 5 (Dit is mijn huis)", "kind": "book", "ref": "link-0a2-05", "estMinutes": 75 },
+        { "id": "t5-book", "label": "Thema 5 (Dit is mijn huis)", "kind": "book", "ref": "thema-05", "estMinutes": 75 },
         { "id": "t5-fc", "label": "Flashcards: Thema 5 woorden", "kind": "flashcards", "ref": "deck-t05", "estMinutes": 15 },
         { "id": "t5-quiz", "label": "Quiz: Thema 5", "kind": "quiz", "ref": "quiz-t05", "estMinutes": 15 }
       ]
@@ -48,10 +48,10 @@
     {
       "id": "wk-05", "weekNumber": 5, "theme": "Thema 6–7 — Hoe reis jij? · Naar de dokter", "dateLabel": "30 juni – 6 juli",
       "tasks": [
-        { "id": "t6-book", "label": "LINK 0→A2 — Thema 6 (Hoe reis jij?)", "kind": "book", "ref": "link-0a2-06", "estMinutes": 75 },
+        { "id": "t6-book", "label": "Thema 6 (Hoe reis jij?)", "kind": "book", "ref": "thema-06", "estMinutes": 75 },
         { "id": "t6-fc", "label": "Flashcards: Thema 6 woorden", "kind": "flashcards", "ref": "deck-t06", "estMinutes": 15 },
         { "id": "t6-quiz", "label": "Quiz: Thema 6", "kind": "quiz", "ref": "quiz-t06", "estMinutes": 15 },
-        { "id": "t7-book", "label": "LINK 0→A2 — Thema 7 (Naar de dokter)", "kind": "book", "ref": "link-0a2-07", "estMinutes": 75 },
+        { "id": "t7-book", "label": "Thema 7 (Naar de dokter)", "kind": "book", "ref": "thema-07", "estMinutes": 75 },
         { "id": "t7-fc", "label": "Flashcards: Thema 7 woorden", "kind": "flashcards", "ref": "deck-t07", "estMinutes": 15 },
         { "id": "t7-speak", "label": "Gesprek: naar de dokter bellen", "kind": "speaking", "estMinutes": 15 }
       ]
@@ -59,10 +59,10 @@
     {
       "id": "wk-06", "weekNumber": 6, "theme": "Thema 8–9 — Buurt · Kopen & ruilen", "dateLabel": "7 – 13 juli",
       "tasks": [
-        { "id": "t8-book", "label": "LINK 0→A2 — Thema 8 (Huis, straat en buurt)", "kind": "book", "ref": "link-0a2-08", "estMinutes": 75 },
+        { "id": "t8-book", "label": "Thema 8 (Huis, straat en buurt)", "kind": "book", "ref": "thema-08", "estMinutes": 75 },
         { "id": "t8-fc", "label": "Flashcards: Thema 8 woorden", "kind": "flashcards", "ref": "deck-t08", "estMinutes": 15 },
         { "id": "t8-quiz", "label": "Quiz: Thema 8", "kind": "quiz", "ref": "quiz-t08", "estMinutes": 15 },
-        { "id": "t9-book", "label": "LINK 0→A2 — Thema 9 (Waar heb je die laptop gekocht?)", "kind": "book", "ref": "link-0a2-09", "estMinutes": 75 },
+        { "id": "t9-book", "label": "Thema 9 (Waar heb je die laptop gekocht?)", "kind": "book", "ref": "thema-09", "estMinutes": 75 },
         { "id": "t9-fc", "label": "Flashcards: Thema 9 woorden", "kind": "flashcards", "ref": "deck-t09", "estMinutes": 15 },
         { "id": "t9-rev", "label": "Herhaal je fouten", "kind": "review", "estMinutes": 10 }
       ]
@@ -70,10 +70,10 @@
     {
       "id": "wk-07", "weekNumber": 7, "theme": "Thema 10–11 — Veiligheid · Plannen maken", "dateLabel": "14 – 20 juli",
       "tasks": [
-        { "id": "t10-book", "label": "LINK 0→A2 — Thema 10 (Is dat wel veilig?)", "kind": "book", "ref": "link-0a2-10", "estMinutes": 75 },
+        { "id": "t10-book", "label": "Thema 10 (Is dat wel veilig?)", "kind": "book", "ref": "thema-10", "estMinutes": 75 },
         { "id": "t10-fc", "label": "Flashcards: Thema 10 woorden", "kind": "flashcards", "ref": "deck-t10", "estMinutes": 15 },
         { "id": "t10-quiz", "label": "Quiz: Thema 10", "kind": "quiz", "ref": "quiz-t10", "estMinutes": 15 },
-        { "id": "t11-book", "label": "LINK 0→A2 — Thema 11 (Wat gaan we doen?)", "kind": "book", "ref": "link-0a2-11", "estMinutes": 75 },
+        { "id": "t11-book", "label": "Thema 11 (Wat gaan we doen?)", "kind": "book", "ref": "thema-11", "estMinutes": 75 },
         { "id": "t11-fc", "label": "Flashcards: Thema 11 woorden", "kind": "flashcards", "ref": "deck-t11", "estMinutes": 15 },
         { "id": "t11-quiz", "label": "Quiz: Thema 11", "kind": "quiz", "ref": "quiz-t11", "estMinutes": 15 }
       ]
@@ -81,9 +81,9 @@
     {
       "id": "wk-08", "weekNumber": 8, "theme": "Thema 12–13 + start KNM", "dateLabel": "21 – 27 juli",
       "tasks": [
-        { "id": "t12-book", "label": "LINK 0→A2 — Thema 12 (Op school)", "kind": "book", "ref": "link-0a2-12", "estMinutes": 75 },
+        { "id": "t12-book", "label": "Thema 12 (Op school)", "kind": "book", "ref": "thema-12", "estMinutes": 75 },
         { "id": "t12-fc", "label": "Flashcards: Thema 12 woorden", "kind": "flashcards", "ref": "deck-t12", "estMinutes": 15 },
-        { "id": "t13-book", "label": "LINK 0→A2 — Thema 13 (We gebruiken het iedere dag)", "kind": "book", "ref": "link-0a2-13", "estMinutes": 75 },
+        { "id": "t13-book", "label": "Thema 13 (We gebruiken het iedere dag)", "kind": "book", "ref": "thema-13", "estMinutes": 75 },
         { "id": "t13-fc", "label": "Flashcards: Thema 13 woorden", "kind": "flashcards", "ref": "deck-t13", "estMinutes": 15 },
         { "id": "t13-quiz", "label": "Quiz: Thema 12 of 13", "kind": "quiz", "ref": "quiz-t12", "estMinutes": 15 },
         { "id": "t8-knm", "label": "KNM: begin met de basisfeiten", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 20 }
@@ -92,9 +92,9 @@
     {
       "id": "wk-09", "weekNumber": 9, "theme": "Thema 14–15 + KNM", "dateLabel": "28 juli – 3 aug",
       "tasks": [
-        { "id": "t14-book", "label": "LINK 0→A2 — Thema 14 (We bellen iedere dag!)", "kind": "book", "ref": "link-0a2-14", "estMinutes": 75 },
+        { "id": "t14-book", "label": "Thema 14 (We bellen iedere dag!)", "kind": "book", "ref": "thema-14", "estMinutes": 75 },
         { "id": "t14-fc", "label": "Flashcards: Thema 14 woorden", "kind": "flashcards", "ref": "deck-t14", "estMinutes": 15 },
-        { "id": "t15-book", "label": "LINK 0→A2 — Thema 15 (Buiten de deur)", "kind": "book", "ref": "link-0a2-15", "estMinutes": 75 },
+        { "id": "t15-book", "label": "Thema 15 (Buiten de deur)", "kind": "book", "ref": "thema-15", "estMinutes": 75 },
         { "id": "t15-fc", "label": "Flashcards: Thema 15 woorden", "kind": "flashcards", "ref": "deck-t15", "estMinutes": 15 },
         { "id": "t9-knm", "label": "KNM: feiten herhalen", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 20 },
         { "id": "t9-speak", "label": "Gesprek: je kind ziek melden op school", "kind": "speaking", "estMinutes": 15 }
@@ -103,9 +103,9 @@
     {
       "id": "wk-10", "weekNumber": 10, "theme": "Thema 16–17 + KNM", "dateLabel": "4 – 10 aug",
       "tasks": [
-        { "id": "t16-book", "label": "LINK 0→A2 — Thema 16 (Goed geregeld)", "kind": "book", "ref": "link-0a2-16", "estMinutes": 75 },
+        { "id": "t16-book", "label": "Thema 16 (Goed geregeld)", "kind": "book", "ref": "thema-16", "estMinutes": 75 },
         { "id": "t16-fc", "label": "Flashcards: Thema 16 woorden", "kind": "flashcards", "ref": "deck-t16", "estMinutes": 15 },
-        { "id": "t17-book", "label": "LINK 0→A2 — Thema 17 (Ik zoek werk)", "kind": "book", "ref": "link-0a2-17", "estMinutes": 75 },
+        { "id": "t17-book", "label": "Thema 17 (Ik zoek werk)", "kind": "book", "ref": "thema-17", "estMinutes": 75 },
         { "id": "t17-fc", "label": "Flashcards: Thema 17 woorden", "kind": "flashcards", "ref": "deck-t17", "estMinutes": 15 },
         { "id": "t16-quiz", "label": "Quiz: Thema 16", "kind": "quiz", "ref": "quiz-t16", "estMinutes": 15 },
         { "id": "t10-knm", "label": "KNM: oefenen (knmoefenen.nl)", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 20 }
@@ -114,9 +114,9 @@
     {
       "id": "wk-11", "weekNumber": 11, "theme": "Thema 18–19 + KNM", "dateLabel": "11 – 17 aug",
       "tasks": [
-        { "id": "t18-book", "label": "LINK 0→A2 — Thema 18 (De natuur is overal)", "kind": "book", "ref": "link-0a2-18", "estMinutes": 75 },
+        { "id": "t18-book", "label": "Thema 18 (De natuur is overal)", "kind": "book", "ref": "thema-18", "estMinutes": 75 },
         { "id": "t18-fc", "label": "Flashcards: Thema 18 woorden", "kind": "flashcards", "ref": "deck-t18", "estMinutes": 15 },
-        { "id": "t19-book", "label": "LINK 0→A2 — Thema 19 (Houd je weleens geld over?)", "kind": "book", "ref": "link-0a2-19", "estMinutes": 75 },
+        { "id": "t19-book", "label": "Thema 19 (Houd je weleens geld over?)", "kind": "book", "ref": "thema-19", "estMinutes": 75 },
         { "id": "t19-fc", "label": "Flashcards: Thema 19 woorden", "kind": "flashcards", "ref": "deck-t19", "estMinutes": 15 },
         { "id": "t11-knm", "label": "KNM: feiten herhalen", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 20 },
         { "id": "t11-rev", "label": "Herhaal je fouten", "kind": "review", "estMinutes": 10 }
@@ -125,7 +125,7 @@
     {
       "id": "wk-12", "weekNumber": 12, "theme": "Thema 20 — boek klaar! + KNM", "dateLabel": "18 – 24 aug",
       "tasks": [
-        { "id": "t20-book", "label": "LINK 0→A2 — Thema 20 (Waar gaat het over?) — laatste thema!", "kind": "book", "ref": "link-0a2-20", "estMinutes": 75 },
+        { "id": "t20-book", "label": "Thema 20 (Waar gaat het over?) — laatste thema!", "kind": "book", "ref": "thema-20", "estMinutes": 75 },
         { "id": "t20-fc", "label": "Flashcards: Thema 20 woorden", "kind": "flashcards", "ref": "deck-t20", "estMinutes": 15 },
         { "id": "t20-quiz", "label": "Quiz: Thema 20", "kind": "quiz", "ref": "quiz-t20", "estMinutes": 15 },
         { "id": "t12-knm", "label": "KNM: feiten herhalen", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 20 },

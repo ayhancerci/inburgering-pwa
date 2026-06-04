@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t01", "title": "Thema 1 — Wie ben je?", "type": "vocab", "themeId": "link-0a2-01", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t01", "title": "Thema 1 — Wie ben je?", "type": "vocab", "themeId": "thema-01", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t01-01", "deckId": "deck-t01", "front": "de naam", "back": "the name", "examples": ["Mijn naam is Sara."] },
     { "id": "c-t01-02", "deckId": "deck-t01", "front": "de achternaam", "back": "the surname", "examples": ["Wat is uw achternaam?"] },

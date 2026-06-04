@@ -1,7 +1,7 @@
 {
   "themes": [
     {
-      "id": "link-0a2-01", "number": 1, "titleNl": "Wie ben je?", "titleEn": "Who are you?", "page": 7,
+      "id": "thema-01", "number": 1, "titleNl": "Wie ben je?", "titleEn": "Who are you?",
       "deckId": "deck-t01", "quizId": "quiz-t01",
       "tip": "Introduce yourself — your name, where you're from, your phone number, and filling in simple forms.",
       "tasks": [
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "id": "link-0a2-02", "number": 2, "titleNl": "Boodschappen doen", "titleEn": "Doing the groceries", "page": 18,
+      "id": "thema-02", "number": 2, "titleNl": "Boodschappen doen", "titleEn": "Doing the groceries",
       "deckId": "deck-t02", "quizId": "quiz-t02",
       "tip": "Shopping for groceries — shops, asking for and offering help, and opening hours.",
       "tasks": [
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "id": "link-0a2-03", "number": 3, "titleNl": "Hoe gaat het?", "titleEn": "How are you?", "page": 31,
+      "id": "thema-03", "number": 3, "titleNl": "Hoe gaat het?", "titleEn": "How are you?",
       "deckId": "deck-t03", "quizId": "quiz-t03",
       "tip": "Small talk — the weather, greetings, invitations and congratulations.",
       "tasks": [
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "link-0a2-04", "number": 4, "titleNl": "Lekker!", "titleEn": "Tasty! (food)", "page": 44,
+      "id": "thema-04", "number": 4, "titleNl": "Lekker!", "titleEn": "Tasty! (food)",
       "deckId": "deck-t04", "quizId": "quiz-t04",
       "tip": "Food and meals — what you like to eat, healthy food, and eating out.",
       "tasks": [
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": "link-0a2-05", "number": 5, "titleNl": "Dit is mijn huis", "titleEn": "This is my house", "page": 57,
+      "id": "thema-05", "number": 5, "titleNl": "Dit is mijn huis", "titleEn": "This is my house",
       "deckId": "deck-t05", "quizId": "quiz-t05",
       "tip": "Your home — rooms, furniture, renting and living independently.",
       "tasks": [
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": "link-0a2-06", "number": 6, "titleNl": "Hoe reis jij?", "titleEn": "How do you travel?", "page": 74,
+      "id": "thema-06", "number": 6, "titleNl": "Hoe reis jij?", "titleEn": "How do you travel?",
       "deckId": "deck-t06", "quizId": "quiz-t06",
       "tip": "Getting around — public transport, timetables and asking directions.",
       "tasks": [
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "id": "link-0a2-07", "number": 7, "titleNl": "Naar de dokter", "titleEn": "To the doctor", "page": 88,
+      "id": "thema-07", "number": 7, "titleNl": "Naar de dokter", "titleEn": "To the doctor",
       "deckId": "deck-t07", "quizId": "quiz-t07",
       "tip": "Health — making appointments and explaining how you feel at the doctor's.",
       "tasks": [
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "id": "link-0a2-08", "number": 8, "titleNl": "Huis, straat en buurt", "titleEn": "House, street & neighbourhood", "page": 105,
+      "id": "thema-08", "number": 8, "titleNl": "Huis, straat en buurt", "titleEn": "House, street & neighbourhood",
       "deckId": "deck-t08", "quizId": "quiz-t08",
       "tip": "Your neighbourhood — housemates, local activities and dealing with neighbours.",
       "tasks": [
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "id": "link-0a2-09", "number": 9, "titleNl": "Waar heb je die laptop gekocht?", "titleEn": "Where did you buy that laptop?", "page": 123,
+      "id": "thema-09", "number": 9, "titleNl": "Waar heb je die laptop gekocht?", "titleEn": "Where did you buy that laptop?",
       "deckId": "deck-t09", "quizId": "quiz-t09",
       "tip": "Buying things — clothes, refunds, second-hand and returning parcels.",
       "tasks": [
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "id": "link-0a2-10", "number": 10, "titleNl": "Is dat wel veilig?", "titleEn": "Is that safe?", "page": 140,
+      "id": "thema-10", "number": 10, "titleNl": "Is dat wel veilig?", "titleEn": "Is that safe?",
       "deckId": "deck-t10", "quizId": "quiz-t10",
       "tip": "Safety — accidents, danger and contacting the police.",
       "tasks": [
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": "link-0a2-11", "number": 11, "titleNl": "Wat gaan we doen?", "titleEn": "What shall we do?", "page": 156,
+      "id": "thema-11", "number": 11, "titleNl": "Wat gaan we doen?", "titleEn": "What shall we do?",
       "deckId": "deck-t11", "quizId": "quiz-t11",
       "tip": "Making plans — invitations, saying no, and arranging time off.",
       "tasks": [
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": "link-0a2-12", "number": 12, "titleNl": "Op school", "titleEn": "At school", "page": 174,
+      "id": "thema-12", "number": 12, "titleNl": "Op school", "titleEn": "At school",
       "deckId": "deck-t12", "quizId": "quiz-t12",
       "tip": "Education — primary and secondary school, study plans and learning Dutch.",
       "tasks": [
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": "link-0a2-13", "number": 13, "titleNl": "We gebruiken het iedere dag", "titleEn": "We use it every day", "page": 188,
+      "id": "thema-13", "number": 13, "titleNl": "We gebruiken het iedere dag", "titleEn": "We use it every day",
       "deckId": "deck-t13", "quizId": "quiz-t13",
       "tip": "The household — appliances, gas & electricity, and arranging repairs.",
       "tasks": [
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": "link-0a2-14", "number": 14, "titleNl": "We bellen iedere dag!", "titleEn": "We call every day!", "page": 203,
+      "id": "thema-14", "number": 14, "titleNl": "We bellen iedere dag!", "titleEn": "We call every day!",
       "deckId": "deck-t14", "quizId": "quiz-t14",
       "tip": "Family and relationships — visits, marriage and family resemblance.",
       "tasks": [
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "id": "link-0a2-15", "number": 15, "titleNl": "Buiten de deur", "titleEn": "Out of the house", "page": 218,
+      "id": "thema-15", "number": 15, "titleNl": "Buiten de deur", "titleEn": "Out of the house",
       "deckId": "deck-t15", "quizId": "quiz-t15",
       "tip": "Free time — clubs, sport, hobbies and appearance.",
       "tasks": [
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "id": "link-0a2-16", "number": 16, "titleNl": "Goed geregeld", "titleEn": "Well arranged", "page": 233,
+      "id": "thema-16", "number": 16, "titleNl": "Goed geregeld", "titleEn": "Well arranged",
       "deckId": "deck-t16", "quizId": "quiz-t16",
       "tip": "Official life — recycling, the town hall, insurance and online admin.",
       "tasks": [
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "id": "link-0a2-17", "number": 17, "titleNl": "Ik zoek werk", "titleEn": "I'm looking for work", "page": 252,
+      "id": "thema-17", "number": 17, "titleNl": "Ik zoek werk", "titleEn": "I'm looking for work",
       "deckId": "deck-t17", "quizId": "quiz-t17",
       "tip": "Work — your qualities, networking and applying for jobs.",
       "tasks": [
@@ -188,7 +188,7 @@
       ]
     },
     {
-      "id": "link-0a2-18", "number": 18, "titleNl": "De natuur is overal", "titleEn": "Nature is everywhere", "page": 271,
+      "id": "thema-18", "number": 18, "titleNl": "De natuur is overal", "titleEn": "Nature is everywhere",
       "deckId": "deck-t18", "quizId": "quiz-t18",
       "tip": "Nature — weather, climate, pets and the outdoors.",
       "tasks": [
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "id": "link-0a2-19", "number": 19, "titleNl": "Houd je weleens geld over?", "titleEn": "Do you have money left over?", "page": 289,
+      "id": "thema-19", "number": 19, "titleNl": "Houd je weleens geld over?", "titleEn": "Do you have money left over?",
       "deckId": "deck-t19", "quizId": "quiz-t19",
       "tip": "Money — spending, saving, budgeting and tax.",
       "tasks": [
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "id": "link-0a2-20", "number": 20, "titleNl": "Waar gaat het over?", "titleEn": "What's it about?", "page": 303,
+      "id": "thema-20", "number": 20, "titleNl": "Waar gaat het over?", "titleEn": "What's it about?",
       "deckId": "deck-t20", "quizId": "quiz-t20",
       "tip": "Media — TV, social media and the news.",
       "tasks": [

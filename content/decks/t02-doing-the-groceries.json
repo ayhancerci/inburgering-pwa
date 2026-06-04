@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t02", "title": "Thema 2 — Boodschappen doen", "type": "vocab", "themeId": "link-0a2-02", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t02", "title": "Thema 2 — Boodschappen doen", "type": "vocab", "themeId": "thema-02", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t02-01", "deckId": "deck-t02", "front": "de boodschappen", "back": "the groceries", "examples": ["Ik doe de boodschappen op zaterdag."] },
     { "id": "c-t02-02", "deckId": "deck-t02", "front": "de supermarkt", "back": "the supermarket", "examples": ["De supermarkt is dichtbij."] },

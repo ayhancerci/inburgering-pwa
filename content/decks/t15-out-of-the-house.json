@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t15", "title": "Thema 15 — Buiten de deur", "type": "vocab", "themeId": "link-0a2-15", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t15", "title": "Thema 15 — Buiten de deur", "type": "vocab", "themeId": "thema-15", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t15-01", "deckId": "deck-t15", "front": "lid worden", "back": "to become a member", "examples": ["Ik wil lid worden van de sportschool."] },
     { "id": "c-t15-02", "deckId": "deck-t15", "front": "het lid", "back": "the member", "examples": ["Hij is lid van de voetbalclub."] },

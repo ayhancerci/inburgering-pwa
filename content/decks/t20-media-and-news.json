@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t20", "title": "Thema 20 — Waar gaat het over?", "type": "vocab", "themeId": "link-0a2-20", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t20", "title": "Thema 20 — Waar gaat het over?", "type": "vocab", "themeId": "thema-20", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t20-01", "deckId": "deck-t20", "front": "het nieuws", "back": "the news", "examples": ["Ik kijk elke avond naar het nieuws."] },
     { "id": "c-t20-02", "deckId": "deck-t20", "front": "het bericht", "back": "the message / news item", "examples": ["Heb je dat bericht op de radio gehoord?"] },

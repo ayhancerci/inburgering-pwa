@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t12", "title": "Thema 12 — Op school", "type": "vocab", "themeId": "link-0a2-12", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t12", "title": "Thema 12 — Op school", "type": "vocab", "themeId": "thema-12", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t12-01", "deckId": "deck-t12", "front": "de school", "back": "the school", "examples": ["De school begint om half negen."] },
     { "id": "c-t12-02", "deckId": "deck-t12", "front": "de basisschool", "back": "the primary school", "examples": ["Mijn dochter zit op de basisschool."] },

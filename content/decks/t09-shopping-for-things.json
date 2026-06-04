@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t09", "title": "Thema 9 — Waar heb je die laptop gekocht?", "type": "vocab", "themeId": "link-0a2-09", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t09", "title": "Thema 9 — Waar heb je die laptop gekocht?", "type": "vocab", "themeId": "thema-09", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t09-01", "deckId": "deck-t09", "front": "de winkel", "back": "the shop", "examples": ["De winkel is open tot zes uur."] },
     { "id": "c-t09-02", "deckId": "deck-t09", "front": "de kassa", "back": "the checkout / till", "examples": ["Je betaalt bij de kassa."] },

@@ -54,7 +54,7 @@ export function Guide({ open, onClose }: { open: boolean; onClose: () => void })
           </Section>
 
           <Section icon="📚" title="Cursus — your book, explained in English">
-            All 20 LINK chapters. Tap any chapter to read in English what it's about, see its 4
+            All 20 course chapters. Tap any chapter to read in English what it's about, see its 4
             lessons (taken), and jump straight to that chapter's words and quiz.
           </Section>
 
@@ -81,7 +81,7 @@ export function Guide({ open, onClose }: { open: boolean; onClose: () => void })
                 Every day: 10–20 min of <strong>Kaarten</strong>.
               </li>
               <li>
-                A few times a week: your <strong>Plan</strong> tasks (LINK book + a chapter quiz).
+                A few times a week: your <strong>Plan</strong> tasks (your coursebook + a chapter quiz).
               </li>
               <li>Weekend: one DUO practice exam + speak Dutch together.</li>
             </ul>

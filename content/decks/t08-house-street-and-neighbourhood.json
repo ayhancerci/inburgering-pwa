@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t08", "title": "Thema 8 — Huis, straat en buurt", "type": "vocab", "themeId": "link-0a2-08", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t08", "title": "Thema 8 — Huis, straat en buurt", "type": "vocab", "themeId": "thema-08", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t08-01", "deckId": "deck-t08", "front": "de buurt", "back": "the neighbourhood", "examples": ["Ik woon in een rustige buurt."] },
     { "id": "c-t08-02", "deckId": "deck-t08", "front": "de straat", "back": "the street", "examples": ["In onze straat staan veel bomen."] },

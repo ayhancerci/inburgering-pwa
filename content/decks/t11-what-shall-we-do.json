@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t11", "title": "Thema 11 — Wat gaan we doen?", "type": "vocab", "themeId": "link-0a2-11", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t11", "title": "Thema 11 — Wat gaan we doen?", "type": "vocab", "themeId": "thema-11", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t11-01", "deckId": "deck-t11", "front": "meegaan", "back": "to come along", "examples": ["Ga je mee naar de markt?"] },
     { "id": "c-t11-02", "deckId": "deck-t11", "front": "het plan", "back": "the plan", "examples": ["Wat is het plan voor zaterdag?"] },

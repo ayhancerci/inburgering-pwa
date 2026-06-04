@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t05", "title": "Thema 5 — Dit is mijn huis", "type": "vocab", "themeId": "link-0a2-05", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t05", "title": "Thema 5 — Dit is mijn huis", "type": "vocab", "themeId": "thema-05", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t05-01", "deckId": "deck-t05", "front": "het huis", "back": "the house", "examples": ["Dit is mijn huis."] },
     { "id": "c-t05-02", "deckId": "deck-t05", "front": "het appartement", "back": "the apartment", "examples": ["Ik woon in een klein appartement."] },

@@ -1,5 +1,5 @@
 {
-  "deck": { "id": "deck-t06", "title": "Thema 6 — Hoe reis jij?", "type": "vocab", "themeId": "link-0a2-06", "lang": "nl-en", "tags": ["a2"] },
+  "deck": { "id": "deck-t06", "title": "Thema 6 — Hoe reis jij?", "type": "vocab", "themeId": "thema-06", "lang": "nl-en", "tags": ["a2"] },
   "cards": [
     { "id": "c-t06-01", "deckId": "deck-t06", "front": "de trein", "back": "the train", "examples": ["De trein naar Amsterdam vertrekt om negen uur."] },
     { "id": "c-t06-02", "deckId": "deck-t06", "front": "de bus", "back": "the bus", "examples": ["Ik neem elke ochtend de bus naar mijn werk."] },

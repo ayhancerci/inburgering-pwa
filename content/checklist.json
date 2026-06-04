@@ -13,7 +13,7 @@
     { "id": "chk-exam-6", "category": "exam", "label": "Boek Schrijven (A2)" },
     { "id": "chk-exam-7", "category": "exam", "label": "Boek Spreken (A2)" },
 
-    { "id": "chk-adm-1", "category": "admin", "label": "LINK A2 → B1 kopen (optioneel — volgende stap ná A2)" },
+    { "id": "chk-adm-1", "category": "admin", "label": "A2 → B1 cursusboek kopen (optioneel — volgende stap ná A2)" },
     { "id": "chk-adm-2", "category": "admin", "label": "Zet je telefoon, Netflix en YouTube op Nederlands" },
     { "id": "chk-adm-3", "category": "admin", "label": "Abonneer op een podcast (bijv. 'Een Beetje Nederlands')" }
   ]

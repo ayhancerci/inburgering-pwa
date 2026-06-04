@@ -218,6 +218,28 @@ export const lessonSchema = z.object({
 
 export type Lesson = z.infer<typeof lessonSchema>
 
+// A 10–15 minute audio "college" (lecture) per theme: a teacher explains the topic in English,
+// using Dutch terms and reading Dutch example sentences aloud. When played, the English narration
+// uses an English 'narrator' voice and each example.nl uses a native Dutch voice — so it sounds
+// like a real bilingual class.
+export const lectureParagraphSchema = z.object({
+  heading: z.string().optional(), // short English sub-heading for this part
+  text: z.string(), // the teacher's English narration (≈5–8 sentences)
+  examples: z.array(biTextSchema).default([]), // Dutch sentences the teacher then says out loud
+})
+
+export const lectureSchema = z.object({
+  themeId: z.string(),
+  titleNl: z.string(),
+  titleEn: z.string(),
+  intro: z.string().optional(), // one-line English summary of the college
+  durationMin: z.number().optional(), // rough spoken length, e.g. 12
+  paragraphs: z.array(lectureParagraphSchema),
+})
+
+export type LectureParagraph = z.infer<typeof lectureParagraphSchema>
+export type Lecture = z.infer<typeof lectureSchema>
+
 /* ---------- Real-life role-play conversations ---------- */
 
 export const roleplayTurnSchema = z.object({

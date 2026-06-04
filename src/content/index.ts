@@ -7,6 +7,7 @@ import {
   resourceFileSchema,
   examsFileSchema,
   lessonSchema,
+  lectureSchema,
   roleplaysFileSchema,
   basicsFileSchema,
   type Deck,
@@ -19,6 +20,7 @@ import {
   type Resource,
   type Exam,
   type Lesson,
+  type Lecture,
   type RolePlay,
   type BasicsChapter,
 } from './schemas'
@@ -42,6 +44,7 @@ export interface LoadedContent {
   resources: Resource[]
   exams: Exam[]
   lessons: Lesson[]
+  lectures: Lecture[]
   roleplays: RolePlay[]
   basics: BasicsChapter[]
 }
@@ -51,6 +54,7 @@ const deckFiles = import.meta.glob('/content/decks/*.json', { eager: true, impor
 const quizFiles = import.meta.glob('/content/quizzes/*.json', { eager: true, import: 'default' })
 const mockFiles = import.meta.glob('/content/mocks/*.json', { eager: true, import: 'default' })
 const lessonFiles = import.meta.glob('/content/lessons/*.json', { eager: true, import: 'default' })
+const lectureFiles = import.meta.glob('/content/lectures/*.json', { eager: true, import: 'default' })
 const planFiles = import.meta.glob('/content/plan.json', { eager: true, import: 'default' })
 const checklistFiles = import.meta.glob('/content/checklist.json', { eager: true, import: 'default' })
 const curriculumFiles = import.meta.glob('/content/curriculum.json', { eager: true, import: 'default' })
@@ -112,6 +116,16 @@ export function loadContent(): LoadedContent {
       continue
     }
     lessons.push(parsed.data)
+  }
+
+  const lectures: Lecture[] = []
+  for (const [path, raw] of Object.entries(lectureFiles)) {
+    const parsed = lectureSchema.safeParse(raw)
+    if (!parsed.success) {
+      console.error(`[content] invalid lecture file: ${path}`, parsed.error.issues)
+      continue
+    }
+    lectures.push(parsed.data)
   }
 
   let planWeeks: PlanWeek[] = []
@@ -187,6 +201,7 @@ export function loadContent(): LoadedContent {
     resources,
     exams,
     lessons,
+    lectures,
     roleplays,
     basics,
   }

@@ -11,6 +11,7 @@ export const VOICE_GENDER = {
   charon: 'm',
   orus: 'm',
   puck: 'm',
+  narrator: 'f', // English teacher voice for the per-theme "College" lectures (not part of the Dutch pool)
 } as const
 
 export type VoiceId = keyof typeof VOICE_GENDER
@@ -20,6 +21,7 @@ export const VARIETY: VoiceId[] = ['aoede', 'kore', 'leda', 'charon', 'orus', 'p
 export const FEMALE_POOL: VoiceId[] = ['aoede', 'kore', 'leda']
 export const MALE_POOL: VoiceId[] = ['charon', 'orus', 'puck']
 export const DIALOG_YOU: VoiceId = 'charon' // your own line in a role-play (the learner)
+export const NARRATOR: VoiceId = 'narrator' // English narration voice for the per-theme lectures
 
 // FNV-1a (32-bit). Identical in the generator so voices line up.
 function hashInt(s: string): number {
@@ -137,4 +139,25 @@ export async function playSequence(items: Spoken[]): Promise<void> {
       void audio.play().catch(() => resolve())
     })
   }
+}
+
+/** Build the play-order for a whole lecture: each paragraph's English narration (narrator voice),
+ *  then its Dutch example sentences (a varied native Dutch voice each). Played back-to-back this
+ *  sounds like a real bilingual class. */
+export function lectureItems(
+  paragraphs: { text: string; examples?: { nl: string }[] }[],
+): Spoken[] {
+  const items: Spoken[] = []
+  for (const p of paragraphs) {
+    if (p.text) items.push({ text: p.text, voice: NARRATOR })
+    for (const ex of p.examples ?? [])
+      if (ex.nl) items.push({ text: ex.nl, voice: variedVoice(ex.nl) })
+  }
+  return items
+}
+
+/** Stop whatever is currently playing (MP3 clip or browser speech). */
+export function stop(): void {
+  stopCurrent()
+  stopSpeaking()
 }

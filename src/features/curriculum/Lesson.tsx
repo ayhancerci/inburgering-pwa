@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import { loadContent } from '../../content'
 import { Panel } from '../../components/ui'
 import { SpeakButton } from '../../components/SpeakButton'
-import { assignVoices } from '../../lib/audio'
+import { assignVoices, lectureItems, playSequence, stop } from '../../lib/audio'
 import { useTranslationPref } from '../../store/prefs'
-import type { Lesson as LessonType, Theme } from '../../content/schemas'
+import type { Lesson as LessonType, Lecture as LectureType, Theme } from '../../content/schemas'
 
 function ModelAnswer({ model }: { model: string }) {
   const [show, setShow] = useState(false)
@@ -56,6 +56,65 @@ function Collapsible({
   )
 }
 
+/** The 10–15 min audio "college": a teacher explains the theme in English (narrator voice) and
+ *  reads Dutch terms & example sentences aloud (native Dutch voices). One button plays it all. */
+function LectureSection({ lecture, show }: { lecture: LectureType; show: boolean }) {
+  const [playing, setPlaying] = useState(false)
+  async function toggleAll() {
+    if (playing) {
+      stop()
+      setPlaying(false)
+      return
+    }
+    setPlaying(true)
+    await playSequence(lectureItems(lecture.paragraphs))
+    setPlaying(false)
+  }
+  return (
+    <Collapsible title="🎓 College — luister naar de uitleg" subtitle={lecture.durationMin ? `±${lecture.durationMin} min` : 'audio'} defaultOpen>
+      <button
+        onClick={toggleAll}
+        className="flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-3 py-2.5 text-sm font-bold text-white transition active:scale-95"
+      >
+        {playing ? '⏸ Stop het college' : '▶ Speel het hele college af'}
+      </button>
+      <p className="text-center text-xs text-slate-400">
+        Een docent legt dit thema uit in het Engels, met Nederlandse woorden en voorbeeldzinnen die
+        je hardop hoort.
+      </p>
+      {lecture.intro && (
+        <p className="rounded-xl bg-slate-50 p-3 text-sm italic leading-relaxed text-slate-600">
+          {lecture.intro}
+        </p>
+      )}
+      {lecture.paragraphs.map((p, i) => (
+        <div key={i} className="space-y-2 border-t border-slate-100 pt-3">
+          <div className="flex items-start gap-2">
+            <SpeakButton text={p.text} voice="narrator" className="mt-0.5" />
+            <div className="flex-1">
+              {p.heading && <h4 className="font-bold text-slate-900">{p.heading}</h4>}
+              <p className="text-sm leading-relaxed text-slate-700">{p.text}</p>
+            </div>
+          </div>
+          {p.examples.length > 0 && (
+            <div className="ml-9 space-y-1.5 rounded-xl bg-yellow-50 p-3">
+              {p.examples.map((ex, j) => (
+                <div key={j} className="flex items-start gap-2 text-sm">
+                  <SpeakButton text={ex.nl} className="mt-0.5" />
+                  <p>
+                    <span className="font-semibold text-slate-800">{ex.nl}</span>
+                    {show && <span className="text-slate-400"> — {ex.en}</span>}
+                  </p>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
+    </Collapsible>
+  )
+}
+
 export function Lesson({
   theme,
   lesson,
@@ -66,7 +125,8 @@ export function Lesson({
   onBack: () => void
 }) {
   const { show, toggle } = useTranslationPref()
-  const { roleplays, resources } = loadContent()
+  const { roleplays, resources, lectures } = loadContent()
+  const lecture = lectures.find((l) => l.themeId === theme.id)
   const themeRoleplays = roleplays.filter((r) => r.themeId === theme.id)
   const themeResources = resources.filter((r) => r.themeId === theme.id)
 
@@ -103,6 +163,8 @@ export function Lesson({
           <p className="text-sm leading-relaxed text-slate-700">{lesson.intro}</p>
         </Panel>
       )}
+
+      {lecture && <LectureSection lecture={lecture} show={show} />}
 
       <p className="px-1 text-xs text-slate-400">Tik op een onderdeel om het te openen.</p>
 

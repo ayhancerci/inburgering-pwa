@@ -37,6 +37,7 @@ const VOICE_NAME = {
   charon: 'nl-NL-Chirp3-HD-Charon',
   orus: 'nl-NL-Chirp3-HD-Orus',
   puck: 'nl-NL-Chirp3-HD-Puck',
+  narrator: 'en-US-Chirp3-HD-Aoede', // English teacher voice for the per-theme lectures
 }
 const VARIETY = ['aoede', 'kore', 'leda', 'charon', 'orus', 'puck']
 const FEMALE_POOL = ['aoede', 'kore', 'leda']
@@ -111,6 +112,17 @@ for (const f of readdirSync(join(CONTENT, 'lessons'))) {
   const voiceMap = assignVoices(speakers)
   for (const x of l.dialogue.lines) if (x.nl) addJob(voiceMap[x.speaker], x.nl)
 }
+// Lectures ("college"): English narration uses one shared 'narrator' voice; Dutch examples varied.
+const LECTURES_DIR = join(CONTENT, 'lectures')
+if (existsSync(LECTURES_DIR))
+  for (const f of readdirSync(LECTURES_DIR)) {
+    if (!f.endsWith('.json')) continue
+    const lec = readJson(join(LECTURES_DIR, f))
+    for (const p of lec.paragraphs || []) {
+      if (p.text) addJob('narrator', p.text)
+      for (const ex of p.examples || []) if (ex.nl) addJob(variedVoice(ex.nl), ex.nl)
+    }
+  }
 // Listening mock fragments (varied).
 if (existsSync(join(CONTENT, 'mocks'))) {
   for (const f of readdirSync(join(CONTENT, 'mocks'))) {
@@ -150,12 +162,13 @@ console.log(`${list.length} clips across voices: ${usedVoices.join(', ')}`)
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
 function callTTS(text, voiceName) {
+  const languageCode = voiceName.slice(0, 5) // 'nl-NL' or 'en-US' — taken from the Chirp3-HD voice name
   return fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${KEY}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       input: { text },
-      voice: { languageCode: 'nl-NL', name: voiceName },
+      voice: { languageCode, name: voiceName },
       audioConfig: { audioEncoding: 'MP3', speakingRate: RATE },
     }),
   })

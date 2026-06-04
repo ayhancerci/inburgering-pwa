@@ -39,6 +39,32 @@ const KIND_ICON: Record<PlanTask['kind'], string> = {
   duo_link: '🔗',
   knm: '🇳🇱',
   admin: '🏛️',
+  speaking: '🗣️',
+  listening: '🎧',
+  writing: '📝',
+  review: '♻️',
+}
+
+function taskLink(t: PlanTask): string | null {
+  switch (t.kind) {
+    case 'flashcards':
+      return t.ref ? `/flashcards?deck=${t.ref}` : '/flashcards'
+    case 'quiz':
+      return t.ref ? `/quiz?quiz=${t.ref}` : '/quiz'
+    case 'review':
+      return '/quiz'
+    case 'knm':
+      return '/flashcards'
+    case 'mock':
+    case 'listening':
+      return '/examens'
+    case 'speaking':
+      return '/gesprekken'
+    case 'book':
+      return '/cursus'
+    default:
+      return null
+  }
 }
 
 export function Dashboard() {
@@ -232,18 +258,9 @@ export function Dashboard() {
                       oefenexamen ↗
                     </a>
                   )}
-                  {t.kind === 'flashcards' && (
+                  {taskLink(t) && (
                     <Link
-                      to="/flashcards"
-                      className="font-semibold text-sky-600 underline"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      start ↗
-                    </Link>
-                  )}
-                  {t.kind === 'quiz' && (
-                    <Link
-                      to="/quiz"
+                      to={taskLink(t)!}
                       className="font-semibold text-sky-600 underline"
                       onClick={(e) => e.stopPropagation()}
                     >

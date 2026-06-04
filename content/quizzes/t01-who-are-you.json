@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t01",
+  "title": "Thema 1 — Wie ben je?",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t01-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de achternaam'?", "options": ["the surname", "the first name", "the address", "the signature"], "answer": "the surname", "explanation": "'Achternaam' is de familienaam, in het Engels 'surname'." },
+    { "id": "q-t01-2", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'the telephone number' in het Nederlands?", "options": ["het telefoonnummer", "het adres", "de geboortedatum", "het formulier"], "answer": "het telefoonnummer", "explanation": "'Telefoonnummer' = telephone number." },
+    { "id": "q-t01-3", "skill": "grammar", "format": "mcq", "prompt": "___ formulier", "options": ["de", "het"], "answer": "het", "explanation": "'Formulier' is een het-woord: het formulier." },
+    { "id": "q-t01-4", "skill": "grammar", "format": "cloze", "prompt": "Goedemorgen. Ik {{1}} Sara. En u?", "answer": ["heet"], "explanation": "Bij 'ik' gebruik je de werkwoordstam zonder uitgang: ik heet." },
+    { "id": "q-t01-5", "skill": "grammar", "format": "cloze", "prompt": "Kunt u dit formulier {{1}}, alstublieft?", "answer": ["invullen"], "explanation": "Na 'kunt u' staat het hele werkwoord (infinitief) aan het einde: invullen." },
+    { "id": "q-t01-6", "skill": "grammar", "format": "cloze", "prompt": "Waar {{1}} u? Ik woon in Utrecht.", "answer": ["woont"], "explanation": "Bij 'u' krijgt het werkwoord -t: u woont." },
+    { "id": "q-t01-7", "skill": "vocab", "format": "fill_blank", "prompt": "Je nieuwe buurman komt langs. Je zegt: '{{1}} in de buurt!'", "answer": ["Welkom"], "explanation": "Je verwelkomt iemand met 'Welkom'." },
+    { "id": "q-t01-8", "skill": "vocab", "format": "fill_blank", "prompt": "Zet hier uw {{1}} (= signature) onder het formulier.", "answer": ["handtekening"], "explanation": "Een 'handtekening' is je signature." }
+  ]
+}

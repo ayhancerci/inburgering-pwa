@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t18", "title": "Thema 18 — De natuur is overal", "type": "vocab", "themeId": "link-0a2-18", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t18-01", "deckId": "deck-t18", "front": "het weer", "back": "the weather", "examples": ["Het weer is vandaag mooi en zonnig."] },
+    { "id": "c-t18-02", "deckId": "deck-t18", "front": "de natuur", "back": "the nature", "examples": ["Ik hou van de natuur en wandel graag."] },
+    { "id": "c-t18-03", "deckId": "deck-t18", "front": "het klimaat", "back": "the climate", "examples": ["Het klimaat verandert langzaam."] },
+    { "id": "c-t18-04", "deckId": "deck-t18", "front": "de winter", "back": "the winter", "examples": ["De winter wordt elk jaar warmer."] },
+    { "id": "c-t18-05", "deckId": "deck-t18", "front": "warm", "back": "warm", "examples": ["Het is vandaag heel warm buiten."] },
+    { "id": "c-t18-06", "deckId": "deck-t18", "front": "regenen", "back": "to rain", "examples": ["In Nederland regent het vaak."] },
+    { "id": "c-t18-07", "deckId": "deck-t18", "front": "de berg", "back": "the mountain", "examples": ["Ik mis de bergen van mijn land."] },
+    { "id": "c-t18-08", "deckId": "deck-t18", "front": "het huisdier", "back": "the pet", "examples": ["Wij willen graag een huisdier nemen."] },
+    { "id": "c-t18-09", "deckId": "deck-t18", "front": "de poes", "back": "the cat", "examples": ["Onze poes slaapt de hele dag."] },
+    { "id": "c-t18-10", "deckId": "deck-t18", "front": "de hond", "back": "the dog", "examples": ["Ik loop elke ochtend met de hond."] },
+    { "id": "c-t18-11", "deckId": "deck-t18", "front": "missen", "back": "to miss", "examples": ["Ik mis de natuur uit mijn land."] },
+    { "id": "c-t18-12", "deckId": "deck-t18", "front": "de zon", "back": "the sun", "examples": ["De zon schijnt vandaag fel."] },
+    { "id": "c-t18-13", "deckId": "deck-t18", "front": "de sneeuw", "back": "the snow", "examples": ["Er ligt sneeuw op de berg."] },
+    { "id": "c-t18-14", "deckId": "deck-t18", "front": "veranderen", "back": "to change", "examples": ["Het klimaat verandert elk jaar."] },
+    { "id": "c-t18-15", "deckId": "deck-t18", "front": "het bos", "back": "the forest", "examples": ["Wij wandelen graag in het bos."] }
+  ]
+}

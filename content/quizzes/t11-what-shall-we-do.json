@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t11",
+  "title": "Thema 11 — Wat gaan we doen?",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t11-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'invallen' (op het werk)?", "options": ["to cover a shift", "to fall asleep", "to arrive late", "to take a break"], "answer": "to cover a shift", "explanation": "At work 'invallen' means to stand in for a colleague and cover their shift." },
+    { "id": "q-t11-2", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'Are you coming along?'", "options": ["Ga je mee?", "Ben je vrij?", "Kom je laat?", "Heb je tijd?"], "answer": "Ga je mee?", "explanation": "'Meegaan' = to come along; the separable verb splits: 'Ga je mee?'" },
+    { "id": "q-t11-3", "skill": "vocab", "format": "mcq", "prompt": "Welk artikel hoort bij 'afspraak'?", "options": ["de", "het", "een", "geen artikel"], "answer": "de", "explanation": "It is 'de afspraak' (the appointment); 'afspraak' is a de-woord." },
+    { "id": "q-t11-4", "skill": "grammar", "format": "cloze", "prompt": "Wat {{1}} we dit weekend doen? (gaan)", "answer": ["gaan"], "explanation": "With 'we' the verb 'gaan' stays 'gaan': 'Wat gaan we ... doen?' The infinitive 'doen' goes to the end." },
+    { "id": "q-t11-5", "skill": "grammar", "format": "cloze", "prompt": "Sorry, ik kan vrijdag niet {{1}}, want ik moet werken. (meegaan)", "answer": ["meegaan"], "explanation": "After the modal verb 'kan', the separable verb stays together as an infinitive at the end: 'meegaan'." },
+    { "id": "q-t11-6", "skill": "grammar", "format": "cloze", "prompt": "Vrijdag ben ik {{1}}, dan hoef ik niet te werken. (free / off)", "answer": ["vrij"], "explanation": "'Vrij' means free or off work; 'ik ben vrij' = I have the day off." },
+    { "id": "q-t11-7", "skill": "vocab", "format": "fill_blank", "prompt": "Kun je vrijdag voor mij ________? Ik kan niet komen. (een dienst overnemen)", "answer": ["invallen"], "explanation": "'Invallen' = to cover the shift, to stand in for someone who cannot come." },
+    { "id": "q-t11-8", "skill": "vocab", "format": "fill_blank", "prompt": "Vul in om beleefd 'nee' te zeggen: 'Sorry, dat komt niet ________.'", "answer": ["uit"], "explanation": "'Dat komt niet uit' is a polite way to say no: it isn't convenient for me." }
+  ]
+}

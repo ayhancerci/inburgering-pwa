@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t16",
+  "title": "Thema 16 — Goed geregeld",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t16-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'het afval'?", "options": ["the waste / rubbish", "the appointment", "the insurance", "the town hall"], "answer": "the waste / rubbish", "explanation": "'Het afval' is waste or rubbish that you throw away." },
+    { "id": "q-t16-2", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'het gemeentehuis'?", "options": ["the town hall", "the municipality", "the container", "the appointment"], "answer": "the town hall", "explanation": "'Het gemeentehuis' is the town hall, the building of the municipality." },
+    { "id": "q-t16-3", "skill": "grammar", "format": "mcq", "prompt": "Kies het juiste lidwoord: ___ verzekering betaalt de schade.", "options": ["de", "het", "een het", "der"], "answer": "de", "explanation": "'Verzekering' is a de-woord (words ending in -ing are de-woorden): 'de verzekering'." },
+    { "id": "q-t16-4", "skill": "grammar", "format": "cloze", "prompt": "In Nederland {{1}} we het afval. (scheiden)", "answer": ["scheiden"], "explanation": "With 'we' the verb keeps its plural form 'scheiden'." },
+    { "id": "q-t16-5", "skill": "grammar", "format": "cloze", "prompt": "Dit is plastic. Waar {{1}} je het in? (gooien)", "answer": ["gooi"], "explanation": "In a question with 'je' after the verb, the -t drops: 'gooi je'." },
+    { "id": "q-t16-6", "skill": "grammar", "format": "cloze", "prompt": "Ik wil mijn verzekering online {{1}}. (regelen)", "answer": ["regelen"], "explanation": "After the modal verb 'wil', the second verb stays an infinitive at the end: 'regelen'." },
+    { "id": "q-t16-7", "skill": "vocab", "format": "fill_blank", "prompt": "Als er schade is, betaalt de verzekering. Dan ben je goed ___. (Engels: insured)", "answer": ["verzekerd"], "explanation": "'Verzekerd' means insured." },
+    { "id": "q-t16-8", "skill": "vocab", "format": "mcq", "prompt": "Lege flessen gooi je bij ...", "options": ["het glas", "het papier", "het plastic", "de gemeente"], "answer": "het glas", "explanation": "Empty bottles are made of glass, so they go with 'het glas'." }
+  ]
+}

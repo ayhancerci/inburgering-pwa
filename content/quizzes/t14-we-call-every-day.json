@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t14",
+  "title": "Thema 14 — We bellen iedere dag",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t14-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'trouwen'?", "options": ["to get married", "to divorce", "to live together", "to visit"], "answer": "to get married", "explanation": "'Trouwen' means to marry; 'scheiden' is the opposite (to divorce)." },
+    { "id": "q-t14-2", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'samenwonen'?", "options": ["to live together", "to get married", "to call", "to resemble"], "answer": "to live together", "explanation": "'Samen' = together and 'wonen' = to live, so 'samenwonen' is to cohabit." },
+    { "id": "q-t14-3", "skill": "grammar", "format": "mcq", "prompt": "Kies het juiste lidwoord: ___ huwelijk is volgende week.", "options": ["het", "de", "een de", "der"], "answer": "het", "explanation": "'Huwelijk' is a het-woord, so it is 'het huwelijk'." },
+    { "id": "q-t14-4", "skill": "grammar", "format": "cloze", "prompt": "Mijn zus {{1}} morgen op bezoek. (komen)", "answer": ["komt"], "explanation": "Third person singular 'zij/zus' takes stem + t: 'komt'." },
+    { "id": "q-t14-5", "skill": "grammar", "format": "cloze", "prompt": "Wij {{1}} iedere dag met oma. (bellen)", "answer": ["bellen"], "explanation": "With 'wij' the verb stays in the plural form 'bellen'." },
+    { "id": "q-t14-6", "skill": "grammar", "format": "cloze", "prompt": "Jij {{1}} echt {{2}} je moeder. (lijken op)", "answer": ["lijkt", "op"], "explanation": "'Lijken op' is separable: 'op' goes to the end and 'jij lijkt' takes stem + t." },
+    { "id": "q-t14-7", "skill": "vocab", "format": "fill_blank", "prompt": "Mijn broer is met Anna getrouwd. Ze houden veel van elkaar; ze zijn heel ___. (Engels: in love)", "answer": ["verliefd"], "explanation": "'Verliefd' means in love." },
+    { "id": "q-t14-8", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'het kleinkind'?", "options": ["the grandchild", "the small child", "the cousin", "the nephew"], "answer": "the grandchild", "explanation": "Although 'klein' means small, 'het kleinkind' means grandchild." }
+  ]
+}

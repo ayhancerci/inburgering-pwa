@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t19", "title": "Thema 19 — Houd je weleens geld over?", "type": "vocab", "themeId": "link-0a2-19", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t19-01", "deckId": "deck-t19", "front": "het geld", "back": "the money", "examples": ["Aan het eind van de maand heb ik geen geld meer."] },
+    { "id": "c-t19-02", "deckId": "deck-t19", "front": "uitgeven", "back": "to spend (money)", "examples": ["Ik geef te veel geld uit aan kleding."] },
+    { "id": "c-t19-03", "deckId": "deck-t19", "front": "sparen", "back": "to save (money)", "examples": ["Wij sparen voor een nieuwe auto."] },
+    { "id": "c-t19-04", "deckId": "deck-t19", "front": "overhouden", "back": "to have left over", "examples": ["Houd je weleens geld over aan het eind van de maand?"] },
+    { "id": "c-t19-05", "deckId": "deck-t19", "front": "de belasting", "back": "the tax", "examples": ["In Nederland betaal je belasting over je salaris."] },
+    { "id": "c-t19-06", "deckId": "deck-t19", "front": "de belastingaanslag", "back": "the tax assessment", "examples": ["Ik heb een vraag over mijn belastingaanslag."] },
+    { "id": "c-t19-07", "deckId": "deck-t19", "front": "het salaris", "back": "the salary", "examples": ["Mijn salaris komt op de 25e binnen."] },
+    { "id": "c-t19-08", "deckId": "deck-t19", "front": "duur", "back": "expensive", "examples": ["Deze schoenen zijn te duur voor mij."] },
+    { "id": "c-t19-09", "deckId": "deck-t19", "front": "goedkoop", "back": "cheap", "examples": ["In deze winkel is alles goedkoop."] },
+    { "id": "c-t19-10", "deckId": "deck-t19", "front": "de rekening", "back": "the bill / the account", "examples": ["Ik moet de rekening van het gas nog betalen."] },
+    { "id": "c-t19-11", "deckId": "deck-t19", "front": "betalen", "back": "to pay", "examples": ["Ik betaal de huur altijd op tijd."] },
+    { "id": "c-t19-12", "deckId": "deck-t19", "front": "gelukkig", "back": "happy", "examples": ["Maakt geld je echt gelukkig?"] },
+    { "id": "c-t19-13", "deckId": "deck-t19", "front": "te veel kopen", "back": "to buy too much", "examples": ["In de uitverkoop koop ik vaak te veel."] },
+    { "id": "c-t19-14", "deckId": "deck-t19", "front": "de kosten", "back": "the costs / expenses", "examples": ["De kosten voor wonen zijn hoog."] },
+    { "id": "c-t19-15", "deckId": "deck-t19", "front": "het bedrag", "back": "the amount (of money)", "examples": ["Op de rekening staat een groot bedrag."] }
+  ]
+}

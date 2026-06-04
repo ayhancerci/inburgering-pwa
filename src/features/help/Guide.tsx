@@ -42,9 +42,10 @@ export function Guide({ open, onClose }: { open: boolean; onClose: () => void })
 
         <div className="space-y-5 overflow-y-auto px-5 py-5">
           <p className="text-sm leading-relaxed text-slate-600">
-            This is your companion for the Dutch <strong>B1 inburgering</strong> exams. The app is in
-            Dutch on purpose — it helps you get used to the language. This guide is your English key;
-            reopen it anytime with the <strong>“?”</strong> button at the top.
+            This is your companion for the Dutch <strong>A2 inburgering</strong> exams (B1 is an
+            optional next step later). The app is in Dutch on purpose — it helps you get used to the
+            language. This guide is your English key; reopen it anytime with the{' '}
+            <strong>“?”</strong> button at the top.
           </p>
 
           <Section icon="👥" title="Two profiles (top-right)">
@@ -57,6 +58,11 @@ export function Guide({ open, onClose }: { open: boolean; onClose: () => void })
             progress and the days left until the exam.
           </Section>
 
+          <Section icon="📚" title="Cursus — your book, explained in English">
+            All 20 LINK chapters. Tap any chapter to read in English what it's about, see its 4
+            lessons (taken), and jump straight to that chapter's words and quiz.
+          </Section>
+
           <Section icon="🃏" title="Kaarten — flashcards (do these daily!)">
             Vocabulary and KNM facts. Read the Dutch side, tap <strong>Toon antwoord</strong> (show
             answer), then rate yourself: <strong>Opnieuw / Moeilijk / Goed / Makkelijk</strong>{' '}
@@ -64,14 +70,14 @@ export function Guide({ open, onClose }: { open: boolean; onClose: () => void })
             minutes a day makes the biggest difference.
           </Section>
 
-          <Section icon="✍️" title="Oefenen — practice quizzes">
-            Short grammar and vocabulary quizzes. Choose your answers, then see your score with an
-            explanation for each one.
+          <Section icon="✍️" title="Oefenen — practice quizzes + resources">
+            A quiz for every chapter (grammar &amp; vocabulary), plus a <strong>Bronnen</strong>{' '}
+            list of free websites, YouTube videos and podcasts to learn more.
           </Section>
 
           <Section icon="✅" title="Checklist — the official steps">
-            Register with your gemeente (PIP, PVT) and book your DUO exams. Your labour-market module
-            (ONA / MAP) is already marked as exempt.
+            Register with your gemeente (PIP, PVT) and book your DUO exams. Your labour-market
+            module (ONA / MAP) is already marked as exempt.
           </Section>
 
           <Section icon="📅" title="A simple daily routine">
@@ -80,7 +86,7 @@ export function Guide({ open, onClose }: { open: boolean; onClose: () => void })
                 Every day: 10–20 min of <strong>Kaarten</strong>.
               </li>
               <li>
-                A few times a week: your <strong>Plan</strong> tasks (LINK book + a quiz).
+                A few times a week: your <strong>Plan</strong> tasks (LINK book + a chapter quiz).
               </li>
               <li>Weekend: one DUO practice exam + speak Dutch together.</li>
             </ul>
@@ -89,14 +95,14 @@ export function Guide({ open, onClose }: { open: boolean; onClose: () => void })
           <Section icon="📖" title="Dutch words you'll see">
             <div className="mt-1 rounded-xl bg-slate-50 px-3 py-1">
               <Row nl="Plan" en="Plan / schedule" />
+              <Row nl="Cursus" en="Course / chapters" />
               <Row nl="Kaarten" en="Cards (flashcards)" />
               <Row nl="Oefenen" en="Practice (quizzes)" />
-              <Row nl="Taken" en="Tasks" />
+              <Row nl="Bronnen" en="Resources / links" />
+              <Row nl="Taken" en="Tasks / lessons" />
               <Row nl="Toon antwoord" en="Show answer" />
               <Row nl="Opnieuw / Moeilijk" en="Again / Hard" />
               <Row nl="Goed / Makkelijk" en="Good / Easy" />
-              <Row nl="Volgende / Klaar" en="Next / Done" />
-              <Row nl="dagen tot examen" en="days until exam" />
               <Row nl="vrijgesteld" en="exempted" />
             </div>
           </Section>

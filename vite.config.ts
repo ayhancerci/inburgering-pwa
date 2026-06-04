@@ -12,9 +12,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'Inburgering — Nederlands B1',
+        name: 'Inburgering — Nederlands A2',
         short_name: 'Inburgering',
-        description: 'Studieplan en oefenen voor het Nederlandse inburgeringsexamen (B1).',
+        description: 'Studieplan en oefenen voor het Nederlandse inburgeringsexamen (A2).',
         lang: 'nl',
         theme_color: '#facc15',
         background_color: '#ffffff',

@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t19",
+  "title": "Thema 19 — Houd je weleens geld over?",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t19-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'sparen'?", "options": ["to save money", "to spend money", "to lose money", "to borrow money"], "answer": "to save money", "explanation": "'Sparen' betekent dat je geld bewaart en niet uitgeeft." },
+    { "id": "q-t19-2", "skill": "vocab", "format": "mcq", "prompt": "Wat is een 'belastingaanslag'?", "options": ["a tax assessment from the tax office", "a bank card", "a salary slip", "a shopping list"], "answer": "a tax assessment from the tax office", "explanation": "Een 'belastingaanslag' is de brief van de Belastingdienst met het bedrag dat je moet betalen of terugkrijgt." },
+    { "id": "q-t19-3", "skill": "grammar", "format": "mcq", "prompt": "Welk lidwoord hoort bij 'geld'?", "options": ["het", "de", "een", "geen"], "answer": "het", "explanation": "Het is 'het geld'. 'Geld' is een het-woord." },
+    { "id": "q-t19-4", "skill": "grammar", "format": "cloze", "prompt": "Aan het eind van de maand {{1}} ik bijna geen geld over. (overhouden)", "answer": ["houd"], "explanation": "'Overhouden' is een scheidbaar werkwoord; 'over' gaat naar het eind: 'ik houd ... over'." },
+    { "id": "q-t19-5", "skill": "grammar", "format": "cloze", "prompt": "Wij {{1}} elke maand een beetje geld voor de vakantie. (sparen)", "answer": ["sparen"], "explanation": "Bij 'wij' gebruik je de infinitiefvorm: 'wij sparen'." },
+    { "id": "q-t19-6", "skill": "grammar", "format": "cloze", "prompt": "Ik {{1}} te veel geld uit aan kleding. (uitgeven)", "answer": ["geef"], "explanation": "'Uitgeven' is scheidbaar; 'uit' gaat naar het eind van de zin: 'ik geef ... uit'." },
+    { "id": "q-t19-7", "skill": "vocab", "format": "fill_blank", "prompt": "Deze telefoon kost 1200 euro; dat is veel te ___. (expensive)", "answer": ["duur"], "explanation": "'Duur' betekent dat iets veel geld kost; het tegenovergestelde is 'goedkoop'." },
+    { "id": "q-t19-8", "skill": "vocab", "format": "mcq", "prompt": "Welke zin past bij 'Maakt geld je gelukkig?'", "options": ["Does money make you happy?", "Do you have a job?", "How much does it cost?", "Where is the bank?"], "answer": "Does money make you happy?", "explanation": "'Gelukkig' betekent 'happy'; de vraag gaat over geluk en geld." }
+  ]
+}

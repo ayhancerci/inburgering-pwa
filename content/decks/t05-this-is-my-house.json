@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t05", "title": "Thema 5 — Dit is mijn huis", "type": "vocab", "themeId": "link-0a2-05", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t05-01", "deckId": "deck-t05", "front": "het huis", "back": "the house", "examples": ["Dit is mijn huis."] },
+    { "id": "c-t05-02", "deckId": "deck-t05", "front": "het appartement", "back": "the apartment", "examples": ["Ik woon in een klein appartement."] },
+    { "id": "c-t05-03", "deckId": "deck-t05", "front": "de kamer", "back": "the room", "examples": ["Mijn kamer is licht en ruim."] },
+    { "id": "c-t05-04", "deckId": "deck-t05", "front": "de huurder", "back": "the tenant", "examples": ["De huurder betaalt elke maand de huur."] },
+    { "id": "c-t05-05", "deckId": "deck-t05", "front": "de huur", "back": "the rent", "examples": ["De huur is dit jaar hoger."] },
+    { "id": "c-t05-06", "deckId": "deck-t05", "front": "op kamers wonen", "back": "to rent a room / live in lodgings", "examples": ["Mijn zoon gaat op kamers wonen in Utrecht."] },
+    { "id": "c-t05-07", "deckId": "deck-t05", "front": "gezellig", "back": "cosy / pleasant", "examples": ["Onze woonkamer is heel gezellig."] },
+    { "id": "c-t05-08", "deckId": "deck-t05", "front": "de keuken", "back": "the kitchen", "examples": ["In de keuken staat een nieuwe oven."] },
+    { "id": "c-t05-09", "deckId": "deck-t05", "front": "de badkamer", "back": "the bathroom" },
+    { "id": "c-t05-10", "deckId": "deck-t05", "front": "de slaapkamer", "back": "the bedroom" },
+    { "id": "c-t05-11", "deckId": "deck-t05", "front": "het briefje", "back": "the note", "examples": ["Ik leg een briefje op de tafel voor de buren."] },
+    { "id": "c-t05-12", "deckId": "deck-t05", "front": "de buren", "back": "the neighbours", "examples": ["De buren zijn vriendelijk en rustig."] },
+    { "id": "c-t05-13", "deckId": "deck-t05", "front": "verhuizen", "back": "to move (house)", "examples": ["Wij verhuizen volgende maand naar een groter huis."] },
+    { "id": "c-t05-14", "deckId": "deck-t05", "front": "de meubels", "back": "the furniture", "examples": ["De meubels zijn nog niet aangekomen."] },
+    { "id": "c-t05-15", "deckId": "deck-t05", "front": "de tuin", "back": "the garden" }
+  ]
+}

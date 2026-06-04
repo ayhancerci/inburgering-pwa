@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t10",
+  "title": "Thema 10 — Is dat wel veilig?",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t10-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'levensgevaarlijk'?", "options": ["extremely dangerous", "very safe", "a little careful", "almost finished"], "answer": "extremely dangerous", "explanation": "'Levensgevaarlijk' literally means 'life-dangerous': so dangerous it can cost your life." },
+    { "id": "q-t10-2", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'You must stop here' (formeel)?", "options": ["U moet hier stoppen.", "U mag hier parkeren.", "U kunt hier wachten.", "U wilt hier lopen."], "answer": "U moet hier stoppen.", "explanation": "'Moeten' expresses obligation; 'U moet hier stoppen' = you must stop here." },
+    { "id": "q-t10-3", "skill": "vocab", "format": "mcq", "prompt": "Welk artikel hoort bij 'ongeluk'?", "options": ["het", "de", "een", "geen artikel"], "answer": "het", "explanation": "It is 'het ongeluk' (the accident); 'ongeluk' is a het-woord." },
+    { "id": "q-t10-4", "skill": "grammar", "format": "cloze", "prompt": "Wat is er {{1}}? (gebeuren, perfect)", "answer": ["gebeurd"], "explanation": "The past participle of 'gebeuren' is 'gebeurd' (no -t, because the stem ends in -d). It uses 'zijn': 'is er gebeurd'." },
+    { "id": "q-t10-5", "skill": "grammar", "format": "cloze", "prompt": "Je {{1}} hier stoppen, het is verboden om door te rijden. (moeten)", "answer": ["moet"], "explanation": "With 'je' the modal verb 'moeten' becomes 'moet': 'je moet hier stoppen'." },
+    { "id": "q-t10-6", "skill": "grammar", "format": "cloze", "prompt": "Pas op, dat {{1}} heel gevaarlijk! (zijn)", "answer": ["is"], "explanation": "'Dat' is singular, so 'zijn' becomes 'is': 'dat is heel gevaarlijk'." },
+    { "id": "q-t10-7", "skill": "vocab", "format": "fill_blank", "prompt": "Bij een ongeluk of brand bel je in Nederland het alarmnummer ________.", "answer": ["112"], "explanation": "112 is the Dutch emergency number for the police, fire brigade and ambulance." },
+    { "id": "q-t10-8", "skill": "vocab", "format": "fill_blank", "prompt": "Iemand die het ongeluk heeft gezien, is een ________.", "answer": ["getuige"], "explanation": "'Een getuige' is a witness: someone who saw what happened and can tell the police." }
+  ]
+}

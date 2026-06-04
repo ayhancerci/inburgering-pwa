@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t03",
+  "title": "Thema 3 — Hoe gaat het?",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t03-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'Gefeliciteerd!'?", "options": ["Congratulations!", "Nice to see you!", "See you later!", "Welcome!"], "answer": "Congratulations!", "explanation": "'Gefeliciteerd!' zeg je bijvoorbeeld bij een verjaardag." },
+    { "id": "q-t03-2", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'the weather' in het Nederlands?", "options": ["het weer", "de zon", "de regen", "de verjaardag"], "answer": "het weer", "explanation": "'Het weer' = the weather." },
+    { "id": "q-t03-3", "skill": "vocab", "format": "mcq", "prompt": "Iemand vraagt 'Hoe gaat het met je?' Wat is een goed antwoord?", "options": ["Het gaat goed, dank je.", "Tot ziens.", "Eet smakelijk.", "Dat is duur."], "answer": "Het gaat goed, dank je.", "explanation": "Op 'Hoe gaat het?' antwoord je hoe het met je gaat, bijv. 'Het gaat goed, dank je.'" },
+    { "id": "q-t03-4", "skill": "grammar", "format": "mcq", "prompt": "___ weer", "options": ["de", "het"], "answer": "het", "explanation": "'Weer' is een het-woord: het weer." },
+    { "id": "q-t03-5", "skill": "grammar", "format": "cloze", "prompt": "Vandaag {{1}} de zon en is het lekker warm.", "answer": ["schijnt"], "explanation": "Bij 'de zon' (hij) krijgt het werkwoord -t: schijnt." },
+    { "id": "q-t03-6", "skill": "grammar", "format": "cloze", "prompt": "Ik {{1}} je uit om vanavond te komen voetballen kijken.", "answer": ["nodig"], "explanation": "Het werkwoord is 'uitnodigen'. Met 'ik' splits je het: ik nodig je uit." },
+    { "id": "q-t03-7", "skill": "grammar", "format": "cloze", "prompt": "Bedankt voor de {{1}}! Ik kom graag naar je feest.", "answer": ["uitnodiging"], "explanation": "'De uitnodiging' = the invitation." },
+    { "id": "q-t03-8", "skill": "vocab", "format": "fill_blank", "prompt": "Je ziet een oude vriend op straat. Je zegt: 'Leuk je te {{1}}!'", "answer": ["zien"], "explanation": "'Leuk je te zien!' betekent Nice to see you!" }
+  ]
+}

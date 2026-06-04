@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t07", "title": "Thema 7 — Naar de dokter", "type": "vocab", "themeId": "link-0a2-07", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t07-01", "deckId": "deck-t07", "front": "de dokter", "back": "the doctor", "examples": ["Ik ga vandaag naar de dokter."] },
+    { "id": "c-t07-02", "deckId": "deck-t07", "front": "de huisarts", "back": "the general practitioner (GP)", "examples": ["Mijn huisarts heeft elke ochtend spreekuur."] },
+    { "id": "c-t07-03", "deckId": "deck-t07", "front": "het spreekuur", "back": "the consultation hours", "examples": ["Het spreekuur is van acht tot tien uur."] },
+    { "id": "c-t07-04", "deckId": "deck-t07", "front": "de afspraak", "back": "the appointment", "examples": ["Ik wil graag een afspraak maken."] },
+    { "id": "c-t07-05", "deckId": "deck-t07", "front": "de apotheek", "back": "the pharmacy", "examples": ["Ik haal mijn medicijnen bij de apotheek."] },
+    { "id": "c-t07-06", "deckId": "deck-t07", "front": "het medicijn", "back": "the medicine", "examples": ["De dokter geeft mij een medicijn tegen de pijn."] },
+    { "id": "c-t07-07", "deckId": "deck-t07", "front": "ziek", "back": "ill / sick", "examples": ["Ik ben ziek en blijf vandaag thuis."] },
+    { "id": "c-t07-08", "deckId": "deck-t07", "front": "de pijn", "back": "the pain", "examples": ["Ik heb veel pijn in mijn rug."] },
+    { "id": "c-t07-09", "deckId": "deck-t07", "front": "de koorts", "back": "the fever", "examples": ["Mijn kind heeft hoge koorts."] },
+    { "id": "c-t07-10", "deckId": "deck-t07", "front": "het hoofd", "back": "the head", "examples": ["Ik heb pijn in mijn hoofd."] },
+    { "id": "c-t07-11", "deckId": "deck-t07", "front": "de keel", "back": "the throat", "examples": ["Mijn keel doet zeer als ik slik."] },
+    { "id": "c-t07-12", "deckId": "deck-t07", "front": "de buik", "back": "the belly / stomach", "examples": ["Na het eten had ik buikpijn."] },
+    { "id": "c-t07-13", "deckId": "deck-t07", "front": "hoesten", "back": "to cough", "examples": ["Ik hoest al een week."] },
+    { "id": "c-t07-14", "deckId": "deck-t07", "front": "beter worden", "back": "to get better / recover", "examples": ["Met rust word je snel weer beter."] },
+    { "id": "c-t07-15", "deckId": "deck-t07", "front": "Wat is er aan de hand?", "back": "What is the matter?", "examples": ["De dokter vraagt: wat is er aan de hand?"] }
+  ]
+}

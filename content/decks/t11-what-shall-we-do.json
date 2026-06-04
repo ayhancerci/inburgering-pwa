@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t11", "title": "Thema 11 — Wat gaan we doen?", "type": "vocab", "themeId": "link-0a2-11", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t11-01", "deckId": "deck-t11", "front": "meegaan", "back": "to come along", "examples": ["Ga je mee naar de markt?"] },
+    { "id": "c-t11-02", "deckId": "deck-t11", "front": "het plan", "back": "the plan", "examples": ["Wat is het plan voor zaterdag?"] },
+    { "id": "c-t11-03", "deckId": "deck-t11", "front": "afspreken", "back": "to arrange to meet", "examples": ["Zullen we om drie uur afspreken?"] },
+    { "id": "c-t11-04", "deckId": "deck-t11", "front": "de afspraak", "back": "the appointment / arrangement", "examples": ["Ik heb een afspraak met de dokter."] },
+    { "id": "c-t11-05", "deckId": "deck-t11", "front": "invallen", "back": "to cover a shift / stand in", "examples": ["Kun je vrijdag invallen voor mij?"] },
+    { "id": "c-t11-06", "deckId": "deck-t11", "front": "de dienst", "back": "the shift", "examples": ["Mijn dienst begint om acht uur."] },
+    { "id": "c-t11-07", "deckId": "deck-t11", "front": "vrij", "back": "free / off (work)", "examples": ["Ik ben morgen vrij."] },
+    { "id": "c-t11-08", "deckId": "deck-t11", "front": "de vrije dag", "back": "the day off", "examples": ["Vrijdag is mijn vrije dag."] },
+    { "id": "c-t11-09", "deckId": "deck-t11", "front": "weigeren", "back": "to refuse", "examples": ["Ik moet je voorstel weigeren."] },
+    { "id": "c-t11-10", "deckId": "deck-t11", "front": "misschien", "back": "maybe", "examples": ["Misschien kom ik later."] },
+    { "id": "c-t11-11", "deckId": "deck-t11", "front": "het feest", "back": "the party", "examples": ["Het feest is bij Tom thuis."] },
+    { "id": "c-t11-12", "deckId": "deck-t11", "front": "uitnodigen", "back": "to invite", "examples": ["Ik nodig je uit voor mijn verjaardag."] },
+    { "id": "c-t11-13", "deckId": "deck-t11", "front": "het weekend", "back": "the weekend", "examples": ["In het weekend ga ik wandelen."] },
+    { "id": "c-t11-14", "deckId": "deck-t11", "front": "ruilen", "back": "to swap", "examples": ["Kunnen we van dienst ruilen?"] },
+    { "id": "c-t11-15", "deckId": "deck-t11", "front": "Dat komt niet uit.", "back": "That doesn't suit me / isn't convenient.", "examples": ["Sorry, vrijdag komt niet uit."] }
+  ]
+}

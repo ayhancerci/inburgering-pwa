@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t10", "title": "Thema 10 — Is dat wel veilig?", "type": "vocab", "themeId": "link-0a2-10", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t10-01", "deckId": "deck-t10", "front": "veilig", "back": "safe", "examples": ["Is het hier wel veilig?"] },
+    { "id": "c-t10-02", "deckId": "deck-t10", "front": "gevaarlijk", "back": "dangerous", "examples": ["Die weg is heel gevaarlijk."] },
+    { "id": "c-t10-03", "deckId": "deck-t10", "front": "levensgevaarlijk", "back": "life-threatening / extremely dangerous", "examples": ["Op het ijs lopen is levensgevaarlijk."] },
+    { "id": "c-t10-04", "deckId": "deck-t10", "front": "stoppen", "back": "to stop", "examples": ["U moet hier stoppen."] },
+    { "id": "c-t10-05", "deckId": "deck-t10", "front": "het ongeluk", "back": "the accident", "examples": ["Er is een ongeluk gebeurd."] },
+    { "id": "c-t10-06", "deckId": "deck-t10", "front": "gebeuren", "back": "to happen", "examples": ["Wat is er gebeurd?"] },
+    { "id": "c-t10-07", "deckId": "deck-t10", "front": "de politie", "back": "the police", "examples": ["Bel de politie!"] },
+    { "id": "c-t10-08", "deckId": "deck-t10", "front": "de brandweer", "back": "the fire brigade", "examples": ["De brandweer is snel ter plaatse."] },
+    { "id": "c-t10-09", "deckId": "deck-t10", "front": "de ambulance", "back": "the ambulance", "examples": ["De ambulance brengt hem naar het ziekenhuis."] },
+    { "id": "c-t10-10", "deckId": "deck-t10", "front": "gewond", "back": "injured", "examples": ["Niemand is gewond."] },
+    { "id": "c-t10-11", "deckId": "deck-t10", "front": "het gevaar", "back": "the danger", "examples": ["Er is geen gevaar meer."] },
+    { "id": "c-t10-12", "deckId": "deck-t10", "front": "voorzichtig", "back": "careful", "examples": ["Wees voorzichtig op de fiets!"] },
+    { "id": "c-t10-13", "deckId": "deck-t10", "front": "het alarmnummer", "back": "the emergency number", "examples": ["Het alarmnummer in Nederland is 112."] },
+    { "id": "c-t10-14", "deckId": "deck-t10", "front": "waarschuwen", "back": "to warn", "examples": ["Ik waarschuw de buren."] },
+    { "id": "c-t10-15", "deckId": "deck-t10", "front": "de getuige", "back": "the witness", "examples": ["De politie praat met een getuige."] }
+  ]
+}

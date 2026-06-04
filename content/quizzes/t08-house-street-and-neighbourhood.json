@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t08",
+  "title": "Thema 8 — Huis, straat en buurt",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t08-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de huisgenoot'?", "options": ["the housemate", "the neighbour", "the landlord", "the visitor"], "answer": "the housemate", "explanation": "'De huisgenoot' is iemand met wie je samen een huis of appartement deelt." },
+    { "id": "q-t08-2", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'tevreden'?", "options": ["satisfied / happy", "angry", "tired", "afraid"], "answer": "satisfied / happy", "explanation": "Als je 'tevreden' bent, ben je blij met iets, bijvoorbeeld met je buurt." },
+    { "id": "q-t08-3", "skill": "grammar", "format": "mcq", "prompt": "Welk lidwoord hoort bij 'buurt'?", "options": ["de", "het", "een", "geen"], "answer": "de", "explanation": "Het is 'de buurt'. 'Buurt', 'straat' en 'buurman' zijn allemaal de-woorden." },
+    { "id": "q-t08-4", "skill": "vocab", "format": "fill_blank", "prompt": "In het ___ oefen ik Nederlands met andere mensen. (language café)", "answer": ["taalcafé"], "explanation": "In 'het taalcafé' kom je samen om in het Nederlands te praten en te oefenen." },
+    { "id": "q-t08-5", "skill": "grammar", "format": "cloze", "prompt": "Mijn buren {{1}} vaak over het lawaai. (klagen)", "answer": ["klagen"], "explanation": "Bij 'zij' (mijn buren, meervoud) gebruik je de infinitiefvorm: 'klagen'." },
+    { "id": "q-t08-6", "skill": "grammar", "format": "cloze", "prompt": "Elke week {{1}} ik mijn Nederlands in het taalcafé. (oefenen)", "answer": ["oefen"], "explanation": "Bij 'ik' valt de -en weg: 'oefenen' wordt 'ik oefen'." },
+    { "id": "q-t08-7", "skill": "grammar", "format": "cloze", "prompt": "Ik {{1}} tevreden met mijn nieuwe buurt. (zijn)", "answer": ["ben"], "explanation": "Het werkwoord 'zijn' wordt bij 'ik' vervoegd als 'ben'." },
+    { "id": "q-t08-8", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'het lawaai'?", "options": ["the noise", "the silence", "the music", "the party"], "answer": "the noise", "explanation": "'Het lawaai' is hard, storend geluid, bijvoorbeeld van de buren." }
+  ]
+}

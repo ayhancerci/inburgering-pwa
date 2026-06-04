@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t12",
+  "title": "Thema 12 — Op school",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t12-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de basisschool'?", "options": ["the primary school", "the secondary school", "the university", "the classroom"], "answer": "the primary school", "explanation": "'De basisschool' is primary school, for children roughly aged 4 to 12." },
+    { "id": "q-t12-2", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'I am learning Dutch'?", "options": ["Ik leer Nederlands.", "Ik geef Nederlands.", "Ik lees Nederlands.", "Ik woon in Nederland."], "answer": "Ik leer Nederlands.", "explanation": "'Leren' means to learn; 'Ik leer Nederlands' = I am learning Dutch." },
+    { "id": "q-t12-3", "skill": "vocab", "format": "mcq", "prompt": "Welk artikel hoort bij 'diploma'?", "options": ["het", "de", "een", "geen artikel"], "answer": "het", "explanation": "It is 'het diploma' (the diploma); 'diploma' is a het-woord." },
+    { "id": "q-t12-4", "skill": "grammar", "format": "cloze", "prompt": "Mijn dochter {{1}} op de basisschool. (zitten)", "answer": ["zit"], "explanation": "With 'mijn dochter' (third person singular) 'zitten' becomes 'zit': 'zij zit op de basisschool'." },
+    { "id": "q-t12-5", "skill": "grammar", "format": "cloze", "prompt": "Vroeger {{1}} ik naar de middelbare school in Turkije. (gaan, verleden tijd)", "answer": ["ging"], "explanation": "The simple past of 'gaan' is 'ging': 'Vroeger ging ik naar school'." },
+    { "id": "q-t12-6", "skill": "grammar", "format": "cloze", "prompt": "Na de basisschool wil hij Nederlands {{1}} op de middelbare school. (leren)", "answer": ["leren"], "explanation": "After the modal verb 'wil', the main verb goes to the end as an infinitive: 'leren'." },
+    { "id": "q-t12-7", "skill": "vocab", "format": "fill_blank", "prompt": "Werk dat je thuis voor school moet maken, heet ________.", "answer": ["huiswerk"], "explanation": "'Huiswerk' is homework: schoolwork you do at home." },
+    { "id": "q-t12-8", "skill": "vocab", "format": "fill_blank", "prompt": "Na de basisschool ga je naar de ________ school.", "answer": ["middelbare"], "explanation": "After primary school children go to 'de middelbare school' (secondary school)." }
+  ]
+}

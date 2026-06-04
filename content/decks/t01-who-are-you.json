@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t01", "title": "Thema 1 — Wie ben je?", "type": "vocab", "themeId": "link-0a2-01", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t01-01", "deckId": "deck-t01", "front": "de naam", "back": "the name", "examples": ["Mijn naam is Sara."] },
+    { "id": "c-t01-02", "deckId": "deck-t01", "front": "de achternaam", "back": "the surname", "examples": ["Wat is uw achternaam?"] },
+    { "id": "c-t01-03", "deckId": "deck-t01", "front": "het telefoonnummer", "back": "the telephone number", "examples": ["Mijn telefoonnummer is nul zes, twaalf, drieëndertig."] },
+    { "id": "c-t01-04", "deckId": "deck-t01", "front": "het adres", "back": "the address", "examples": ["Wat is je adres?"] },
+    { "id": "c-t01-05", "deckId": "deck-t01", "front": "de geboortedatum", "back": "the date of birth", "examples": ["Mijn geboortedatum is 3 mei 1990."] },
+    { "id": "c-t01-06", "deckId": "deck-t01", "front": "het formulier", "back": "the form", "examples": ["Ik vul het formulier in."] },
+    { "id": "c-t01-07", "deckId": "deck-t01", "front": "invullen", "back": "to fill in" },
+    { "id": "c-t01-08", "deckId": "deck-t01", "front": "de buurman", "back": "the (male) neighbour", "examples": ["De buurman woont naast ons."] },
+    { "id": "c-t01-09", "deckId": "deck-t01", "front": "de buurvrouw", "back": "the (female) neighbour" },
+    { "id": "c-t01-10", "deckId": "deck-t01", "front": "welkom", "back": "welcome", "examples": ["Welkom in de buurt!"] },
+    { "id": "c-t01-11", "deckId": "deck-t01", "front": "kennismaken", "back": "to get acquainted", "examples": ["Leuk om kennis te maken."] },
+    { "id": "c-t01-12", "deckId": "deck-t01", "front": "Hoe heet u?", "back": "What is your name? (formal)" },
+    { "id": "c-t01-13", "deckId": "deck-t01", "front": "Waar woont u?", "back": "Where do you live? (formal)" },
+    { "id": "c-t01-14", "deckId": "deck-t01", "front": "de handtekening", "back": "the signature", "examples": ["Zet hier uw handtekening."] },
+    { "id": "c-t01-15", "deckId": "deck-t01", "front": "de nationaliteit", "back": "the nationality" }
+  ]
+}

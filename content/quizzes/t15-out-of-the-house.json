@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t15",
+  "title": "Thema 15 — Buiten de deur",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t15-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'lid worden'?", "options": ["to become a member", "to pay the fee", "to win a match", "to quit the club"], "answer": "to become a member", "explanation": "'Lid worden' means to become a member of a club or association." },
+    { "id": "q-t15-2", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de sportschool'?", "options": ["the gym", "the swimming pool", "the match", "the hobby"], "answer": "the gym", "explanation": "'De sportschool' is the gym, where you go to exercise." },
+    { "id": "q-t15-3", "skill": "grammar", "format": "mcq", "prompt": "Kies het juiste lidwoord: ___ haar is lang.", "options": ["het", "de", "een de", "der"], "answer": "het", "explanation": "'Haar' (hair) is a het-woord: 'het haar'." },
+    { "id": "q-t15-4", "skill": "grammar", "format": "cloze", "prompt": "Ik {{1}} graag in het weekend. (sporten)", "answer": ["sport"], "explanation": "'Ik' takes the verb stem: sporten -> sport." },
+    { "id": "q-t15-5", "skill": "grammar", "format": "cloze", "prompt": "Wat {{1}} je haar lang! (zijn)", "answer": ["is"], "explanation": "In this exclamation 'haar' is singular, so the verb 'zijn' becomes 'is'." },
+    { "id": "q-t15-6", "skill": "grammar", "format": "cloze", "prompt": "Ik wil {{1}} {{2}} van de tennisvereniging. (lid worden)", "answer": ["lid", "worden"], "explanation": "After 'wil' the expression stays as an infinitive group at the end: 'lid worden'." },
+    { "id": "q-t15-7", "skill": "vocab", "format": "fill_blank", "prompt": "Ik sport niet, en dat vind ik geen probleem. Ik kan ___ zonder sport. (Engels: fine/just fine)", "answer": ["prima"], "explanation": "'Prima' means fine/great: 'Ik kan prima zonder sport.'" },
+    { "id": "q-t15-8", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de contributie'?", "options": ["the membership fee", "the appearance", "the beard", "the competition"], "answer": "the membership fee", "explanation": "'De contributie' is the periodic fee you pay as a member." }
+  ]
+}

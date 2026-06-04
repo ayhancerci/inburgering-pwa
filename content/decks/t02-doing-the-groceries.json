@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t02", "title": "Thema 2 — Boodschappen doen", "type": "vocab", "themeId": "link-0a2-02", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t02-01", "deckId": "deck-t02", "front": "de boodschappen", "back": "the groceries", "examples": ["Ik doe de boodschappen op zaterdag."] },
+    { "id": "c-t02-02", "deckId": "deck-t02", "front": "de supermarkt", "back": "the supermarket", "examples": ["De supermarkt is dichtbij."] },
+    { "id": "c-t02-03", "deckId": "deck-t02", "front": "de winkel", "back": "the shop", "examples": ["De winkel is open."] },
+    { "id": "c-t02-04", "deckId": "deck-t02", "front": "het winkelwagentje", "back": "the shopping trolley" },
+    { "id": "c-t02-05", "deckId": "deck-t02", "front": "het mandje", "back": "the basket" },
+    { "id": "c-t02-06", "deckId": "deck-t02", "front": "de kassa", "back": "the checkout / till", "examples": ["Ik betaal bij de kassa."] },
+    { "id": "c-t02-07", "deckId": "deck-t02", "front": "het boodschappenlijstje", "back": "the shopping list", "examples": ["Wat staat er op het boodschappenlijstje?"] },
+    { "id": "c-t02-08", "deckId": "deck-t02", "front": "de openingstijden", "back": "the opening hours", "examples": ["Wat zijn de openingstijden?"] },
+    { "id": "c-t02-09", "deckId": "deck-t02", "front": "open", "back": "open" },
+    { "id": "c-t02-10", "deckId": "deck-t02", "front": "dicht / gesloten", "back": "closed", "examples": ["Op zondag is de winkel dicht."] },
+    { "id": "c-t02-11", "deckId": "deck-t02", "front": "Kan ik u helpen?", "back": "Can I help you?", "examples": ["Goedemiddag, kan ik u helpen?"] },
+    { "id": "c-t02-12", "deckId": "deck-t02", "front": "Waar staat de melk?", "back": "Where is the milk?" },
+    { "id": "c-t02-13", "deckId": "deck-t02", "front": "betalen", "back": "to pay", "examples": ["Ik wil graag met pin betalen."] },
+    { "id": "c-t02-14", "deckId": "deck-t02", "front": "het schap", "back": "the shelf / aisle", "examples": ["Het brood ligt in het schap."] },
+    { "id": "c-t02-15", "deckId": "deck-t02", "front": "de aanbieding", "back": "the special offer", "examples": ["De kaas is in de aanbieding."] }
+  ]
+}

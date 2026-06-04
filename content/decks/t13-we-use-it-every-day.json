@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t13", "title": "Thema 13 — We gebruiken het iedere dag", "type": "vocab", "themeId": "link-0a2-13", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t13-01", "deckId": "deck-t13", "front": "de afwasmachine", "back": "the dishwasher", "examples": ["De afwasmachine is kapot."] },
+    { "id": "c-t13-02", "deckId": "deck-t13", "front": "de wasmachine", "back": "the washing machine", "examples": ["Ik gebruik de wasmachine iedere dag."] },
+    { "id": "c-t13-03", "deckId": "deck-t13", "front": "de koelkast", "back": "the fridge", "examples": ["De melk staat in de koelkast."] },
+    { "id": "c-t13-04", "deckId": "deck-t13", "front": "het apparaat", "back": "the appliance / device", "examples": ["Dit apparaat doet het niet meer."] },
+    { "id": "c-t13-05", "deckId": "deck-t13", "front": "het gas", "back": "the gas", "examples": ["We koken op gas."] },
+    { "id": "c-t13-06", "deckId": "deck-t13", "front": "de elektriciteit", "back": "the electricity", "examples": ["De elektriciteit is duur geworden."] },
+    { "id": "c-t13-07", "deckId": "deck-t13", "front": "de stroom", "back": "the power / electricity", "examples": ["Er is geen stroom in huis."] },
+    { "id": "c-t13-08", "deckId": "deck-t13", "front": "de rekening", "back": "the bill", "examples": ["De rekening voor gas en licht is hoog."] },
+    { "id": "c-t13-09", "deckId": "deck-t13", "front": "de tip", "back": "the tip / piece of advice", "examples": ["Dat is een goede tip!"] },
+    { "id": "c-t13-10", "deckId": "deck-t13", "front": "kapot", "back": "broken", "examples": ["De koelkast is kapot."] },
+    { "id": "c-t13-11", "deckId": "deck-t13", "front": "repareren", "back": "to repair", "examples": ["Kun je de wasmachine repareren?"] },
+    { "id": "c-t13-12", "deckId": "deck-t13", "front": "gebruiken", "back": "to use", "examples": ["We gebruiken de afwasmachine iedere dag."] },
+    { "id": "c-t13-13", "deckId": "deck-t13", "front": "aanzetten", "back": "to switch on", "examples": ["Ik zet de wasmachine aan."] },
+    { "id": "c-t13-14", "deckId": "deck-t13", "front": "uitzetten", "back": "to switch off", "examples": ["Zet het licht uit, alsjeblieft."] },
+    { "id": "c-t13-15", "deckId": "deck-t13", "front": "Wanneer kun je langskomen?", "back": "When can you come by?", "examples": ["De monteur vraagt: wanneer kun je langskomen?"] }
+  ]
+}

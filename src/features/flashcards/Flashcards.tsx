@@ -1,4 +1,5 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db/database'
 import { useActiveProfile } from '../../store/profile'
@@ -44,6 +45,18 @@ export function Flashcards() {
     },
     [activeId],
   )
+
+  // Deep link: /flashcards?deck=<id> auto-starts that deck.
+  const [searchParams, setSearchParams] = useSearchParams()
+  useEffect(() => {
+    const deckId = searchParams.get('deck')
+    if (deckId) {
+      setSearchParams({}, { replace: true })
+      void start(deckId)
+    }
+    // run once on mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const current = queue[idx]
 

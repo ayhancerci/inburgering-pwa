@@ -1,0 +1,23 @@
+{
+  "resources": [
+    { "id": "res-duo-facet", "title": "DUO oefenexamens (officieel)", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "type": "practice", "level": "A2", "free": true, "description": "The official free DUO practice exams — the exact format for Lezen, Luisteren, Schrijven, Spreken and KNM. Use Chrome/Edge for Speaking." },
+    { "id": "res-inburgeren-oefenen", "title": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp", "type": "practice", "level": "A2", "free": true, "description": "DUO's official practice page with example exams for every part of the exam." },
+    { "id": "res-nt2taalmenu", "title": "NT2 TaalMenu — A2 oefeningen", "url": "https://nt2taalmenu.nl/nt2-a2-oefeningen/", "type": "practice", "skill": "grammar", "level": "A2", "free": true, "description": "Lots of free A2 exercises at exactly the inburgering-exam level." },
+    { "id": "res-knmoefenen", "title": "KNM Oefenen", "url": "https://knmoefenen.nl/inburgering-knm-oefenen", "type": "knm", "skill": "knm", "level": "A2", "free": true, "description": "450+ free KNM questions and full practice exams (Knowledge of Dutch Society)." },
+    { "id": "res-oefenen-nl", "title": "Oefenen.nl", "url": "https://oefenen.nl", "type": "practice", "level": "A2", "free": true, "description": "Free lessons and exercises for everyday Dutch — reading, language and digital skills." },
+    { "id": "res-netinnederland", "title": "Net in Nederland", "url": "https://netinnederland.nl", "type": "listening", "skill": "listening", "level": "A2", "free": true, "description": "Videos and news in simpler Dutch about living in the Netherlands — good for the exam topics." },
+
+    { "id": "res-bartdepau", "title": "Bart de Pau — LearnDutch.org", "url": "https://www.learndutch.org/", "type": "video", "skill": "vocab", "level": "A2", "free": true, "description": "Free beginner→A2 video courses: '1000 most common words', grammar, and the learner soap 'Heb je zin?'." },
+    { "id": "res-easydutch", "title": "Easy Dutch (YouTube)", "url": "https://www.youtube.com/c/EasyDutch", "type": "video", "skill": "listening", "level": "A2", "free": true, "description": "Real street interviews with Dutch + English subtitles — excellent listening practice." },
+    { "id": "res-starttodutch", "title": "Start to Dutch NT2 (YouTube)", "url": "https://www.youtube.com/@starttodutch5795", "type": "video", "level": "A2", "free": true, "description": "Clear lessons from an NT2 teacher, aimed at the inburgering exam." },
+    { "id": "res-dutchpod101", "title": "DutchPod101 (YouTube)", "url": "https://www.youtube.com/@DutchPod101", "type": "video", "level": "A2", "free": true, "description": "Structured vocabulary, grammar, listening and reading playlists for every level." },
+
+    { "id": "res-wablieft", "title": "Wablieft — nieuws in makkelijk Nederlands", "url": "https://www.wablieft.be", "type": "reading", "skill": "reading", "level": "A2", "free": true, "description": "News written in easy Dutch — perfect reading practice at A2." },
+    { "id": "res-jeugdjournaal", "title": "NOS Jeugdjournaal", "url": "https://jeugdjournaal.nl", "type": "reading", "skill": "reading", "level": "A2", "free": true, "description": "Daily news for children: short, clear Dutch in text and video." },
+
+    { "id": "res-eenbeetjenederlands", "title": "Een Beetje Nederlands (podcast)", "url": "https://www.eenbeetjenederlands.nl", "type": "podcast", "skill": "listening", "level": "A2", "free": true, "description": "A podcast in slow, clear Dutch for learners — with full transcripts." },
+
+    { "id": "res-dutchgrammar", "title": "Dutch Grammar (dutchgrammar.com)", "url": "https://www.dutchgrammar.com", "type": "grammar", "skill": "grammar", "level": "A2", "free": true, "description": "Clear English explanations of all the Dutch grammar you need." },
+    { "id": "res-zichtbaar", "title": "Zichtbaar Nederlands", "url": "https://zichtbaarnederlands.nl", "type": "grammar", "skill": "grammar", "level": "A2", "free": true, "description": "Visual grammar — word order and sentence structure made simple." }
+  ]
+}

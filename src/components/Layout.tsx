@@ -8,6 +8,7 @@ import { Guide } from '../features/help/Guide'
 
 const NAV = [
   { to: '/', label: 'Plan', icon: '🗓️' },
+  { to: '/cursus', label: 'Cursus', icon: '📚' },
   { to: '/flashcards', label: 'Kaarten', icon: '🃏' },
   { to: '/quiz', label: 'Oefenen', icon: '✍️' },
   { to: '/checklist', label: 'Checklist', icon: '✅' },
@@ -35,7 +36,7 @@ export function Layout() {
       <header className="safe-top sticky top-0 z-10 flex items-center justify-between gap-2 border-b border-yellow-500/30 bg-yellow-400/95 px-4 py-3 backdrop-blur">
         <div className="flex items-center gap-2">
           <span className="text-base font-extrabold tracking-tight text-slate-900">
-            Inburgering B1
+            Inburgering A2
           </span>
           <button
             onClick={() => setGuideOpen(true)}
@@ -73,7 +74,7 @@ export function Layout() {
             end={n.to === '/'}
             className={({ isActive }) =>
               cx(
-                'flex flex-1 flex-col items-center gap-0.5 py-2 text-xs font-semibold transition',
+                'flex flex-1 flex-col items-center gap-0.5 py-2 text-[11px] font-semibold transition',
                 isActive ? 'text-slate-900' : 'text-slate-400',
               )
             }

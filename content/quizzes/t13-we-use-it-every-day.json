@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t13",
+  "title": "Thema 13 — We gebruiken het iedere dag",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t13-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de afwasmachine'?", "options": ["the dishwasher", "the washing machine", "the fridge", "the oven"], "answer": "the dishwasher", "explanation": "'Afwassen' is to wash the dishes, so 'de afwasmachine' is the dishwasher." },
+    { "id": "q-t13-2", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'kapot'?", "options": ["broken", "new", "expensive", "clean"], "answer": "broken", "explanation": "'Kapot' means broken; an appliance that no longer works is 'kapot'." },
+    { "id": "q-t13-3", "skill": "grammar", "format": "mcq", "prompt": "Kies het juiste lidwoord: ___ apparaat is kapot.", "options": ["het", "de", "een de", "den"], "answer": "het", "explanation": "'Apparaat' is a het-woord, so it is 'het apparaat'." },
+    { "id": "q-t13-4", "skill": "grammar", "format": "cloze", "prompt": "Wij {{1}} de afwasmachine iedere dag. (gebruiken)", "answer": ["gebruiken"], "explanation": "With 'wij' the verb keeps its full plural form: 'wij gebruiken'." },
+    { "id": "q-t13-5", "skill": "grammar", "format": "cloze", "prompt": "Ik {{1}} de wasmachine {{2}}. (aanzetten)", "answer": ["zet", "aan"], "explanation": "'Aanzetten' is a separable verb: 'aan' goes to the end and the stem 'zet' is conjugated with 'ik'." },
+    { "id": "q-t13-6", "skill": "vocab", "format": "fill_blank", "prompt": "We koken niet op elektriciteit, maar op ___. (Engels: gas)", "answer": ["gas"], "explanation": "'Gas' is gas; in Dutch you 'koken op gas' (cook on gas)." },
+    { "id": "q-t13-7", "skill": "vocab", "format": "mcq", "prompt": "Iemand geeft je goede raad. Dat noem je een goede ...", "options": ["tip", "rekening", "stroom", "kast"], "answer": "tip", "explanation": "'Een tip' is a piece of advice; 'een goede tip' is a good tip." },
+    { "id": "q-t13-8", "skill": "grammar", "format": "cloze", "prompt": "De monteur vraagt: wanneer {{1}} je langskomen? (kunnen)", "answer": ["kun"], "explanation": "With 'je' after the verb, 'kunnen' becomes 'kun je' (the -t drops in inversion)." }
+  ]
+}

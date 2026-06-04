@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t04",
+  "title": "Thema 4 — Lekker!",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t04-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'gezond'?", "options": ["healthy", "tasty", "expensive", "warm"], "answer": "healthy", "explanation": "'Gezond' = healthy, bijvoorbeeld: groente is gezond." },
+    { "id": "q-t04-2", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'the bill' (in een restaurant) in het Nederlands?", "options": ["de rekening", "de menukaart", "de ober", "het avondeten"], "answer": "de rekening", "explanation": "Je vraagt: 'Mag ik de rekening, alstublieft?' = the bill." },
+    { "id": "q-t04-3", "skill": "vocab", "format": "mcq", "prompt": "Wie brengt het eten naar je tafel in een restaurant?", "options": ["de ober", "de buurman", "de kassa", "het fruit"], "answer": "de ober", "explanation": "'De ober' is de waiter die je bedient." },
+    { "id": "q-t04-4", "skill": "grammar", "format": "mcq", "prompt": "___ fruit", "options": ["de", "het"], "answer": "het", "explanation": "'Fruit' is een het-woord: het fruit. (Maar: de groente.)" },
+    { "id": "q-t04-5", "skill": "grammar", "format": "cloze", "prompt": "Wat {{1}} we vanavond eten? Misschien vis.", "answer": ["gaan"], "explanation": "Bij 'we/wij' gebruik je de infinitief: wij gaan." },
+    { "id": "q-t04-6", "skill": "grammar", "format": "cloze", "prompt": "Ik wil graag een pizza {{1}}.", "answer": ["bestellen"], "explanation": "Na 'ik wil' komt het hele werkwoord aan het einde: bestellen." },
+    { "id": "q-t04-7", "skill": "grammar", "format": "cloze", "prompt": "Deze soep {{1}} echt heel lekker.", "answer": ["is"], "explanation": "Vervoeging van 'zijn' bij 'de soep' (hij): is." },
+    { "id": "q-t04-8", "skill": "vocab", "format": "fill_blank", "prompt": "Voordat je begint met eten, zeg je in het Nederlands: 'Eet {{1}}!'", "answer": ["smakelijk"], "explanation": "'Eet smakelijk!' betekent Enjoy your meal!" }
+  ]
+}

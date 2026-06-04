@@ -1,19 +1,19 @@
 {
   "items": [
     { "id": "chk-gem-1", "category": "gemeente", "label": "Meld je aan bij de gemeente voor inburgering", "note": "Je krijgt een PIP (Plan Inburgering en Participatie) na een brede intake." },
-    { "id": "chk-gem-2", "category": "gemeente", "label": "Bespreek je leerroute (B1) en planning in je PIP-gesprek" },
+    { "id": "chk-gem-2", "category": "gemeente", "label": "Bespreek je leerroute (A2) en planning in je PIP-gesprek" },
     { "id": "chk-gem-3", "category": "gemeente", "label": "Start het PVT (Participatieverklaringstraject)", "note": "Verplicht en gratis, via de gemeente." },
     { "id": "chk-gem-4", "category": "gemeente", "label": "Arbeidsmarktmodule (ONA / MAP) — vrijgesteld ✓", "note": "Aanvraag goedgekeurd op basis van werkervaring. Niets meer te doen — vink af als bevestiging." },
 
     { "id": "chk-exam-1", "category": "exam", "label": "Maak een account aan op Mijn Inburgering (DUO)" },
     { "id": "chk-exam-2", "category": "exam", "label": "Deadline: alle examens gedaan vóór eind oktober", "note": "Bevestigd: het telt als je het examen hebt gedaan — de uitslag mag later komen. Boek je data ruim op tijd." },
     { "id": "chk-exam-3", "category": "exam", "label": "Boek KNM (begin hiermee — goed te halen)" },
-    { "id": "chk-exam-4", "category": "exam", "label": "Boek Lezen (B1)" },
-    { "id": "chk-exam-5", "category": "exam", "label": "Boek Luisteren (B1)" },
-    { "id": "chk-exam-6", "category": "exam", "label": "Boek Schrijven (B1)" },
-    { "id": "chk-exam-7", "category": "exam", "label": "Boek Spreken (B1)" },
+    { "id": "chk-exam-4", "category": "exam", "label": "Boek Lezen (A2)" },
+    { "id": "chk-exam-5", "category": "exam", "label": "Boek Luisteren (A2)" },
+    { "id": "chk-exam-6", "category": "exam", "label": "Boek Schrijven (A2)" },
+    { "id": "chk-exam-7", "category": "exam", "label": "Boek Spreken (A2)" },
 
-    { "id": "chk-adm-1", "category": "admin", "label": "Koop LINK A2 → B1 (werkboek + online licentie)" },
+    { "id": "chk-adm-1", "category": "admin", "label": "LINK A2 → B1 kopen (optioneel — volgende stap ná A2)" },
     { "id": "chk-adm-2", "category": "admin", "label": "Zet je telefoon, Netflix en YouTube op Nederlands" },
     { "id": "chk-adm-3", "category": "admin", "label": "Abonneer op een podcast (bijv. 'Een Beetje Nederlands')" }
   ]

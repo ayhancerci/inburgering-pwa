@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t02",
+  "title": "Thema 2 — Boodschappen doen",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t02-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de openingstijden'?", "options": ["the opening hours", "the special offer", "the shopping list", "the checkout"], "answer": "the opening hours", "explanation": "'Openingstijden' zijn de uren dat een winkel open is." },
+    { "id": "q-t02-2", "skill": "vocab", "format": "mcq", "prompt": "Een medewerker in de winkel vraagt: 'Kan ik u helpen?' Wat betekent dit?", "options": ["Can I help you?", "Where do you live?", "What is your name?", "How much is it?"], "answer": "Can I help you?", "explanation": "'Kan ik u helpen?' = Can I help you?" },
+    { "id": "q-t02-3", "skill": "vocab", "format": "mcq", "prompt": "Hoe heet de plek waar je betaalt in de supermarkt?", "options": ["de kassa", "het schap", "de aanbieding", "het mandje"], "answer": "de kassa", "explanation": "Bij 'de kassa' reken je af en betaal je." },
+    { "id": "q-t02-4", "skill": "grammar", "format": "mcq", "prompt": "___ supermarkt", "options": ["de", "het"], "answer": "de", "explanation": "'Supermarkt' is een de-woord: de supermarkt." },
+    { "id": "q-t02-5", "skill": "grammar", "format": "cloze", "prompt": "Op zondag {{1}} de winkel om twaalf uur open.", "answer": ["gaat"], "explanation": "Bij 'de winkel' (hij) krijgt het werkwoord -t: gaat open." },
+    { "id": "q-t02-6", "skill": "grammar", "format": "cloze", "prompt": "Wij {{1}} elke zaterdag boodschappen.", "answer": ["doen"], "explanation": "Bij 'wij' gebruik je de infinitief: wij doen." },
+    { "id": "q-t02-7", "skill": "grammar", "format": "cloze", "prompt": "Ik wil graag met pin {{1}}.", "answer": ["betalen"], "explanation": "Na 'ik wil' komt het hele werkwoord aan het einde: betalen." },
+    { "id": "q-t02-8", "skill": "vocab", "format": "fill_blank", "prompt": "De kaas is goedkoop deze week, hij is in de {{1}} (= special offer).", "answer": ["aanbieding"], "explanation": "Iets in de 'aanbieding' is in de uitverkoop / special offer." }
+  ]
+}

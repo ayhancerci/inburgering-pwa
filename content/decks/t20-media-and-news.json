@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t20", "title": "Thema 20 — Waar gaat het over?", "type": "vocab", "themeId": "link-0a2-20", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t20-01", "deckId": "deck-t20", "front": "het nieuws", "back": "the news", "examples": ["Ik kijk elke avond naar het nieuws."] },
+    { "id": "c-t20-02", "deckId": "deck-t20", "front": "het bericht", "back": "the message / news item", "examples": ["Heb je dat bericht op de radio gehoord?"] },
+    { "id": "c-t20-03", "deckId": "deck-t20", "front": "de krant", "back": "the newspaper", "examples": ["Mijn opa leest elke dag de krant."] },
+    { "id": "c-t20-04", "deckId": "deck-t20", "front": "sociale media", "back": "social media", "examples": ["Veel jongeren gebruiken sociale media."] },
+    { "id": "c-t20-05", "deckId": "deck-t20", "front": "de foto", "back": "the photo", "examples": ["Zij zet elke dag een foto op Instagram."] },
+    { "id": "c-t20-06", "deckId": "deck-t20", "front": "delen", "back": "to share", "examples": ["Ik deel het filmpje met mijn vrienden."] },
+    { "id": "c-t20-07", "deckId": "deck-t20", "front": "het filmpje", "back": "the (short) video / clip", "examples": ["Heb je dat grappige filmpje gezien?"] },
+    { "id": "c-t20-08", "deckId": "deck-t20", "front": "kijken naar", "back": "to watch / look at", "examples": ["Wij kijken samen naar het journaal."] },
+    { "id": "c-t20-09", "deckId": "deck-t20", "front": "het journaal", "back": "the (TV) news broadcast", "examples": ["Het journaal begint om acht uur."] },
+    { "id": "c-t20-10", "deckId": "deck-t20", "front": "het programma", "back": "the programme / show", "examples": ["Dit programma is heel populair."] },
+    { "id": "c-t20-11", "deckId": "deck-t20", "front": "online", "back": "online", "examples": ["Ik lees het nieuws meestal online."] },
+    { "id": "c-t20-12", "deckId": "deck-t20", "front": "het account", "back": "the account", "examples": ["Zij heeft een account op Instagram."] },
+    { "id": "c-t20-13", "deckId": "deck-t20", "front": "volgen", "back": "to follow", "examples": ["Ik volg het nieuws op mijn telefoon."] },
+    { "id": "c-t20-14", "deckId": "deck-t20", "front": "in het nieuws", "back": "in the news", "examples": ["Het stond gisteren in het nieuws."] },
+    { "id": "c-t20-15", "deckId": "deck-t20", "front": "de reclame", "back": "the advertisement / commercial", "examples": ["Op tv is er veel reclame."] }
+  ]
+}

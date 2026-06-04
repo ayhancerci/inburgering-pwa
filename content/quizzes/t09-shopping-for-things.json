@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t09",
+  "title": "Thema 9 — Waar heb je die laptop gekocht?",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t09-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de bon'?", "options": ["the receipt", "the shop", "the size", "the discount"], "answer": "the receipt", "explanation": "'De bon' is the receipt you get at the till; keep it if you want to exchange something." },
+    { "id": "q-t09-2", "skill": "vocab", "format": "mcq", "prompt": "Hoe zeg je 'I want my money back'?", "options": ["Ik wil mijn geld terug.", "Ik wil een grotere maat.", "Ik wil deze broek passen.", "Ik wil korting."], "answer": "Ik wil mijn geld terug.", "explanation": "'Geld terug' means 'money back'; you say this when you want a refund." },
+    { "id": "q-t09-3", "skill": "vocab", "format": "mcq", "prompt": "Welk artikel hoort bij 'pakket'?", "options": ["het", "de", "een", "geen artikel"], "answer": "het", "explanation": "It is 'het pakket' (the parcel); 'pakket' is a het-woord." },
+    { "id": "q-t09-4", "skill": "grammar", "format": "cloze", "prompt": "Waar {{1}} je die laptop gekocht? (kopen, perfect)", "answer": ["heb"], "explanation": "In the present perfect with 'kopen' you use 'hebben': 'heb je ... gekocht'. The past participle 'gekocht' goes to the end." },
+    { "id": "q-t09-5", "skill": "grammar", "format": "cloze", "prompt": "Deze schoenen {{1}} niet, ze zijn te klein. (passen)", "answer": ["passen"], "explanation": "'Schoenen' is plural, so the verb 'passen' stays in the plural form 'passen'." },
+    { "id": "q-t09-6", "skill": "grammar", "format": "cloze", "prompt": "Ik wil deze trui {{1}}, want hij is te groot. (ruilen)", "answer": ["ruilen"], "explanation": "After the modal verb 'wil', the main verb goes to the end in the infinitive: 'ruilen'." },
+    { "id": "q-t09-7", "skill": "vocab", "format": "fill_blank", "prompt": "Tweedehands kleding is gebruikte kleding. Nieuw kost meer dan ________.", "answer": ["tweedehands"], "explanation": "'Tweedehands' means second-hand: clothing that someone has already used." },
+    { "id": "q-t09-8", "skill": "vocab", "format": "fill_blank", "prompt": "De laptop is na een week stuk. Hij is ________.", "answer": ["kapot"], "explanation": "'Kapot' means broken; with a warranty ('garantie') you can have it repaired." }
+  ]
+}

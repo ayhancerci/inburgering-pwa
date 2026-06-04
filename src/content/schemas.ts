@@ -102,3 +102,48 @@ export type PlanTask = z.infer<typeof planTaskSchema>
 export type PlanWeek = z.infer<typeof planWeekSchema>
 export type PlanMeta = z.infer<typeof planFileSchema>['meta']
 export type ChecklistItemDef = z.infer<typeof checklistItemSchema>
+
+/* ---------- Curriculum (themes + tasks with English tips) ---------- */
+
+export const themeTaskSchema = z.object({
+  n: z.number(),
+  titleNl: z.string(),
+  tip: z.string(),
+})
+
+export const themeSchema = z.object({
+  id: z.string(),
+  number: z.number(),
+  titleNl: z.string(),
+  titleEn: z.string(),
+  page: z.number().optional(),
+  deckId: z.string().optional(),
+  quizId: z.string().optional(),
+  tip: z.string(),
+  tasks: z.array(themeTaskSchema),
+})
+
+export const curriculumFileSchema = z.object({
+  themes: z.array(themeSchema),
+})
+
+/* ---------- External learning resources ---------- */
+
+export const resourceSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  url: z.string(),
+  type: z.enum(['practice', 'video', 'reading', 'listening', 'grammar', 'podcast', 'knm', 'vocab']),
+  skill: skillSchema.optional(),
+  level: z.enum(['A1', 'A2', 'B1']).optional(),
+  description: z.string().optional(),
+  free: z.boolean().optional(),
+})
+
+export const resourceFileSchema = z.object({
+  resources: z.array(resourceSchema),
+})
+
+export type ThemeTask = z.infer<typeof themeTaskSchema>
+export type Theme = z.infer<typeof themeSchema>
+export type Resource = z.infer<typeof resourceSchema>

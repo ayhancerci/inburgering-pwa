@@ -7,12 +7,13 @@
     {
       "id": "wk-01",
       "weekNumber": 1,
-      "theme": "Kennismaking & opstarten",
+      "theme": "Thema 1 — Wie ben je?",
       "dateLabel": "2 – 8 juni",
       "tasks": [
-        { "id": "t-w1-book", "label": "LINK 0→A2 — Thema 1, oefeningen 1–10", "kind": "book", "ref": "link-0a2-01", "estMinutes": 90, "assignee": "both" },
-        { "id": "t-w1-fc", "label": "Flashcards: Thema 1 woorden (kennismaking)", "kind": "flashcards", "ref": "deck-a2-t01", "estMinutes": 20, "assignee": "both" },
-        { "id": "t-w1-quiz", "label": "Oefenen: lidwoorden de / het", "kind": "quiz", "ref": "quiz-de-het", "estMinutes": 15, "assignee": "both" },
+        { "id": "t-w1-book", "label": "LINK 0→A2 — Thema 1 (Wie ben je?), Taak 1–4", "kind": "book", "ref": "link-0a2-01", "estMinutes": 90, "assignee": "both" },
+        { "id": "t-w1-fc", "label": "Flashcards: Thema 1 woorden", "kind": "flashcards", "ref": "deck-t01", "estMinutes": 20, "assignee": "both" },
+        { "id": "t-w1-quiz", "label": "Oefenen: Thema 1 quiz", "kind": "quiz", "ref": "quiz-t01", "estMinutes": 15, "assignee": "both" },
+        { "id": "t-w1-quiz2", "label": "Oefenen: lidwoorden de / het", "kind": "quiz", "ref": "quiz-de-het", "estMinutes": 10, "assignee": "both" },
         { "id": "t-w1-knm", "label": "KNM: basisfeiten over Nederland lezen", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 20, "assignee": "both" },
         { "id": "t-w1-duo", "label": "Verken de gratis DUO-oefenomgeving", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30, "assignee": "both" },
         { "id": "t-w1-adm", "label": "Meld je aan bij de gemeente (start je PIP)", "kind": "admin", "estMinutes": 30, "assignee": "both" }
@@ -21,28 +22,29 @@
     {
       "id": "wk-02",
       "weekNumber": 2,
-      "theme": "Familie & dagelijks leven",
+      "theme": "Thema 2 — Boodschappen doen",
       "dateLabel": "9 – 15 juni",
       "tasks": [
-        { "id": "t-w2-book", "label": "LINK 0→A2 — Thema 2, oefeningen 1–10", "kind": "book", "ref": "link-0a2-02", "estMinutes": 90, "assignee": "both" },
-        { "id": "t-w2-fc", "label": "Flashcards: Thema 2 woorden (familie)", "kind": "flashcards", "ref": "deck-a2-t02", "estMinutes": 20, "assignee": "both" },
-        { "id": "t-w2-fc2", "label": "Flashcards: Thema 1 herhalen", "kind": "flashcards", "ref": "deck-a2-t01", "estMinutes": 10, "assignee": "both" },
-        { "id": "t-w2-quiz", "label": "Oefenen: woordvolgorde", "kind": "quiz", "ref": "quiz-woordvolgorde", "estMinutes": 15, "assignee": "both" },
-        { "id": "t-w2-quiz2", "label": "Oefenen: woorden Thema 1", "kind": "quiz", "ref": "quiz-vocab-t01", "estMinutes": 10, "assignee": "both" },
+        { "id": "t-w2-book", "label": "LINK 0→A2 — Thema 2 (Boodschappen doen), Taak 1–4", "kind": "book", "ref": "link-0a2-02", "estMinutes": 90, "assignee": "both" },
+        { "id": "t-w2-fc", "label": "Flashcards: Thema 2 woorden", "kind": "flashcards", "ref": "deck-t02", "estMinutes": 20, "assignee": "both" },
+        { "id": "t-w2-fc2", "label": "Flashcards: Thema 1 herhalen", "kind": "flashcards", "ref": "deck-t01", "estMinutes": 10, "assignee": "both" },
+        { "id": "t-w2-quiz", "label": "Oefenen: Thema 2 quiz", "kind": "quiz", "ref": "quiz-t02", "estMinutes": 15, "assignee": "both" },
+        { "id": "t-w2-quiz2", "label": "Oefenen: woordvolgorde", "kind": "quiz", "ref": "quiz-woordvolgorde", "estMinutes": 10, "assignee": "both" },
         { "id": "t-w2-duo", "label": "DUO: oefenexamen Lezen A2 — deel 1", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30, "assignee": "both" }
       ]
     },
     {
       "id": "wk-03",
       "weekNumber": 3,
-      "theme": "Herhaling & luisteren",
+      "theme": "Thema 3 — Hoe gaat het?",
       "dateLabel": "16 – 22 juni",
       "tasks": [
-        { "id": "t-w3-book", "label": "LINK 0→A2 — Thema 3, oefeningen 1–10", "kind": "book", "ref": "link-0a2-03", "estMinutes": 90, "assignee": "both" },
-        { "id": "t-w3-fc", "label": "Flashcards: alle woorden herhalen", "kind": "flashcards", "estMinutes": 20, "assignee": "both" },
+        { "id": "t-w3-book", "label": "LINK 0→A2 — Thema 3 (Hoe gaat het?), Taak 1–4", "kind": "book", "ref": "link-0a2-03", "estMinutes": 90, "assignee": "both" },
+        { "id": "t-w3-fc", "label": "Flashcards: Thema 3 woorden", "kind": "flashcards", "ref": "deck-t03", "estMinutes": 20, "assignee": "both" },
+        { "id": "t-w3-quiz", "label": "Oefenen: Thema 3 quiz", "kind": "quiz", "ref": "quiz-t03", "estMinutes": 15, "assignee": "both" },
         { "id": "t-w3-knm", "label": "KNM-feiten herhalen", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 15, "assignee": "both" },
         { "id": "t-w3-duo", "label": "DUO: oefenexamen Luisteren A2", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30, "assignee": "both" },
-        { "id": "t-w3-speak", "label": "Samen 15 min hardop oefenen (kennismaking + familie)", "kind": "admin", "estMinutes": 15, "assignee": "both" }
+        { "id": "t-w3-speak", "label": "Samen 15 min hardop oefenen (kennismaking + boodschappen)", "kind": "admin", "estMinutes": 15, "assignee": "both" }
       ]
     }
   ]

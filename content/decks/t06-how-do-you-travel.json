@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t06", "title": "Thema 6 — Hoe reis jij?", "type": "vocab", "themeId": "link-0a2-06", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t06-01", "deckId": "deck-t06", "front": "de trein", "back": "the train", "examples": ["De trein naar Amsterdam vertrekt om negen uur."] },
+    { "id": "c-t06-02", "deckId": "deck-t06", "front": "de bus", "back": "the bus", "examples": ["Ik neem elke ochtend de bus naar mijn werk."] },
+    { "id": "c-t06-03", "deckId": "deck-t06", "front": "de fiets", "back": "the bicycle", "examples": ["In Nederland gaan veel mensen met de fiets."] },
+    { "id": "c-t06-04", "deckId": "deck-t06", "front": "de auto", "back": "the car", "examples": ["Met de auto ben je sneller op het werk."] },
+    { "id": "c-t06-05", "deckId": "deck-t06", "front": "het station", "back": "the station", "examples": ["Het station is vlak bij mijn huis."] },
+    { "id": "c-t06-06", "deckId": "deck-t06", "front": "het perron", "back": "the platform", "examples": ["De trein staat op perron drie."] },
+    { "id": "c-t06-07", "deckId": "deck-t06", "front": "het kaartje", "back": "the ticket", "examples": ["Ik koop een kaartje bij de automaat."] },
+    { "id": "c-t06-08", "deckId": "deck-t06", "front": "vertrekken", "back": "to depart", "examples": ["De bus vertrekt over vijf minuten."] },
+    { "id": "c-t06-09", "deckId": "deck-t06", "front": "aankomen", "back": "to arrive", "examples": ["We komen om half tien aan in Rotterdam."] },
+    { "id": "c-t06-10", "deckId": "deck-t06", "front": "overstappen", "back": "to change / transfer", "examples": ["In Utrecht moet je overstappen op een andere trein."] },
+    { "id": "c-t06-11", "deckId": "deck-t06", "front": "te laat", "back": "late / too late", "examples": ["Sorry, ik ben een beetje te laat."] },
+    { "id": "c-t06-12", "deckId": "deck-t06", "front": "de vertraging", "back": "the delay", "examples": ["De trein heeft tien minuten vertraging."] },
+    { "id": "c-t06-13", "deckId": "deck-t06", "front": "de dienstregeling", "back": "the timetable", "examples": ["Volgens de dienstregeling vertrekt de trein om acht uur."] },
+    { "id": "c-t06-14", "deckId": "deck-t06", "front": "Mag ik u iets vragen?", "back": "May I ask you something?", "examples": ["Mag ik u iets vragen? Waar is het perron?"] },
+    { "id": "c-t06-15", "deckId": "deck-t06", "front": "lopen", "back": "to walk", "examples": ["Ik loop naar de bushalte."] }
+  ]
+}

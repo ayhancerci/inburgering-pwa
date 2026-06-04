@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t12", "title": "Thema 12 — Op school", "type": "vocab", "themeId": "link-0a2-12", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t12-01", "deckId": "deck-t12", "front": "de school", "back": "the school", "examples": ["De school begint om half negen."] },
+    { "id": "c-t12-02", "deckId": "deck-t12", "front": "de basisschool", "back": "the primary school", "examples": ["Mijn dochter zit op de basisschool."] },
+    { "id": "c-t12-03", "deckId": "deck-t12", "front": "de middelbare school", "back": "the secondary school", "examples": ["Na de basisschool ga je naar de middelbare school."] },
+    { "id": "c-t12-04", "deckId": "deck-t12", "front": "de leerling", "back": "the pupil", "examples": ["Elke leerling heeft een eigen tablet."] },
+    { "id": "c-t12-05", "deckId": "deck-t12", "front": "de leraar", "back": "the (male) teacher", "examples": ["De leraar legt de les goed uit."] },
+    { "id": "c-t12-06", "deckId": "deck-t12", "front": "de juf", "back": "the (female) teacher (primary)", "examples": ["De juf leest een verhaal voor."] },
+    { "id": "c-t12-07", "deckId": "deck-t12", "front": "het vak", "back": "the (school) subject", "examples": ["Mijn favoriete vak is rekenen."] },
+    { "id": "c-t12-08", "deckId": "deck-t12", "front": "het huiswerk", "back": "the homework", "examples": ["Ik maak elke dag mijn huiswerk."] },
+    { "id": "c-t12-09", "deckId": "deck-t12", "front": "leren", "back": "to learn / to study", "examples": ["Ik leer Nederlands op school."] },
+    { "id": "c-t12-10", "deckId": "deck-t12", "front": "studeren", "back": "to study (in higher education)", "examples": ["Mijn zoon wil aan de universiteit studeren."] },
+    { "id": "c-t12-11", "deckId": "deck-t12", "front": "het rapport", "back": "the school report", "examples": ["Ze heeft een goed rapport gekregen."] },
+    { "id": "c-t12-12", "deckId": "deck-t12", "front": "het diploma", "back": "the diploma / certificate", "examples": ["Hij haalt dit jaar zijn diploma."] },
+    { "id": "c-t12-13", "deckId": "deck-t12", "front": "het cijfer", "back": "the grade / mark", "examples": ["Ik heb een goed cijfer voor de toets."] },
+    { "id": "c-t12-14", "deckId": "deck-t12", "front": "de toets", "back": "the test", "examples": ["Morgen heb ik een toets Nederlands."] },
+    { "id": "c-t12-15", "deckId": "deck-t12", "front": "de klas", "back": "the class / classroom", "examples": ["Er zitten twintig kinderen in de klas."] }
+  ]
+}

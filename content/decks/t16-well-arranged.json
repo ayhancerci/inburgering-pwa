@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t16", "title": "Thema 16 — Goed geregeld", "type": "vocab", "themeId": "link-0a2-16", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t16-01", "deckId": "deck-t16", "front": "het afval", "back": "the waste / rubbish", "examples": ["Het afval wordt op maandag opgehaald."] },
+    { "id": "c-t16-02", "deckId": "deck-t16", "front": "scheiden", "back": "to separate (waste)", "examples": ["In Nederland scheiden we het afval."] },
+    { "id": "c-t16-03", "deckId": "deck-t16", "front": "de container", "back": "the container / bin", "examples": ["Het glas gaat in de groene container."] },
+    { "id": "c-t16-04", "deckId": "deck-t16", "front": "het glas", "back": "the glass", "examples": ["Lege flessen gooi je bij het glas."] },
+    { "id": "c-t16-05", "deckId": "deck-t16", "front": "het papier", "back": "the paper", "examples": ["Oude kranten horen bij het papier."] },
+    { "id": "c-t16-06", "deckId": "deck-t16", "front": "het plastic", "back": "the plastic", "examples": ["Het plastic gaat in een aparte zak."] },
+    { "id": "c-t16-07", "deckId": "deck-t16", "front": "weggooien", "back": "to throw away", "examples": ["Waar moet ik dit weggooien?"] },
+    { "id": "c-t16-08", "deckId": "deck-t16", "front": "het gemeentehuis", "back": "the town hall", "examples": ["Ik haal mijn paspoort op bij het gemeentehuis."] },
+    { "id": "c-t16-09", "deckId": "deck-t16", "front": "de gemeente", "back": "the municipality", "examples": ["De gemeente regelt het ophalen van afval."] },
+    { "id": "c-t16-10", "deckId": "deck-t16", "front": "regelen", "back": "to arrange / sort out", "examples": ["Ik wil mijn verzekering online regelen."] },
+    { "id": "c-t16-11", "deckId": "deck-t16", "front": "de afspraak", "back": "the appointment", "examples": ["Ik maak een afspraak bij de gemeente."] },
+    { "id": "c-t16-12", "deckId": "deck-t16", "front": "verzekerd", "back": "insured", "examples": ["Ben je goed verzekerd?"] },
+    { "id": "c-t16-13", "deckId": "deck-t16", "front": "de verzekering", "back": "the insurance", "examples": ["De verzekering betaalt de schade."] },
+    { "id": "c-t16-14", "deckId": "deck-t16", "front": "online", "back": "online", "examples": ["Veel dingen kun je online regelen."] },
+    { "id": "c-t16-15", "deckId": "deck-t16", "front": "Waar gooi je het in?", "back": "Where do you throw it in?", "examples": ["Dit is plastic. Waar gooi je het in?"] }
+  ]
+}

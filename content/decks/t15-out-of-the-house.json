@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t15", "title": "Thema 15 — Buiten de deur", "type": "vocab", "themeId": "link-0a2-15", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t15-01", "deckId": "deck-t15", "front": "lid worden", "back": "to become a member", "examples": ["Ik wil lid worden van de sportschool."] },
+    { "id": "c-t15-02", "deckId": "deck-t15", "front": "het lid", "back": "the member", "examples": ["Hij is lid van de voetbalclub."] },
+    { "id": "c-t15-03", "deckId": "deck-t15", "front": "de vereniging", "back": "the club / association", "examples": ["De vereniging organiseert elke week een activiteit."] },
+    { "id": "c-t15-04", "deckId": "deck-t15", "front": "de sportschool", "back": "the gym", "examples": ["Ik ga drie keer per week naar de sportschool."] },
+    { "id": "c-t15-05", "deckId": "deck-t15", "front": "de hobby", "back": "the hobby", "examples": ["Mijn hobby is fotograferen."] },
+    { "id": "c-t15-06", "deckId": "deck-t15", "front": "sporten", "back": "to do sport / exercise", "examples": ["Ik sport graag in het weekend."] },
+    { "id": "c-t15-07", "deckId": "deck-t15", "front": "de wedstrijd", "back": "the match / competition", "examples": ["De wedstrijd begint om drie uur."] },
+    { "id": "c-t15-08", "deckId": "deck-t15", "front": "het zwembad", "back": "the swimming pool", "examples": ["We gaan naar het zwembad."] },
+    { "id": "c-t15-09", "deckId": "deck-t15", "front": "de contributie", "back": "the membership fee", "examples": ["De contributie is twintig euro per maand."] },
+    { "id": "c-t15-10", "deckId": "deck-t15", "front": "het uiterlijk", "back": "the appearance", "examples": ["Het uiterlijk is niet het belangrijkste."] },
+    { "id": "c-t15-11", "deckId": "deck-t15", "front": "het haar", "back": "the hair", "examples": ["Wat is je haar lang!"] },
+    { "id": "c-t15-12", "deckId": "deck-t15", "front": "de baard", "back": "the beard", "examples": ["Hij heeft een lange baard."] },
+    { "id": "c-t15-13", "deckId": "deck-t15", "front": "knap", "back": "good-looking / clever", "examples": ["Ze ziet er knap uit."] },
+    { "id": "c-t15-14", "deckId": "deck-t15", "front": "Ik kan prima zonder sport.", "back": "I can do fine without sport.", "examples": ["Ik sport niet; ik kan prima zonder sport."] },
+    { "id": "c-t15-15", "deckId": "deck-t15", "front": "Wat is je haar lang!", "back": "Your hair is so long!", "examples": ["Wat is je haar lang! Ben je naar de kapper geweest?"] }
+  ]
+}

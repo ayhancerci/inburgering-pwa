@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t03", "title": "Thema 3 — Hoe gaat het?", "type": "vocab", "themeId": "link-0a2-03", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t03-01", "deckId": "deck-t03", "front": "Hoe gaat het met je?", "back": "How are you?", "examples": ["Hé Tom, hoe gaat het met je?"] },
+    { "id": "c-t03-02", "deckId": "deck-t03", "front": "het gaat goed", "back": "it's going well", "examples": ["Met mij gaat het goed, dank je."] },
+    { "id": "c-t03-03", "deckId": "deck-t03", "front": "het weer", "back": "the weather", "examples": ["Het weer is mooi vandaag."] },
+    { "id": "c-t03-04", "deckId": "deck-t03", "front": "de zon", "back": "the sun", "examples": ["De zon schijnt."] },
+    { "id": "c-t03-05", "deckId": "deck-t03", "front": "de regen", "back": "the rain", "examples": ["Het regent, neem een paraplu mee."] },
+    { "id": "c-t03-06", "deckId": "deck-t03", "front": "koud", "back": "cold", "examples": ["Het is koud buiten."] },
+    { "id": "c-t03-07", "deckId": "deck-t03", "front": "warm", "back": "warm / hot" },
+    { "id": "c-t03-08", "deckId": "deck-t03", "front": "Leuk je te zien!", "back": "Nice to see you!" },
+    { "id": "c-t03-09", "deckId": "deck-t03", "front": "de uitnodiging", "back": "the invitation", "examples": ["Bedankt voor de uitnodiging."] },
+    { "id": "c-t03-10", "deckId": "deck-t03", "front": "uitnodigen", "back": "to invite", "examples": ["Ik nodig je uit om te komen voetballen kijken."] },
+    { "id": "c-t03-11", "deckId": "deck-t03", "front": "voetbal kijken", "back": "to watch football", "examples": ["Kom je vanavond voetbal kijken?"] },
+    { "id": "c-t03-12", "deckId": "deck-t03", "front": "Gefeliciteerd!", "back": "Congratulations!", "examples": ["Gefeliciteerd met je verjaardag!"] },
+    { "id": "c-t03-13", "deckId": "deck-t03", "front": "de verjaardag", "back": "the birthday" },
+    { "id": "c-t03-14", "deckId": "deck-t03", "front": "Tot straks!", "back": "See you later!" },
+    { "id": "c-t03-15", "deckId": "deck-t03", "front": "moe", "back": "tired", "examples": ["Ik ben een beetje moe vandaag."] }
+  ]
+}

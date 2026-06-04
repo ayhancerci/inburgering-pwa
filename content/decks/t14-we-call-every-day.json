@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t14", "title": "Thema 14 — We bellen iedere dag", "type": "vocab", "themeId": "link-0a2-14", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t14-01", "deckId": "deck-t14", "front": "bellen", "back": "to call / phone", "examples": ["We bellen iedere dag met oma."] },
+    { "id": "c-t14-02", "deckId": "deck-t14", "front": "op bezoek komen", "back": "to come for a visit", "examples": ["Mijn zus komt morgen op bezoek."] },
+    { "id": "c-t14-03", "deckId": "deck-t14", "front": "het bezoek", "back": "the visit / the visitors", "examples": ["We krijgen vanavond bezoek."] },
+    { "id": "c-t14-04", "deckId": "deck-t14", "front": "de familie", "back": "the family", "examples": ["Mijn familie woont in Marokko."] },
+    { "id": "c-t14-05", "deckId": "deck-t14", "front": "trouwen", "back": "to marry / get married", "examples": ["Mijn broer gaat in juni trouwen."] },
+    { "id": "c-t14-06", "deckId": "deck-t14", "front": "samenwonen", "back": "to live together / cohabit", "examples": ["Ze willen eerst samenwonen."] },
+    { "id": "c-t14-07", "deckId": "deck-t14", "front": "scheiden", "back": "to divorce / separate", "examples": ["Mijn ouders gaan scheiden."] },
+    { "id": "c-t14-08", "deckId": "deck-t14", "front": "het huwelijk", "back": "the marriage / the wedding", "examples": ["Het huwelijk is volgende week."] },
+    { "id": "c-t14-09", "deckId": "deck-t14", "front": "getrouwd", "back": "married", "examples": ["Ik ben tien jaar getrouwd."] },
+    { "id": "c-t14-10", "deckId": "deck-t14", "front": "verliefd", "back": "in love", "examples": ["Ze zijn heel verliefd."] },
+    { "id": "c-t14-11", "deckId": "deck-t14", "front": "lijken op", "back": "to resemble / look like", "examples": ["Je lijkt op je moeder."] },
+    { "id": "c-t14-12", "deckId": "deck-t14", "front": "het kleinkind", "back": "the grandchild", "examples": ["Oma heeft vier kleinkinderen."] },
+    { "id": "c-t14-13", "deckId": "deck-t14", "front": "de schoonmoeder", "back": "the mother-in-law", "examples": ["Mijn schoonmoeder kookt heerlijk."] },
+    { "id": "c-t14-14", "deckId": "deck-t14", "front": "de neef", "back": "the cousin / nephew", "examples": ["Mijn neef komt uit Antwerpen."] },
+    { "id": "c-t14-15", "deckId": "deck-t14", "front": "de nicht", "back": "the cousin / niece", "examples": ["Mijn nicht lijkt op mij."] }
+  ]
+}

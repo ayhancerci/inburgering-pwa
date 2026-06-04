@@ -1,0 +1,224 @@
+{
+  "themes": [
+    {
+      "id": "link-0a2-01", "number": 1, "titleNl": "Wie ben je?", "titleEn": "Who are you?", "page": 7,
+      "deckId": "deck-t01", "quizId": "quiz-t01",
+      "tip": "Introduce yourself — your name, where you're from, your phone number, and filling in simple forms.",
+      "tasks": [
+        { "n": 1, "titleNl": "Ik ben Iwan", "tip": "Saying who you are; basic introductions." },
+        { "n": 2, "titleNl": "Wat is je telefoonnummer?", "tip": "Numbers and giving your phone number." },
+        { "n": 3, "titleNl": "Een formulier invullen", "tip": "Filling in a form: name, address, date of birth." },
+        { "n": 4, "titleNl": "Welkom nieuwe buurvrouw!", "tip": "Welcoming a new neighbour; polite greetings." }
+      ]
+    },
+    {
+      "id": "link-0a2-02", "number": 2, "titleNl": "Boodschappen doen", "titleEn": "Doing the groceries", "page": 18,
+      "deckId": "deck-t02", "quizId": "quiz-t02",
+      "tip": "Shopping for groceries — shops, asking for and offering help, and opening hours.",
+      "tasks": [
+        { "n": 1, "titleNl": "Wie doet de boodschappen?", "tip": "Who does the shopping; food & household items." },
+        { "n": 2, "titleNl": "Wie kan ik helpen?", "tip": "Offering and asking for help in a shop." },
+        { "n": 3, "titleNl": "Waar doe je boodschappen?", "tip": "Different shops and where you buy things." },
+        { "n": 4, "titleNl": "Is de Jumbo nog open?", "tip": "Opening hours; asking if a shop is open." }
+      ]
+    },
+    {
+      "id": "link-0a2-03", "number": 3, "titleNl": "Hoe gaat het?", "titleEn": "How are you?", "page": 31,
+      "deckId": "deck-t03", "quizId": "quiz-t03",
+      "tip": "Small talk — the weather, greetings, invitations and congratulations.",
+      "tasks": [
+        { "n": 1, "titleNl": "Lekker weer, hè?", "tip": "Talking about the weather as small talk." },
+        { "n": 2, "titleNl": "Leuk je te zien!", "tip": "Greeting people you know; 'nice to see you'." },
+        { "n": 3, "titleNl": "Kom je voetbal bij me kijken?", "tip": "Inviting someone over; making plans." },
+        { "n": 4, "titleNl": "Gefeliciteerd!", "tip": "Congratulating someone (birthdays, good news)." }
+      ]
+    },
+    {
+      "id": "link-0a2-04", "number": 4, "titleNl": "Lekker!", "titleEn": "Tasty! (food)", "page": 44,
+      "deckId": "deck-t04", "quizId": "quiz-t04",
+      "tip": "Food and meals — what you like to eat, healthy food, and eating out.",
+      "tasks": [
+        { "n": 1, "titleNl": "Wat eten we vanavond?", "tip": "Planning dinner; food vocabulary." },
+        { "n": 2, "titleNl": "Wat eet je graag?", "tip": "Saying what you like and dislike eating." },
+        { "n": 3, "titleNl": "Wat gezond!", "tip": "Healthy vs unhealthy food." },
+        { "n": 4, "titleNl": "Uit eten", "tip": "Eating out: ordering in a restaurant, the bill." }
+      ]
+    },
+    {
+      "id": "link-0a2-05", "number": 5, "titleNl": "Dit is mijn huis", "titleEn": "This is my house", "page": 57,
+      "deckId": "deck-t05", "quizId": "quiz-t05",
+      "tip": "Your home — rooms, furniture, renting and living independently.",
+      "tasks": [
+        { "n": 1, "titleNl": "Ik woon in een appartement", "tip": "Types of homes and rooms." },
+        { "n": 2, "titleNl": "Een briefje in de flat", "tip": "A short note to neighbours in your building." },
+        { "n": 3, "titleNl": "Een gezellig huis", "tip": "Describing a cosy home; furniture." },
+        { "n": 4, "titleNl": "Op kamers!", "tip": "Renting a room; living independently." }
+      ]
+    },
+    {
+      "id": "link-0a2-06", "number": 6, "titleNl": "Hoe reis jij?", "titleEn": "How do you travel?", "page": 74,
+      "deckId": "deck-t06", "quizId": "quiz-t06",
+      "tip": "Getting around — public transport, timetables and asking directions.",
+      "tasks": [
+        { "n": 1, "titleNl": "Hoe laat gaat de trein?", "tip": "Train times and timetables." },
+        { "n": 2, "titleNl": "Mag ik u wat vragen?", "tip": "Politely asking a stranger for information." },
+        { "n": 3, "titleNl": "Sorry, ik kom wat later", "tip": "Being late; apologising." },
+        { "n": 4, "titleNl": "Hoe reis jij?", "tip": "Ways of travelling (train, bus, bike, car)." }
+      ]
+    },
+    {
+      "id": "link-0a2-07", "number": 7, "titleNl": "Naar de dokter", "titleEn": "To the doctor", "page": 88,
+      "deckId": "deck-t07", "quizId": "quiz-t07",
+      "tip": "Health — making appointments and explaining how you feel at the doctor's.",
+      "tasks": [
+        { "n": 1, "titleNl": "Wanneer is het spreekuur?", "tip": "Opening/consultation hours at the doctor." },
+        { "n": 2, "titleNl": "Ik wil graag een afspraak maken", "tip": "Making a doctor's appointment." },
+        { "n": 3, "titleNl": "Taak 3", "tip": "At the doctor — describing your complaint & body parts. (Title was cut off in your contents photo — tell me the exact title and I'll add it.)" },
+        { "n": 4, "titleNl": "Taak 4", "tip": "More health care, e.g. the pharmacy/medicines. (Title was cut off — share it and I'll update.)" }
+      ]
+    },
+    {
+      "id": "link-0a2-08", "number": 8, "titleNl": "Huis, straat en buurt", "titleEn": "House, street & neighbourhood", "page": 105,
+      "deckId": "deck-t08", "quizId": "quiz-t08",
+      "tip": "Your neighbourhood — housemates, local activities and dealing with neighbours.",
+      "tasks": [
+        { "n": 1, "titleNl": "De ideale huisgenoot", "tip": "Describing the ideal housemate." },
+        { "n": 2, "titleNl": "Wanneer is het taalcafé?", "tip": "Local activities; the language café." },
+        { "n": 3, "titleNl": "Ik ben tevreden met de buurt", "tip": "Talking about your neighbourhood." },
+        { "n": 4, "titleNl": "Ik heb last van de buurman", "tip": "Complaints about a neighbour." }
+      ]
+    },
+    {
+      "id": "link-0a2-09", "number": 9, "titleNl": "Waar heb je die laptop gekocht?", "titleEn": "Where did you buy that laptop?", "page": 123,
+      "deckId": "deck-t09", "quizId": "quiz-t09",
+      "tip": "Buying things — clothes, refunds, second-hand and returning parcels.",
+      "tasks": [
+        { "n": 1, "titleNl": "Wat ga je aandoen?", "tip": "Clothes and what to wear." },
+        { "n": 2, "titleNl": "Ik wil graag mijn geld terug", "tip": "Asking for a refund." },
+        { "n": 3, "titleNl": "Tweedehands kleren ga ik echt niet dragen", "tip": "Opinions about second-hand clothes." },
+        { "n": 4, "titleNl": "Een pakketje terugsturen", "tip": "Returning a parcel / online order." }
+      ]
+    },
+    {
+      "id": "link-0a2-10", "number": 10, "titleNl": "Is dat wel veilig?", "titleEn": "Is that safe?", "page": 140,
+      "deckId": "deck-t10", "quizId": "quiz-t10",
+      "tip": "Safety — accidents, danger and contacting the police.",
+      "tasks": [
+        { "n": 1, "titleNl": "U moet hier stoppen!", "tip": "Rules and instructions; 'you must…'." },
+        { "n": 2, "titleNl": "Wat is er gebeurd?", "tip": "Describing what happened (past tense)." },
+        { "n": 3, "titleNl": "Dat is levensgevaarlijk!", "tip": "Talking about danger." },
+        { "n": 4, "titleNl": "Spreek ik met de politie?", "tip": "Phoning the police; emergencies." }
+      ]
+    },
+    {
+      "id": "link-0a2-11", "number": 11, "titleNl": "Wat gaan we doen?", "titleEn": "What shall we do?", "page": 156,
+      "deckId": "deck-t11", "quizId": "quiz-t11",
+      "tip": "Making plans — invitations, saying no, and arranging time off.",
+      "tasks": [
+        { "n": 1, "titleNl": "Ga je mee?", "tip": "Inviting and accepting/declining." },
+        { "n": 2, "titleNl": "Kan ik 'nee' zeggen?", "tip": "Politely saying no." },
+        { "n": 3, "titleNl": "Kun je vrijdag voor me invallen?", "tip": "Asking a colleague to cover a shift." },
+        { "n": 4, "titleNl": "We zijn vandaag vrij", "tip": "Days off and free time." }
+      ]
+    },
+    {
+      "id": "link-0a2-12", "number": 12, "titleNl": "Op school", "titleEn": "At school", "page": 174,
+      "deckId": "deck-t12", "quizId": "quiz-t12",
+      "tip": "Education — primary and secondary school, study plans and learning Dutch.",
+      "tasks": [
+        { "n": 1, "titleNl": "Op de basisschool", "tip": "Primary school and your children." },
+        { "n": 2, "titleNl": "Wat zijn je studieplannen?", "tip": "Talking about study plans." },
+        { "n": 3, "titleNl": "Ervaringen op de middelbare school", "tip": "Secondary-school experiences." },
+        { "n": 4, "titleNl": "Nederlands leren", "tip": "Learning Dutch; your language goals." }
+      ]
+    },
+    {
+      "id": "link-0a2-13", "number": 13, "titleNl": "We gebruiken het iedere dag", "titleEn": "We use it every day", "page": 188,
+      "deckId": "deck-t13", "quizId": "quiz-t13",
+      "tip": "The household — appliances, gas & electricity, and arranging repairs.",
+      "tasks": [
+        { "n": 1, "titleNl": "Ik wil een afwasmachine", "tip": "Household appliances." },
+        { "n": 2, "titleNl": "We kunnen niet zonder gas en elektriciteit", "tip": "Utilities: gas, water, electricity." },
+        { "n": 3, "titleNl": "Dat is een goede tip!", "tip": "Giving and getting tips/advice." },
+        { "n": 4, "titleNl": "Wanneer kunt u langskomen?", "tip": "Arranging for someone to come by (repairs)." }
+      ]
+    },
+    {
+      "id": "link-0a2-14", "number": 14, "titleNl": "We bellen iedere dag!", "titleEn": "We call every day!", "page": 203,
+      "deckId": "deck-t14", "quizId": "quiz-t14",
+      "tip": "Family and relationships — visits, marriage and family resemblance.",
+      "tasks": [
+        { "n": 1, "titleNl": "Mijn familie is op bezoek", "tip": "Family members and visits." },
+        { "n": 2, "titleNl": "Trouwen, samenwonen en scheiden", "tip": "Marriage, living together, divorce." },
+        { "n": 3, "titleNl": "We gaan trouwen!", "tip": "Talking about getting married; celebrations." },
+        { "n": 4, "titleNl": "Wat lijken jullie veel op elkaar!", "tip": "Describing how people resemble each other." }
+      ]
+    },
+    {
+      "id": "link-0a2-15", "number": 15, "titleNl": "Buiten de deur", "titleEn": "Out of the house", "page": 218,
+      "deckId": "deck-t15", "quizId": "quiz-t15",
+      "tip": "Free time — clubs, sport, hobbies and appearance.",
+      "tasks": [
+        { "n": 1, "titleNl": "Moet ik lid worden?", "tip": "Becoming a member of a club." },
+        { "n": 2, "titleNl": "Dat houd ik echt niet vol!", "tip": "Keeping up a hobby or sport." },
+        { "n": 3, "titleNl": "Ik kan prima zonder sport", "tip": "Opinions about sport and exercise." },
+        { "n": 4, "titleNl": "Wat is je haar lang!", "tip": "Describing appearance." }
+      ]
+    },
+    {
+      "id": "link-0a2-16", "number": 16, "titleNl": "Goed geregeld", "titleEn": "Well arranged", "page": 233,
+      "deckId": "deck-t16", "quizId": "quiz-t16",
+      "tip": "Official life — recycling, the town hall, insurance and online admin.",
+      "tasks": [
+        { "n": 1, "titleNl": "Waar gooi je het in?", "tip": "Waste separation and recycling." },
+        { "n": 2, "titleNl": "Op het gemeentehuis", "tip": "At the town hall; official matters." },
+        { "n": 3, "titleNl": "Dat moet u online regelen", "tip": "Arranging things online (DigiD etc.)." },
+        { "n": 4, "titleNl": "Ik ben toch verzekerd?", "tip": "Insurance basics." }
+      ]
+    },
+    {
+      "id": "link-0a2-17", "number": 17, "titleNl": "Ik zoek werk", "titleEn": "I'm looking for work", "page": 252,
+      "deckId": "deck-t17", "quizId": "quiz-t17",
+      "tip": "Work — your qualities, networking and applying for jobs.",
+      "tasks": [
+        { "n": 1, "titleNl": "Ik ben geduldig en betrouwbaar", "tip": "Describing your personal qualities." },
+        { "n": 2, "titleNl": "Gebruik je netwerk!", "tip": "Using your network to find work." },
+        { "n": 3, "titleNl": "Solliciteer direct!", "tip": "Applying for a job; the application." },
+        { "n": 4, "titleNl": "Heb je ervaring?", "tip": "Talking about your work experience." }
+      ]
+    },
+    {
+      "id": "link-0a2-18", "number": 18, "titleNl": "De natuur is overal", "titleEn": "Nature is everywhere", "page": 271,
+      "deckId": "deck-t18", "quizId": "quiz-t18",
+      "tip": "Nature — weather, climate, pets and the outdoors.",
+      "tasks": [
+        { "n": 1, "titleNl": "Wat een weer hè?", "tip": "Weather and seasons." },
+        { "n": 2, "titleNl": "De winters worden steeds warmer", "tip": "Climate change; comparisons." },
+        { "n": 3, "titleNl": "Zullen we een poes nemen?", "tip": "Pets; making a suggestion." },
+        { "n": 4, "titleNl": "Ik mis de bergen", "tip": "Talking about nature you miss." }
+      ]
+    },
+    {
+      "id": "link-0a2-19", "number": 19, "titleNl": "Houd je weleens geld over?", "titleEn": "Do you have money left over?", "page": 289,
+      "deckId": "deck-t19", "quizId": "quiz-t19",
+      "tip": "Money — spending, saving, budgeting and tax.",
+      "tasks": [
+        { "n": 1, "titleNl": "Waaraan geef je je geld uit?", "tip": "What you spend money on." },
+        { "n": 2, "titleNl": "Koop je te veel?", "tip": "Spending habits; buying too much." },
+        { "n": 3, "titleNl": "Ik heb een vraag over mijn belastingaanslag", "tip": "A question about your tax assessment." },
+        { "n": 4, "titleNl": "Maakt geld gelukkig?", "tip": "Does money make you happy? (opinions)." }
+      ]
+    },
+    {
+      "id": "link-0a2-20", "number": 20, "titleNl": "Waar gaat het over?", "titleEn": "What's it about?", "page": 303,
+      "deckId": "deck-t20", "quizId": "quiz-t20",
+      "tip": "Media — TV, social media and the news.",
+      "tasks": [
+        { "n": 1, "titleNl": "Heb je dat ook gezien?", "tip": "Talking about TV/programmes you watched." },
+        { "n": 2, "titleNl": "Ik zit op Instagram", "tip": "Social media." },
+        { "n": 3, "titleNl": "Dat was in het nieuws", "tip": "The news; current events." },
+        { "n": 4, "titleNl": "Taak 4", "tip": "More about media and giving your opinion. (Title was cut off in your contents photo — share it and I'll add it.)" }
+      ]
+    }
+  ]
+}

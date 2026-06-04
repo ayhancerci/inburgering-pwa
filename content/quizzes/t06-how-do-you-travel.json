@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t06",
+  "title": "Thema 6 — Hoe reis jij?",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t06-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de vertraging'?", "options": ["the delay", "the platform", "the ticket", "the timetable"], "answer": "the delay", "explanation": "'De vertraging' betekent dat de trein of bus later komt dan gepland." },
+    { "id": "q-t06-2", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'overstappen'?", "options": ["to change / transfer", "to depart", "to arrive", "to walk"], "answer": "to change / transfer", "explanation": "'Overstappen' doe je als je van de ene trein of bus naar de andere gaat." },
+    { "id": "q-t06-3", "skill": "grammar", "format": "mcq", "prompt": "Welk lidwoord hoort bij 'station'?", "options": ["het", "de", "een", "geen"], "answer": "het", "explanation": "Het is 'het station'. Veel woorden op -tion/-tie-achtige vormen zijn het-woorden." },
+    { "id": "q-t06-4", "skill": "vocab", "format": "fill_blank", "prompt": "Voordat je in de trein stapt, koop je een ___. (ticket)", "answer": ["kaartje"], "explanation": "Met 'een kaartje' mag je reizen met de trein of bus." },
+    { "id": "q-t06-5", "skill": "grammar", "format": "cloze", "prompt": "Hoe {{1}} jij naar je werk? (reizen)", "answer": ["reis"], "explanation": "Bij een vraag met 'jij' achter het werkwoord valt de -t weg: 'hoe reis jij?'." },
+    { "id": "q-t06-6", "skill": "grammar", "format": "cloze", "prompt": "De trein {{1}} om negen uur. (vertrekken)", "answer": ["vertrekt"], "explanation": "Bij 'de trein' (hij) krijgt het werkwoord een -t: 'vertrekt'." },
+    { "id": "q-t06-7", "skill": "grammar", "format": "cloze", "prompt": "Sorry, ik ben een beetje {{1}} {{2}}. (late)", "answer": ["te", "laat"], "explanation": "'Te laat' betekent later dan de afgesproken tijd." },
+    { "id": "q-t06-8", "skill": "vocab", "format": "mcq", "prompt": "Waarmee reizen veel mensen in Nederland korte afstanden?", "options": ["de fiets", "het vliegtuig", "de boot", "de metro"], "answer": "de fiets", "explanation": "Nederland is een echt fietsland; voor korte ritten pakken veel mensen 'de fiets'." }
+  ]
+}

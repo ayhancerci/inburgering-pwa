@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db/database'
 import { useActiveProfile } from '../../store/profile'
 import { saveQuizAttempt } from '../../db/repo'
 import { Panel, Button, ProgressBar, Badge, cx } from '../../components/ui'
+import { ResourceList } from '../resources/ResourceList'
 import type { Question } from '../../content/schemas'
 
 type Phase = 'select' | 'run' | 'done'
@@ -146,6 +148,20 @@ export function Quiz() {
     setPhase(qs.length ? 'run' : 'select')
   }
 
+  // Deep link: /quiz?quiz=<id> auto-starts that quiz.
+  const [searchParams, setSearchParams] = useSearchParams()
+  useEffect(() => {
+    const quizId = searchParams.get('quiz')
+    if (quizId) {
+      setSearchParams({}, { replace: true })
+      db.quizzes.get(quizId).then((qz) => {
+        if (qz) void start(qz.id, qz.title)
+      })
+    }
+    // run once on mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   const finish = async (finalAnswers: Record<string, Answer>) => {
     const items = questions.map((q) => ({
       questionId: q.id,
@@ -167,8 +183,11 @@ export function Quiz() {
 
   if (phase === 'select') {
     return (
-      <div className="space-y-4">
-        <h1 className="text-xl font-extrabold text-slate-900">Oefenen</h1>
+      <div className="space-y-5">
+        <div>
+          <h1 className="text-xl font-extrabold text-slate-900">Oefenen</h1>
+          <p className="mt-1 text-sm text-slate-500">Een quiz per thema, plus grammatica.</p>
+        </div>
         <Panel className="divide-y divide-slate-100">
           {(quizzes ?? []).map((qz) => (
             <button
@@ -187,6 +206,8 @@ export function Quiz() {
             <p className="px-4 py-6 text-center text-sm text-slate-400">Nog geen oefeningen.</p>
           )}
         </Panel>
+
+        <ResourceList />
       </div>
     )
   }

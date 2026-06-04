@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t18",
+  "title": "Thema 18 — De natuur is overal",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t18-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'het huisdier'?", "options": ["the pet", "the house key", "the garden", "the neighbour"], "answer": "the pet", "explanation": "Een 'huisdier' is een dier dat bij je thuis woont, zoals een poes of een hond." },
+    { "id": "q-t18-2", "skill": "vocab", "format": "mcq", "prompt": "Welk woord betekent hetzelfde als 'de kat'?", "options": ["de poes", "de hond", "de berg", "de zon"], "answer": "de poes", "explanation": "'De poes' is een ander, gewoon woord voor 'de kat'." },
+    { "id": "q-t18-3", "skill": "grammar", "format": "mcq", "prompt": "Welk lidwoord hoort bij 'weer'?", "options": ["het", "de", "een", "geen"], "answer": "het", "explanation": "Het is 'het weer'. 'Weer' is een het-woord." },
+    { "id": "q-t18-4", "skill": "grammar", "format": "cloze", "prompt": "In Nederland {{1}} het vaak in de herfst. (regenen)", "answer": ["regent"], "explanation": "Bij 'het' krijgt het werkwoord de stam + t: 'regenen' wordt 'het regent'." },
+    { "id": "q-t18-5", "skill": "grammar", "format": "cloze", "prompt": "De winters {{1}} elk jaar warmer door het klimaat. (worden)", "answer": ["worden"], "explanation": "Bij een meervoud ('de winters') gebruik je de infinitief: 'worden'." },
+    { "id": "q-t18-6", "skill": "grammar", "format": "cloze", "prompt": "Ik {{1}} de bergen van mijn land heel erg. (missen)", "answer": ["mis"], "explanation": "Bij 'ik' valt de -en weg: 'missen' wordt 'ik mis'." },
+    { "id": "q-t18-7", "skill": "vocab", "format": "fill_blank", "prompt": "Op de hoge bergen ligt witte ___ in de winter. (snow)", "answer": ["sneeuw"], "explanation": "'Sneeuw' is de witte, koude neerslag die in de winter valt." },
+    { "id": "q-t18-8", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'het klimaat verandert'?", "options": ["the climate is changing", "the weather is nice", "the sun is shining", "it is snowing"], "answer": "the climate is changing", "explanation": "'Veranderen' betekent 'to change'; het klimaat wordt langzaam anders." }
+  ]
+}

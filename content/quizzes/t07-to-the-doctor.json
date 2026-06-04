@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t07",
+  "title": "Thema 7 — Naar de dokter",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t07-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'het spreekuur'?", "options": ["the consultation hours", "the pharmacy", "the appointment", "the waiting room"], "answer": "the consultation hours", "explanation": "'Het spreekuur' is de tijd waarin je zonder of met afspraak bij de dokter terechtkunt." },
+    { "id": "q-t07-2", "skill": "vocab", "format": "mcq", "prompt": "Waar haal je je medicijnen?", "options": ["de apotheek", "de huisarts", "het ziekenhuis", "de tandarts"], "answer": "de apotheek", "explanation": "Bij 'de apotheek' haal je medicijnen op recept van de dokter." },
+    { "id": "q-t07-3", "skill": "grammar", "format": "mcq", "prompt": "Welk lidwoord hoort bij 'medicijn'?", "options": ["het", "de", "een", "geen"], "answer": "het", "explanation": "Het is 'het medicijn'. Het meervoud is 'de medicijnen'." },
+    { "id": "q-t07-4", "skill": "vocab", "format": "fill_blank", "prompt": "Ik wil graag een ___ maken bij de dokter. (appointment)", "answer": ["afspraak"], "explanation": "Je belt de praktijk om 'een afspraak' te maken voor het spreekuur." },
+    { "id": "q-t07-5", "skill": "grammar", "format": "cloze", "prompt": "Ik {{1}} pijn in mijn keel. (hebben)", "answer": ["heb"], "explanation": "Bij 'ik' is de vorm van 'hebben' onregelmatig: 'ik heb'." },
+    { "id": "q-t07-6", "skill": "grammar", "format": "cloze", "prompt": "Mijn dochter {{1}} hoge koorts. (hebben)", "answer": ["heeft"], "explanation": "Bij 'zij/hij' (mijn dochter) is de vorm 'heeft'." },
+    { "id": "q-t07-7", "skill": "grammar", "format": "cloze", "prompt": "Vandaag ben ik ziek, dus ik {{1}} thuis. (blijven)", "answer": ["blijf"], "explanation": "Bij 'ik' valt de -en weg: 'blijven' wordt 'ik blijf'." },
+    { "id": "q-t07-8", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'beter worden'?", "options": ["to get better / recover", "to get worse", "to fall ill", "to stay home"], "answer": "to get better / recover", "explanation": "'Beter worden' betekent dat je weer gezond wordt na ziekte." }
+  ]
+}

@@ -3,12 +3,16 @@ import {
   quizFileSchema,
   planFileSchema,
   checklistFileSchema,
+  curriculumFileSchema,
+  resourceFileSchema,
   type Deck,
   type Card,
   type Question,
   type PlanWeek,
   type PlanMeta,
   type ChecklistItemDef,
+  type Theme,
+  type Resource,
 } from './schemas'
 
 export interface QuizDef {
@@ -26,6 +30,8 @@ export interface LoadedContent {
   planWeeks: PlanWeek[]
   planMeta: PlanMeta
   checklistDefs: ChecklistItemDef[]
+  themes: Theme[]
+  resources: Resource[]
 }
 
 // Vite resolves these globs at build time; values are the parsed JSON objects.
@@ -33,6 +39,8 @@ const deckFiles = import.meta.glob('/content/decks/*.json', { eager: true, impor
 const quizFiles = import.meta.glob('/content/quizzes/*.json', { eager: true, import: 'default' })
 const planFiles = import.meta.glob('/content/plan.json', { eager: true, import: 'default' })
 const checklistFiles = import.meta.glob('/content/checklist.json', { eager: true, import: 'default' })
+const curriculumFiles = import.meta.glob('/content/curriculum.json', { eager: true, import: 'default' })
+const resourceFiles = import.meta.glob('/content/resources.json', { eager: true, import: 'default' })
 
 const DEFAULT_META: PlanMeta = { startDate: '2026-06-02' }
 
@@ -88,6 +96,22 @@ export function loadContent(): LoadedContent {
     else console.error('[content] invalid checklist.json', parsed.error.issues)
   }
 
-  cache = { decks, cards, questions, quizzes, planWeeks, planMeta, checklistDefs }
+  let themes: Theme[] = []
+  const curriculumRaw = Object.values(curriculumFiles)[0]
+  if (curriculumRaw) {
+    const parsed = curriculumFileSchema.safeParse(curriculumRaw)
+    if (parsed.success) themes = [...parsed.data.themes].sort((a, b) => a.number - b.number)
+    else console.error('[content] invalid curriculum.json', parsed.error.issues)
+  }
+
+  let resources: Resource[] = []
+  const resourcesRaw = Object.values(resourceFiles)[0]
+  if (resourcesRaw) {
+    const parsed = resourceFileSchema.safeParse(resourcesRaw)
+    if (parsed.success) resources = parsed.data.resources
+    else console.error('[content] invalid resources.json', parsed.error.issues)
+  }
+
+  cache = { decks, cards, questions, quizzes, planWeeks, planMeta, checklistDefs, themes, resources }
   return cache
 }

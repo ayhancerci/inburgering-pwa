@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t20",
+  "title": "Thema 20 — Waar gaat het over?",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t20-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'de krant'?", "options": ["the newspaper", "the radio", "the television", "the phone"], "answer": "the newspaper", "explanation": "'De krant' is het papier met nieuws dat je elke dag kunt lezen." },
+    { "id": "q-t20-2", "skill": "vocab", "format": "mcq", "prompt": "Wat is 'het journaal'?", "options": ["the TV news broadcast", "a magazine", "a film", "a song"], "answer": "the TV news broadcast", "explanation": "'Het journaal' is het nieuwsprogramma op televisie, bijvoorbeeld om acht uur." },
+    { "id": "q-t20-3", "skill": "grammar", "format": "mcq", "prompt": "Welk lidwoord hoort bij 'nieuws'?", "options": ["het", "de", "een", "geen"], "answer": "het", "explanation": "Het is 'het nieuws'. 'Nieuws' is een het-woord." },
+    { "id": "q-t20-4", "skill": "grammar", "format": "cloze", "prompt": "Zij {{1}} elke dag een foto op Instagram. (zetten)", "answer": ["zet"], "explanation": "Bij 'zij' (enkelvoud) krijgt het werkwoord de stam + t: 'zetten' wordt 'zij zet'." },
+    { "id": "q-t20-5", "skill": "grammar", "format": "cloze", "prompt": "Heb je dat grappige filmpje al {{1}}? (zien)", "answer": ["gezien"], "explanation": "Het voltooid deelwoord van 'zien' is onregelmatig: 'gezien'." },
+    { "id": "q-t20-6", "skill": "grammar", "format": "cloze", "prompt": "Wij {{1}} samen naar het journaal op de bank. (kijken)", "answer": ["kijken"], "explanation": "Bij 'wij' gebruik je de infinitiefvorm: 'wij kijken'." },
+    { "id": "q-t20-7", "skill": "vocab", "format": "fill_blank", "prompt": "Het ongeluk stond gisteren in het ___ op tv. (news)", "answer": ["nieuws"], "explanation": "'Het nieuws' vertelt wat er in de wereld gebeurt; iets 'staat in het nieuws'." },
+    { "id": "q-t20-8", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'delen' op sociale media?", "options": ["to share", "to delete", "to buy", "to print"], "answer": "to share", "explanation": "'Delen' betekent iets (een foto of filmpje) met anderen delen op sociale media." }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t17",
+  "title": "Thema 17 — Ik zoek werk",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t17-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'betrouwbaar'?", "options": ["reliable / trustworthy", "lazy", "expensive", "tired"], "answer": "reliable / trustworthy", "explanation": "'Betrouwbaar' betekent dat je op iemand kunt rekenen; een goede eigenschap voor werk." },
+    { "id": "q-t17-2", "skill": "vocab", "format": "mcq", "prompt": "Wat doe je tijdens een 'sollicitatiegesprek'?", "options": ["je praat met de werkgever over de baan", "je koopt nieuwe kleding", "je betaalt de huur", "je gaat op vakantie"], "answer": "je praat met de werkgever over de baan", "explanation": "In een sollicitatiegesprek praat je met de werkgever over jezelf en de functie." },
+    { "id": "q-t17-3", "skill": "grammar", "format": "mcq", "prompt": "Welk lidwoord hoort bij 'baan'?", "options": ["de", "het", "een", "geen"], "answer": "de", "explanation": "Het is 'de baan'. 'Baan' is een de-woord." },
+    { "id": "q-t17-4", "skill": "grammar", "format": "cloze", "prompt": "De vacature is perfect, dus ik {{1}} direct. (solliciteren)", "answer": ["solliciteer"], "explanation": "Bij 'ik' valt de -en weg: 'solliciteren' wordt 'ik solliciteer'." },
+    { "id": "q-t17-5", "skill": "grammar", "format": "cloze", "prompt": "Zij {{1}} veel werkervaring in de zorg. (hebben)", "answer": ["heeft"], "explanation": "Het werkwoord 'hebben' wordt bij 'zij' (enkelvoud) vervoegd als 'heeft'." },
+    { "id": "q-t17-6", "skill": "grammar", "format": "cloze", "prompt": "Via mijn netwerk {{1}} ik snel een nieuwe baan. (vinden)", "answer": ["vind"], "explanation": "Bij 'ik' valt de -en weg: 'vinden' wordt 'ik vind' (de stam is 'vind')." },
+    { "id": "q-t17-7", "skill": "vocab", "format": "fill_blank", "prompt": "Ik stuur mijn ___ met al mijn opleiding en werkervaring naar de werkgever. (CV)", "answer": ["cv"], "explanation": "Op je 'cv' staat je opleiding en je werkervaring." },
+    { "id": "q-t17-8", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'geduldig'?", "options": ["patient", "fast", "angry", "rich"], "answer": "patient", "explanation": "'Geduldig' betekent dat je rustig kunt wachten en niet snel boos wordt." }
+  ]
+}

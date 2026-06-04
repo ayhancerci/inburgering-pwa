@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t08", "title": "Thema 8 — Huis, straat en buurt", "type": "vocab", "themeId": "link-0a2-08", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t08-01", "deckId": "deck-t08", "front": "de buurt", "back": "the neighbourhood", "examples": ["Ik woon in een rustige buurt."] },
+    { "id": "c-t08-02", "deckId": "deck-t08", "front": "de straat", "back": "the street", "examples": ["In onze straat staan veel bomen."] },
+    { "id": "c-t08-03", "deckId": "deck-t08", "front": "de buurman", "back": "the (male) neighbour", "examples": ["Mijn buurman maakt 's avonds veel lawaai."] },
+    { "id": "c-t08-04", "deckId": "deck-t08", "front": "de buurvrouw", "back": "the (female) neighbour", "examples": ["De buurvrouw geeft de planten water als ik weg ben."] },
+    { "id": "c-t08-05", "deckId": "deck-t08", "front": "de huisgenoot", "back": "the housemate", "examples": ["Mijn ideale huisgenoot is rustig en netjes."] },
+    { "id": "c-t08-06", "deckId": "deck-t08", "front": "het taalcafé", "back": "the language café", "examples": ["In het taalcafé oefen ik Nederlands met andere mensen."] },
+    { "id": "c-t08-07", "deckId": "deck-t08", "front": "oefenen", "back": "to practise", "examples": ["Ik oefen elke week mijn Nederlands."] },
+    { "id": "c-t08-08", "deckId": "deck-t08", "front": "het lawaai", "back": "the noise", "examples": ["Het lawaai van de buren houdt mij wakker."] },
+    { "id": "c-t08-09", "deckId": "deck-t08", "front": "rustig", "back": "quiet / calm", "examples": ["Onze buurt is heel rustig."] },
+    { "id": "c-t08-10", "deckId": "deck-t08", "front": "tevreden", "back": "satisfied / happy", "examples": ["Ik ben tevreden met mijn nieuwe buurt."] },
+    { "id": "c-t08-11", "deckId": "deck-t08", "front": "het probleem", "back": "the problem", "examples": ["Ik heb een probleem met mijn buurman."] },
+    { "id": "c-t08-12", "deckId": "deck-t08", "front": "klagen", "back": "to complain", "examples": ["De buren klagen over het lawaai."] },
+    { "id": "c-t08-13", "deckId": "deck-t08", "front": "helpen", "back": "to help", "examples": ["Mijn buren helpen mij met de verhuizing."] },
+    { "id": "c-t08-14", "deckId": "deck-t08", "front": "vriendelijk", "back": "friendly", "examples": ["De mensen in mijn buurt zijn vriendelijk."] },
+    { "id": "c-t08-15", "deckId": "deck-t08", "front": "het park", "back": "the park", "examples": ["In het park kun je fijn wandelen."] }
+  ]
+}

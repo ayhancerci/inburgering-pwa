@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t09", "title": "Thema 9 — Waar heb je die laptop gekocht?", "type": "vocab", "themeId": "link-0a2-09", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t09-01", "deckId": "deck-t09", "front": "de winkel", "back": "the shop", "examples": ["De winkel is open tot zes uur."] },
+    { "id": "c-t09-02", "deckId": "deck-t09", "front": "de kassa", "back": "the checkout / till", "examples": ["Je betaalt bij de kassa."] },
+    { "id": "c-t09-03", "deckId": "deck-t09", "front": "de bon", "back": "the receipt", "examples": ["Bewaar de bon voor de garantie."] },
+    { "id": "c-t09-04", "deckId": "deck-t09", "front": "ruilen", "back": "to exchange", "examples": ["Kan ik deze broek ruilen?"] },
+    { "id": "c-t09-05", "deckId": "deck-t09", "front": "het geld terug", "back": "the money back / refund", "examples": ["Ik wil mijn geld terug."] },
+    { "id": "c-t09-06", "deckId": "deck-t09", "front": "tweedehands", "back": "second-hand", "examples": ["Ik koop graag tweedehands kleding."] },
+    { "id": "c-t09-07", "deckId": "deck-t09", "front": "de kleding", "back": "the clothing / clothes", "examples": ["De kleding is in de uitverkoop."] },
+    { "id": "c-t09-08", "deckId": "deck-t09", "front": "passen", "back": "to fit / to try on", "examples": ["Deze schoenen passen niet."] },
+    { "id": "c-t09-09", "deckId": "deck-t09", "front": "de maat", "back": "the size", "examples": ["Welke maat heeft u nodig?"] },
+    { "id": "c-t09-10", "deckId": "deck-t09", "front": "het pakket", "back": "the parcel", "examples": ["Ik stuur het pakket terug."] },
+    { "id": "c-t09-11", "deckId": "deck-t09", "front": "terugsturen", "back": "to send back / return", "examples": ["Je kunt het pakket gratis terugsturen."] },
+    { "id": "c-t09-12", "deckId": "deck-t09", "front": "korting", "back": "discount", "examples": ["Er is tien procent korting."] },
+    { "id": "c-t09-13", "deckId": "deck-t09", "front": "de uitverkoop", "back": "the sale (clearance)", "examples": ["Alles is in de uitverkoop."] },
+    { "id": "c-t09-14", "deckId": "deck-t09", "front": "kapot", "back": "broken", "examples": ["De laptop is na een week kapot."] },
+    { "id": "c-t09-15", "deckId": "deck-t09", "front": "de garantie", "back": "the warranty / guarantee", "examples": ["De televisie heeft twee jaar garantie."] }
+  ]
+}

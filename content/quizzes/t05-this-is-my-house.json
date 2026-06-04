@@ -1,0 +1,15 @@
+{
+  "id": "quiz-t05",
+  "title": "Thema 5 — Dit is mijn huis",
+  "skill": "vocab",
+  "questions": [
+    { "id": "q-t05-1", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'gezellig'?", "options": ["cosy / pleasant", "expensive", "empty", "dark"], "answer": "cosy / pleasant", "explanation": "'Gezellig' beschrijft een prettige, warme sfeer en is een typisch Nederlands woord." },
+    { "id": "q-t05-2", "skill": "vocab", "format": "mcq", "prompt": "Wat betekent 'op kamers wonen'?", "options": ["to rent a room / live in lodgings", "to buy a house", "to clean the room", "to share a kitchen"], "answer": "to rent a room / live in lodgings", "explanation": "Studenten gaan vaak 'op kamers wonen': zij huren een kamer, bijvoorbeeld in een andere stad." },
+    { "id": "q-t05-3", "skill": "grammar", "format": "mcq", "prompt": "Welk lidwoord hoort bij 'appartement'?", "options": ["het", "de", "een", "geen"], "answer": "het", "explanation": "Het is 'het appartement'. Veel woorden op -ment zijn het-woorden." },
+    { "id": "q-t05-4", "skill": "vocab", "format": "fill_blank", "prompt": "Elke maand betaal ik de ___ aan de verhuurder. (rent)", "answer": ["huur"], "explanation": "'De huur' is het bedrag dat je maandelijks voor je woning betaalt." },
+    { "id": "q-t05-5", "skill": "grammar", "format": "cloze", "prompt": "Volgende maand {{1}} wij naar een groter huis. (verhuizen)", "answer": ["verhuizen"], "explanation": "Bij 'wij' gebruik je de infinitiefvorm: 'wij verhuizen'." },
+    { "id": "q-t05-6", "skill": "grammar", "format": "cloze", "prompt": "Dit {{1}} mijn huis; het is klein maar gezellig.", "answer": ["is"], "explanation": "Het werkwoord 'zijn' wordt bij 'dit/het' vervoegd als 'is'." },
+    { "id": "q-t05-7", "skill": "grammar", "format": "cloze", "prompt": "Ik {{1}} een briefje op de tafel voor de buren. (leggen)", "answer": ["leg"], "explanation": "Bij 'ik' valt de -en weg: 'leggen' wordt 'ik leg'." },
+    { "id": "q-t05-8", "skill": "vocab", "format": "mcq", "prompt": "Waar kook je meestal het eten?", "options": ["de keuken", "de slaapkamer", "de tuin", "de badkamer"], "answer": "de keuken", "explanation": "In 'de keuken' bereid en kook je het eten." }
+  ]
+}

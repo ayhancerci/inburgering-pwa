@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t04", "title": "Thema 4 — Lekker!", "type": "vocab", "themeId": "link-0a2-04", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t04-01", "deckId": "deck-t04", "front": "eten", "back": "to eat / food", "examples": ["Wat gaan we vanavond eten?"] },
+    { "id": "c-t04-02", "deckId": "deck-t04", "front": "het avondeten", "back": "the dinner / evening meal", "examples": ["Het avondeten is om zes uur."] },
+    { "id": "c-t04-03", "deckId": "deck-t04", "front": "de groente", "back": "the vegetables", "examples": ["Groente is gezond."] },
+    { "id": "c-t04-04", "deckId": "deck-t04", "front": "het fruit", "back": "the fruit", "examples": ["Ik eet elke dag fruit."] },
+    { "id": "c-t04-05", "deckId": "deck-t04", "front": "het vlees", "back": "the meat" },
+    { "id": "c-t04-06", "deckId": "deck-t04", "front": "de vis", "back": "the fish", "examples": ["Op vrijdag eten we vis."] },
+    { "id": "c-t04-07", "deckId": "deck-t04", "front": "gezond", "back": "healthy", "examples": ["Een appel is gezond."] },
+    { "id": "c-t04-08", "deckId": "deck-t04", "front": "lekker", "back": "tasty / delicious", "examples": ["Deze soep is erg lekker."] },
+    { "id": "c-t04-09", "deckId": "deck-t04", "front": "het restaurant", "back": "the restaurant", "examples": ["We gaan vanavond naar een restaurant."] },
+    { "id": "c-t04-10", "deckId": "deck-t04", "front": "de ober", "back": "the waiter", "examples": ["De ober brengt het menu."] },
+    { "id": "c-t04-11", "deckId": "deck-t04", "front": "de menukaart", "back": "the menu" },
+    { "id": "c-t04-12", "deckId": "deck-t04", "front": "bestellen", "back": "to order", "examples": ["Ik wil graag een pizza bestellen."] },
+    { "id": "c-t04-13", "deckId": "deck-t04", "front": "de rekening", "back": "the bill", "examples": ["Mag ik de rekening, alstublieft?"] },
+    { "id": "c-t04-14", "deckId": "deck-t04", "front": "het ontbijt", "back": "the breakfast", "examples": ["Ik eet brood bij het ontbijt."] },
+    { "id": "c-t04-15", "deckId": "deck-t04", "front": "Eet smakelijk!", "back": "Enjoy your meal!" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "deck": { "id": "deck-t17", "title": "Thema 17 — Ik zoek werk", "type": "vocab", "themeId": "link-0a2-17", "lang": "nl-en", "tags": ["a2"] },
+  "cards": [
+    { "id": "c-t17-01", "deckId": "deck-t17", "front": "de baan", "back": "the job", "examples": ["Ik zoek een nieuwe baan."] },
+    { "id": "c-t17-02", "deckId": "deck-t17", "front": "solliciteren", "back": "to apply (for a job)", "examples": ["Ik ga solliciteren bij een groot bedrijf."] },
+    { "id": "c-t17-03", "deckId": "deck-t17", "front": "de sollicitatiebrief", "back": "the cover letter", "examples": ["Ik schrijf een sollicitatiebrief voor de baan."] },
+    { "id": "c-t17-04", "deckId": "deck-t17", "front": "het cv", "back": "the CV / résumé", "examples": ["Stuur je cv en je brief naar de werkgever."] },
+    { "id": "c-t17-05", "deckId": "deck-t17", "front": "het sollicitatiegesprek", "back": "the job interview", "examples": ["Morgen heb ik een sollicitatiegesprek."] },
+    { "id": "c-t17-06", "deckId": "deck-t17", "front": "de werkervaring", "back": "the work experience", "examples": ["Ik heb veel werkervaring in de zorg."] },
+    { "id": "c-t17-07", "deckId": "deck-t17", "front": "de werkgever", "back": "the employer", "examples": ["Mijn werkgever is heel aardig."] },
+    { "id": "c-t17-08", "deckId": "deck-t17", "front": "betrouwbaar", "back": "reliable / trustworthy", "examples": ["Zij is altijd op tijd en heel betrouwbaar."] },
+    { "id": "c-t17-09", "deckId": "deck-t17", "front": "geduldig", "back": "patient", "examples": ["Een goede leraar is rustig en geduldig."] },
+    { "id": "c-t17-10", "deckId": "deck-t17", "front": "het netwerk", "back": "the network", "examples": ["Via mijn netwerk vond ik snel werk."] },
+    { "id": "c-t17-11", "deckId": "deck-t17", "front": "de vacature", "back": "the job vacancy", "examples": ["Er staat een mooie vacature op de website."] },
+    { "id": "c-t17-12", "deckId": "deck-t17", "front": "de ervaring", "back": "the experience", "examples": ["Heb je ervaring met dit werk?"] },
+    { "id": "c-t17-13", "deckId": "deck-t17", "front": "het contract", "back": "the contract", "examples": ["Ik krijg een contract voor een jaar."] },
+    { "id": "c-t17-14", "deckId": "deck-t17", "front": "de eigenschap", "back": "the quality / characteristic", "examples": ["Geduld is een goede eigenschap voor dit werk."] },
+    { "id": "c-t17-15", "deckId": "deck-t17", "front": "direct solliciteren", "back": "to apply right away", "examples": ["Deze baan is perfect, ik ga direct solliciteren."] }
+  ]
+}

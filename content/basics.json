@@ -831,6 +831,7 @@
           "type": "links",
           "title": "🔗 Oefen dit examen",
           "items": [
+            { "label": "✨ AI Spreektutor — oefen hardop spreken", "route": "/spreken", "note": "In de app: spreek of typ en krijg feedback op A2-niveau" },
             { "label": "Officieel DUO-oefenexamen", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/" },
             { "label": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp" }
           ]

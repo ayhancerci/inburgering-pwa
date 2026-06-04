@@ -138,6 +138,14 @@ export function Examens() {
                   ✨ AI Schrijftutor
                 </Link>
               )}
+              {ex.id === 'spreken' && (
+                <Link
+                  to="/spreken"
+                  className="rounded-xl bg-indigo-600 px-3 py-2 text-xs font-semibold text-white"
+                >
+                  ✨ AI Spreektutor
+                </Link>
+              )}
             </div>
           </Panel>
         )

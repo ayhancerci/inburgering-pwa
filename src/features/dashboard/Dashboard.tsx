@@ -225,16 +225,23 @@ export function Dashboard() {
         </div>
       </Panel>
 
-      <Link to="/schrijven">
-        <Panel className="flex items-center gap-3 p-4 ring-1 ring-indigo-100">
-          <span className="text-2xl">✍️</span>
-          <span className="flex-1">
-            <span className="block font-bold text-slate-900">AI Schrijftutor</span>
-            <span className="block text-xs text-slate-500">Laat je Nederlandse tekst nakijken (A2)</span>
-          </span>
-          <span className="text-slate-300">›</span>
-        </Panel>
-      </Link>
+      <Panel className="space-y-2 p-4 ring-1 ring-indigo-100">
+        <p className="text-sm font-bold text-slate-900">🤖 AI-tutor</p>
+        <div className="flex gap-2">
+          <Link
+            to="/schrijven"
+            className="flex-1 rounded-xl bg-indigo-600 px-3 py-2 text-center text-xs font-semibold text-white"
+          >
+            ✍️ Schrijven
+          </Link>
+          <Link
+            to="/spreken"
+            className="flex-1 rounded-xl bg-indigo-600 px-3 py-2 text-center text-xs font-semibold text-white"
+          >
+            🗣️ Spreken
+          </Link>
+        </div>
+      </Panel>
 
       <Panel className="flex items-center justify-between gap-3 px-4 py-3">
         <div className="flex items-center gap-2">

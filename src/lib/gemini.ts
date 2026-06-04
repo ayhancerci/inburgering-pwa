@@ -110,3 +110,65 @@ Assess at A2 level. Reply with ONLY a JSON object, no extra text, in exactly thi
     tips: asStrings(p.tips),
   }
 }
+
+export interface SpeakingFeedback {
+  level: string
+  score: number
+  good: string[]
+  issues: string[]
+  tips: string[]
+  model: string
+}
+
+/** Send a transcript of the student's spoken Dutch to Gemini for A2 speaking feedback. */
+export async function gradeSpeaking(opts: {
+  key: string
+  model: string
+  task: string
+  transcript: string
+}): Promise<SpeakingFeedback> {
+  const prompt = `You are a kind, encouraging Dutch (NT2) speaking examiner for the A2 inburgering exam (Spreken).
+The student was given this task: "${opts.task || '(no specific task — free speaking)'}"
+This is an automatic speech-to-text transcript of what they SAID in Dutch — ignore missing punctuation, capitalisation and small transcription glitches; judge the spoken language, not the typing:
+"""
+${opts.transcript}
+"""
+Assess their spoken Dutch at A2 level. Reply with ONLY a JSON object, no extra text, in exactly this shape:
+{
+  "level": "A1" | "A2" | "B1",
+  "score": <integer 0-100, how well it fulfils an A2 speaking task>,
+  "good": ["<1-3 short things they did well, in English>"],
+  "issues": ["<2-5 short, specific points to improve, in English: grammar, verb forms, word order, vocabulary, or parts of the task they missed>"],
+  "tips": ["<1-3 short, concrete, encouraging speaking tips in English>"],
+  "model": "<a natural A2 model answer they could say out loud for this task, 3-6 short Dutch sentences>"
+}`
+  const res = await fetch(
+    `${BASE}/models/${opts.model || 'gemini-2.0-flash'}:generateContent?key=${encodeURIComponent(opts.key)}`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { responseMimeType: 'application/json', temperature: 0.4 },
+      }),
+    },
+  )
+  if (!res.ok) {
+    const t = await res.text()
+    if (res.status === 404)
+      throw new Error('Dit AI-model is niet beschikbaar. Wis de sleutel en voeg hem opnieuw toe.')
+    throw new Error(`AI-fout (${res.status}): ${t.slice(0, 180)}`)
+  }
+  const j = await res.json()
+  const out: string =
+    j?.candidates?.[0]?.content?.parts?.map((p: { text?: string }) => p.text || '').join('') ?? ''
+  const p = parseJson(out)
+  return {
+    level: String(p.level ?? 'A2'),
+    score: Math.max(0, Math.min(100, Number(p.score) || 0)),
+    good: asStrings(p.good),
+    issues: asStrings(p.issues),
+    tips: asStrings(p.tips),
+    model: String(p.model ?? ''),
+  }
+}

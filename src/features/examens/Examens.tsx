@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { loadContent } from '../../content'
 import { db } from '../../db/database'
@@ -129,6 +129,14 @@ export function Examens() {
                 >
                   ▶ Oefen in de app (met timer)
                 </button>
+              )}
+              {ex.id === 'schrijven' && (
+                <Link
+                  to="/schrijven"
+                  className="rounded-xl bg-indigo-600 px-3 py-2 text-xs font-semibold text-white"
+                >
+                  ✨ AI Schrijftutor
+                </Link>
               )}
             </div>
           </Panel>

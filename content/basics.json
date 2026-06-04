@@ -776,6 +776,7 @@
           "type": "links",
           "title": "🔗 Oefen dit examen",
           "items": [
+            { "label": "✨ AI Schrijftutor — laat je tekst nakijken", "route": "/schrijven", "note": "In de app: schrijf en krijg meteen feedback op A2-niveau" },
             { "label": "Officieel DUO-oefenexamen", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/" },
             { "label": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp" }
           ]

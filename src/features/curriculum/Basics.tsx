@@ -160,23 +160,26 @@ export function Basics({ chapter, onBack }: { chapter: BasicsChapter; onBack: ()
           )
         return (
           <Collapsible key={i} title={s.title || `${icon} Links`} defaultOpen={open}>
-            {s.items.map((it, j) =>
-              it.mock ? (
-                <Link key={j} to={`/examens?mock=${it.mock}`} className="block">
+            {s.items.map((it, j) => {
+              const inner = (
+                <>
                   <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
-                    {it.label} <span className="text-sky-500">›</span>
+                    {it.label} <span className="text-sky-500">{it.url ? '↗' : '›'}</span>
                   </span>
                   {it.note && <span className="block text-xs text-slate-400">{it.note}</span>}
+                </>
+              )
+              const to = it.mock ? `/examens?mock=${it.mock}` : it.route
+              return to ? (
+                <Link key={j} to={to} className="block">
+                  {inner}
                 </Link>
               ) : (
                 <a key={j} href={it.url} target="_blank" rel="noreferrer" className="block">
-                  <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
-                    {it.label} <span className="text-sky-500">↗</span>
-                  </span>
-                  {it.note && <span className="block text-xs text-slate-400">{it.note}</span>}
+                  {inner}
                 </a>
-              ),
-            )}
+              )
+            })}
           </Collapsible>
         )
       })}

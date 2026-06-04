@@ -274,8 +274,9 @@ export const basicsSectionSchema = z.discriminatedUnion('type', [
     items: z.array(
       z.object({
         label: z.string(),
-        url: z.string().optional(),
-        mock: z.string().optional(),
+        url: z.string().optional(), // external link (opens new tab)
+        mock: z.string().optional(), // in-app practice exam id -> /examens?mock=<id>
+        route: z.string().optional(), // internal app route, e.g. /schrijven
         note: z.string().optional(),
       }),
     ),

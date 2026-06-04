@@ -1,0 +1,175 @@
+{
+  "chapters": [
+    {
+      "id": "basis-voorzetsels",
+      "sort": 9.6,
+      "category": "basis",
+      "icon": "🧭",
+      "titleNl": "Voorzetsels",
+      "titleEn": "Prepositions",
+      "intro": "Small linking words for place, direction and time — in, op, naar, om, sinds and friends. Tap 🔊 to hear each example sentence so you learn the preposition in context.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "What is a preposition?",
+          "body": "A preposition is a little word that links a noun to the rest of the sentence and tells you where, which way, or when. Dutch often uses a different preposition than English, so it's best to learn whole example sentences rather than single words."
+        },
+        {
+          "type": "pairs",
+          "title": "Plaats — where something is",
+          "note": "These answer the question 'Waar?' (Where?).",
+          "items": [
+            { "nl": "De melk staat in de koelkast.", "en": "The milk is in the fridge." },
+            { "nl": "Het boek ligt op de tafel.", "en": "The book is on the table." },
+            { "nl": "De schoenen staan onder het bed.", "en": "The shoes are under the bed." },
+            { "nl": "De lamp hangt boven de tafel.", "en": "The lamp hangs above the table." },
+            { "nl": "Ik zit naast mijn vriend.", "en": "I'm sitting next to my friend." },
+            { "nl": "De winkel staat tussen de bank en de bakker.", "en": "The shop is between the bank and the baker." },
+            { "nl": "De tuin ligt achter het huis.", "en": "The garden is behind the house." },
+            { "nl": "De auto staat voor de deur.", "en": "The car is in front of the door." },
+            { "nl": "We wonen bij het station.", "en": "We live near the station." },
+            { "nl": "De school staat tegenover het park.", "en": "The school is opposite the park." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Richting — which way you go",
+          "note": "These answer 'Waarheen?' (Where to?) or 'Waarvandaan?' (Where from?).",
+          "items": [
+            { "nl": "Ik ga naar de supermarkt.", "en": "I'm going to the supermarket." },
+            { "nl": "Ik kom van mijn werk.", "en": "I'm coming from work." },
+            { "nl": "Zij komt uit Spanje.", "en": "She comes from Spain." },
+            { "nl": "We lopen uit het huis.", "en": "We walk out of the house." },
+            { "nl": "De trein rijdt door de tunnel.", "en": "The train rides through the tunnel." },
+            { "nl": "We fietsen langs de rivier.", "en": "We cycle along the river." },
+            { "nl": "Hij rijdt naar het werk met de bus.", "en": "He travels to work by bus." },
+            { "nl": "Ga je mee naar het feest?", "en": "Are you coming along to the party?" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Time: om, op, in",
+          "body": "Use 'om' for a clock time (om acht uur = at eight o'clock), 'op' for a day or date (op maandag = on Monday), and 'in' for a month, season or year (in juni, in de zomer, in 2025)."
+        },
+        {
+          "type": "pairs",
+          "title": "Tijd — when something happens",
+          "note": "Watch the pattern: om + tijd, op + dag, in + maand of jaar.",
+          "items": [
+            { "nl": "De les begint om negen uur.", "en": "The lesson starts at nine o'clock." },
+            { "nl": "Ik werk op maandag en dinsdag.", "en": "I work on Monday and Tuesday." },
+            { "nl": "Mijn verjaardag is in juni.", "en": "My birthday is in June." },
+            { "nl": "We zijn getrouwd in 2019.", "en": "We got married in 2019." },
+            { "nl": "De bus komt over tien minuten.", "en": "The bus comes in ten minutes." },
+            { "nl": "Ik woon hier sinds maart.", "en": "I've lived here since March." },
+            { "nl": "De winkel is open tot zes uur.", "en": "The shop is open until six o'clock." },
+            { "nl": "Na het eten doen we de afwas.", "en": "After dinner we do the dishes." },
+            { "nl": "Ik poets mijn tanden voor het slapen.", "en": "I brush my teeth before sleeping." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "'over' = in X amount of time",
+          "body": "For the near future, Dutch uses 'over': 'over tien minuten' (in ten minutes), 'over een week' (in a week). Don't use 'in' for this — 'in tien minuten' means it takes ten minutes to do, not that it starts then."
+        },
+        {
+          "type": "note",
+          "title": "Fixed verb + preposition combinations",
+          "body": "Some verbs always take a fixed preposition, and you simply have to learn them together: wachten op (to wait for), denken aan (to think about/of), houden van (to love/like), kijken naar (to look at/watch), and vragen om (to ask for)."
+        },
+        {
+          "type": "pairs",
+          "title": "Vaste combinaties — voorbeelden",
+          "note": "Learn the verb and its preposition as one unit.",
+          "items": [
+            { "nl": "Ik wacht op de bus.", "en": "I'm waiting for the bus." },
+            { "nl": "Ik denk vaak aan mijn familie.", "en": "I often think about my family." },
+            { "nl": "Wij houden van Nederlands eten.", "en": "We love Dutch food." },
+            { "nl": "De kinderen kijken naar de televisie.", "en": "The children are watching television." },
+            { "nl": "Hij vraagt om hulp.", "en": "He asks for help." },
+            { "nl": "Ik luister naar de radio.", "en": "I'm listening to the radio." },
+            { "nl": "Zij wacht op een antwoord.", "en": "She's waiting for an answer." },
+            { "nl": "Wij denken aan de vakantie.", "en": "We're thinking about the holiday." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "De les begint ... half negen.",
+          "qEn": "The lesson starts at half past eight. — Which preposition fits?",
+          "options": ["op", "om", "in"],
+          "answer": "om",
+          "explanation": "Use 'om' with a clock time: om half negen (at 8:30). 'op' is for days (op maandag) and 'in' is for months and years (in mei)."
+        }
+      ]
+    },
+    {
+      "id": "basis-verbindingswoorden",
+      "sort": 9.7,
+      "category": "basis",
+      "icon": "🪢",
+      "titleNl": "Verbindingswoorden",
+      "titleEn": "Connectors",
+      "intro": "Connectors join two sentences into one — en, maar, omdat, als, dat and more. The big thing to learn is what they do to the word order, so this chapter focuses on that.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Two groups, two word orders",
+          "body": "Group 1 (en, maar, of, want, dus) just glues two normal sentences together and keeps the normal order: subject + verb. Group 2 (omdat, als, toen, terwijl, dat) starts a sub-clause and sends the verb to the END of that clause."
+        },
+        {
+          "type": "note",
+          "title": "Group 1: en, maar, of, want, dus",
+          "body": "These five keep normal word order on both sides. en = and, maar = but, of = or, want = because/for, dus = so. Tip: 'want' and 'omdat' both mean 'because', but 'want' keeps the normal order while 'omdat' sends the verb to the end."
+        },
+        {
+          "type": "pairs",
+          "title": "Normale volgorde — en, maar, of, want, dus",
+          "note": "The verb stays in its normal place after each connector.",
+          "items": [
+            { "nl": "Ik werk en ik studeer.", "en": "I work and I study." },
+            { "nl": "Ik wil komen, maar ik heb geen tijd.", "en": "I want to come, but I have no time." },
+            { "nl": "Wil je thee of wil je koffie?", "en": "Do you want tea or do you want coffee?" },
+            { "nl": "Ik blijf thuis, want ik ben ziek.", "en": "I'm staying home, because I'm ill." },
+            { "nl": "Het regent, dus ik neem de bus.", "en": "It's raining, so I'm taking the bus." },
+            { "nl": "Zij kookt en hij doet de afwas.", "en": "She cooks and he does the dishes." },
+            { "nl": "Ik heb honger, dus ik maak een boterham.", "en": "I'm hungry, so I'm making a sandwich." },
+            { "nl": "Hij belt, maar ik neem niet op.", "en": "He calls, but I don't pick up." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Group 2: omdat, als, toen, terwijl, dat",
+          "body": "These start a sub-clause and push the verb to the very end. omdat = because, als = if/when, toen = when (in the past), terwijl = while, dat = that. When the sub-clause comes first, the main sentence then starts with its verb."
+        },
+        {
+          "type": "pairs",
+          "title": "Werkwoord naar het einde — omdat, als, toen, terwijl, dat",
+          "note": "See how the verb jumps to the end of the second part.",
+          "items": [
+            { "nl": "Ik blijf thuis omdat ik ziek ben.", "en": "I'm staying home because I'm ill." },
+            { "nl": "Ik bel je als ik thuis ben.", "en": "I'll call you when I'm home." },
+            { "nl": "Toen ik klein was, woonde ik in Turkije.", "en": "When I was little, I lived in Turkey." },
+            { "nl": "Hij luistert naar muziek terwijl hij kookt.", "en": "He listens to music while he cooks." },
+            { "nl": "Ik denk dat het morgen regent.", "en": "I think that it will rain tomorrow." },
+            { "nl": "Zij zegt dat ze moe is.", "en": "She says that she is tired." },
+            { "nl": "We gaan naar buiten als de zon schijnt.", "en": "We go outside when the sun shines." },
+            { "nl": "Ik weet niet of hij komt.", "en": "I don't know whether he is coming." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Quick tip",
+          "body": "When you hear or use omdat, als, toen, terwijl or dat, listen for the verb at the very end — that's the signal you're in a sub-clause. With en, maar, of, want and dus, nothing changes: just keep the normal subject + verb order."
+        },
+        {
+          "type": "example",
+          "q": "Ik blijf thuis omdat ik ... .",
+          "qEn": "I'm staying home because I'm ill. — Which word order is correct after 'omdat'?",
+          "options": ["ben ziek", "ziek ben", "ik ben ziek"],
+          "answer": "ziek ben",
+          "explanation": "'omdat' is a Group 2 connector, so the verb goes to the END: omdat ik ziek ben. With 'want' you would keep the normal order: want ik ben ziek."
+        }
+      ]
+    }
+  ]
+}

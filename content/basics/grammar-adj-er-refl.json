@@ -1,0 +1,264 @@
+{
+  "chapters": [
+    {
+      "id": "basis-vergelijken",
+      "sort": 9.8,
+      "category": "basis",
+      "icon": "📏",
+      "titleNl": "Vergelijken & bijvoeglijke naamwoorden",
+      "titleEn": "Comparisons & adjectives",
+      "intro": "How to describe and compare things: when an adjective gets an extra -e, and how to build the comparative (bigger) and superlative (biggest). Tap 🔊 to hear each form.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "The -e rule (recap)",
+          "body": "An adjective before a noun usually gets an extra -e: de grote man, het mooie huis, een lekkere appel. There is one exception: with a het-word AND een (or no article), you drop the -e: een groot huis, een klein kind. So: het grote huis, but een groot huis."
+        },
+        {
+          "type": "pairs",
+          "title": "Met -e of niet?",
+          "note": "Only een + het-word drops the -e. Everywhere else you add it.",
+          "items": [
+            { "nl": "de grote man", "en": "the big man (de-word, so -e)" },
+            { "nl": "een grote man", "en": "a big man (de-word, so -e)" },
+            { "nl": "het grote huis", "en": "the big house (het + de/het = -e)" },
+            { "nl": "een groot huis", "en": "a big house (een + het-word = no -e)" },
+            { "nl": "een klein kind", "en": "a small child (een + het-word = no -e)" },
+            { "nl": "het kleine kind", "en": "the small child (het-word with het = -e)" },
+            { "nl": "de lekkere koffie", "en": "the nice coffee" },
+            { "nl": "een dure auto", "en": "an expensive car (de-word = -e)" },
+            { "nl": "koud water", "en": "cold water (no article + het-word = no -e)" },
+            { "nl": "een oude fiets", "en": "an old bike (de-word = -e)" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Comparative (+er) and superlative (+st)",
+          "body": "To compare, add -er for the comparative and -st for the superlative: klein, kleiner, kleinst. Adjectives ending in -r add an extra d: duur, duurder, duurst; lekker, lekkerder, lekkerst. The superlative usually comes with het or de: het grootst, de grootste."
+        },
+        {
+          "type": "pairs",
+          "title": "Trappen van vergelijking",
+          "note": "Pattern: basic form / + er / + st. Read them across.",
+          "items": [
+            { "nl": "groot, groter, grootst", "en": "big, bigger, biggest" },
+            { "nl": "klein, kleiner, kleinst", "en": "small, smaller, smallest" },
+            { "nl": "mooi, mooier, mooist", "en": "beautiful, more beautiful, most beautiful" },
+            { "nl": "duur, duurder, duurst", "en": "expensive, more expensive, most expensive" },
+            { "nl": "lekker, lekkerder, lekkerst", "en": "tasty, tastier, tastiest" },
+            { "nl": "jong, jonger, jongst", "en": "young, younger, youngest" },
+            { "nl": "oud, ouder, oudst", "en": "old, older, oldest" },
+            { "nl": "snel, sneller, snelst", "en": "fast, faster, fastest" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Onregelmatig",
+          "note": "These three do not follow the rule. Learn them by heart.",
+          "items": [
+            { "nl": "goed, beter, best", "en": "good, better, best" },
+            { "nl": "veel, meer, meest", "en": "much/many, more, most" },
+            { "nl": "weinig, minder, minst", "en": "little/few, less, least" },
+            { "nl": "graag, liever, liefst", "en": "gladly, rather, most of all (with verbs: like, prefer)" },
+            { "nl": "Het weer is vandaag beter dan gisteren.", "en": "The weather is better today than yesterday." },
+            { "nl": "Ik drink graag koffie.", "en": "I like drinking coffee." },
+            { "nl": "Ik drink liever thee.", "en": "I prefer drinking tea." },
+            { "nl": "Ik drink het liefst water.", "en": "Most of all I like drinking water." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Comparing: dan, even ... als, de ...ste",
+          "body": "Use dan for than: Amsterdam is groter dan Utrecht. Use even ... als for as ... as: Ik ben even oud als jij. For the superlative use de or het + the -ste form: Dit is de grootste stad."
+        },
+        {
+          "type": "pairs",
+          "title": "Vergelijken in zinnen",
+          "items": [
+            { "nl": "Amsterdam is groter dan Utrecht.", "en": "Amsterdam is bigger than Utrecht." },
+            { "nl": "Deze tas is duurder dan die tas.", "en": "This bag is more expensive than that bag." },
+            { "nl": "Mijn broer is jonger dan ik.", "en": "My brother is younger than me." },
+            { "nl": "Ik ben even oud als mijn buurvrouw.", "en": "I am as old as my neighbour." },
+            { "nl": "De trein is even snel als de auto.", "en": "The train is as fast as the car." },
+            { "nl": "Dit is de grootste stad van Nederland.", "en": "This is the biggest city in the Netherlands." },
+            { "nl": "Zij is de beste leerling van de klas.", "en": "She is the best pupil in the class." },
+            { "nl": "Welke jas vind je het mooist?", "en": "Which coat do you find the most beautiful?" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "De Mont Blanc is de ____ berg van de Alpen.",
+          "qEn": "Mont Blanc is the ____ mountain in the Alps.",
+          "options": ["hoog", "hoger", "hoogste"],
+          "answer": "hoogste",
+          "explanation": "After de and meaning the most, you need the superlative with -ste: de hoogste berg. Hoog is the basic form and hoger is the comparative (higher than)."
+        }
+      ]
+    },
+    {
+      "id": "basis-er",
+      "sort": 9.9,
+      "category": "basis",
+      "icon": "🔀",
+      "titleNl": "Het woordje er",
+      "titleEn": "The little word er",
+      "intro": "Er is a tiny word with several jobs. It can mean there, replace a place, or combine with a preposition (erop, ermee). Tap 🔊 to hear it in real sentences.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Why er is everywhere",
+          "body": "Er has no real meaning on its own, but Dutch needs it in many sentences. The three most useful jobs are: 1) er is / er zijn (there is / there are), 2) er as a place (= here/there), and 3) er + a preposition (erop, erin, ermee, eraan)."
+        },
+        {
+          "type": "note",
+          "title": "1) er is / er zijn = there is / there are",
+          "body": "Use er is for one thing and er zijn for more than one, to say that something exists: Er is een probleem. Er zijn veel mensen. In a question it flips: Is er nog koffie? Zijn er vragen?"
+        },
+        {
+          "type": "pairs",
+          "title": "Er is / er zijn",
+          "items": [
+            { "nl": "Er is een probleem.", "en": "There is a problem." },
+            { "nl": "Er is nog koffie.", "en": "There is still coffee." },
+            { "nl": "Er zijn veel mensen op straat.", "en": "There are many people in the street." },
+            { "nl": "Er zijn drie slaapkamers in het huis.", "en": "There are three bedrooms in the house." },
+            { "nl": "Is er een apotheek in de buurt?", "en": "Is there a pharmacy nearby?" },
+            { "nl": "Zijn er nog vragen?", "en": "Are there any more questions?" },
+            { "nl": "Er was gisteren een ongeluk.", "en": "There was an accident yesterday." },
+            { "nl": "Er zijn geen kaartjes meer.", "en": "There are no more tickets." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "2) er as a place (= here / there)",
+          "body": "Er can replace a place you already mentioned, so you do not have to repeat it: Woon je in Utrecht? Ja, ik woon er al jaren (= there, in Utrecht). It often sits just after the verb."
+        },
+        {
+          "type": "pairs",
+          "title": "Er = op die plek",
+          "items": [
+            { "nl": "Ik woon er al jaren.", "en": "I have lived there for years." },
+            { "nl": "Ben je weleens in Parijs geweest? Ja, ik ben er twee keer geweest.", "en": "Have you ever been to Paris? Yes, I have been there twice." },
+            { "nl": "Het strand is mooi, we gaan er vaak naartoe.", "en": "The beach is beautiful, we often go there." },
+            { "nl": "Ik ken dat restaurant; ik heb er gegeten.", "en": "I know that restaurant; I have eaten there." },
+            { "nl": "Werk je nog bij die winkel? Nee, ik werk er niet meer.", "en": "Do you still work at that shop? No, I do not work there anymore." },
+            { "nl": "De stad is leuk, maar het is er druk.", "en": "The city is nice, but it is busy there." },
+            { "nl": "Hoe lang woon je al in Nederland? Ik woon er sinds 2018.", "en": "How long have you lived in the Netherlands? I have lived there since 2018." },
+            { "nl": "Het museum is gratis; ga er gerust naartoe.", "en": "The museum is free; feel free to go there." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "3) er + preposition (erop, erin, ermee, eraan)",
+          "body": "When a preposition (op, in, met, aan, over ...) would point to a thing (not a person), you glue er in front of it: op het = erop, in de doos = erin, met de bus = ermee. In a sentence er and the preposition often split: Ik denk er niet aan. Note met becomes mee and tot becomes toe."
+        },
+        {
+          "type": "pairs",
+          "title": "Er + voorzetsel",
+          "note": "These replace a thing, never a person. For people you use op hem, met haar, aan hen.",
+          "items": [
+            { "nl": "Waar is mijn boek? Je tas ligt erop.", "en": "Where is my book? Your bag is lying on it." },
+            { "nl": "Een mooie doos! Wat zit erin?", "en": "A nice box! What is in it?" },
+            { "nl": "Ik ga met de fiets; ik ga er altijd mee naar mijn werk.", "en": "I go by bike; I always go to work by it." },
+            { "nl": "Ik denk er niet aan.", "en": "I am not thinking about it." },
+            { "nl": "Ben je klaar met het formulier? Ik ben er nog mee bezig.", "en": "Are you done with the form? I am still busy with it." },
+            { "nl": "Het is een goed idee. Ik ben het er helemaal mee eens.", "en": "It is a good idea. I completely agree with it." },
+            { "nl": "Houd je van koffie? Ja, ik houd ervan.", "en": "Do you like coffee? Yes, I like it." },
+            { "nl": "Maak je je zorgen over de toets? Nee, ik denk er niet aan.", "en": "Are you worried about the test? No, I am not thinking about it." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Quick tip",
+          "body": "Rule of thumb: use er + preposition for things and animals, but a normal pronoun for people. So: Ik denk eraan (about it) versus Ik denk aan hem (about him). When in doubt, say it out loud: erop, erin and ermee sound natural once you have heard them a few times."
+        },
+        {
+          "type": "example",
+          "q": "Heb je zin in de film? Ja, ik heb ____ heel veel zin in.",
+          "qEn": "Do you fancy the film? Yes, I really fancy it.",
+          "options": ["het", "er", "hem"],
+          "answer": "er",
+          "explanation": "The film is a thing, and the verb uses the preposition in (zin hebben in). So you replace it with er + in, which splits in the sentence: er ... in. Hem would only work for a person."
+        }
+      ]
+    },
+    {
+      "id": "basis-reflexief",
+      "sort": 6.6,
+      "category": "basis",
+      "icon": "🔁",
+      "titleNl": "Reflexieve werkwoorden",
+      "titleEn": "Reflexive verbs",
+      "intro": "Some Dutch verbs always come with an extra little word like me, je or zich that points back to the subject (I wash myself). Tap 🔊 to hear the full sentences.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "What is a reflexive verb?",
+          "body": "A reflexive verb describes an action you do to yourself. In the dictionary it is written with zich in front: zich wassen (to wash oneself), zich voelen (to feel). You cannot leave the little word out: you say ik was me, not just ik was."
+        },
+        {
+          "type": "note",
+          "title": "The reflexive pronouns",
+          "body": "The extra word changes with the subject: ik - me, jij - je, hij/zij/het - zich, wij - ons, jullie - je, zij - zich. The polite u uses u or zich. So: ik voel me, jij voelt je, hij voelt zich, wij voelen ons."
+        },
+        {
+          "type": "pairs",
+          "title": "De voornaamwoorden",
+          "note": "Subject on the left, its reflexive word on the right.",
+          "items": [
+            { "nl": "ik was me", "en": "I wash myself" },
+            { "nl": "jij wast je", "en": "you wash yourself" },
+            { "nl": "u wast zich", "en": "you (polite) wash yourself" },
+            { "nl": "hij wast zich", "en": "he washes himself" },
+            { "nl": "zij wast zich", "en": "she washes herself" },
+            { "nl": "wij wassen ons", "en": "we wash ourselves" },
+            { "nl": "jullie wassen je", "en": "you (plural) wash yourselves" },
+            { "nl": "zij wassen zich", "en": "they wash themselves" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Veelgebruikte reflexieve werkwoorden",
+          "note": "Learn each verb together with the word zich.",
+          "items": [
+            { "nl": "zich wassen: ik was me elke ochtend.", "en": "to wash oneself: I wash myself every morning." },
+            { "nl": "zich voelen: ik voel me goed vandaag.", "en": "to feel: I feel good today." },
+            { "nl": "zich vervelen: de kinderen vervelen zich.", "en": "to be bored: the children are bored." },
+            { "nl": "zich haasten: ik moet me haasten, anders mis ik de trein.", "en": "to hurry: I have to hurry, otherwise I miss the train." },
+            { "nl": "zich aankleden: hij kleedt zich snel aan.", "en": "to get dressed: he gets dressed quickly." },
+            { "nl": "zich herinneren: ik kan me zijn naam niet herinneren.", "en": "to remember: I cannot remember his name." },
+            { "nl": "zich schamen: zij schaamt zich voor haar fout.", "en": "to be ashamed: she is ashamed of her mistake." },
+            { "nl": "zich vergissen: sorry, ik vergis me.", "en": "to be mistaken: sorry, I am mistaken." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Where does the little word go?",
+          "body": "The reflexive word comes right after the verb: Ik voel me niet lekker. In a question it follows the subject: Voel je je wel goed? With a second verb the action verb moves to the end, but the little word stays near the front: Ik wil me even haasten."
+        },
+        {
+          "type": "pairs",
+          "title": "In hele zinnen",
+          "items": [
+            { "nl": "Ik voel me niet zo lekker.", "en": "I do not feel so well." },
+            { "nl": "Voel je je wel goed?", "en": "Do you feel alright?" },
+            { "nl": "We moeten ons haasten.", "en": "We have to hurry." },
+            { "nl": "Kleed je snel aan, we gaan zo weg.", "en": "Get dressed quickly, we are leaving soon." },
+            { "nl": "Ik kan me dat niet herinneren.", "en": "I cannot remember that." },
+            { "nl": "Hij verveelt zich op zijn werk.", "en": "He is bored at his work." },
+            { "nl": "De kinderen wassen zich voor het eten.", "en": "The children wash themselves before dinner." },
+            { "nl": "Zij schaamt zich een beetje.", "en": "She is a little ashamed." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Wat is goed? ____ voelen vandaag heel blij.",
+          "qEn": "What is correct? We feel very happy today.",
+          "options": ["Wij voelen zich", "Wij voelen ons", "Wij voelen me"],
+          "answer": "Wij voelen ons",
+          "explanation": "The subject is wij (we), and the reflexive word for wij is ons. Zich is only for hij, zij and zij (they); me is only for ik."
+        }
+      ]
+    }
+  ]
+}

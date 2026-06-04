@@ -1,0 +1,299 @@
+{
+  "chapters": [
+    {
+      "id": "basis-de-weg",
+      "sort": 6.7,
+      "category": "basis",
+      "icon": "🗺️",
+      "titleNl": "De weg vragen & richtingen",
+      "titleEn": "Asking directions",
+      "intro": "How to ask for the way and understand the answer when someone points you somewhere. Tap 🔊 to hear each Dutch phrase spoken.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Stay polite",
+          "body": "Start with Pardon or Sorry to get attention, then ask your question. Use the polite u (not je) with strangers on the street. End with Dank u wel."
+        },
+        {
+          "type": "pairs",
+          "title": "Richtingen",
+          "note": "The core direction words. Learn these first.",
+          "items": [
+            { "nl": "links", "en": "left" },
+            { "nl": "rechts", "en": "right" },
+            { "nl": "rechtdoor", "en": "straight ahead" },
+            { "nl": "terug", "en": "back" },
+            { "nl": "de eerste straat links", "en": "the first street on the left" },
+            { "nl": "de tweede straat rechts", "en": "the second street on the right" },
+            { "nl": "bij de stoplichten", "en": "at the traffic lights" },
+            { "nl": "de hoek om", "en": "around the corner" },
+            { "nl": "tot het einde van de straat", "en": "to the end of the street" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Waar is het? (plaats)",
+          "note": "Words that say where something is in relation to other things.",
+          "items": [
+            { "nl": "naast", "en": "next to" },
+            { "nl": "tegenover", "en": "opposite / across from" },
+            { "nl": "voor", "en": "in front of" },
+            { "nl": "achter", "en": "behind" },
+            { "nl": "tussen", "en": "between" },
+            { "nl": "ver", "en": "far" },
+            { "nl": "dichtbij", "en": "nearby" },
+            { "nl": "om de hoek", "en": "around the corner (close by)" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Handige plekken",
+          "note": "Common landmarks people use to point the way.",
+          "items": [
+            { "nl": "het station", "en": "the (train) station" },
+            { "nl": "de bushalte", "en": "the bus stop" },
+            { "nl": "het plein", "en": "the square" },
+            { "nl": "de brug", "en": "the bridge" },
+            { "nl": "de kerk", "en": "the church" },
+            { "nl": "de supermarkt", "en": "the supermarket" },
+            { "nl": "het ziekenhuis", "en": "the hospital" },
+            { "nl": "de straat", "en": "the street" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De weg vragen (zinnen)",
+          "note": "Full sentences you can use right away.",
+          "items": [
+            { "nl": "Pardon, waar is het station?", "en": "Excuse me, where is the station?" },
+            { "nl": "Hoe kom ik bij de supermarkt?", "en": "How do I get to the supermarket?" },
+            { "nl": "Is het ver?", "en": "Is it far?" },
+            { "nl": "Is het dichtbij?", "en": "Is it nearby?" },
+            { "nl": "Hoe lang lopen is het?", "en": "How long does it take to walk?" },
+            { "nl": "Kunt u het op de kaart laten zien?", "en": "Can you show it on the map?" },
+            { "nl": "Ik ben verdwaald.", "en": "I am lost." },
+            { "nl": "Kunt u dat herhalen, alstublieft?", "en": "Could you repeat that, please?" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Understanding the answer",
+          "body": "Listen for ga (go), loop (walk) and sla af (turn). For example: Ga rechtdoor en sla de eerste straat links af means Go straight ahead and take the first street on the left."
+        },
+        {
+          "type": "example",
+          "q": "U bent verdwaald. Wat vraagt u aan iemand op straat?",
+          "qEn": "You are lost. What do you ask someone on the street?",
+          "options": [
+            "Pardon, hoe kom ik bij het station?",
+            "Dat is mijn auto.",
+            "Ik woon hier al tien jaar."
+          ],
+          "answer": "Pardon, hoe kom ik bij het station?",
+          "explanation": "Pardon politely gets attention and Hoe kom ik bij...? is the standard way to ask how to get somewhere. The other options do not ask for directions."
+        }
+      ]
+    },
+    {
+      "id": "basis-telefoneren",
+      "sort": 11.5,
+      "category": "basis",
+      "icon": "📞",
+      "titleNl": "Telefoneren & afspraken maken",
+      "titleEn": "Phoning & appointments",
+      "intro": "What to say on the phone and how to make or change an appointment with a doctor, the town hall or a company. Tap 🔊 to hear each phrase.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Answering the phone",
+          "body": "In Dutch you usually answer with your own name: Met Anna. (literally With Anna). The caller replies U spreekt met... or Met... and then their name. Speak a little slower than usual."
+        },
+        {
+          "type": "pairs",
+          "title": "Het gesprek beginnen",
+          "note": "Opening a phone call.",
+          "items": [
+            { "nl": "Met Anna.", "en": "Anna speaking. (when you answer)" },
+            { "nl": "U spreekt met Karim.", "en": "This is Karim speaking." },
+            { "nl": "Goedemorgen, met de huisartsenpraktijk.", "en": "Good morning, this is the doctor practice." },
+            { "nl": "Kan ik de dokter spreken?", "en": "Can I speak to the doctor?" },
+            { "nl": "Met wie spreek ik?", "en": "Who am I speaking to?" },
+            { "nl": "Waarmee kan ik u helpen?", "en": "How can I help you?" },
+            { "nl": "Een moment alstublieft.", "en": "One moment, please." },
+            { "nl": "Ik verbind u door.", "en": "I will put you through." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Een boodschap",
+          "note": "When the person is not available.",
+          "items": [
+            { "nl": "Hij is er nu niet.", "en": "He is not here right now." },
+            { "nl": "Zij is in gesprek.", "en": "She is on another call." },
+            { "nl": "Kunt u een boodschap doorgeven?", "en": "Can you pass on a message?" },
+            { "nl": "Kan hij mij terugbellen?", "en": "Can he call me back?" },
+            { "nl": "Wat is uw naam?", "en": "What is your name?" },
+            { "nl": "Wat is uw telefoonnummer?", "en": "What is your phone number?" },
+            { "nl": "Ik bel later terug.", "en": "I will call back later." },
+            { "nl": "Kunt u dat spellen, alstublieft?", "en": "Could you spell that, please?" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Het gesprek beëindigen",
+          "note": "Ending a call politely.",
+          "items": [
+            { "nl": "Bedankt voor het bellen.", "en": "Thanks for calling." },
+            { "nl": "Hartelijk dank voor uw hulp.", "en": "Many thanks for your help." },
+            { "nl": "Dat is goed, dank u wel.", "en": "That is fine, thank you." },
+            { "nl": "Prettige dag verder.", "en": "Have a good rest of the day." },
+            { "nl": "Fijne dag nog.", "en": "Have a nice day." },
+            { "nl": "Tot ziens.", "en": "Goodbye." },
+            { "nl": "Tot maandag.", "en": "See you on Monday." },
+            { "nl": "Tot de volgende keer.", "en": "Until next time." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Een afspraak maken",
+          "note": "Making an appointment.",
+          "items": [
+            { "nl": "Ik wil graag een afspraak maken.", "en": "I would like to make an appointment." },
+            { "nl": "Wanneer schikt het?", "en": "When suits you?" },
+            { "nl": "Past dinsdag om tien uur?", "en": "Does Tuesday at ten o clock work?" },
+            { "nl": "Heeft u iets in de ochtend?", "en": "Do you have anything in the morning?" },
+            { "nl": "Heeft u iets in de middag?", "en": "Do you have anything in the afternoon?" },
+            { "nl": "Hoe laat moet ik er zijn?", "en": "What time should I be there?" },
+            { "nl": "Hoe lang duurt de afspraak?", "en": "How long does the appointment take?" },
+            { "nl": "Waar moet ik zijn?", "en": "Where do I need to be?" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Een afspraak wijzigen",
+          "note": "Changing or cancelling an appointment.",
+          "items": [
+            { "nl": "Ik moet de afspraak verzetten.", "en": "I have to reschedule the appointment." },
+            { "nl": "Ik moet de afspraak afzeggen.", "en": "I have to cancel the appointment." },
+            { "nl": "Kan het een dag later?", "en": "Can it be a day later?" },
+            { "nl": "Kan het een uur eerder?", "en": "Can it be an hour earlier?" },
+            { "nl": "Het komt mij niet uit.", "en": "It does not suit me." },
+            { "nl": "Ik ben helaas verhinderd.", "en": "Unfortunately I cannot make it." },
+            { "nl": "Ik ben ziek.", "en": "I am ill." },
+            { "nl": "Sorry dat ik zo laat bel.", "en": "Sorry for calling so late." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Numbers on the phone",
+          "body": "Dutch phone numbers are read in pairs: 06 12 34 56 78 is nul zes, twaalf, vierendertig, zesenvijftig, achtenzeventig. If you miss it, say Kunt u het langzaam herhalen?"
+        },
+        {
+          "type": "example",
+          "q": "De receptie zegt: De dokter is er niet. Wat zegt u?",
+          "qEn": "The receptionist says: The doctor is not here. What do you say?",
+          "options": [
+            "Kunt u een boodschap doorgeven?",
+            "Ik ben verdwaald.",
+            "Dat is te duur."
+          ],
+          "answer": "Kunt u een boodschap doorgeven?",
+          "explanation": "When the person you want is unavailable, you ask the receptionist to pass on a message with Kunt u een boodschap doorgeven? The other options do not fit a phone call."
+        }
+      ]
+    },
+    {
+      "id": "basis-noodgevallen",
+      "sort": 10.5,
+      "category": "basis",
+      "icon": "🆘",
+      "titleNl": "Noodgevallen & instanties",
+      "titleEn": "Emergencies & institutions",
+      "intro": "The words you need in an emergency, plus the names of the Dutch institutions you will deal with as a newcomer. Tap 🔊 to hear each phrase.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Call 112 in an emergency",
+          "body": "Bel 112 for the police, fire brigade or ambulance when there is real danger or someone is badly hurt. For medical help that is not urgent, call the huisartsenpost (the after-hours GP service). 112 is free and works without credit."
+        },
+        {
+          "type": "pairs",
+          "title": "Hulp vragen",
+          "note": "Short, clear phrases for an emergency. Say them loudly.",
+          "items": [
+            { "nl": "Bel 112!", "en": "Call 112!" },
+            { "nl": "Help!", "en": "Help!" },
+            { "nl": "Er is brand!", "en": "There is a fire!" },
+            { "nl": "Er is een ongeluk.", "en": "There has been an accident." },
+            { "nl": "Ik heb een dokter nodig.", "en": "I need a doctor." },
+            { "nl": "Bel een ambulance!", "en": "Call an ambulance!" },
+            { "nl": "Kom snel!", "en": "Come quickly!" },
+            { "nl": "Er is iemand gewond.", "en": "Someone is injured." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De hulpdiensten",
+          "note": "Who comes when you call 112.",
+          "items": [
+            { "nl": "de politie", "en": "the police" },
+            { "nl": "de brandweer", "en": "the fire brigade" },
+            { "nl": "de ambulance", "en": "the ambulance" },
+            { "nl": "de huisartsenpost", "en": "the after-hours GP clinic" },
+            { "nl": "het alarmnummer", "en": "the emergency number" },
+            { "nl": "de eerste hulp", "en": "the accident & emergency (A&E)" },
+            { "nl": "de brandweerman", "en": "the firefighter" },
+            { "nl": "de agent", "en": "the police officer" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Wat is er gebeurd?",
+          "note": "The 112 operator will ask questions like these.",
+          "items": [
+            { "nl": "Wat is er aan de hand?", "en": "What is the matter?" },
+            { "nl": "Waar bent u?", "en": "Where are you?" },
+            { "nl": "Wat is het adres?", "en": "What is the address?" },
+            { "nl": "In welke plaats bent u?", "en": "Which town are you in?" },
+            { "nl": "Is er iemand gewond?", "en": "Is anyone injured?" },
+            { "nl": "Wat is uw naam?", "en": "What is your name?" },
+            { "nl": "Blijf rustig.", "en": "Stay calm." },
+            { "nl": "Blijf aan de lijn.", "en": "Stay on the line." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Belangrijke instanties",
+          "note": "The Dutch bodies you will deal with as a newcomer. Learn what each one does.",
+          "items": [
+            { "nl": "de gemeente", "en": "the municipality (town hall) — registration, ID and local matters" },
+            { "nl": "DigiD", "en": "your digital ID to log in to government websites" },
+            { "nl": "het BSN (burgerservicenummer)", "en": "your citizen service number, used for everything official" },
+            { "nl": "de Belastingdienst", "en": "the tax office — taxes and benefits (toeslagen)" },
+            { "nl": "het UWV", "en": "the agency for work and unemployment benefits" },
+            { "nl": "de huisarts", "en": "your GP — your first contact for medical care" },
+            { "nl": "de apotheek", "en": "the pharmacy — where you collect your medicine" },
+            { "nl": "de zorgverzekering", "en": "your (compulsory) health insurance" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Good to know",
+          "body": "You always need a verwijzing (referral) from your huisarts to see a specialist. Your zorgverzekering (health insurance) is compulsory in the Netherlands. Keep your BSN and DigiD details safe and never share them by email."
+        },
+        {
+          "type": "example",
+          "q": "Er is een groot ongeluk en iemand is zwaargewond. Wat doet u?",
+          "qEn": "There is a serious accident and someone is badly injured. What do you do?",
+          "options": [
+            "Ik bel 112.",
+            "Ik bel de apotheek.",
+            "Ik ga naar de gemeente."
+          ],
+          "answer": "Ik bel 112.",
+          "explanation": "In a real emergency with a badly injured person you call 112 for the ambulance and police. The pharmacy and the town hall do not handle emergencies."
+        }
+      ]
+    }
+  ]
+}

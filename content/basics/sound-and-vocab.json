@@ -1,0 +1,334 @@
+{
+  "chapters": [
+    {
+      "id": "basis-uitspraak",
+      "sort": 0.2,
+      "category": "basis",
+      "icon": "🔤",
+      "titleNl": "Uitspraak & spelling",
+      "titleEn": "Pronunciation & spelling",
+      "intro": "Dutch is mostly written the way it sounds, so once you know the handful of tricky sounds below you can read almost any word out loud. Tap 🔊 to hear each example, repeat it, and don't worry about a perfect accent.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "De g en ch (the scrapey sound)",
+          "note": "g and ch make the same rough sound from the back of the throat, a bit like clearing it. In the south it's softer.",
+          "items": [
+            { "nl": "gaan", "en": "to go — the classic hard g" },
+            { "nl": "goed", "en": "good" },
+            { "nl": "geld", "en": "money" },
+            { "nl": "lachen", "en": "to laugh — ch is the same sound" },
+            { "nl": "acht", "en": "eight" },
+            { "nl": "nacht", "en": "night" },
+            { "nl": "school", "en": "school" },
+            { "nl": "graag", "en": "gladly — two g sounds in one word" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De ui, eu en oe",
+          "note": "Three vowel sounds with no English match. ui is rounded like oy with pursed lips; eu is like the u in the French peur; oe sounds like the English oo in boot.",
+          "items": [
+            { "nl": "huis", "en": "house — the ui sound" },
+            { "nl": "ui", "en": "onion" },
+            { "nl": "buiten", "en": "outside" },
+            { "nl": "deur", "en": "door — the eu sound" },
+            { "nl": "kleur", "en": "colour" },
+            { "nl": "neus", "en": "nose" },
+            { "nl": "boek", "en": "book — the oe sounds like oo" },
+            { "nl": "moeder", "en": "mother" },
+            { "nl": "zoet", "en": "sweet" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De ij en ei (they sound the same)",
+          "note": "ij and ei sound identical, like the y in my. Spelling just has to be learned per word: lange ij vs korte ei.",
+          "items": [
+            { "nl": "ijs", "en": "ice / ice cream — lange ij" },
+            { "nl": "wij", "en": "we" },
+            { "nl": "vijf", "en": "five" },
+            { "nl": "zijn", "en": "to be / his" },
+            { "nl": "klein", "en": "small — korte ei" },
+            { "nl": "trein", "en": "train" },
+            { "nl": "ei", "en": "egg" },
+            { "nl": "reizen", "en": "to travel" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De au en ou (also the same)",
+          "note": "au and ou sound the same too, like the ow in now. Again, only the spelling differs per word.",
+          "items": [
+            { "nl": "blauw", "en": "blue — written with au" },
+            { "nl": "gauw", "en": "soon / quickly" },
+            { "nl": "auto", "en": "car" },
+            { "nl": "koud", "en": "cold — written with ou" },
+            { "nl": "oud", "en": "old" },
+            { "nl": "vrouw", "en": "woman" },
+            { "nl": "jou", "en": "you" },
+            { "nl": "goud", "en": "gold" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De stille e (the schwa)",
+          "note": "An unstressed e at the end of a word or in a small word sounds like a soft uh, never a sharp e. It's the most common vowel sound in Dutch.",
+          "items": [
+            { "nl": "de", "en": "the — sounds like duh" },
+            { "nl": "een", "en": "a / an — sounds like uhn" },
+            { "nl": "lopen", "en": "to walk — the e is a soft uh" },
+            { "nl": "vrouwen", "en": "women" },
+            { "nl": "vriendelijke", "en": "friendly" },
+            { "nl": "gemakkelijk", "en": "easy" },
+            { "nl": "de tafel", "en": "the table" },
+            { "nl": "de winkel", "en": "the shop" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Long vs short vowels & the doubling rule",
+          "body": "A single vowel in a closed syllable (ending in a consonant) is short: man, bos, pit. To keep a vowel LONG, you either double the vowel or open the syllable. So when a word gets an ending, the spelling shifts to protect the sound. Double the consonant to keep a vowel short: man becomes mannen (still short a). Drop one vowel when the syllable opens to keep it long: boom becomes bomen, maan becomes manen (still long aa, now spelled with one a). Rule of thumb: short vowel plus ending equals double consonant; long vowel plus ending equals single vowel in an open syllable."
+        },
+        {
+          "type": "note",
+          "title": "Klemtoon (word stress)",
+          "body": "Most Dutch words stress the first syllable: TA-fel, WIN-kel, MOE-der. But words starting with the prefixes ge-, be-, ver- and ont- usually stress the next syllable: geLUK, beTAlen, verSTAAN, ontMOEten. Loanwords often keep their own stress, like resTAUrant. Putting the stress on the right syllable matters more for being understood than getting every sound perfect."
+        },
+        {
+          "type": "pairs",
+          "title": "Hoe spel je dat? (spelling out loud)",
+          "note": "You'll need this at every counter and on the phone. Practise spelling your own name and address.",
+          "items": [
+            { "nl": "Hoe spel je dat?", "en": "How do you spell that?" },
+            { "nl": "Kunt u dat spellen?", "en": "Could you spell that? (formal)" },
+            { "nl": "Ik spel mijn naam.", "en": "I'll spell my name." },
+            { "nl": "Mijn naam is Anna, A N N A.", "en": "My name is Anna, A-N-N-A." },
+            { "nl": "Wat is uw e-mailadres?", "en": "What's your e-mail address?" },
+            { "nl": "het apenstaartje", "en": "the @ sign (the at-sign)" },
+            { "nl": "de punt", "en": "the dot ( . )" },
+            { "nl": "de streep", "en": "the dash / hyphen ( - )" },
+            { "nl": "een spatie", "en": "a space" },
+            { "nl": "met een hoofdletter", "en": "with a capital letter" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Welk woord heeft dezelfde klank als ijs?",
+          "qEn": "Which word has the same vowel sound as 'ijs' (ice)?",
+          "options": ["huis", "klein", "boek"],
+          "answer": "klein",
+          "explanation": "ij and ei sound exactly the same, so 'ijs' and 'klein' rhyme. 'huis' has the ui sound and 'boek' has the oe sound."
+        }
+      ]
+    },
+    {
+      "id": "basis-woorden-mensen",
+      "sort": 0.7,
+      "category": "basis",
+      "icon": "🧍",
+      "titleNl": "Woorden: lichaam, familie & mensen",
+      "titleEn": "Words: body, family & people",
+      "intro": "Core everyday nouns for your body, your family and describing people. Learn each noun together with its de or het, and tap 🔊 to hear it.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Learn de or het with every word",
+          "body": "Each noun is a de-word or a het-word, and there's no reliable rule, so always memorise the article with the noun. The lists below already show it for you. Tip: most body parts and family members are de-words."
+        },
+        {
+          "type": "pairs",
+          "title": "Het lichaam (the body)",
+          "items": [
+            { "nl": "het hoofd", "en": "the head" },
+            { "nl": "het haar", "en": "the hair" },
+            { "nl": "het oog", "en": "the eye" },
+            { "nl": "het oor", "en": "the ear" },
+            { "nl": "de neus", "en": "the nose" },
+            { "nl": "de mond", "en": "the mouth" },
+            { "nl": "de hand", "en": "the hand" },
+            { "nl": "de arm", "en": "the arm" },
+            { "nl": "het been", "en": "the leg" },
+            { "nl": "de voet", "en": "the foot" },
+            { "nl": "de buik", "en": "the belly / stomach" },
+            { "nl": "de rug", "en": "the back" },
+            { "nl": "de keel", "en": "the throat" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Talking about aches",
+          "body": "At the doctor you'll often add pijn (pain). Say ik heb pijn in mijn ... plus the body part: ik heb pijn in mijn buik (I have a stomach ache), ik heb keelpijn (I have a sore throat), ik heb hoofdpijn (I have a headache)."
+        },
+        {
+          "type": "pairs",
+          "title": "De familie (the family)",
+          "items": [
+            { "nl": "de moeder", "en": "the mother" },
+            { "nl": "de vader", "en": "the father" },
+            { "nl": "de zus", "en": "the sister" },
+            { "nl": "de broer", "en": "the brother" },
+            { "nl": "de oma", "en": "the grandma" },
+            { "nl": "de opa", "en": "the grandpa" },
+            { "nl": "de tante", "en": "the aunt" },
+            { "nl": "de oom", "en": "the uncle" },
+            { "nl": "de zoon", "en": "the son" },
+            { "nl": "de dochter", "en": "the daughter" },
+            { "nl": "het kind", "en": "the child" },
+            { "nl": "de man", "en": "the man / husband" },
+            { "nl": "de vrouw", "en": "the woman / wife" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Family shortcuts",
+          "body": "de ouders means the parents and de kinderen means the children (an irregular plural). Informally many people say mama and papa, just like in English. Your partner's parents are your schoonouders (parents-in-law)."
+        },
+        {
+          "type": "pairs",
+          "title": "Mensen beschrijven (describing people)",
+          "note": "Use these with the verb zijn: hij is jong, zij is vriendelijk.",
+          "items": [
+            { "nl": "de baby", "en": "the baby" },
+            { "nl": "het meisje", "en": "the girl" },
+            { "nl": "de jongen", "en": "the boy" },
+            { "nl": "oud", "en": "old" },
+            { "nl": "jong", "en": "young" },
+            { "nl": "lang", "en": "tall / long" },
+            { "nl": "klein", "en": "small / short" },
+            { "nl": "vriendelijk", "en": "friendly / kind" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen (handy sentences)",
+          "items": [
+            { "nl": "Dit is mijn moeder.", "en": "This is my mother." },
+            { "nl": "Ik heb twee kinderen.", "en": "I have two children." },
+            { "nl": "Mijn broer is lang.", "en": "My brother is tall." },
+            { "nl": "Zij is heel vriendelijk.", "en": "She is very friendly." },
+            { "nl": "Hoeveel broers en zussen heb je?", "en": "How many brothers and sisters do you have?" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Vul in: Dit is ... vader.",
+          "qEn": "Fill in the gap: 'This is ... father' (my father).",
+          "options": ["mijn", "het", "een"],
+          "answer": "mijn",
+          "explanation": "mijn means 'my'. 'het' or 'een' would just mean 'the' or 'a' father, which doesn't fit 'this is ... father'."
+        }
+      ]
+    },
+    {
+      "id": "basis-woorden-dagelijks",
+      "sort": 0.8,
+      "category": "basis",
+      "icon": "🎒",
+      "titleNl": "Woorden: eten, kleding, kleuren, huis & dieren",
+      "titleEn": "Words: food, clothes, colours, house & animals",
+      "intro": "The everyday vocabulary you'll meet at the supermarket, in the wardrobe and around the home. Learn each noun with its de or het, and tap 🔊 to hear it.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "Eten & drinken (food & drink)",
+          "items": [
+            { "nl": "het brood", "en": "the bread" },
+            { "nl": "de kaas", "en": "the cheese" },
+            { "nl": "de melk", "en": "the milk" },
+            { "nl": "het water", "en": "the water" },
+            { "nl": "de koffie", "en": "the coffee" },
+            { "nl": "de thee", "en": "the tea" },
+            { "nl": "de appel", "en": "the apple" },
+            { "nl": "de groente", "en": "the vegetable(s)" },
+            { "nl": "het vlees", "en": "the meat" },
+            { "nl": "de vis", "en": "the fish" },
+            { "nl": "de rijst", "en": "the rice" },
+            { "nl": "het ei", "en": "the egg" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "At the shop",
+          "body": "To ask for things, use ik wil graag ... (I'd like ...) or mag ik ... (may I have ...). For amounts: een kilo appels (a kilo of apples), een liter melk (a litre of milk), een stuk kaas (a piece of cheese). De boodschappen means the groceries."
+        },
+        {
+          "type": "pairs",
+          "title": "Kleding (clothes)",
+          "items": [
+            { "nl": "de jas", "en": "the coat / jacket" },
+            { "nl": "de broek", "en": "the trousers / pants" },
+            { "nl": "de trui", "en": "the jumper / sweater" },
+            { "nl": "de schoen", "en": "the shoe" },
+            { "nl": "de jurk", "en": "the dress" },
+            { "nl": "de sok", "en": "the sock" },
+            { "nl": "de muts", "en": "the (woolly) hat" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De kleuren (colours)",
+          "note": "Colours work like adjectives: de rode jas, het groene boek. Most add an -e before a noun.",
+          "items": [
+            { "nl": "rood", "en": "red" },
+            { "nl": "blauw", "en": "blue" },
+            { "nl": "groen", "en": "green" },
+            { "nl": "geel", "en": "yellow" },
+            { "nl": "zwart", "en": "black" },
+            { "nl": "wit", "en": "white" },
+            { "nl": "bruin", "en": "brown" },
+            { "nl": "oranje", "en": "orange" },
+            { "nl": "roze", "en": "pink" },
+            { "nl": "grijs", "en": "grey" },
+            { "nl": "paars", "en": "purple" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "In huis (around the house)",
+          "items": [
+            { "nl": "de kamer", "en": "the room" },
+            { "nl": "de keuken", "en": "the kitchen" },
+            { "nl": "de slaapkamer", "en": "the bedroom" },
+            { "nl": "de badkamer", "en": "the bathroom" },
+            { "nl": "de wc", "en": "the toilet" },
+            { "nl": "de tafel", "en": "the table" },
+            { "nl": "de stoel", "en": "the chair" },
+            { "nl": "het bed", "en": "the bed" },
+            { "nl": "de bank", "en": "the sofa / couch" },
+            { "nl": "de kast", "en": "the cupboard / wardrobe" },
+            { "nl": "de deur", "en": "the door" },
+            { "nl": "het raam", "en": "the window" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "One word, two meanings",
+          "body": "Watch out for de bank: it means both the sofa and the bank where you keep money. Context makes it clear. And het toilet is a common alternative to de wc."
+        },
+        {
+          "type": "pairs",
+          "title": "De dieren (animals)",
+          "note": "de poes and de kat both mean cat; poes is the cosier, everyday word.",
+          "items": [
+            { "nl": "de hond", "en": "the dog" },
+            { "nl": "de kat", "en": "the cat" },
+            { "nl": "de poes", "en": "the cat (pet / cosy word)" },
+            { "nl": "de vogel", "en": "the bird" },
+            { "nl": "het paard", "en": "the horse" },
+            { "nl": "de koe", "en": "the cow" },
+            { "nl": "de kip", "en": "the chicken / hen" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Waar slaap je?",
+          "qEn": "Where do you sleep?",
+          "options": ["in de keuken", "in de slaapkamer", "in de badkamer"],
+          "answer": "in de slaapkamer",
+          "explanation": "slaapkamer literally means sleep-room (bedroom). slaap comes from slapen, to sleep. The kitchen is for cooking and the bathroom for washing."
+        }
+      ]
+    }
+  ]
+}

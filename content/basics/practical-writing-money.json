@@ -1,0 +1,205 @@
+{
+  "chapters": [
+    {
+      "id": "basis-geld",
+      "sort": 0.6,
+      "category": "basis",
+      "icon": "💶",
+      "titleNl": "Geld, prijzen & maten",
+      "titleEn": "Money, prices & quantities",
+      "intro": "Everything you need to pay, ask a price, and buy the right amount in a Dutch shop or market. Tap 🔊 to hear each phrase in a natural voice.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Euros, cents & the comma",
+          "body": "The currency is the euro (€) and 1 euro = 100 cent. Dutch writes prices with a comma for the decimal, so € 3,50 is said 'drie euro vijftig'. A dot marks thousands, so € 1.250 is one thousand two hundred fifty euro. You almost never say the word 'cent' out loud: € 2,99 is simply 'twee euro negenennegentig'."
+        },
+        {
+          "type": "pairs",
+          "title": "Vragen naar de prijs",
+          "note": "Use these at any counter, market stall or shop.",
+          "items": [
+            { "nl": "Hoeveel kost het?", "en": "How much does it cost?" },
+            { "nl": "Wat kost dit?", "en": "What does this cost?" },
+            { "nl": "Hoeveel is het samen?", "en": "How much is it all together?" },
+            { "nl": "Dat is drie euro vijftig.", "en": "That is three euros fifty." },
+            { "nl": "Dat is bij elkaar tien euro.", "en": "That comes to ten euros in total." },
+            { "nl": "Is dit in de aanbieding?", "en": "Is this on offer?" },
+            { "nl": "Mag het een onsje meer zijn?", "en": "May it be a little more? (common at the deli)" },
+            { "nl": "Hebt u het misschien gepast?", "en": "Do you perhaps have the exact amount?" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Betalen: pinnen of contant",
+          "note": "Most shops prefer the pin (debit card); some are pin-only.",
+          "items": [
+            { "nl": "Kan ik pinnen?", "en": "Can I pay by (debit) card?" },
+            { "nl": "Contant of pinnen?", "en": "Cash or card?" },
+            { "nl": "Ik betaal met de pin.", "en": "I will pay by card." },
+            { "nl": "Ik betaal contant.", "en": "I will pay cash." },
+            { "nl": "het pinapparaat", "en": "the card reader / payment terminal" },
+            { "nl": "de pinpas", "en": "the debit card" },
+            { "nl": "Alleen pinnen, geen contant.", "en": "Card only, no cash." },
+            { "nl": "Mag ik de bon?", "en": "May I have the receipt?" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Bon, korting & prijs",
+          "note": "Useful words around the till and the price tag.",
+          "items": [
+            { "nl": "de bon", "en": "the receipt" },
+            { "nl": "de kassa", "en": "the till / checkout" },
+            { "nl": "de korting", "en": "the discount" },
+            { "nl": "de aanbieding", "en": "the special offer" },
+            { "nl": "tweede halve prijs", "en": "second item half price" },
+            { "nl": "het wisselgeld", "en": "the change (money back)" },
+            { "nl": "te duur", "en": "too expensive" },
+            { "nl": "goedkoop", "en": "cheap" },
+            { "nl": "gratis", "en": "free (no charge)" },
+            { "nl": "het kleingeld", "en": "the small change / coins" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Hoeveelheden in de winkel",
+          "note": "A pond is 500 g and an ons is 100 g — handy at the market and the cheese counter.",
+          "items": [
+            { "nl": "een kilo", "en": "a kilo (1000 g)" },
+            { "nl": "een pond", "en": "a pound (500 g)" },
+            { "nl": "een ons", "en": "100 grams" },
+            { "nl": "een half pondje", "en": "a small half-pound (about 250 g)" },
+            { "nl": "een liter", "en": "a litre" },
+            { "nl": "een stuk", "en": "a piece / one item" },
+            { "nl": "een doosje", "en": "a little box / punnet" },
+            { "nl": "een fles", "en": "a bottle" },
+            { "nl": "een pak", "en": "a carton / pack" },
+            { "nl": "een plak", "en": "a slice" },
+            { "nl": "een zakje", "en": "a small bag" },
+            { "nl": "een bosje", "en": "a bunch (e.g. of flowers or radishes)" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Maten: kleding & schoenen",
+          "note": "Use 'maat' for a clothing or shoe size; the number follows.",
+          "items": [
+            { "nl": "de maat", "en": "the size" },
+            { "nl": "klein", "en": "small" },
+            { "nl": "normaal", "en": "medium / normal" },
+            { "nl": "groot", "en": "large" },
+            { "nl": "maat achtendertig", "en": "size thirty-eight" },
+            { "nl": "Welke maat hebt u?", "en": "Which size do you take?" },
+            { "nl": "Past dit?", "en": "Does this fit?" },
+            { "nl": "Heeft u dit een maat groter?", "en": "Do you have this one size bigger?" },
+            { "nl": "Mag ik dit passen?", "en": "May I try this on?" },
+            { "nl": "de paskamer", "en": "the fitting room" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Reading a price tag",
+          "body": "On a label you often see 'per stuk' (each), 'per kilo', '2 voor € 3' (2 for 3 euro) and 'van € 5 voor € 3' (was 5, now 3). 'op = op' means once it is gone, it is gone. A small unit price under the big price helps you compare offers."
+        },
+        {
+          "type": "example",
+          "q": "U koopt kaas. De verkoper vraagt: 'Hoeveel mag het zijn?' Wat antwoordt u als u 300 gram wilt?",
+          "qEn": "You are buying cheese. The seller asks how much you want. What do you say for 300 grams?",
+          "options": ["Drie ons, alstublieft.", "Drie kilo, alstublieft.", "Drie liter, alstublieft."],
+          "answer": "Drie ons, alstublieft.",
+          "explanation": "Cheese and cold cuts are ordered in ons (100 g each), so 300 g is 'drie ons'. A kilo would be far too much and a liter is for liquids."
+        }
+      ]
+    },
+    {
+      "id": "basis-brieven",
+      "sort": 16.6,
+      "category": "basis",
+      "icon": "✉️",
+      "titleNl": "Brieven & berichten schrijven",
+      "titleEn": "Writing letters & messages",
+      "intro": "How to open, build and close a Dutch letter, email or message — and when to be formal or informal. Tap 🔊 to hear each phrase in a natural voice.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Formal or informal?",
+          "body": "Choose your tone by who reads it. Formal (to a company, the gemeente, a landlord, a doctor) uses 'u' and a polite opening and closing. Informal (to a friend or family) uses 'je/jij' and a relaxed greeting. When in doubt for an official letter, stay formal."
+        },
+        {
+          "type": "pairs",
+          "title": "Openingen (begin)",
+          "note": "Pick one line to start. 'Geachte' is the most formal; 'Hoi' is the most casual.",
+          "items": [
+            { "nl": "Geachte heer/mevrouw,", "en": "Dear Sir or Madam, (formal, name unknown)" },
+            { "nl": "Geachte mevrouw De Vries,", "en": "Dear Ms De Vries, (formal, name known)" },
+            { "nl": "Beste meneer Jansen,", "en": "Dear Mr Jansen, (neutral / semi-formal)" },
+            { "nl": "Beste Anna,", "en": "Dear Anna, (friendly)" },
+            { "nl": "Hoi Sanne,", "en": "Hi Sanne, (informal)" },
+            { "nl": "Hallo allemaal,", "en": "Hello everyone, (informal, to a group)" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "De inhoud (waarom u schrijft)",
+          "note": "Open the body with the reason, then your request. Use 'u' forms in a formal letter.",
+          "items": [
+            { "nl": "Ik schrijf u omdat...", "en": "I am writing to you because..." },
+            { "nl": "Ik wil graag...", "en": "I would like to..." },
+            { "nl": "Kunt u...?", "en": "Can you...?" },
+            { "nl": "Zou u ... kunnen?", "en": "Would you be able to...? (more polite)" },
+            { "nl": "Hierbij stuur ik...", "en": "Please find enclosed... / Herewith I send..." },
+            { "nl": "Naar aanleiding van uw brief...", "en": "In response to your letter..." },
+            { "nl": "Ik heb een vraag over...", "en": "I have a question about..." },
+            { "nl": "Alvast bedankt voor uw reactie.", "en": "Thank you in advance for your reply." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Afsluitingen (einde)",
+          "note": "Match the closing to the opening: formal with formal, casual with casual.",
+          "items": [
+            { "nl": "Met vriendelijke groet,", "en": "Kind regards, (standard formal)" },
+            { "nl": "Hoogachtend,", "en": "Yours faithfully, (very formal)" },
+            { "nl": "Hartelijke groeten,", "en": "Warm regards, (friendly)" },
+            { "nl": "Groetjes,", "en": "Cheers / Bye, (informal)" },
+            { "nl": "Tot snel,", "en": "See you soon, (informal)" },
+            { "nl": "Bij voorbaat dank,", "en": "Thanks in advance, (formal sign-off)" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Mini-templates",
+          "body": "Request: Geachte heer/mevrouw, + Ik schrijf u omdat ik ... wil. Zou u ... kunnen? + Alvast bedankt. + Met vriendelijke groet. Complaint: Geachte heer/mevrouw, + Ik ben niet tevreden over ... omdat ... Ik wil graag een oplossing. + Met vriendelijke groet. Cancellation: Geachte heer/mevrouw, + Hierbij zeg ik mijn abonnement op per [datum]. Kunt u dit bevestigen? + Met vriendelijke groet."
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen voor klacht & opzeggen",
+          "note": "Building blocks for a complaint or to cancel something.",
+          "items": [
+            { "nl": "Ik ben niet tevreden over...", "en": "I am not satisfied with..." },
+            { "nl": "Er is iets misgegaan met...", "en": "Something went wrong with..." },
+            { "nl": "Ik wil graag een oplossing.", "en": "I would like a solution." },
+            { "nl": "Hierbij zeg ik mijn abonnement op.", "en": "I hereby cancel my subscription." },
+            { "nl": "Ik wil mijn contract beëindigen.", "en": "I want to end my contract." },
+            { "nl": "Kunt u dit bevestigen?", "en": "Can you confirm this?" },
+            { "nl": "Graag hoor ik van u.", "en": "I look forward to hearing from you." },
+            { "nl": "per direct", "en": "with immediate effect" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Layout tip",
+          "body": "In a formal letter, put the date and place at the top (Amsterdam, 4 juni 2026), then a short subject line ('Betreft: opzegging abonnement'), then your opening. Keep paragraphs short and end with the closing on its own line, your name underneath."
+        },
+        {
+          "type": "example",
+          "q": "Schrijf een korte formele e-mail aan uw verhuurder. De verwarming is kapot en u wilt dat hij die snel maakt.",
+          "qEn": "Write a short formal email to your landlord. The heating is broken and you want it fixed quickly.",
+          "answer": "Geachte heer Bakker, Ik schrijf u omdat de verwarming in mijn woning kapot is. Het is sinds maandag koud in huis en de verwarming wordt niet warm. Zou u dit zo snel mogelijk kunnen laten maken? Ik hoor graag wanneer de monteur kan komen. Alvast bedankt voor uw reactie. Met vriendelijke groet, Ayhan Cerci",
+          "explanation": "It opens formally with 'Geachte heer', states the reason ('Ik schrijf u omdat...'), makes a polite request with 'Zou u ... kunnen?', asks for a reply, and closes with 'Met vriendelijke groet' and a name — all in 'u' form."
+        }
+      ]
+    }
+  ]
+}

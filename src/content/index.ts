@@ -58,6 +58,7 @@ const resourceFiles = import.meta.glob('/content/resources.json', { eager: true,
 const examFiles = import.meta.glob('/content/exams.json', { eager: true, import: 'default' })
 const roleplayFiles = import.meta.glob('/content/roleplays.json', { eager: true, import: 'default' })
 const basicsFiles = import.meta.glob('/content/basics.json', { eager: true, import: 'default' })
+const basicsExtraFiles = import.meta.glob('/content/basics/*.json', { eager: true, import: 'default' })
 
 const DEFAULT_META: PlanMeta = { startDate: '2026-06-02' }
 
@@ -166,13 +167,13 @@ export function loadContent(): LoadedContent {
     else console.error('[content] invalid roleplays.json', parsed.error.issues)
   }
 
-  let basics: BasicsChapter[] = []
-  const basicsRaw = Object.values(basicsFiles)[0]
-  if (basicsRaw) {
-    const parsed = basicsFileSchema.safeParse(basicsRaw)
-    if (parsed.success) basics = [...parsed.data.chapters].sort((a, b) => a.sort - b.sort)
-    else console.error('[content] invalid basics.json', parsed.error.issues)
+  const basics: BasicsChapter[] = []
+  for (const raw of [...Object.values(basicsFiles), ...Object.values(basicsExtraFiles)]) {
+    const parsed = basicsFileSchema.safeParse(raw)
+    if (parsed.success) basics.push(...parsed.data.chapters)
+    else console.error('[content] invalid basics file', parsed.error.issues)
   }
+  basics.sort((a, b) => a.sort - b.sort)
 
   cache = {
     decks,

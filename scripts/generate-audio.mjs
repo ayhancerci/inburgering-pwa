@@ -125,8 +125,8 @@ if (existsSync(join(CONTENT, 'roleplays.json'))) {
   }
 }
 // Basics / exam-guide chapters: spoken Dutch in 'pairs' items and 'example' questions.
-if (existsSync(join(CONTENT, 'basics.json'))) {
-  for (const b of readJson(join(CONTENT, 'basics.json')).chapters) {
+const processBasics = (chapters) => {
+  for (const b of chapters)
     for (const s of b.sections) {
       if (s.type === 'pairs') for (const it of s.items) if (it.nl) addJob(variedVoice(it.nl), it.nl)
       if (s.type === 'example') {
@@ -134,8 +134,12 @@ if (existsSync(join(CONTENT, 'basics.json'))) {
         for (const o of s.options || []) if (o) addJob(variedVoice(o), o)
       }
     }
-  }
 }
+if (existsSync(join(CONTENT, 'basics.json'))) processBasics(readJson(join(CONTENT, 'basics.json')).chapters)
+const BASICS_DIR = join(CONTENT, 'basics')
+if (existsSync(BASICS_DIR))
+  for (const f of readdirSync(BASICS_DIR))
+    if (f.endsWith('.json')) processBasics(readJson(join(BASICS_DIR, f)).chapters)
 
 const list = [...jobs.values()]
 const manifest = {}

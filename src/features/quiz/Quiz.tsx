@@ -130,6 +130,18 @@ export function QuestionInput({
 export function Quiz() {
   const { activeId } = useActiveProfile()
   const quizzes = useLiveQuery(() => db.quizzes.toArray(), [], [])
+  const wrongQuestions = useLiveQuery(
+    async () => {
+      const atts = await db.quizAttempts.where('profileId').equals(activeId).toArray()
+      const ids = new Set<string>()
+      for (const a of atts) for (const it of a.items) if (!it.correct) ids.add(it.questionId)
+      if (ids.size === 0) return [] as Question[]
+      const qs = await db.questions.bulkGet([...ids])
+      return qs.filter((q): q is Question => !!q && !q.audioText)
+    },
+    [activeId],
+    [] as Question[],
+  )
 
   const [phase, setPhase] = useState<Phase>('select')
   const [title, setTitle] = useState('')
@@ -146,6 +158,16 @@ export function Quiz() {
     setAnswers({})
     setStartedAt(new Date().toISOString())
     setPhase(qs.length ? 'run' : 'select')
+  }
+
+  const startMistakes = () => {
+    if (!wrongQuestions || wrongQuestions.length === 0) return
+    setQuestions(wrongQuestions)
+    setTitle('Je fouten herhalen')
+    setIdx(0)
+    setAnswers({})
+    setStartedAt(new Date().toISOString())
+    setPhase('run')
   }
 
   // Deep link: /quiz?quiz=<id> auto-starts that quiz.
@@ -188,6 +210,17 @@ export function Quiz() {
           <h1 className="text-xl font-extrabold text-slate-900">Oefenen</h1>
           <p className="mt-1 text-sm text-slate-500">Een quiz per thema, plus grammatica.</p>
         </div>
+        {wrongQuestions.length > 0 && (
+          <button
+            onClick={startMistakes}
+            className="flex w-full items-center justify-between rounded-2xl bg-rose-500 px-4 py-3 text-sm font-bold text-white"
+          >
+            <span>♻️ Herhaal je fouten</span>
+            <span className="text-xs font-normal opacity-90">
+              {wrongQuestions.length} {wrongQuestions.length === 1 ? 'vraag' : 'vragen'}
+            </span>
+          </button>
+        )}
         <Panel className="divide-y divide-slate-100">
           {(quizzes ?? []).map((qz) => (
             <button

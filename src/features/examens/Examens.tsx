@@ -4,7 +4,7 @@ import { loadContent } from '../../content'
 import { db } from '../../db/database'
 import { useActiveProfile } from '../../store/profile'
 import { setExamDate } from '../../db/repo'
-import { Panel, Badge } from '../../components/ui'
+import { Panel, Badge, ProgressBar } from '../../components/ui'
 import { Mock } from './Mock'
 
 export function Examens() {
@@ -16,6 +16,17 @@ export function Examens() {
     [],
   )
   const dateMap = new Map((dates ?? []).map((d) => [d.component, d.date]))
+  const attempts = useLiveQuery(
+    () => db.quizAttempts.where('profileId').equals(activeId).toArray(),
+    [activeId],
+    [],
+  )
+  const bestByQuiz = new Map<string, number>()
+  for (const a of attempts ?? []) {
+    if (a.quizId) {
+      bestByQuiz.set(a.quizId, Math.max(bestByQuiz.get(a.quizId) ?? 0, Math.round(a.scorePct)))
+    }
+  }
   const [mock, setMock] = useState<{ quizId: string; durationMin: number; title: string } | null>(
     null,
   )
@@ -65,6 +76,18 @@ export function Examens() {
                 className="rounded-lg border border-slate-200 bg-white px-2 py-1 text-sm"
               />
             </label>
+
+            {mid && bestByQuiz.has(mid) && (
+              <div className="space-y-1">
+                <div className="flex items-center justify-between text-xs font-semibold text-slate-500">
+                  <span>Beste oefenscore</span>
+                  <span>
+                    {bestByQuiz.get(mid)}% {(bestByQuiz.get(mid) ?? 0) >= 60 ? '· klaar ✓' : ''}
+                  </span>
+                </div>
+                <ProgressBar value={bestByQuiz.get(mid) ?? 0} />
+              </div>
+            )}
 
             <div className="flex flex-wrap gap-2">
               <a

@@ -8,6 +8,7 @@ import { setPlanTask } from '../../db/repo'
 import { dueCount } from '../../srs/queue'
 import { Panel, ProgressBar, Badge, cx } from '../../components/ui'
 import type { PlanWeek, PlanTask } from '../../content/schemas'
+import { currentStreak } from '../../lib/stats'
 
 function localISODate(d: Date): string {
   const y = d.getFullYear()
@@ -56,6 +57,16 @@ export function Dashboard() {
     [activeId],
     [],
   )
+  const reviewLogs = useLiveQuery(
+    () => db.reviewLogs.where('profileId').equals(activeId).toArray(),
+    [activeId],
+    [],
+  )
+  const attempts = useLiveQuery(
+    () => db.quizAttempts.where('profileId').equals(activeId).toArray(),
+    [activeId],
+    [],
+  )
 
   const doneSet = useMemo(
     () => new Set((progressRows ?? []).filter((r) => r.status === 'done').map((r) => r.taskId)),
@@ -83,6 +94,18 @@ export function Dashboard() {
   }, [examDates, todayISO])
   const nextExamTitle = nextExam ? exams.find((e) => e.id === nextExam.component)?.titleNl : null
   const nextExamDays = nextExam ? daysFromTodayTo(nextExam.date) : null
+
+  const DAILY_GOAL = 20
+  const reviewedToday = useMemo(
+    () => (reviewLogs ?? []).filter((r) => localISODate(new Date(r.reviewedAt)) === todayISO).length,
+    [reviewLogs, todayISO],
+  )
+  const streak = useMemo(() => {
+    const dates = new Set<string>()
+    for (const r of reviewLogs ?? []) dates.add(localISODate(new Date(r.reviewedAt)))
+    for (const a of attempts ?? []) if (a.finishedAt) dates.add(localISODate(new Date(a.finishedAt)))
+    return currentStreak(dates)
+  }, [reviewLogs, attempts])
 
   return (
     <div className="space-y-4">
@@ -124,6 +147,23 @@ export function Dashboard() {
             <span>{Math.round(overallPct)}%</span>
           </div>
           <ProgressBar value={overallPct} />
+        </div>
+      </Panel>
+
+      <Panel className="flex items-center justify-between gap-3 px-4 py-3">
+        <div className="flex items-center gap-2">
+          <span className="text-2xl">🔥</span>
+          <div>
+            <p className="text-sm font-bold text-slate-900">
+              {streak} {streak === 1 ? 'dag' : 'dagen'} op rij
+            </p>
+            <p className="text-xs text-slate-500">
+              Vandaag: {reviewedToday}/{DAILY_GOAL} kaarten
+            </p>
+          </div>
+        </div>
+        <div className="w-24 shrink-0">
+          <ProgressBar value={(reviewedToday / DAILY_GOAL) * 100} />
         </div>
       </Panel>
 

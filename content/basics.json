@@ -540,6 +540,292 @@
           ]
         }
       ]
+    },
+    {
+      "id": "examen-knm",
+      "sort": 90,
+      "category": "examen",
+      "icon": "🇳🇱",
+      "titleNl": "Examen: KNM (Kennis Nederlandse Maatschappij)",
+      "titleEn": "Exam: Knowledge of Dutch Society",
+      "intro": "KNM = 40 multiple-choice questions in 45 minutes about how life in the Netherlands works. You watch short scenes and photos and pick the best answer. It's one of the easiest parts to pass early, so many people sit it first.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Wat wordt er getoetst?",
+          "body": "Practical knowledge about Dutch society: work & income, education, health & care, housing, history & geography, government & the rule of law, official bodies (instanties), and norms & values. You don't memorise dates — you need to know how things work and what's normal here."
+        },
+        {
+          "type": "pairs",
+          "title": "Geschiedenis & geografie — kernfeiten",
+          "note": "Facts that come up a lot.",
+          "items": [
+            { "nl": "De hoofdstad is Amsterdam.", "en": "The capital is Amsterdam." },
+            { "nl": "De regering zit in Den Haag.", "en": "The government is in The Hague." },
+            { "nl": "Nederland heeft twaalf provincies.", "en": "The Netherlands has 12 provinces." },
+            { "nl": "de Gouden Eeuw (de 17e eeuw)", "en": "the Golden Age (17th century)" },
+            { "nl": "de Tweede Wereldoorlog: 1940 tot 1945", "en": "World War II: 1940–1945" },
+            { "nl": "de Watersnoodramp van 1953", "en": "the 1953 flood disaster" },
+            { "nl": "de Deltawerken beschermen tegen het water", "en": "the Delta Works protect against the water" },
+            { "nl": "Veel land ligt onder zeeniveau.", "en": "Much land lies below sea level." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Staatsinrichting (government & law)",
+          "items": [
+            { "nl": "de koning: Willem-Alexander", "en": "the king: Willem-Alexander" },
+            { "nl": "koningin Máxima", "en": "Queen Máxima" },
+            { "nl": "de minister-president (de premier)", "en": "the prime minister" },
+            { "nl": "de Tweede Kamer en de Eerste Kamer", "en": "the House of Representatives & the Senate" },
+            { "nl": "samen: de Staten-Generaal", "en": "together: the States-General (parliament)" },
+            { "nl": "We kiezen de regering bij verkiezingen.", "en": "We elect the government in elections." },
+            { "nl": "de Grondwet", "en": "the Constitution" },
+            { "nl": "Iedereen is gelijk voor de wet.", "en": "Everyone is equal before the law." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Zorg, werk, wonen & onderwijs",
+          "items": [
+            { "nl": "De zorgverzekering is verplicht.", "en": "Health insurance is mandatory." },
+            { "nl": "De huisarts is je eerste contact.", "en": "The GP is your first point of contact." },
+            { "nl": "leerplicht: van 5 tot 16 jaar", "en": "compulsory schooling: ages 5–16" },
+            { "nl": "een arbeidscontract", "en": "an employment contract" },
+            { "nl": "het minimumloon", "en": "the minimum wage" },
+            { "nl": "de huurtoeslag en de zorgtoeslag", "en": "rent & healthcare allowance" },
+            { "nl": "De gemeente regelt veel lokaal.", "en": "The municipality arranges a lot locally." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Normen & waarden",
+          "items": [
+            { "nl": "vrijheid van meningsuiting", "en": "freedom of expression" },
+            { "nl": "vrijheid van godsdienst", "en": "freedom of religion" },
+            { "nl": "Mannen en vrouwen zijn gelijk.", "en": "Men and women are equal." },
+            { "nl": "Discriminatie is verboden.", "en": "Discrimination is forbidden." },
+            { "nl": "Afspraak is afspraak.", "en": "A deal is a deal (be reliable)." },
+            { "nl": "Op tijd komen is belangrijk.", "en": "Being on time matters." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Wie is het staatshoofd van Nederland?",
+          "qEn": "Who is the head of state of the Netherlands?",
+          "options": ["De minister-president", "De koning", "De burgemeester"],
+          "answer": "De koning",
+          "explanation": "The Netherlands is a constitutional monarchy: the King (Willem-Alexander) is head of state, while the prime minister leads the government."
+        },
+        {
+          "type": "example",
+          "q": "Hoeveel provincies heeft Nederland?",
+          "qEn": "How many provinces does the Netherlands have?",
+          "options": ["Zeven", "Twaalf", "Zestien"],
+          "answer": "Twaalf",
+          "explanation": "The Netherlands has 12 provinces."
+        },
+        {
+          "type": "example",
+          "q": "Je bent ziek en hebt een dokter nodig. Wat doe je eerst?",
+          "qEn": "You're ill and need a doctor. What do you do first?",
+          "options": ["Naar het ziekenhuis gaan", "De huisarts bellen", "Wachten tot het overgaat"],
+          "answer": "De huisarts bellen",
+          "explanation": "Your huisarts (GP) is the first point of contact and refers you to a hospital or specialist if needed."
+        },
+        {
+          "type": "note",
+          "title": "Tip",
+          "body": "Sit KNM early — it's very bankable. Practise with the free official KNM environment and the 450+ questions on KNM Oefenen (both in the Bronnen list under Oefenen)."
+        }
+      ]
+    },
+    {
+      "id": "examen-lezen",
+      "sort": 91,
+      "category": "examen",
+      "icon": "📖",
+      "titleNl": "Examen: Lezen",
+      "titleEn": "Exam: Reading",
+      "intro": "The Reading exam: about 65 minutes on a computer. You read everyday texts — letters, ads, signs, short articles — and answer multiple-choice questions.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Hoe werkt het?",
+          "body": "You get several short texts, each with a few multiple-choice questions. You can go back, change answers, and flag questions to return to. You don't need to understand every word — just enough to answer."
+        },
+        {
+          "type": "note",
+          "title": "Tips & hints",
+          "body": "1) Read the QUESTION first, then scan the text for that information. 2) Watch out for negation — niet / geen flips the meaning. 3) Notice signal words (maar, want, omdat, daarom). 4) Manage your time; don't get stuck on one question."
+        },
+        {
+          "type": "pairs",
+          "title": "Handige leeswoorden (signal words)",
+          "items": [
+            { "nl": "open / gesloten", "en": "open / closed" },
+            { "nl": "geldig tot", "en": "valid until" },
+            { "nl": "verplicht", "en": "mandatory" },
+            { "nl": "gratis", "en": "free" },
+            { "nl": "korting", "en": "discount" },
+            { "nl": "let op", "en": "note / attention" },
+            { "nl": "de aanbieding", "en": "the special offer" },
+            { "nl": "vanaf", "en": "from" },
+            { "nl": "tot en met", "en": "up to and including" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "De bibliotheek is open van dinsdag tot en met zaterdag. Op maandag en zondag is de bibliotheek gesloten.",
+          "qEn": "Text: 'The library is open Tuesday to Saturday. On Monday and Sunday it's closed.' — On which day is the library open?",
+          "options": ["maandag", "woensdag", "zondag"],
+          "answer": "woensdag",
+          "explanation": "'Van dinsdag tot en met zaterdag' = Tuesday through Saturday, so Wednesday is open; Monday and Sunday are closed."
+        },
+        {
+          "type": "note",
+          "title": "Tip",
+          "body": "Read easy Dutch every day — Wablieft and NOS Jeugdjournaal (in Bronnen) — and do the official DUO reading practice for the real format."
+        }
+      ]
+    },
+    {
+      "id": "examen-luisteren",
+      "sort": 92,
+      "category": "examen",
+      "icon": "🎧",
+      "titleNl": "Examen: Luisteren",
+      "titleEn": "Exam: Listening",
+      "intro": "The Listening exam: about 45 minutes on a computer with headphones. You hear short conversations and announcements and answer multiple-choice questions.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Hoe werkt het?",
+          "body": "You usually hear each fragment twice. Read the question and the options BEFORE the audio starts, so you know exactly what to listen for."
+        },
+        {
+          "type": "note",
+          "title": "Tips & hints",
+          "body": "1) Listen for the key facts: who, where, when, how much, what time. 2) Don't panic if you miss a word — focus on the overall meaning. 3) Use the second listen to check your answer."
+        },
+        {
+          "type": "example",
+          "q": "De trein naar Amsterdam van tien voor drie vertrekt vandaag van spoor vijf, niet van spoor twee.",
+          "qEn": "Announcement (tap 🔊): 'The 2:50 train to Amsterdam leaves from platform 5 today, not platform 2.' — Which platform does the train leave from?",
+          "options": ["spoor twee", "spoor vijf", "spoor tien"],
+          "answer": "spoor vijf",
+          "explanation": "Listen for the correction: 'van spoor vijf, niet van spoor twee'. The answer is platform 5."
+        },
+        {
+          "type": "pairs",
+          "title": "Luisterwoorden",
+          "items": [
+            { "nl": "de aankondiging", "en": "the announcement" },
+            { "nl": "het bericht", "en": "the message" },
+            { "nl": "let op", "en": "attention" },
+            { "nl": "de vertraging", "en": "the delay" },
+            { "nl": "afgelast", "en": "cancelled" },
+            { "nl": "de wijziging", "en": "the change" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Tip",
+          "body": "The official DUO listening practice uses real exam audio — use it. Podcasts like 'Een Beetje Nederlands' (in Bronnen) train your ear with slow, clear Dutch."
+        }
+      ]
+    },
+    {
+      "id": "examen-schrijven",
+      "sort": 93,
+      "category": "examen",
+      "icon": "📝",
+      "titleNl": "Examen: Schrijven",
+      "titleEn": "Exam: Writing",
+      "intro": "The Writing exam: about 40 minutes, on paper. You write short, practical texts — fill in a form, write a brief note or email, and answer questions.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Hoe werkt het?",
+          "body": "Tasks are everyday and short: complete a form with your details, write a brief message (to a teacher, neighbour or company), or answer a few written questions. Neat, simple, correct sentences score well."
+        },
+        {
+          "type": "note",
+          "title": "Tips & hints",
+          "body": "1) Answer EVERY part of the task. 2) Keep sentences short and check word order (verb second). 3) Use a greeting and a sign-off in messages. 4) Re-read for de/het, spelling, and verb endings (don't forget the -t!)."
+        },
+        {
+          "type": "pairs",
+          "title": "Bouwstenen voor een bericht/e-mail",
+          "items": [
+            { "nl": "Beste meneer Jansen,", "en": "Dear Mr Jansen," },
+            { "nl": "Geachte heer/mevrouw,", "en": "Dear Sir/Madam, (formal)" },
+            { "nl": "Ik schrijf u omdat...", "en": "I'm writing to you because..." },
+            { "nl": "Kunt u mij laten weten...?", "en": "Could you let me know...?" },
+            { "nl": "Alvast bedankt.", "en": "Thanks in advance." },
+            { "nl": "Met vriendelijke groet,", "en": "Kind regards," },
+            { "nl": "Hartelijke groeten,", "en": "Warm regards," }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Schrijf een kort bericht aan je buurvrouw. Je gaat op vakantie. Vraag of zij je planten water wil geven.",
+          "qEn": "Task: Write a short message to your neighbour. You're going on holiday. Ask if she'll water your plants.",
+          "answer": "Beste Anke,\n\nIk ga twee weken op vakantie, van 1 tot 14 juli. Wil je alsjeblieft mijn planten water geven? De sleutel ligt bij mijn zus om de hoek. Alvast bedankt!\n\nMet vriendelijke groet,\nMert",
+          "explanation": "Notice the parts: a greeting, the situation, a clear request, one practical detail, and a sign-off. That's all an A2 task needs."
+        },
+        {
+          "type": "note",
+          "title": "Tip",
+          "body": "Memorise 3–4 templates (a request, a complaint, a cancellation, filling in a form) and write a few lines every day. The lessons in each Thema have a writing exercise with a model answer."
+        }
+      ]
+    },
+    {
+      "id": "examen-spreken",
+      "sort": 94,
+      "category": "examen",
+      "icon": "🗣️",
+      "titleNl": "Examen: Spreken",
+      "titleEn": "Exam: Speaking",
+      "intro": "The Speaking exam: about 35 minutes on a computer. You speak into a microphone — describe a photo, answer questions, and react to short video situations.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Hoe werkt het?",
+          "body": "You see or hear a prompt, get a few seconds to think, then record your spoken answer. There's no live examiner — the computer records you. Understandable beats perfect."
+        },
+        {
+          "type": "note",
+          "title": "Tips & hints",
+          "body": "1) Speak in short, clear sentences. 2) Use phrases you already know. 3) Need a moment? Say 'Eh, even denken...'. 4) Answer the whole question, with one example or detail."
+        },
+        {
+          "type": "pairs",
+          "title": "Handige spreekzinnen",
+          "items": [
+            { "nl": "Op de foto zie ik...", "en": "In the photo I see..." },
+            { "nl": "Ik denk dat...", "en": "I think that..." },
+            { "nl": "Ik ben het ermee eens.", "en": "I agree." },
+            { "nl": "Ik ben het er niet mee eens.", "en": "I disagree." },
+            { "nl": "Even denken...", "en": "Let me think..." },
+            { "nl": "Bijvoorbeeld...", "en": "For example..." },
+            { "nl": "Kunt u dat herhalen?", "en": "Could you repeat that?" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Je ziet een foto van een man in de supermarkt. Beschrijf wat je ziet.",
+          "qEn": "Task: You see a photo of a man in the supermarket. Describe what you see.",
+          "answer": "Op de foto zie ik een man in de supermarkt. Hij doet boodschappen. Hij heeft brood en melk in zijn mandje. Hij staat bij de kassa en betaalt.",
+          "explanation": "Cover who, where, what they're doing, and a detail — 3–4 simple sentences is plenty at A2."
+        },
+        {
+          "type": "note",
+          "title": "Tip",
+          "body": "Rehearse with the Gesprekken tab (read the yellow lines out loud) and do the official DUO speaking practice to see the real format."
+        }
+      ]
     }
   ]
 }

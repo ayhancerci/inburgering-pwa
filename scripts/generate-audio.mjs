@@ -122,11 +122,15 @@ if (existsSync(join(CONTENT, 'roleplays.json'))) {
     for (const t of rp.turns) if (t.nl) addJob(roleplayVoice(t.speaker, t.who), t.nl)
   }
 }
-// Basics reference chapters: every spoken Dutch term in a 'pairs' section (varied voice).
+// Basics / exam-guide chapters: spoken Dutch in 'pairs' items and 'example' questions.
 if (existsSync(join(CONTENT, 'basics.json'))) {
   for (const b of readJson(join(CONTENT, 'basics.json')).chapters) {
     for (const s of b.sections) {
       if (s.type === 'pairs') for (const it of s.items) if (it.nl) addJob(variedVoice(it.nl), it.nl)
+      if (s.type === 'example') {
+        if (s.q) addJob(variedVoice(s.q), s.q)
+        for (const o of s.options || []) if (o) addJob(variedVoice(o), o)
+      }
     }
   }
 }

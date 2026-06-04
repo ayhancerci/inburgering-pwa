@@ -255,11 +255,21 @@ export const basicsSectionSchema = z.discriminatedUnion('type', [
     note: z.string().optional(),
     items: z.array(z.object({ nl: z.string(), en: z.string() })),
   }),
+  // A worked example exam question (MCQ or a model answer), with a reveal.
+  z.object({
+    type: z.literal('example'),
+    q: z.string(),
+    qEn: z.string().optional(),
+    options: z.array(z.string()).optional(),
+    answer: z.string().optional(),
+    explanation: z.string().optional(),
+  }),
 ])
 
 export const basicsChapterSchema = z.object({
   id: z.string(),
   sort: z.number(), // position among the LINK themes (e.g. 0.5 shows before Thema 1)
+  category: z.enum(['basis', 'examen']).default('basis'),
   icon: z.string().optional(),
   titleNl: z.string(),
   titleEn: z.string(),

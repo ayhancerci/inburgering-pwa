@@ -86,17 +86,30 @@ function ThemePanel({
 }
 
 function BasicsRow({ chapter, onOpen }: { chapter: BasicsChapter; onOpen: () => void }) {
+  const isExam = chapter.category === 'examen'
   return (
     <button onClick={onOpen} className="w-full text-left">
-      <Panel className="flex items-center gap-3 p-4 ring-1 ring-indigo-100">
-        <span className="grid size-8 shrink-0 place-items-center rounded-full bg-indigo-100 text-base">
-          {chapter.icon ?? '📐'}
+      <Panel
+        className={cx('flex items-center gap-3 p-4 ring-1', isExam ? 'ring-rose-100' : 'ring-indigo-100')}
+      >
+        <span
+          className={cx(
+            'grid size-8 shrink-0 place-items-center rounded-full text-base',
+            isExam ? 'bg-rose-100' : 'bg-indigo-100',
+          )}
+        >
+          {chapter.icon ?? (isExam ? '🎓' : '📐')}
         </span>
         <span className="flex-1">
           <span className="flex flex-wrap items-center gap-2">
             <span className="text-sm font-bold text-slate-900">{chapter.titleNl}</span>
-            <span className="rounded-full bg-indigo-100 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-indigo-600">
-              Basis
+            <span
+              className={cx(
+                'rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide',
+                isExam ? 'bg-rose-100 text-rose-600' : 'bg-indigo-100 text-indigo-600',
+              )}
+            >
+              {isExam ? 'Examen' : 'Basis'}
             </span>
           </span>
           <span className="block text-xs text-slate-500">{chapter.titleEn}</span>
@@ -111,7 +124,7 @@ type Row =
   | { kind: 'theme'; sort: number; theme: Theme }
   | { kind: 'basics'; sort: number; chapter: BasicsChapter }
 
-type Filter = 'all' | 'themes' | 'basics'
+type Filter = 'all' | 'themes' | 'basics' | 'examen'
 
 export function Curriculum() {
   const { themes, lessons, basics } = loadContent()
@@ -141,21 +154,25 @@ export function Curriculum() {
 
   const tabs: { key: Filter; label: string }[] = [
     { key: 'all', label: 'Alles' },
-    { key: 'themes', label: '📖 Thema’s' },
-    { key: 'basics', label: '🧱 Basis' },
+    { key: 'themes', label: 'Thema’s' },
+    { key: 'basics', label: 'Basis' },
+    { key: 'examen', label: 'Examen' },
   ]
-  const visible = rows.filter(
-    (row) => filter === 'all' || row.kind === (filter === 'themes' ? 'theme' : 'basics'),
-  )
+  const visible = rows.filter((row) => {
+    if (filter === 'all') return true
+    if (filter === 'themes') return row.kind === 'theme'
+    if (filter === 'basics') return row.kind === 'basics' && row.chapter.category !== 'examen'
+    return row.kind === 'basics' && row.chapter.category === 'examen'
+  })
 
   return (
     <div className="space-y-4">
       <div>
         <h1 className="text-xl font-extrabold text-slate-900">Cursus — LINK 0 → A2</h1>
         <p className="mt-1 text-sm text-slate-500">
-          Tap a chapter for the full lesson. The indigo{' '}
-          <span className="font-semibold text-indigo-600">Basis</span> chapters teach the building
-          blocks (numbers, time, pronouns, grammar) you use every day.
+          Tap a chapter for the full lesson. <span className="font-semibold text-indigo-600">Basis</span>{' '}
+          chapters teach the building blocks; <span className="font-semibold text-rose-600">Examen</span>{' '}
+          chapters explain each exam with tips and example questions.
         </p>
       </div>
 
@@ -165,7 +182,7 @@ export function Curriculum() {
             key={t.key}
             onClick={() => setFilter(t.key)}
             className={cx(
-              'flex-1 rounded-lg px-3 py-1.5 transition',
+              'flex-1 rounded-lg px-2 py-1.5 transition',
               filter === t.key ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500',
             )}
           >

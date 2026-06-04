@@ -39,6 +39,22 @@ export function speak(text: string): void {
   synth.speak(u)
 }
 
+/** Speak several Dutch lines one after another (e.g., a whole dialogue). */
+export function speakSequence(texts: string[]): void {
+  if (!ttsAvailable()) return
+  const synth = window.speechSynthesis
+  synth.cancel()
+  const voice = dutchVoice()
+  for (const t of texts) {
+    if (!t.trim()) continue
+    const u = new SpeechSynthesisUtterance(t)
+    u.lang = 'nl-NL'
+    if (voice) u.voice = voice
+    u.rate = 0.95
+    synth.speak(u) // utterances queue automatically
+  }
+}
+
 export function stopSpeaking(): void {
   if (ttsAvailable()) window.speechSynthesis.cancel()
 }

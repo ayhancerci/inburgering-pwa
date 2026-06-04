@@ -1,0 +1,95 @@
+{
+  "roleplays": [
+    {
+      "id": "rp-gemeente",
+      "titleNl": "Een afspraak maken",
+      "titleEn": "Making an appointment",
+      "setting": "Bij de gemeente",
+      "scenario": "You're at the town hall to arrange a new passport. Practise making an appointment.",
+      "turns": [
+        { "speaker": "A", "who": "Medewerker", "nl": "Goedemiddag, waarmee kan ik u helpen?", "en": "Good afternoon, how can I help you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Goedemiddag. Ik wil graag een afspraak maken voor een nieuw paspoort.", "en": "Good afternoon. I'd like to make an appointment for a new passport." },
+        { "speaker": "A", "who": "Medewerker", "nl": "Heeft u uw oude paspoort en een pasfoto bij u?", "en": "Do you have your old passport and a photo with you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, die heb ik bij me.", "en": "Yes, I have them with me." },
+        { "speaker": "A", "who": "Medewerker", "nl": "Wanneer komt het u uit, donderdag of vrijdag?", "en": "When suits you, Thursday or Friday?" },
+        { "speaker": "you", "who": "Jij", "nl": "Donderdag om tien uur, kan dat?", "en": "Thursday at ten o'clock, is that possible?" },
+        { "speaker": "A", "who": "Medewerker", "nl": "Dat is goed. Op welke naam staat de afspraak?", "en": "That's fine. In whose name is the appointment?" },
+        { "speaker": "you", "who": "Jij", "nl": "Op naam van Yilmaz. Moet ik nog iets meenemen?", "en": "In the name of Yilmaz. Should I bring anything else?" },
+        { "speaker": "A", "who": "Medewerker", "nl": "Neem ook uw verblijfsvergunning mee. Tot donderdag!", "en": "Bring your residence permit too. See you Thursday!" },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel. Tot donderdag.", "en": "Thank you. See you Thursday." }
+      ]
+    },
+    {
+      "id": "rp-huisarts",
+      "titleNl": "Naar de dokter bellen",
+      "titleEn": "Calling the doctor",
+      "setting": "Bij de huisarts",
+      "scenario": "You call the doctor's office to make an appointment and explain how you feel.",
+      "turns": [
+        { "speaker": "A", "who": "Assistente", "nl": "Huisartsenpraktijk, goedemorgen.", "en": "Doctor's office, good morning." },
+        { "speaker": "you", "who": "Jij", "nl": "Goedemorgen. Ik wil graag een afspraak maken; ik voel me niet lekker.", "en": "Good morning. I'd like to make an appointment; I don't feel well." },
+        { "speaker": "A", "who": "Assistente", "nl": "Wat zijn uw klachten?", "en": "What are your symptoms?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ik heb al drie dagen hoofdpijn en koorts.", "en": "I've had a headache and a fever for three days." },
+        { "speaker": "A", "who": "Assistente", "nl": "Heeft u ook keelpijn?", "en": "Do you also have a sore throat?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, een beetje. En ik ben erg moe.", "en": "Yes, a little. And I'm very tired." },
+        { "speaker": "A", "who": "Assistente", "nl": "U kunt vanmiddag om half drie komen. Lukt dat?", "en": "You can come this afternoon at half past two. Does that work?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, dat lukt. Tot vanmiddag.", "en": "Yes, that works. See you this afternoon." },
+        { "speaker": "A", "who": "Assistente", "nl": "Beterschap alvast!", "en": "Get well soon!" },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel.", "en": "Thank you." }
+      ]
+    },
+    {
+      "id": "rp-school",
+      "titleNl": "Je kind ziek melden",
+      "titleEn": "Reporting your child sick",
+      "setting": "Op school",
+      "scenario": "You call your child's primary school to report them sick.",
+      "turns": [
+        { "speaker": "A", "who": "Leerkracht", "nl": "Basisschool De Regenboog, goedemorgen.", "en": "De Regenboog primary school, good morning." },
+        { "speaker": "you", "who": "Jij", "nl": "Goedemorgen, u spreekt met de moeder van Sara uit groep 4.", "en": "Good morning, this is Sara's mother, from group 4." },
+        { "speaker": "A", "who": "Leerkracht", "nl": "Goedemorgen. Wat kan ik voor u doen?", "en": "Good morning. What can I do for you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ik wil Sara ziek melden. Ze is verkouden en heeft koorts.", "en": "I want to report Sara sick. She has a cold and a fever." },
+        { "speaker": "A", "who": "Leerkracht", "nl": "Wat vervelend. Blijft ze vandaag thuis?", "en": "That's a shame. Is she staying home today?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, ze blijft thuis. Misschien ook morgen.", "en": "Yes, she's staying home. Maybe tomorrow too." },
+        { "speaker": "A", "who": "Leerkracht", "nl": "Oké, ik geef het door aan de juf. Beterschap!", "en": "Okay, I'll let the teacher know. Get well soon!" },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel. Tot ziens.", "en": "Thank you. Goodbye." }
+      ]
+    },
+    {
+      "id": "rp-buren",
+      "titleNl": "Kennismaken met de buren",
+      "titleEn": "Meeting the neighbours",
+      "setting": "In de buurt",
+      "scenario": "You meet your new neighbour for the first time.",
+      "turns": [
+        { "speaker": "A", "who": "Buurvrouw", "nl": "Hallo! Bent u net verhuisd?", "en": "Hello! Did you just move in?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, we wonen sinds vorige week op nummer 8.", "en": "Yes, we've lived at number 8 since last week." },
+        { "speaker": "A", "who": "Buurvrouw", "nl": "Welkom in de buurt! Ik ben Anke, ik woon hiernaast.", "en": "Welcome to the neighbourhood! I'm Anke, I live next door." },
+        { "speaker": "you", "who": "Jij", "nl": "Aangenaam. Ik ben Mert. Leuk u te ontmoeten.", "en": "Pleased to meet you. I'm Mert. Nice to meet you." },
+        { "speaker": "A", "who": "Buurvrouw", "nl": "Als u iets nodig heeft, kom gerust langs.", "en": "If you need anything, feel free to drop by." },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel. Is er een goede supermarkt in de buurt?", "en": "Thank you. Is there a good supermarket nearby?" },
+        { "speaker": "A", "who": "Buurvrouw", "nl": "Ja, om de hoek zit een supermarkt.", "en": "Yes, there's a supermarket around the corner." },
+        { "speaker": "you", "who": "Jij", "nl": "Fijn, dank u. Tot snel!", "en": "Great, thank you. See you soon!" }
+      ]
+    },
+    {
+      "id": "rp-winkel",
+      "titleNl": "Iets ruilen in de winkel",
+      "titleEn": "Exchanging an item",
+      "setting": "In de winkel",
+      "scenario": "You return a sweater to exchange it for another size.",
+      "turns": [
+        { "speaker": "A", "who": "Verkoper", "nl": "Goedemiddag, kan ik u helpen?", "en": "Good afternoon, can I help you?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, ik wil deze trui graag ruilen. Hij is te klein.", "en": "Yes, I'd like to exchange this sweater. It's too small." },
+        { "speaker": "A", "who": "Verkoper", "nl": "Heeft u de bon bij u?", "en": "Do you have the receipt?" },
+        { "speaker": "you", "who": "Jij", "nl": "Ja, hier is de bon.", "en": "Yes, here's the receipt." },
+        { "speaker": "A", "who": "Verkoper", "nl": "Welke maat wilt u?", "en": "What size would you like?" },
+        { "speaker": "you", "who": "Jij", "nl": "Maat large, alstublieft. Heeft u die nog?", "en": "Size large, please. Do you still have it?" },
+        { "speaker": "A", "who": "Verkoper", "nl": "Een moment… Ja, hier is maat large.", "en": "One moment… Yes, here's size large." },
+        { "speaker": "you", "who": "Jij", "nl": "Perfect. Moet ik iets bijbetalen?", "en": "Perfect. Do I need to pay extra?" },
+        { "speaker": "A", "who": "Verkoper", "nl": "Nee, het is dezelfde prijs. Fijne dag!", "en": "No, it's the same price. Have a nice day!" },
+        { "speaker": "you", "who": "Jij", "nl": "Dank u wel, u ook.", "en": "Thank you, you too." }
+      ]
+    }
+  ]
+}

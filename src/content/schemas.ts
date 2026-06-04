@@ -201,3 +201,27 @@ export const lessonSchema = z.object({
 })
 
 export type Lesson = z.infer<typeof lessonSchema>
+
+/* ---------- Real-life role-play conversations ---------- */
+
+export const roleplayTurnSchema = z.object({
+  speaker: z.enum(['A', 'you']), // 'A' = the other person (audio), 'you' = your model line
+  who: z.string(),
+  nl: z.string(),
+  en: z.string(),
+})
+
+export const roleplaySchema = z.object({
+  id: z.string(),
+  titleNl: z.string(),
+  titleEn: z.string(),
+  setting: z.string(),
+  scenario: z.string(),
+  turns: z.array(roleplayTurnSchema),
+})
+
+export const roleplaysFileSchema = z.object({
+  roleplays: z.array(roleplaySchema),
+})
+
+export type RolePlay = z.infer<typeof roleplaySchema>

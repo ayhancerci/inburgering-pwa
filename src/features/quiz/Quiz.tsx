@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db/database'
 import { useActiveProfile } from '../../store/profile'
@@ -210,6 +210,13 @@ export function Quiz() {
           <h1 className="text-xl font-extrabold text-slate-900">Oefenen</h1>
           <p className="mt-1 text-sm text-slate-500">Een quiz per thema, plus grammatica.</p>
         </div>
+        <Link
+          to="/gesprekken"
+          className="flex w-full items-center justify-between rounded-2xl bg-slate-900 px-4 py-3 text-sm font-bold text-white"
+        >
+          <span>🗣️ Gesprekken oefenen</span>
+          <span className="text-xs font-normal text-slate-300">echte situaties ›</span>
+        </Link>
         {wrongQuestions.length > 0 && (
           <button
             onClick={startMistakes}

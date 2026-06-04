@@ -88,6 +88,27 @@ function roleplayVoice(speaker, who) {
   return gender(who) === 'm' ? 'orus' : 'aoede'
 }
 
+// Split lecture narration into English runs + inline Dutch runs ([[...]]). MUST match src/lib/audio.ts.
+function parseSegments(text) {
+  const segs = []
+  const re = /\[\[([\s\S]+?)\]\]/g
+  let last = 0
+  let m
+  while ((m = re.exec(text))) {
+    if (m.index > last) {
+      const raw = text.slice(last, m.index)
+      if (raw.trim()) segs.push({ lang: 'en', text: raw })
+    }
+    if (m[1].trim()) segs.push({ lang: 'nl', text: m[1] })
+    last = m.index + m[0].length
+  }
+  if (last < text.length) {
+    const raw = text.slice(last)
+    if (raw.trim()) segs.push({ lang: 'en', text: raw })
+  }
+  return segs
+}
+
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf8'))
 const jobs = new Map() // "voiceId|text" -> { text, voiceId }
 const addJob = (voiceId, text) => {
@@ -118,10 +139,11 @@ if (existsSync(LECTURES_DIR))
   for (const f of readdirSync(LECTURES_DIR)) {
     if (!f.endsWith('.json')) continue
     const lec = readJson(join(LECTURES_DIR, f))
-    for (const p of lec.paragraphs || []) {
-      if (p.text) addJob('narrator', p.text)
-      for (const ex of p.examples || []) if (ex.nl) addJob(variedVoice(ex.nl), ex.nl)
-    }
+    for (const p of lec.paragraphs || [])
+      for (const seg of parseSegments(p.text || '')) {
+        const t = seg.text.trim()
+        if (t) addJob(seg.lang === 'nl' ? variedVoice(t) : 'narrator', t)
+      }
   }
 // Listening mock fragments (varied).
 if (existsSync(join(CONTENT, 'mocks'))) {

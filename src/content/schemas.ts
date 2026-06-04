@@ -224,8 +224,11 @@ export type Lesson = z.infer<typeof lessonSchema>
 // like a real bilingual class.
 export const lectureParagraphSchema = z.object({
   heading: z.string().optional(), // short English sub-heading for this part
-  text: z.string(), // the teacher's English narration (≈5–8 sentences)
-  examples: z.array(biTextSchema).default([]), // Dutch sentences the teacher then says out loud
+  // The teacher's English narration. Dutch words/sentences are written inline between
+  // [[double brackets]] so they are read aloud by a NATIVE DUTCH voice while the surrounding
+  // English uses the English narrator voice. E.g.:
+  //   "The question is [[Hoe heet je?]], which means 'what is your name?'."
+  text: z.string(),
 })
 
 export const lectureSchema = z.object({

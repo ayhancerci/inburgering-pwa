@@ -141,18 +141,44 @@ export async function playSequence(items: Spoken[]): Promise<void> {
   }
 }
 
-/** Build the play-order for a whole lecture: each paragraph's English narration (narrator voice),
- *  then its Dutch example sentences (a varied native Dutch voice each). Played back-to-back this
- *  sounds like a real bilingual class. */
-export function lectureItems(
-  paragraphs: { text: string; examples?: { nl: string }[] }[],
-): Spoken[] {
-  const items: Spoken[] = []
-  for (const p of paragraphs) {
-    if (p.text) items.push({ text: p.text, voice: NARRATOR })
-    for (const ex of p.examples ?? [])
-      if (ex.nl) items.push({ text: ex.nl, voice: variedVoice(ex.nl) })
+export interface Segment {
+  lang: 'en' | 'nl'
+  text: string // raw text (keeps surrounding spaces for display); trim before using as an audio key
+}
+
+/** Split a narration string into English runs and Dutch runs. Dutch is written inline between
+ *  [[double brackets]], so the teacher's English is read by the English voice while the Dutch
+ *  words/sentences are read by a native Dutch voice. */
+export function parseSegments(text: string): Segment[] {
+  const segs: Segment[] = []
+  const re = /\[\[([\s\S]+?)\]\]/g
+  let last = 0
+  let m: RegExpExecArray | null
+  while ((m = re.exec(text))) {
+    if (m.index > last) {
+      const raw = text.slice(last, m.index)
+      if (raw.trim()) segs.push({ lang: 'en', text: raw })
+    }
+    if (m[1].trim()) segs.push({ lang: 'nl', text: m[1] })
+    last = m.index + m[0].length
   }
+  if (last < text.length) {
+    const raw = text.slice(last)
+    if (raw.trim()) segs.push({ lang: 'en', text: raw })
+  }
+  return segs
+}
+
+/** Build the play-order for a whole lecture: English runs use the narrator voice and the inline
+ *  Dutch runs use a native Dutch voice, in reading order. Played back-to-back it sounds like a
+ *  real bilingual class. */
+export function lectureItems(paragraphs: { text: string }[]): Spoken[] {
+  const items: Spoken[] = []
+  for (const p of paragraphs)
+    for (const seg of parseSegments(p.text)) {
+      const t = seg.text.trim()
+      if (t) items.push({ text: t, voice: seg.lang === 'nl' ? variedVoice(t) : NARRATOR })
+    }
   return items
 }
 

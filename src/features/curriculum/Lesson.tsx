@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { loadContent } from '../../content'
 import { Panel } from '../../components/ui'
 import { SpeakButton } from '../../components/SpeakButton'
-import { assignVoices, lectureItems, playSequence, stop } from '../../lib/audio'
+import { assignVoices, lectureItems, parseSegments, play, playSequence, stop } from '../../lib/audio'
 import { useTranslationPref } from '../../store/prefs'
 import type { Lesson as LessonType, Lecture as LectureType, Theme } from '../../content/schemas'
 
@@ -58,7 +58,7 @@ function Collapsible({
 
 /** The 10–15 min audio "college": a teacher explains the theme in English (narrator voice) and
  *  reads Dutch terms & example sentences aloud (native Dutch voices). One button plays it all. */
-function LectureSection({ lecture, show }: { lecture: LectureType; show: boolean }) {
+function LectureSection({ lecture }: { lecture: LectureType }) {
   const [playing, setPlaying] = useState(false)
   async function toggleAll() {
     if (playing) {
@@ -79,8 +79,9 @@ function LectureSection({ lecture, show }: { lecture: LectureType; show: boolean
         {playing ? '⏸ Stop het college' : '▶ Speel het hele college af'}
       </button>
       <p className="text-center text-xs text-slate-400">
-        Een docent legt dit thema uit in het Engels, met Nederlandse woorden en voorbeeldzinnen die
-        je hardop hoort.
+        Een docent legt dit thema uit in het Engels. De{' '}
+        <span className="font-semibold text-indigo-700">Nederlandse woorden</span> hoor je in het
+        Nederlands — tik erop om ze opnieuw te horen.
       </p>
       {lecture.intro && (
         <p className="rounded-xl bg-slate-50 p-3 text-sm italic leading-relaxed text-slate-600">
@@ -89,26 +90,33 @@ function LectureSection({ lecture, show }: { lecture: LectureType; show: boolean
       )}
       {lecture.paragraphs.map((p, i) => (
         <div key={i} className="space-y-2 border-t border-slate-100 pt-3">
-          <div className="flex items-start gap-2">
-            <SpeakButton text={p.text} voice="narrator" className="mt-0.5" />
-            <div className="flex-1">
-              {p.heading && <h4 className="font-bold text-slate-900">{p.heading}</h4>}
-              <p className="text-sm leading-relaxed text-slate-700">{p.text}</p>
-            </div>
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              aria-label="Speel deze alinea af"
+              onClick={() => playSequence(lectureItems([p]))}
+              className="inline-grid size-7 shrink-0 place-items-center rounded-full bg-slate-100 text-sm text-slate-500 transition hover:bg-yellow-200 active:scale-95"
+            >
+              🔊
+            </button>
+            {p.heading && <h4 className="flex-1 font-bold text-slate-900">{p.heading}</h4>}
           </div>
-          {p.examples.length > 0 && (
-            <div className="ml-9 space-y-1.5 rounded-xl bg-yellow-50 p-3">
-              {p.examples.map((ex, j) => (
-                <div key={j} className="flex items-start gap-2 text-sm">
-                  <SpeakButton text={ex.nl} className="mt-0.5" />
-                  <p>
-                    <span className="font-semibold text-slate-800">{ex.nl}</span>
-                    {show && <span className="text-slate-400"> — {ex.en}</span>}
-                  </p>
-                </div>
-              ))}
-            </div>
-          )}
+          <p className="text-sm leading-relaxed text-slate-700">
+            {parseSegments(p.text).map((seg, j) =>
+              seg.lang === 'en' ? (
+                <span key={j}>{seg.text}</span>
+              ) : (
+                <button
+                  key={j}
+                  type="button"
+                  onClick={() => play(seg.text.trim())}
+                  className="font-semibold text-indigo-700 underline decoration-dotted underline-offset-2 transition hover:bg-indigo-50"
+                >
+                  {seg.text.trim()}
+                </button>
+              ),
+            )}
+          </p>
         </div>
       ))}
     </Collapsible>
@@ -164,7 +172,7 @@ export function Lesson({
         </Panel>
       )}
 
-      {lecture && <LectureSection lecture={lecture} show={show} />}
+      {lecture && <LectureSection lecture={lecture} />}
 
       <p className="px-1 text-xs text-slate-400">Tik op een onderdeel om het te openen.</p>
 

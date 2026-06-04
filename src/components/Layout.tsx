@@ -1,8 +1,10 @@
+import { useEffect, useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db/database'
 import { useActiveProfile } from '../store/profile'
 import { cx } from './ui'
+import { Guide } from '../features/help/Guide'
 
 const NAV = [
   { to: '/', label: 'Plan', icon: '🗓️' },
@@ -11,16 +13,37 @@ const NAV = [
   { to: '/checklist', label: 'Checklist', icon: '✅' },
 ]
 
+const INTRO_KEY = 'intro-seen-v1'
+
 export function Layout() {
   const profiles = useLiveQuery(() => db.profiles.toArray(), [], [])
   const { activeId, setActive } = useActiveProfile()
+  const [guideOpen, setGuideOpen] = useState(false)
+
+  // Auto-open the English how-to on first run.
+  useEffect(() => {
+    if (!localStorage.getItem(INTRO_KEY)) setGuideOpen(true)
+  }, [])
+
+  const closeGuide = () => {
+    localStorage.setItem(INTRO_KEY, '1')
+    setGuideOpen(false)
+  }
 
   return (
     <div className="mx-auto flex min-h-full max-w-2xl flex-col">
       <header className="safe-top sticky top-0 z-10 flex items-center justify-between gap-2 border-b border-yellow-500/30 bg-yellow-400/95 px-4 py-3 backdrop-blur">
-        <div className="flex items-baseline gap-2 text-slate-900">
-          <span className="text-lg font-extrabold tracking-tight">LINK</span>
-          <span className="text-xs font-semibold text-slate-700">B1 inburgering</span>
+        <div className="flex items-center gap-2">
+          <span className="text-base font-extrabold tracking-tight text-slate-900">
+            Inburgering B1
+          </span>
+          <button
+            onClick={() => setGuideOpen(true)}
+            aria-label="How to use this app"
+            className="grid size-6 place-items-center rounded-full bg-white/70 text-sm font-bold text-slate-800 transition hover:bg-white"
+          >
+            ?
+          </button>
         </div>
         <div className="flex items-center gap-1 rounded-full bg-white/70 p-1 text-xs font-semibold">
           {(profiles ?? []).map((p) => (
@@ -60,6 +83,8 @@ export function Layout() {
           </NavLink>
         ))}
       </nav>
+
+      <Guide open={guideOpen} onClose={closeGuide} />
     </div>
   )
 }

@@ -76,9 +76,12 @@ export function roleplayVoice(speaker: 'A' | 'you', who: string): VoiceId {
   return gender(who) === 'm' ? 'orus' : 'aoede'
 }
 
-// Manifest key is "<voiceId>|<text>" → mp3 filename (in /public/audio).
+// Manifest key is "<voiceId>|<text>" → mp3 filename (in <base>/audio).
 const MAP = manifest as Record<string, string>
 const mkey = (voice: VoiceId, text: string) => voice + '|' + text
+// Audio lives under the app's base path (e.g. /inburgering-pwa/audio/...), so build URLs
+// from BASE_URL rather than a hard-coded root path.
+const clipUrl = (file: string) => `${import.meta.env.BASE_URL}audio/${file}`
 
 let current: HTMLAudioElement | null = null
 
@@ -104,7 +107,7 @@ export function play(text: string, voice?: VoiceId): void {
   }
   stopCurrent()
   stopSpeaking()
-  const audio = new Audio(`/audio/${file}`)
+  const audio = new Audio(clipUrl(file))
   current = audio
   void audio.play().catch(() => speak(text, VOICE_GENDER[v]))
 }
@@ -127,7 +130,7 @@ export async function playSequence(items: Spoken[]): Promise<void> {
   for (const it of resolved) {
     const file = MAP[mkey(it.voice, it.text)]
     await new Promise<void>((resolve) => {
-      const audio = new Audio(`/audio/${file}`)
+      const audio = new Audio(clipUrl(file))
       current = audio
       audio.onended = () => resolve()
       audio.onerror = () => resolve()

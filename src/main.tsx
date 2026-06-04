@@ -8,7 +8,7 @@ import { Boot } from './components/Boot'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Boot>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <AppRoutes />
       </BrowserRouter>
     </Boot>

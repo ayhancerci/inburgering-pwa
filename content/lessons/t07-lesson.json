@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-07",
+  "intro": "This chapter helps you visit the doctor in the Netherlands. You learn the parts of the body, how to say what hurts and how you feel, and how to make and understand an appointment. You also learn the words doctors use to give advice, so you can follow their instructions about medicine and rest.",
+  "grammar": [
+    {
+      "title": "Saying what hurts: ik heb ... pijn and body parts",
+      "explanation": "To say something hurts, the most common pattern is 'ik heb pijn in mijn ...' (I have pain in my ...) or you can combine a body part with '-pijn': hoofdpijn (headache), buikpijn (stomach ache), keelpijn (sore throat). Another option is 'mijn ... doet zeer / doet pijn' (my ... hurts).",
+      "examples": [
+        { "nl": "Ik heb pijn in mijn rug.", "en": "I have pain in my back." },
+        { "nl": "Ik heb hoofdpijn en ik ben moe.", "en": "I have a headache and I am tired." },
+        { "nl": "Mijn keel doet zeer als ik slik.", "en": "My throat hurts when I swallow." },
+        { "nl": "Mijn been doet pijn na het sporten.", "en": "My leg hurts after exercising." }
+      ],
+      "tip": "Common body parts: het hoofd (head), de keel (throat), de buik (belly), de rug (back), de arm, het been (leg), de hand, de voet (foot)."
+    },
+    {
+      "title": "Modal verbs: moeten and mogen",
+      "explanation": "'Moeten' means 'must / have to' and 'mogen' means 'may / be allowed to'. The modal verb is conjugated and the main verb goes to the end of the sentence in its basic (infinitive) form. 'Ik moet rusten' = I have to rest. 'Mag ik ...?' is a polite way to ask permission.",
+      "examples": [
+        { "nl": "U moet veel water drinken en rusten.", "en": "You have to drink a lot of water and rest." },
+        { "nl": "Mag ik vandaag naar buiten?", "en": "May I go outside today?" },
+        { "nl": "Je moet de medicijnen drie keer per dag innemen.", "en": "You have to take the medicine three times a day." },
+        { "nl": "U mag morgen weer werken.", "en": "You are allowed to work again tomorrow." }
+      ],
+      "tip": "After 'moeten' or 'mogen' the second verb always goes to the end and stays in the infinitive: 'ik moet de dokter bellen'."
+    },
+    {
+      "title": "The imperative: neem, drink, bel",
+      "explanation": "The imperative gives an instruction or advice. For most verbs you simply use the 'ik'-form (the stem) without a subject: 'drink water', 'neem rust', 'bel de huisarts'. To be more polite you can add 'u': 'Neemt u plaats' (Please take a seat). The doctor uses imperatives a lot to advise you.",
+      "examples": [
+        { "nl": "Neem twee tabletten per dag.", "en": "Take two tablets per day." },
+        { "nl": "Drink genoeg water en blijf in bed.", "en": "Drink enough water and stay in bed." },
+        { "nl": "Bel de huisarts als de koorts hoger wordt.", "en": "Call the GP if the fever gets higher." },
+        { "nl": "Neemt u maar plaats in de wachtkamer.", "en": "Please take a seat in the waiting room." }
+      ],
+      "tip": "The imperative is just the stem of the verb: 'drinken' becomes 'drink!', 'nemen' becomes 'neem!'."
+    }
+  ],
+  "phrases": [
+    { "nl": "Ik wil graag een afspraak maken met de dokter.", "en": "I would like to make an appointment with the doctor." },
+    { "nl": "Ik voel me niet goed.", "en": "I don't feel well." },
+    { "nl": "Ik ben al een week ziek.", "en": "I have been ill for a week." },
+    { "nl": "Ik heb koorts en ik hoest veel.", "en": "I have a fever and I cough a lot." },
+    { "nl": "Wat is er aan de hand?", "en": "What is the matter?" },
+    { "nl": "Kunt u vandaag nog langskomen?", "en": "Can you come by today?" },
+    { "nl": "Hoe lang heeft u al klachten?", "en": "How long have you had complaints?" },
+    { "nl": "Moet ik medicijnen halen bij de apotheek?", "en": "Do I have to get medicine from the pharmacy?" },
+    { "nl": "Neem rust en drink veel water.", "en": "Take rest and drink a lot of water." },
+    { "nl": "Het gaat alweer wat beter, dank u.", "en": "It is already a bit better, thank you." },
+    { "nl": "Heeft u een verzekeringspas bij u?", "en": "Do you have your insurance card with you?" },
+    { "nl": "Bel 112 als het een noodgeval is.", "en": "Call 112 if it is an emergency." }
+  ],
+  "dialogue": {
+    "title": "A patient visits the GP because she has had a sore throat and a fever for several days",
+    "lines": [
+      { "speaker": "Dokter", "nl": "Goedemorgen, komt u maar binnen. Wat is er aan de hand?", "en": "Good morning, please come in. What is the matter?" },
+      { "speaker": "Fatima", "nl": "Ik voel me al een paar dagen niet goed. Ik heb keelpijn en koorts.", "en": "I haven't felt well for a few days. I have a sore throat and a fever." },
+      { "speaker": "Dokter", "nl": "Hoe hoog is de koorts ongeveer?", "en": "About how high is the fever?" },
+      { "speaker": "Fatima", "nl": "Vanochtend was het achtendertig en een half graden.", "en": "This morning it was thirty-eight and a half degrees." },
+      { "speaker": "Dokter", "nl": "Doet uw keel pijn als u slikt?", "en": "Does your throat hurt when you swallow?" },
+      { "speaker": "Fatima", "nl": "Ja, en ik hoest ook veel, vooral 's nachts.", "en": "Yes, and I also cough a lot, especially at night." },
+      { "speaker": "Dokter", "nl": "Het is waarschijnlijk een virus. U moet veel rusten en water drinken.", "en": "It is probably a virus. You have to rest a lot and drink water." },
+      { "speaker": "Fatima", "nl": "Moet ik medicijnen halen?", "en": "Do I have to get medicine?" },
+      { "speaker": "Dokter", "nl": "Neem paracetamol tegen de pijn. Bel mij als u na een week nog ziek bent.", "en": "Take paracetamol for the pain. Call me if you are still ill after a week." },
+      { "speaker": "Fatima", "nl": "Dank u wel, dokter.", "en": "Thank you, doctor." }
+    ]
+  },
+  "writing": {
+    "prompt": "You feel ill and cannot come to your Dutch lesson tomorrow. Write a short message to your teacher: say how you feel, what hurts, that you are going to the doctor, and ask what homework you should do.",
+    "tips": [
+      "Use 'ik heb pijn in ...' or words like 'hoofdpijn' and 'keelpijn' to say what hurts.",
+      "Use the modal verb 'moeten' to say what you have to do ('ik moet naar de dokter').",
+      "Be polite and end with a question about the homework."
+    ],
+    "model": "Beste meneer Jansen, ik voel me vandaag niet goed. Ik heb koorts en veel pijn in mijn keel. Ik kan morgen niet naar de les komen. Vanmiddag moet ik naar de dokter, want ik ben al drie dagen ziek. Hopelijk word ik snel weer beter. Kunt u mij vertellen welk huiswerk ik moet maken? Dan kan ik thuis een beetje oefenen. Met vriendelijke groet, Anna"
+  }
+}

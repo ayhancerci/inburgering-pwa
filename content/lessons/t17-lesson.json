@@ -1,0 +1,78 @@
+{
+  "themeId": "link-0a2-17",
+  "intro": "This chapter helps you look for and apply for work in the Netherlands. You will learn how to describe your personal qualities, talk about your work experience, and use your network. These are exactly the words and sentences you need for a job advert, a cover letter, and a job interview.",
+  "grammar": [
+    {
+      "title": "Adjectives for personal qualities",
+      "explanation": "When you apply for a job, you often describe yourself with adjectives such as geduldig (patient), betrouwbaar (reliable) and flexibel (flexible). After the verb 'zijn' (to be) the adjective stays in its basic form: 'Ik ben flexibel.' When the adjective comes before a noun, you usually add '-e': 'een flexibele werknemer'.",
+      "examples": [
+        { "nl": "Ik ben geduldig en altijd op tijd.", "en": "I am patient and always on time." },
+        { "nl": "Mijn collega is heel betrouwbaar.", "en": "My colleague is very reliable." },
+        { "nl": "Wij zoeken een flexibele medewerker.", "en": "We are looking for a flexible employee." },
+        { "nl": "Zij is rustig, vriendelijk en zelfstandig.", "en": "She is calm, friendly and independent." }
+      ],
+      "tip": "In a job interview, name two or three qualities and give a short example: 'Ik ben geduldig, want ik werk graag met kinderen.'"
+    },
+    {
+      "title": "ervaring hebben met (to have experience with)",
+      "explanation": "To talk about your experience, use 'ervaring hebben met' + a noun, or 'ervaring hebben in' + a field. After 'met' and 'in' you use a noun, not a verb. To ask about someone's experience, say: 'Heb je ervaring met ...?'",
+      "examples": [
+        { "nl": "Ik heb ervaring met computers en administratie.", "en": "I have experience with computers and administration." },
+        { "nl": "Heb je ervaring met dit soort werk?", "en": "Do you have experience with this kind of work?" },
+        { "nl": "Zij heeft veel ervaring in de zorg.", "en": "She has a lot of experience in healthcare." },
+        { "nl": "Ik heb nog weinig ervaring, maar ik leer snel.", "en": "I still have little experience, but I learn quickly." }
+      ],
+      "tip": "Use 'veel ervaring' (a lot of experience) or 'weinig ervaring' (little experience) to say how much you have."
+    },
+    {
+      "title": "The present perfect for experience (Ik heb gewerkt als ...)",
+      "explanation": "To talk about work you have done, use the present perfect: a form of 'hebben' + a past participle at the end. For 'werken' the past participle is 'gewerkt'. Use 'als' (as) + a job, and say how long with phrases like 'drie jaar' or 'twee maanden'.",
+      "examples": [
+        { "nl": "Ik heb drie jaar gewerkt als verkoper.", "en": "I worked as a salesperson for three years." },
+        { "nl": "Hij heeft in een restaurant gewerkt.", "en": "He has worked in a restaurant." },
+        { "nl": "Wij hebben samen aan dit project gewerkt.", "en": "We worked on this project together." },
+        { "nl": "Ik heb vroeger als chauffeur gewerkt.", "en": "I used to work as a driver." }
+      ],
+      "tip": "The past participle goes to the very end of the sentence: 'Ik heb twee jaar in een winkel gewerkt.'"
+    }
+  ],
+  "phrases": [
+    { "nl": "Ik zoek werk in de zorg.", "en": "I am looking for work in healthcare." },
+    { "nl": "Ik wil graag bij u solliciteren.", "en": "I would like to apply with you." },
+    { "nl": "Ik heb een vacature gezien op uw website.", "en": "I saw a job vacancy on your website." },
+    { "nl": "Ik stuur u mijn cv en mijn sollicitatiebrief.", "en": "I am sending you my CV and my cover letter." },
+    { "nl": "Ik heb ervaring met klanten en de telefoon.", "en": "I have experience with customers and the telephone." },
+    { "nl": "Ik ben flexibel en kan ook in het weekend werken.", "en": "I am flexible and can also work at the weekend." },
+    { "nl": "Wat zijn uw sterke punten?", "en": "What are your strong points?" },
+    { "nl": "Hoeveel uur per week wilt u werken?", "en": "How many hours per week do you want to work?" },
+    { "nl": "Ik hoor graag van u.", "en": "I look forward to hearing from you." },
+    { "nl": "Via mijn netwerk heb ik deze baan gevonden.", "en": "I found this job through my network." },
+    { "nl": "Wanneer kan ik beginnen?", "en": "When can I start?" },
+    { "nl": "Krijg ik een vast contract?", "en": "Will I get a permanent contract?" }
+  ],
+  "dialogue": {
+    "title": "A short job interview at a shop",
+    "lines": [
+      { "speaker": "Mevrouw Smit", "nl": "Goedemiddag, welkom. U solliciteert op de baan als verkoper, klopt dat?", "en": "Good afternoon, welcome. You are applying for the job as a salesperson, is that right?" },
+      { "speaker": "Karim", "nl": "Ja, dat klopt. Ik heb de vacature op uw website gezien.", "en": "Yes, that's right. I saw the vacancy on your website." },
+      { "speaker": "Mevrouw Smit", "nl": "Mooi. Heeft u ervaring met dit soort werk?", "en": "Nice. Do you have experience with this kind of work?" },
+      { "speaker": "Karim", "nl": "Ja, ik heb twee jaar gewerkt als verkoper in een kledingwinkel.", "en": "Yes, I worked as a salesperson in a clothing shop for two years." },
+      { "speaker": "Mevrouw Smit", "nl": "En wat zijn uw sterke punten?", "en": "And what are your strong points?" },
+      { "speaker": "Karim", "nl": "Ik ben vriendelijk, geduldig en heel betrouwbaar.", "en": "I am friendly, patient and very reliable." },
+      { "speaker": "Mevrouw Smit", "nl": "Kunt u ook in het weekend werken?", "en": "Can you also work at the weekend?" },
+      { "speaker": "Karim", "nl": "Ja, ik ben flexibel. Het weekend is geen probleem.", "en": "Yes, I am flexible. The weekend is no problem." },
+      { "speaker": "Mevrouw Smit", "nl": "Goed. Wij bellen u volgende week.", "en": "Good. We will call you next week." },
+      { "speaker": "Karim", "nl": "Dank u wel. Ik hoor graag van u.", "en": "Thank you. I look forward to hearing from you." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short cover letter (sollicitatiebrief) in Dutch. You saw a vacancy for a job in a supermarket. Tell them which job you want, describe two of your qualities, and say something about your work experience. End politely.",
+    "tips": [
+      "Start with 'Geachte heer/mevrouw,' and end with 'Met vriendelijke groet,' and your name.",
+      "Use 'Ik heb ... gezien' to mention the vacancy and 'Ik wil graag solliciteren op ...' for the job.",
+      "Describe yourself with adjectives like betrouwbaar, flexibel or geduldig.",
+      "Use the present perfect for experience: 'Ik heb ... jaar gewerkt als ...'."
+    ],
+    "model": "Geachte heer/mevrouw, Ik heb uw vacature voor een verkoper in de supermarkt gezien. Ik wil graag op deze baan solliciteren. Ik ben vriendelijk, geduldig en heel betrouwbaar. Ik kom altijd op tijd en ik werk graag met klanten. Ik heb twee jaar gewerkt als verkoper in een winkel, dus ik heb ervaring met de kassa en met producten. Ik ben flexibel en kan ook in het weekend werken. Ik hoor graag van u. Met vriendelijke groet, Sara Yilmaz"
+  }
+}

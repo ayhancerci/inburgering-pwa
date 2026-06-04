@@ -1,0 +1,74 @@
+{
+  "themeId": "link-0a2-14",
+  "intro": "This chapter is about family and relationships: visiting each other, getting married, and talking about who looks like whom in the family. You learn how to describe your relatives and how to talk about events in the past, such as a wedding. This helps you chat with neighbours, colleagues and other parents about your family life in the Netherlands.",
+  "grammar": [
+    {
+      "title": "The reciprocal pronoun 'elkaar' (each other)",
+      "explanation": "Use 'elkaar' when two or more people do something to or with one another. It works like an object and usually comes after the verb. With a preposition it stays together: 'met elkaar', 'op elkaar', 'naar elkaar'.",
+      "examples": [
+        { "nl": "We bellen elkaar iedere dag.", "en": "We call each other every day." },
+        { "nl": "Mijn zus en ik lijken op elkaar.", "en": "My sister and I look like each other." },
+        { "nl": "Ze houden veel van elkaar.", "en": "They love each other a lot." }
+      ],
+      "tip": "'elkaar' is often shortened to 'mekaar' in speech, but write 'elkaar' on your exam."
+    },
+    {
+      "title": "'lijken op' and 'trouwen met'",
+      "explanation": "Dutch uses fixed prepositions with some verbs. 'lijken op' means 'to look like / resemble' someone, and 'trouwen met' means 'to marry / get married to' someone. The preposition cannot be left out or changed.",
+      "examples": [
+        { "nl": "Je lijkt op je moeder.", "en": "You look like your mother." },
+        { "nl": "Mijn zoon lijkt op zijn vader.", "en": "My son looks like his father." },
+        { "nl": "Zij is in 2018 met Tom getrouwd.", "en": "She married Tom in 2018." }
+      ],
+      "tip": "Learn the verb together with its preposition as one unit: lijken op, trouwen met, houden van, denken aan."
+    },
+    {
+      "title": "Possessives with family nouns and talking about the past",
+      "explanation": "Possessive pronouns (mijn, jouw/je, zijn, haar, ons/onze, hun) show who a family member belongs to. Use 'ons' with het-words and 'onze' with de-words. To talk about a past event you use the perfect tense: 'hebben/zijn' + a past participle, for example 'getrouwd' or 'gewoond'.",
+      "examples": [
+        { "nl": "Mijn schoonmoeder en haar zus wonen samen.", "en": "My mother-in-law and her sister live together." },
+        { "nl": "Dit is onze dochter en dat is ons kleinkind.", "en": "This is our daughter and that is our grandchild." },
+        { "nl": "We zijn in 2018 getrouwd en hebben nu twee kinderen.", "en": "We got married in 2018 and now have two children." }
+      ],
+      "tip": "'trouwen' uses 'zijn' in the perfect tense: 'Ik ben getrouwd', not 'Ik heb getrouwd'."
+    }
+  ],
+  "phrases": [
+    { "nl": "We bellen elkaar iedere dag.", "en": "We call each other every day." },
+    { "nl": "Mijn zus komt morgen op bezoek.", "en": "My sister is coming to visit tomorrow." },
+    { "nl": "We krijgen vanavond bezoek.", "en": "We have visitors coming tonight." },
+    { "nl": "Wanneer kom je weer langs?", "en": "When are you coming over again?" },
+    { "nl": "Je lijkt sprekend op je vader.", "en": "You look exactly like your father." },
+    { "nl": "Op wie lijk jij het meest?", "en": "Who do you look like the most?" },
+    { "nl": "Mijn broer gaat in juni trouwen.", "en": "My brother is getting married in June." },
+    { "nl": "Hoelang zijn jullie al getrouwd?", "en": "How long have you been married?" },
+    { "nl": "We zijn in 2018 getrouwd.", "en": "We got married in 2018." },
+    { "nl": "Hoe gaat het met je familie?", "en": "How is your family doing?" },
+    { "nl": "Ik mis mijn familie heel erg.", "en": "I miss my family very much." }
+  ],
+  "dialogue": {
+    "title": "Two neighbours chat about their families",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hoi Karim! Wie is dat op die foto naast je?", "en": "Hi Karim! Who is that on that photo next to you?" },
+      { "speaker": "Karim", "nl": "Dat is mijn broer. We lijken veel op elkaar, hè?", "en": "That's my brother. We look a lot like each other, don't we?" },
+      { "speaker": "Sara", "nl": "Ja, echt! Woont hij ook in Nederland?", "en": "Yes, really! Does he also live in the Netherlands?" },
+      { "speaker": "Karim", "nl": "Nee, hij woont in Marokko. We bellen elkaar wel iedere week.", "en": "No, he lives in Morocco. But we call each other every week." },
+      { "speaker": "Sara", "nl": "Wat leuk. En is hij getrouwd?", "en": "How nice. And is he married?" },
+      { "speaker": "Karim", "nl": "Ja, hij is in 2018 met Fatima getrouwd. Ze hebben nu een dochter.", "en": "Yes, he married Fatima in 2018. They now have a daughter." },
+      { "speaker": "Sara", "nl": "Lijkt de kleine op hem of op Fatima?", "en": "Does the little one look like him or like Fatima?" },
+      { "speaker": "Karim", "nl": "Op Fatima, gelukkig! En jij, komt je familie wel eens op bezoek?", "en": "Like Fatima, luckily! And you, does your family ever come to visit?" },
+      { "speaker": "Sara", "nl": "Mijn ouders komen volgende maand langs. Ik kijk er erg naar uit.", "en": "My parents are coming over next month. I am really looking forward to it." },
+      { "speaker": "Karim", "nl": "Wat gezellig! Doe ze de groeten van mij.", "en": "How lovely! Give them my regards." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short message (WhatsApp or email) to a friend in Dutch about your family. Tell who is in your family, who you look like, and mention one event from the past (for example a wedding or when someone came to visit).",
+    "tips": [
+      "Use possessives: mijn moeder, mijn broer, onze kinderen.",
+      "Use 'lijken op' to describe resemblance: 'Ik lijk op ...'.",
+      "Use the past with 'zijn/hebben' + participle: 'We zijn ... getrouwd', 'Mijn zus is ... op bezoek geweest'.",
+      "Use 'elkaar' for things you do together: 'We bellen elkaar vaak.'"
+    ],
+    "model": "Hoi Lisa,\n\nHoe gaat het met je? Ik vertel je iets over mijn familie. Ik heb een broer en een zus. Mijn zus en ik lijken sprekend op elkaar; we hebben allebei bruin haar. We bellen elkaar bijna iedere dag.\n\nVorig jaar is mijn broer getrouwd met zijn vriendin. Het was een mooi feest en de hele familie was er. Wanneer komen jouw ouders weer op bezoek?\n\nGroetjes,\nAnna"
+  }
+}

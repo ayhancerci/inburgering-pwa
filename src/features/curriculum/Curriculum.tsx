@@ -1,25 +1,37 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { loadContent } from '../../content'
 import { Panel, Badge } from '../../components/ui'
+import { Lesson } from './Lesson'
+import type { Theme } from '../../content/schemas'
 
 export function Curriculum() {
-  const { themes } = loadContent()
+  const { themes, lessons } = loadContent()
+  const lessonMap = useMemo(() => new Map(lessons.map((l) => [l.themeId, l])), [lessons])
   const [open, setOpen] = useState<string | null>(null)
+  const [lessonTheme, setLessonTheme] = useState<Theme | null>(null)
+
+  if (lessonTheme) {
+    const lesson = lessonMap.get(lessonTheme.id)
+    if (lesson) {
+      return <Lesson theme={lessonTheme} lesson={lesson} onBack={() => setLessonTheme(null)} />
+    }
+  }
 
   return (
     <div className="space-y-4">
       <div>
         <h1 className="text-xl font-extrabold text-slate-900">Cursus — LINK 0 → A2</h1>
         <p className="mt-1 text-sm text-slate-500">
-          Tap a chapter to see — in English — what it's about, its lessons, and to start its
-          exercises.
+          Tap a chapter for the full lesson — in English — with grammar, example dialogues, a
+          writing exercise, and its exercises.
         </p>
       </div>
 
       <div className="space-y-2">
         {themes.map((t) => {
           const isOpen = open === t.id
+          const hasLesson = lessonMap.has(t.id)
           return (
             <Panel key={t.id} className="overflow-hidden">
               <button
@@ -41,6 +53,19 @@ export function Curriculum() {
                   <p className="rounded-lg bg-yellow-50 px-3 py-2 text-sm text-slate-700">
                     💡 {t.tip}
                   </p>
+
+                  {hasLesson && (
+                    <button
+                      onClick={() => setLessonTheme(t)}
+                      className="flex w-full items-center justify-between rounded-xl bg-slate-900 px-4 py-3 text-sm font-bold text-white"
+                    >
+                      <span>📖 Lees de les</span>
+                      <span className="text-xs font-normal text-slate-300">
+                        uitleg · grammatica · dialoog · schrijven
+                      </span>
+                    </button>
+                  )}
+
                   <ol className="space-y-2">
                     {t.tasks.map((task) => (
                       <li key={task.n} className="flex gap-2 text-sm">
@@ -52,13 +77,14 @@ export function Curriculum() {
                       </li>
                     ))}
                   </ol>
+
                   <div className="flex flex-wrap items-center gap-2 pt-1">
                     {t.deckId && (
                       <Link
                         to={`/flashcards?deck=${t.deckId}`}
-                        className="rounded-xl bg-slate-900 px-3 py-2 text-xs font-semibold text-white"
+                        className="rounded-xl bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-800"
                       >
-                        🃏 Woorden oefenen
+                        🃏 Woorden
                       </Link>
                     )}
                     {t.quizId && (

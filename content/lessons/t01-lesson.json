@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-01",
+  "intro": "This chapter teaches you how to introduce yourself and meet new people in Dutch: saying your name, where you come from, where you live, and giving your phone number. You will also practise filling in simple forms and welcoming a new neighbour. These are some of the very first things you need in daily life in the Netherlands, whether you meet someone at the door, register at the town hall, or start a course.",
+  "grammar": [
+    {
+      "title": "The present tense of zijn, heten, komen and wonen",
+      "explanation": "These four verbs come up constantly when you introduce yourself. 'Zijn' (to be) is irregular: ik ben, jij bent, hij/zij is, wij/jullie/zij zijn. The others are regular: take the stem and add nothing for 'ik', -t for 'jij/u/hij/zij', and -en for plurals. So: ik heet, jij heet, hij heet; ik kom, jij komt; ik woon, jij woont. Note that with 'jij/je' after the verb (in a question) you drop the -t: 'Woon jij hier?' not 'Woont jij hier?'.",
+      "examples": [
+        { "nl": "Ik ben Sara en ik kom uit Syrië.", "en": "I am Sara and I come from Syria." },
+        { "nl": "Hoe heet jij?", "en": "What is your name? (informal)" },
+        { "nl": "Hij woont in Rotterdam.", "en": "He lives in Rotterdam." },
+        { "nl": "Wij zijn nieuw in de buurt.", "en": "We are new in the neighbourhood." }
+      ],
+      "tip": "Use 'u' (formal) with strangers and officials, and 'jij/je' (informal) with friends, children and neighbours your own age. With 'u' the verb still ends in -t: u heet, u woont, u komt."
+    },
+    {
+      "title": "Question words (wie, wat, waar) and yes/no questions",
+      "explanation": "To ask for information, start with a question word: 'wie' (who), 'wat' (what), 'waar' (where), 'hoe' (how). The verb comes right after it: 'Waar woon je?'. For a yes/no question you have no question word, so you start with the verb instead: 'Woon je hier?', 'Ben jij de nieuwe buurman?'. The answer is usually 'ja' or 'nee'.",
+      "examples": [
+        { "nl": "Wie ben jij?", "en": "Who are you?" },
+        { "nl": "Wat is uw achternaam?", "en": "What is your surname?" },
+        { "nl": "Waar kom je vandaan?", "en": "Where do you come from?" },
+        { "nl": "Ben je hier nieuw?", "en": "Are you new here?" }
+      ],
+      "tip": "'Waar kom je vandaan?' is the fixed phrase for 'Where are you from?'. Don't forget the little word 'vandaan' at the end."
+    },
+    {
+      "title": "Word order: the verb in second position",
+      "explanation": "In a normal Dutch statement the conjugated verb is always the second element. The first place can be the subject, but also a time word or place: then the subject moves to after the verb. Compare 'Ik woon nu in Utrecht' (subject first) with 'Nu woon ik in Utrecht' (time word first, verb second, then subject). The verb stays in spot two in both.",
+      "examples": [
+        { "nl": "Ik kom uit Polen.", "en": "I come from Poland." },
+        { "nl": "Sinds maart woon ik hier.", "en": "Since March I have lived here." },
+        { "nl": "Vandaag begin ik met de cursus.", "en": "Today I start the course." }
+      ],
+      "tip": "When you begin a sentence with a time or place word, swap the order: verb, then subject. 'Morgen kom ik langs' (not 'Morgen ik kom langs')."
+    }
+  ],
+  "phrases": [
+    { "nl": "Hoi, ik ben Iwan.", "en": "Hi, I am Iwan." },
+    { "nl": "Aangenaam kennis te maken.", "en": "Pleased to meet you." },
+    { "nl": "Hoe heet u?", "en": "What is your name? (formal)" },
+    { "nl": "Waar kom je vandaan?", "en": "Where do you come from?" },
+    { "nl": "Ik woon op nummer 12.", "en": "I live at number 12." },
+    { "nl": "Wat is uw telefoonnummer?", "en": "What is your phone number?" },
+    { "nl": "Mijn nummer is nul zes, een twee drie, vier vijf zes.", "en": "My number is zero six, one two three, four five six." },
+    { "nl": "Kunt u dit formulier invullen?", "en": "Can you fill in this form?" },
+    { "nl": "Zet hier uw handtekening, alstublieft.", "en": "Put your signature here, please." },
+    { "nl": "Welkom in de buurt!", "en": "Welcome to the neighbourhood!" },
+    { "nl": "Ik ben uw nieuwe buurvrouw.", "en": "I am your new (female) neighbour." },
+    { "nl": "Leuk u te ontmoeten.", "en": "Nice to meet you." }
+  ],
+  "dialogue": {
+    "title": "Two neighbours meet for the first time on the stairs",
+    "lines": [
+      { "speaker": "Anna", "nl": "Hallo, bent u de nieuwe buurman?", "en": "Hello, are you the new neighbour?" },
+      { "speaker": "Tarek", "nl": "Ja, dat klopt. Ik ben Tarek. En u?", "en": "Yes, that's right. I am Tarek. And you?" },
+      { "speaker": "Anna", "nl": "Ik ben Anna. Ik woon hiernaast, op nummer 10. Welkom in de buurt!", "en": "I am Anna. I live next door, at number 10. Welcome to the neighbourhood!" },
+      { "speaker": "Tarek", "nl": "Dank u wel. Leuk u te ontmoeten.", "en": "Thank you. Nice to meet you." },
+      { "speaker": "Anna", "nl": "Waar komt u vandaan, als ik vragen mag?", "en": "Where do you come from, if I may ask?" },
+      { "speaker": "Tarek", "nl": "Ik kom uit Marokko, maar ik woon al drie jaar in Nederland.", "en": "I come from Morocco, but I have lived in the Netherlands for three years." },
+      { "speaker": "Anna", "nl": "Wat leuk. Woont u hier alleen?", "en": "How nice. Do you live here alone?" },
+      { "speaker": "Tarek", "nl": "Nee, ik woon hier met mijn vrouw en onze dochter.", "en": "No, I live here with my wife and our daughter." },
+      { "speaker": "Anna", "nl": "Gezellig. Als u iets nodig hebt, kom gerust langs.", "en": "Lovely. If you need anything, feel free to drop by." },
+      { "speaker": "Tarek", "nl": "Heel vriendelijk, dank u. Tot ziens!", "en": "Very kind, thank you. See you!" }
+    ]
+  },
+  "writing": {
+    "prompt": "You are registering for a Dutch language course. Fill in a short introduction about yourself for the teacher. Write 5–7 sentences in Dutch: your name, where you come from, where you live now, your phone number, and one sentence about why you want to learn Dutch.",
+    "tips": [
+      "Start each sentence with the verb in second position (Ik heet..., Ik kom..., Ik woon...).",
+      "Write your phone number out with the digits separated, as people say it aloud.",
+      "End with a reason using 'omdat' or 'want': Ik leer Nederlands omdat...",
+      "Keep it simple: short sentences are better than long, complicated ones."
+    ],
+    "model": "Beste docent, ik heet Fatima Yilmaz. Ik kom uit Turkije. Sinds januari woon ik in Amsterdam, op de Kerkstraat 8. Mijn telefoonnummer is nul zes, twee drie vier, vijf zes zeven. Ik ben getrouwd en ik heb twee kinderen. Ik wil graag Nederlands leren, omdat ik werk wil vinden en met mijn buren wil praten. Tot de eerste les! Met vriendelijke groet, Fatima."
+  }
+}

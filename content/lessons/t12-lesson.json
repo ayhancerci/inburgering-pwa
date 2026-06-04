@@ -1,0 +1,73 @@
+{
+  "themeId": "link-0a2-12",
+  "intro": "This chapter is about education in the Netherlands: primary school (basisschool), secondary school (middelbare school), study plans and learning Dutch. You learn to give reasons with 'omdat', 'want' and 'dat', which lets you explain why you do something and what you think. This is useful for parent meetings at school, for talking about your children's education and for explaining your own learning goals.",
+  "grammar": [
+    {
+      "title": "Reasons with 'want' and 'omdat'",
+      "explanation": "Both 'want' and 'omdat' mean 'because', but the word order is different. 'want' connects two main clauses and keeps normal word order: 'Ik leer Nederlands, want ik woon hier.' 'omdat' starts a subordinate clause and sends the verb to the END: 'Ik leer Nederlands omdat ik hier woon.'",
+      "examples": [
+        { "nl": "Ik ga naar school, want ik wil mijn diploma halen.", "en": "I go to school, because I want to get my diploma." },
+        { "nl": "Ik ga naar school omdat ik mijn diploma wil halen.", "en": "I go to school because I want to get my diploma." },
+        { "nl": "Zij is blij omdat ze een goed cijfer heeft gekregen.", "en": "She is happy because she got a good grade." }
+      ],
+      "tip": "Quick test: after 'omdat' the verb jumps to the end of that part of the sentence; after 'want' it does not."
+    },
+    {
+      "title": "Subordinate clauses with 'dat' (that)",
+      "explanation": "Use 'dat' after verbs of thinking, saying and knowing: denken, zeggen, weten, hopen, vinden. Like 'omdat', the word 'dat' sends the verb to the end of the clause: 'Ik denk dat het huiswerk moeilijk is.'",
+      "examples": [
+        { "nl": "Ik denk dat de toets moeilijk is.", "en": "I think that the test is difficult." },
+        { "nl": "De juf zegt dat mijn zoon goed leert.", "en": "The teacher says that my son studies well." },
+        { "nl": "Ik hoop dat ik mijn diploma haal.", "en": "I hope that I will get my diploma." }
+      ],
+      "tip": "If two verbs end up together at the end (like 'haal' or 'wil halen'), that is normal in a 'dat'-clause: 'Ik weet dat hij wil studeren.'"
+    },
+    {
+      "title": "Talking about study plans (future)",
+      "explanation": "To talk about education plans, combine 'gaan' + infinitive or the verbs 'willen' (to want) and 'leren/studeren'. Note the difference: 'leren' is to learn or study at school level; 'studeren' is to study in higher education (hbo/university).",
+      "examples": [
+        { "nl": "Volgend jaar ga ik naar de middelbare school.", "en": "Next year I am going to secondary school." },
+        { "nl": "Ik wil Nederlands leren omdat ik hier werk.", "en": "I want to learn Dutch because I work here." },
+        { "nl": "Mijn dochter wil later medicijnen studeren.", "en": "My daughter wants to study medicine later." }
+      ],
+      "tip": "Use 'leren' for languages and school subjects ('Ik leer Nederlands'); use 'studeren' only for higher education."
+    }
+  ],
+  "phrases": [
+    { "nl": "Mijn kind zit op de basisschool.", "en": "My child is in primary school." },
+    { "nl": "Ik leer Nederlands omdat ik wil inburgeren.", "en": "I learn Dutch because I want to integrate." },
+    { "nl": "Heeft mijn zoon zijn huiswerk gemaakt?", "en": "Has my son done his homework?" },
+    { "nl": "Wanneer is het oudergesprek?", "en": "When is the parent meeting?" },
+    { "nl": "Welk vak vind je het leukst?", "en": "Which subject do you like best?" },
+    { "nl": "Ze heeft een goed cijfer voor de toets.", "en": "She got a good grade on the test." },
+    { "nl": "Ik denk dat het een goede school is.", "en": "I think that it is a good school." },
+    { "nl": "Hij wil later aan de universiteit studeren.", "en": "He wants to study at university later." },
+    { "nl": "De les begint om half negen.", "en": "The lesson starts at half past eight." },
+    { "nl": "Ik vind Nederlands moeilijk, maar leuk.", "en": "I find Dutch difficult, but fun." },
+    { "nl": "Mijn dochter haalt dit jaar haar diploma.", "en": "My daughter is getting her diploma this year." },
+    { "nl": "Kunt u dat nog een keer uitleggen?", "en": "Could you explain that one more time?" }
+  ],
+  "dialogue": {
+    "title": "A parent talks with the teacher at a parent meeting",
+    "lines": [
+      { "speaker": "Juf", "nl": "Welkom. Fijn dat u er bent. Hoe gaat het thuis met Yusuf?", "en": "Welcome. Nice that you're here. How are things at home with Yusuf?" },
+      { "speaker": "Ouder", "nl": "Goed, dank u. Hij vindt school leuk, maar rekenen is moeilijk.", "en": "Good, thank you. He likes school, but maths is difficult." },
+      { "speaker": "Juf", "nl": "Dat klopt. Ik denk dat hij meer moet oefenen.", "en": "That's right. I think that he needs to practise more." },
+      { "speaker": "Ouder", "nl": "Maakt hij zijn huiswerk wel goed?", "en": "Does he do his homework well?" },
+      { "speaker": "Juf", "nl": "Ja, omdat hij elke dag oefent, gaat het al beter.", "en": "Yes, because he practises every day, it is already going better." },
+      { "speaker": "Ouder", "nl": "Fijn om te horen. Kan ik thuis iets doen?", "en": "Nice to hear. Can I do something at home?" },
+      { "speaker": "Juf", "nl": "U kunt samen lezen. Dat helpt omdat hij dan meer woorden leert.", "en": "You can read together. That helps because he then learns more words." },
+      { "speaker": "Ouder", "nl": "Dat doe ik. Ik hoop dat zijn cijfer dan beter wordt.", "en": "I'll do that. I hope that his grade will then get better." },
+      { "speaker": "Juf", "nl": "Dat denk ik ook. Bedankt voor uw komst.", "en": "I think so too. Thank you for coming." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short text about learning Dutch. Explain why you are learning Dutch, what you find easy or difficult, and what your plan is for the future (for example a course, an exam or your children's school).",
+    "tips": [
+      "Give reasons with 'omdat' (verb to the end) and 'want' (normal word order).",
+      "Use 'dat' after 'ik denk', 'ik hoop', 'ik vind'.",
+      "Talk about the future with 'gaan' + infinitive or 'ik wil ...'."
+    ],
+    "model": "Ik leer Nederlands omdat ik in Nederland woon en werk. Ik vind het belangrijk, want ik wil met mijn buren en collega's praten. De woorden vind ik soms moeilijk, maar spreken vind ik leuk.\n\nIk denk dat ik elke dag moet oefenen. Daarom ga ik volgende maand een cursus doen. Ik hoop dat ik dan mijn examen haal. Ook wil ik mijn kinderen helpen met hun huiswerk, omdat goed Nederlands op school heel belangrijk is."
+  }
+}

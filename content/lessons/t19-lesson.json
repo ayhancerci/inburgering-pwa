@@ -1,0 +1,78 @@
+{
+  "themeId": "link-0a2-19",
+  "intro": "This chapter is about money: spending, saving, bills and tax. It also asks whether money makes you happy. You will learn how to talk about what you spend money on, how to say something is too expensive or too cheap, and how to ask polite, formal questions about a bill or a tax assessment (belastingaanslag).",
+  "grammar": [
+    {
+      "title": "geld uitgeven aan (to spend money on)",
+      "explanation": "To say what you spend money on, use 'geld uitgeven aan' + a noun. 'Uitgeven' is a separable verb: in a main sentence the part 'uit' goes to the end. After 'aan' you use a noun.",
+      "examples": [
+        { "nl": "Ik geef veel geld uit aan eten.", "en": "I spend a lot of money on food." },
+        { "nl": "Wij geven weinig geld uit aan kleding.", "en": "We spend little money on clothes." },
+        { "nl": "Waar geef jij je geld aan uit?", "en": "What do you spend your money on?" },
+        { "nl": "Hij geeft te veel geld uit aan spelletjes.", "en": "He spends too much money on games." }
+      ],
+      "tip": "The opposite of 'uitgeven' (to spend) is 'sparen' (to save): 'Ik probeer elke maand geld te sparen.'"
+    },
+    {
+      "title": "te veel / te weinig (too much / too little)",
+      "explanation": "Use 'te veel' for too much and 'te weinig' for too little. 'Te' + an adjective also means 'too ...', for example 'te duur' (too expensive) and 'te goedkoop' (too cheap). 'Te' makes something negative: it is more than you want.",
+      "examples": [
+        { "nl": "Deze rekening is te hoog.", "en": "This bill is too high." },
+        { "nl": "Ik heb te weinig geld voor een vakantie.", "en": "I have too little money for a holiday." },
+        { "nl": "Die jas is te duur, ik koop hem niet.", "en": "That coat is too expensive, I am not buying it." },
+        { "nl": "We geven te veel geld uit aan uit eten.", "en": "We spend too much money on eating out." }
+      ],
+      "tip": "Do not confuse 'te' (too) with 'erg' or 'heel' (very). 'Heel duur' means very expensive (just a fact); 'te duur' means too expensive (a problem)."
+    },
+    {
+      "title": "Formal questions about a bill or tax assessment",
+      "explanation": "When you call an organisation or the tax office (de Belastingdienst), use the polite form 'u' and polite question openers like 'Kunt u ...?' or 'Mag ik vragen ...?'. A 'belastingaanslag' is the letter that says how much tax you must pay or get back.",
+      "examples": [
+        { "nl": "Kunt u mij uitleggen waarom dit bedrag zo hoog is?", "en": "Can you explain to me why this amount is so high?" },
+        { "nl": "Ik heb een belastingaanslag gekregen. Klopt dit bedrag?", "en": "I have received a tax assessment. Is this amount correct?" },
+        { "nl": "Wanneer moet ik deze rekening betalen?", "en": "When do I have to pay this bill?" },
+        { "nl": "Mag ik in termijnen betalen?", "en": "May I pay in instalments?" }
+      ],
+      "tip": "If you do not understand a letter, you can always say: 'Ik begrijp deze brief niet goed. Kunt u het uitleggen?'"
+    }
+  ],
+  "phrases": [
+    { "nl": "Houd je weleens geld over aan het eind van de maand?", "en": "Do you ever have money left over at the end of the month?" },
+    { "nl": "Ik probeer elke maand wat geld te sparen.", "en": "I try to save some money every month." },
+    { "nl": "Waar geef jij het meeste geld aan uit?", "en": "What do you spend the most money on?" },
+    { "nl": "Dit is te duur voor mij.", "en": "This is too expensive for me." },
+    { "nl": "Ik heb deze maand te weinig geld over.", "en": "This month I have too little money left over." },
+    { "nl": "Hoeveel moet ik betalen?", "en": "How much do I have to pay?" },
+    { "nl": "Ik heb een rekening van de energie gekregen.", "en": "I have received a bill from the energy company." },
+    { "nl": "Klopt dit bedrag wel?", "en": "Is this amount actually correct?" },
+    { "nl": "Ik heb een belastingaanslag ontvangen.", "en": "I have received a tax assessment." },
+    { "nl": "Krijg ik geld terug van de belasting?", "en": "Will I get money back from the tax office?" },
+    { "nl": "Geld maakt niet altijd gelukkig.", "en": "Money does not always make you happy." },
+    { "nl": "Kunt u mij helpen met deze brief?", "en": "Can you help me with this letter?" }
+  ],
+  "dialogue": {
+    "title": "Calling the tax office about a tax assessment",
+    "lines": [
+      { "speaker": "Medewerker", "nl": "Belastingdienst, goedemorgen. Waarmee kan ik u helpen?", "en": "Tax office, good morning. How can I help you?" },
+      { "speaker": "Fatima", "nl": "Goedemorgen. Ik heb een belastingaanslag gekregen, maar ik begrijp het bedrag niet.", "en": "Good morning. I have received a tax assessment, but I do not understand the amount." },
+      { "speaker": "Medewerker", "nl": "Geen probleem. Kunt u mij uw burgerservicenummer geven?", "en": "No problem. Can you give me your citizen service number?" },
+      { "speaker": "Fatima", "nl": "Ja, een moment. Het is 1234 56 789.", "en": "Yes, one moment. It is 1234 56 789." },
+      { "speaker": "Medewerker", "nl": "Dank u. U moet driehonderd euro betalen voor vorig jaar.", "en": "Thank you. You have to pay three hundred euros for last year." },
+      { "speaker": "Fatima", "nl": "Dat is veel. Mag ik in termijnen betalen?", "en": "That is a lot. May I pay in instalments?" },
+      { "speaker": "Medewerker", "nl": "Ja, dat kan. U kunt het in drie maanden betalen.", "en": "Yes, that is possible. You can pay it over three months." },
+      { "speaker": "Fatima", "nl": "Fijn. En wanneer moet ik beginnen met betalen?", "en": "Good. And when do I have to start paying?" },
+      { "speaker": "Medewerker", "nl": "Volgende maand. U krijgt een brief met de data.", "en": "Next month. You will get a letter with the dates." },
+      { "speaker": "Fatima", "nl": "Dank u wel voor uw hulp. Tot ziens.", "en": "Thank you for your help. Goodbye." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short email (about 50 words) in Dutch to a company. You received a bill (een rekening) that you think is too high. Politely ask why the amount is so high, ask if it is correct, and ask if you can pay in instalments.",
+    "tips": [
+      "Begin with 'Geachte heer/mevrouw,' and use the polite form 'u'.",
+      "Use 'te' to say it is too much: 'De rekening is te hoog.'",
+      "Use polite questions: 'Kunt u uitleggen ...?' and 'Mag ik in termijnen betalen?'.",
+      "End with 'Met vriendelijke groet,' and your name."
+    ],
+    "model": "Geachte heer/mevrouw, Ik heb een rekening van u gekregen voor honderdvijftig euro. Ik denk dat dit bedrag te hoog is. Kunt u mij uitleggen waarom de rekening zo hoog is? Klopt dit bedrag wel? Ik heb dit jaar te weinig geld over, dus betalen is moeilijk voor mij. Mag ik de rekening misschien in termijnen betalen? Ik hoor graag van u. Met vriendelijke groet, Omar Hassan"
+  }
+}

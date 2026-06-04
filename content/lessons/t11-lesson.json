@@ -1,0 +1,73 @@
+{
+  "themeId": "link-0a2-11",
+  "intro": "This chapter is about making plans with other people: inviting someone, accepting or politely refusing, swapping work shifts and arranging a day off. You learn to talk about the future with 'gaan' + infinitive (\"Wat gaan we doen?\") and to make polite suggestions. These language tools are useful for your social life and for arranging things with colleagues at work.",
+  "grammar": [
+    {
+      "title": "The future with 'gaan' + infinitive",
+      "explanation": "The easiest way to talk about plans and the near future in Dutch is 'gaan' + an infinitive at the end of the sentence. It is like English 'going to': 'Ik ga vanavond koken.' The verb 'gaan' is conjugated (ga, gaat, gaan) and the main verb stays in the infinitive at the end.",
+      "examples": [
+        { "nl": "Wat ga je dit weekend doen?", "en": "What are you going to do this weekend?" },
+        { "nl": "We gaan zaterdag naar de markt.", "en": "We are going to the market on Saturday." },
+        { "nl": "Ik ga vanavond een film kijken.", "en": "I am going to watch a film tonight." }
+      ],
+      "tip": "For a fixed plan with a clear time you can also use the present tense: 'Morgen werk ik niet.' Both are very common."
+    },
+    {
+      "title": "Polite suggestions: 'Zullen we ...?' and 'Kun je ...?'",
+      "explanation": "Use 'Zullen we ...?' (Shall we ...?) to suggest doing something together, and 'Kun je ...?' / 'Kunt u ...?' (Can you ...?) to ask someone to do something or whether they are able to. The main verb goes to the end of the question as an infinitive.",
+      "examples": [
+        { "nl": "Zullen we vanavond samen eten?", "en": "Shall we eat together tonight?" },
+        { "nl": "Kun je vrijdag voor mij invallen?", "en": "Can you cover my shift on Friday?" },
+        { "nl": "Zullen we om drie uur afspreken?", "en": "Shall we arrange to meet at three o'clock?" }
+      ],
+      "tip": "'Zullen we' is great for friendly invitations; 'Kunt u' is the polite form for people you address with 'u', like a manager."
+    },
+    {
+      "title": "Accepting and refusing politely",
+      "explanation": "To accept, use phrases like 'Ja, leuk!', 'Goed idee!' or 'Dat is goed.' To refuse politely, soften your answer: start with 'Sorry', give a short reason with 'want' (because) or use 'Dat komt niet uit' (that doesn't suit me). A polite 'nee' almost always has a reason.",
+      "examples": [
+        { "nl": "Ja, leuk! Hoe laat spreken we af?", "en": "Yes, nice! What time shall we meet?" },
+        { "nl": "Sorry, dat komt niet uit, want ik moet werken.", "en": "Sorry, that doesn't suit me, because I have to work." },
+        { "nl": "Misschien een andere keer?", "en": "Maybe another time?" }
+      ],
+      "tip": "Adding a reason with 'want' makes a refusal sound friendly and not rude: 'Nee, want ik ben moe.'"
+    }
+  ],
+  "phrases": [
+    { "nl": "Wat gaan we doen?", "en": "What shall we do? / What are we going to do?" },
+    { "nl": "Heb je zin om mee te gaan?", "en": "Do you feel like coming along?" },
+    { "nl": "Zullen we iets afspreken?", "en": "Shall we arrange something?" },
+    { "nl": "Ik nodig je uit voor mijn feest.", "en": "I invite you to my party." },
+    { "nl": "Wanneer ben jij vrij?", "en": "When are you free?" },
+    { "nl": "Kun je voor mij invallen?", "en": "Can you cover for me?" },
+    { "nl": "Zullen we van dienst ruilen?", "en": "Shall we swap shifts?" },
+    { "nl": "Ja, dat is een goed idee!", "en": "Yes, that's a good idea!" },
+    { "nl": "Sorry, dat komt niet uit.", "en": "Sorry, that doesn't suit me." },
+    { "nl": "Misschien een andere keer.", "en": "Maybe another time." },
+    { "nl": "Ik kan helaas niet komen.", "en": "Unfortunately I can't come." },
+    { "nl": "Hoe laat en waar spreken we af?", "en": "What time and where shall we meet?" }
+  ],
+  "dialogue": {
+    "title": "Inviting a friend and swapping a work shift",
+    "lines": [
+      { "speaker": "Nadia", "nl": "Hoi Bram! Wat ga jij dit weekend doen?", "en": "Hi Bram! What are you going to do this weekend?" },
+      { "speaker": "Bram", "nl": "Nog niets. Heb je een plan?", "en": "Nothing yet. Do you have a plan?" },
+      { "speaker": "Nadia", "nl": "Ja, zaterdag is mijn verjaardag. Zullen we samen iets eten?", "en": "Yes, Saturday is my birthday. Shall we eat something together?" },
+      { "speaker": "Bram", "nl": "Leuk! Maar zaterdag moet ik werken. Dat komt niet uit.", "en": "Nice! But on Saturday I have to work. That doesn't suit me." },
+      { "speaker": "Nadia", "nl": "Jammer. Kun je niet met een collega ruilen?", "en": "Too bad. Can't you swap with a colleague?" },
+      { "speaker": "Bram", "nl": "Misschien wel. Ik ga het Sander vragen of hij kan invallen.", "en": "Maybe I can. I'm going to ask Sander whether he can cover." },
+      { "speaker": "Nadia", "nl": "Top! Laat je het me vanavond weten?", "en": "Great! Will you let me know tonight?" },
+      { "speaker": "Bram", "nl": "Doe ik. Als het lukt, kom ik zeker.", "en": "I will. If it works out, I'll definitely come." },
+      { "speaker": "Nadia", "nl": "Fijn! We spreken om zeven uur af bij het restaurant.", "en": "Great! Let's meet at seven o'clock at the restaurant." }
+    ]
+  },
+  "writing": {
+    "prompt": "A colleague has asked you (by message) to swap shifts next Friday. You cannot, because you already have plans. Write a short reply (WhatsApp or email). Politely refuse, give a reason, and suggest another solution or another day.",
+    "tips": [
+      "Refuse politely: 'Sorry', 'Helaas', 'Dat komt niet uit'.",
+      "Give a reason with 'want': 'want ik ben die dag vrij / heb een afspraak'.",
+      "Offer an alternative with 'gaan' or 'kunnen': 'Ik kan wel zaterdag' or 'Zullen we ...?'"
+    ],
+    "model": "Hoi Lisa,\n\nBedankt voor je bericht. Sorry, maar vrijdag komt echt niet uit. Ik kan die dag niet invallen, want ik heb al een afspraak met mijn familie. Dat plan kan ik helaas niet veranderen.\n\nKun je het misschien aan Tom vragen? Anders wil ik graag op zondag voor je werken. Dan ben ik wel vrij. Laat je weten wat je wilt doen?\n\nGroetjes,\nFatma"
+  }
+}

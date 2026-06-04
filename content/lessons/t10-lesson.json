@@ -1,0 +1,73 @@
+{
+  "themeId": "link-0a2-10",
+  "intro": "This chapter is about safety, accidents and emergencies in the Netherlands. You learn how to say what happened (\"Wat is er gebeurd?\"), to call the emergency number 112, and to talk to the police or a witness. You also practise the rules of what you must, may and may not do, which is useful at work, in traffic and in daily life.",
+  "grammar": [
+    {
+      "title": "The perfect tense for events: 'Wat is er gebeurd?'",
+      "explanation": "Most Dutch verbs form the perfect tense with 'hebben', but verbs of movement or change of state use 'zijn'. The most important one for accidents is 'gebeuren' (to happen): 'Er is een ongeluk gebeurd.' Other common 'zijn'-verbs: vallen -> gevallen (to fall), gaan -> gegaan, komen -> gekomen, blijven -> gebleven.",
+      "examples": [
+        { "nl": "Wat is er gebeurd?", "en": "What happened?" },
+        { "nl": "Er is een ongeluk gebeurd op de kruising.", "en": "An accident happened at the intersection." },
+        { "nl": "Mijn buurman is van de trap gevallen.", "en": "My neighbour fell down the stairs." }
+      ],
+      "tip": "If the verb shows a movement from A to B or a change (happen, fall, become), it usually takes 'zijn', not 'hebben'."
+    },
+    {
+      "title": "moeten, mogen and niet mogen",
+      "explanation": "Use 'moeten' for what is necessary or obligatory (must/have to), 'mogen' for what is allowed (may/be allowed to), and 'mag niet / mogen niet' for what is forbidden. These are modal verbs: they take second position and the main verb goes to the end as an infinitive.",
+      "examples": [
+        { "nl": "U moet hier stoppen.", "en": "You must stop here." },
+        { "nl": "Je mag hier niet zwemmen, het is gevaarlijk.", "en": "You may not swim here, it is dangerous." },
+        { "nl": "Bij een ongeluk moet je 112 bellen.", "en": "In case of an accident you have to call 112." }
+      ],
+      "tip": "'mag niet' is softer than 'mag absoluut niet' / 'verboden', but both mean it is not allowed. On signs you often see 'verboden' (forbidden)."
+    },
+    {
+      "title": "Telling what happened in order: eerst, toen, daarna",
+      "explanation": "To describe a sequence of events, use ordering words: 'eerst' (first), 'toen' (then, at that moment, for a single past event), 'daarna' (after that) and 'ten slotte' (finally). When these words start the sentence, the verb comes right after them (inversion): 'Toen kwam de ambulance.'",
+      "examples": [
+        { "nl": "Eerst hoorde ik een harde klap.", "en": "First I heard a loud bang." },
+        { "nl": "Toen zag ik twee auto's op de weg.", "en": "Then I saw two cars on the road." },
+        { "nl": "Daarna heb ik meteen 112 gebeld.", "en": "After that I immediately called 112." }
+      ],
+      "tip": "Use 'toen' for a single moment in the past and 'dan' for the present or future; learners often mix them up."
+    }
+  ],
+  "phrases": [
+    { "nl": "Wat is er gebeurd?", "en": "What happened?" },
+    { "nl": "Is iemand gewond?", "en": "Is anyone injured?" },
+    { "nl": "Bel 112, snel!", "en": "Call 112, quickly!" },
+    { "nl": "Er is een ongeluk gebeurd.", "en": "An accident has happened." },
+    { "nl": "Wees voorzichtig!", "en": "Be careful!" },
+    { "nl": "Dat is heel gevaarlijk.", "en": "That is very dangerous." },
+    { "nl": "U mag hier niet parkeren.", "en": "You may not park here." },
+    { "nl": "Kunt u de politie waarschuwen?", "en": "Can you alert the police?" },
+    { "nl": "Ik heb alles gezien, ik ben getuige.", "en": "I saw everything, I am a witness." },
+    { "nl": "Blijf rustig en blijf staan.", "en": "Stay calm and stay where you are." },
+    { "nl": "Waar doet het pijn?", "en": "Where does it hurt?" },
+    { "nl": "De ambulance is onderweg.", "en": "The ambulance is on its way." }
+  ],
+  "dialogue": {
+    "title": "Reporting a bicycle accident to the emergency line (112)",
+    "lines": [
+      { "speaker": "Centralist", "nl": "Alarmcentrale 112, met wie spreek ik?", "en": "Emergency centre 112, who am I speaking with?" },
+      { "speaker": "Beller", "nl": "Met Omar Demir. Er is een ongeluk gebeurd op de Kerkstraat.", "en": "This is Omar Demir. An accident has happened on Kerkstraat." },
+      { "speaker": "Centralist", "nl": "Wat is er precies gebeurd?", "en": "What exactly happened?" },
+      { "speaker": "Beller", "nl": "Een auto heeft een fietser geraakt. De man is gevallen.", "en": "A car hit a cyclist. The man fell." },
+      { "speaker": "Centralist", "nl": "Is de fietser gewond?", "en": "Is the cyclist injured?" },
+      { "speaker": "Beller", "nl": "Ja, zijn been doet veel pijn. Hij kan niet staan.", "en": "Yes, his leg hurts a lot. He can't stand." },
+      { "speaker": "Centralist", "nl": "Goed. Ik stuur een ambulance. Blijf bij de man.", "en": "Alright. I'll send an ambulance. Stay with the man." },
+      { "speaker": "Beller", "nl": "Dat doe ik. Moet ik nog iets doen?", "en": "I will. Do I need to do anything else?" },
+      { "speaker": "Centralist", "nl": "Houd hem warm en blijf rustig. We komen eraan.", "en": "Keep him warm and stay calm. We're on our way." }
+    ]
+  },
+  "writing": {
+    "prompt": "You saw a small accident in your street: someone on a bike fell because a car opened its door. Write a short report (for example for your landlord or the neighbourhood app). Describe in order what happened, whether someone was injured, and what you did.",
+    "tips": [
+      "Use ordering words to structure your story: eerst, toen, daarna.",
+      "Use the perfect tense; remember 'gebeuren' and 'vallen' take 'zijn': is gebeurd, is gevallen.",
+      "Keep it short and factual: what, where, who, and what you did."
+    ],
+    "model": "Gisteren is er een klein ongeluk gebeurd in onze straat. Eerst zag ik een man op de fiets. Toen deed een automobilist plotseling zijn deur open. De fietser kon niet stoppen en is gevallen.\n\nHij was een beetje gewond aan zijn arm, maar het was niet ernstig. Daarna heb ik hem geholpen en zijn fiets vastgehouden. We hebben geen 112 gebeld, want de man kon weer lopen. Wees voorzichtig op deze plek, want het is daar gevaarlijk."
+  }
+}

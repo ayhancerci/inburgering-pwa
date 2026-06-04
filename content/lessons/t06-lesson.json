@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-06",
+  "intro": "This chapter is about getting around the Netherlands by train, bus, bike or car. You learn to tell the time, ask 'what time does it leave?', read a timetable and ask for directions. These skills help you travel to work, school or an appointment and explain it when you are running late.",
+  "grammar": [
+    {
+      "title": "Telling the time and asking 'hoe laat ...?'",
+      "explanation": "To ask the time, say 'Hoe laat is het?' (What time is it?) or 'Hoe laat vertrekt de trein?' (What time does the train leave?). For full hours use '... uur': 'het is drie uur'. Use 'half' for half past, but in Dutch 'half' points to the NEXT hour: 'half drie' = 2:30. Use 'kwart over' (quarter past) and 'kwart voor' (quarter to).",
+      "examples": [
+        { "nl": "Hoe laat is het? Het is half negen.", "en": "What time is it? It is half past eight (8:30)." },
+        { "nl": "De bus vertrekt om kwart over zeven.", "en": "The bus leaves at quarter past seven (7:15)." },
+        { "nl": "Hoe laat komt de trein aan? Om tien voor zes.", "en": "What time does the train arrive? At ten to six (5:50)." },
+        { "nl": "Ik sta om zeven uur op.", "en": "I get up at seven o'clock." }
+      ],
+      "tip": "Watch out: 'half vier' means 3:30, not 4:30. In Dutch 'half' counts towards the coming hour."
+    },
+    {
+      "title": "Separable verbs: aankomen, vertrekken, overstappen",
+      "explanation": "Many travel verbs are separable: they have a small part (a prefix) that splits off in a normal sentence and goes to the end. For example 'aankomen' (to arrive) becomes 'ik kom om negen uur aan'. The verb part is conjugated, the prefix jumps to the end. 'Vertrekken' is NOT separable, so it stays together.",
+      "examples": [
+        { "nl": "De trein komt om half tien aan in Utrecht.", "en": "The train arrives at half past nine in Utrecht." },
+        { "nl": "Ik stap in Amsterdam over op de metro.", "en": "I change to the metro in Amsterdam." },
+        { "nl": "Wanneer vertrekt de volgende bus?", "en": "When does the next bus leave?" },
+        { "nl": "We komen te laat aan door de vertraging.", "en": "We are arriving late because of the delay." }
+      ],
+      "tip": "Test if a verb is separable: put it in 'ik ...' . If a prefix jumps to the end ('ik kom ... aan'), it is separable."
+    },
+    {
+      "title": "Means of transport: met de trein/bus/fiets",
+      "explanation": "To say how you travel, use 'met' + the means of transport: 'met de trein', 'met de bus', 'met de fiets', 'met de auto'. The exception is on foot: 'te voet' or simply 'lopend'. You can also use the verb 'gaan' (to go) or 'nemen' (to take).",
+      "examples": [
+        { "nl": "Ik ga met de fiets naar mijn werk.", "en": "I go to work by bike." },
+        { "nl": "Wij reizen met de trein naar Den Haag.", "en": "We travel to The Hague by train." },
+        { "nl": "Neem je de bus of ga je te voet?", "en": "Are you taking the bus or going on foot?" },
+        { "nl": "Met de auto sta je vaak in de file.", "en": "By car you are often stuck in a traffic jam." }
+      ],
+      "tip": "It is always 'met de ...' even for het-words: 'met de openbaar vervoer' is wrong; say 'met het openbaar vervoer'. For single vehicles 'de' is almost always correct."
+    }
+  ],
+  "phrases": [
+    { "nl": "Hoe laat vertrekt de trein naar Amsterdam?", "en": "What time does the train to Amsterdam leave?" },
+    { "nl": "Op welk perron staat de trein?", "en": "Which platform is the train on?" },
+    { "nl": "Moet ik overstappen?", "en": "Do I have to change (trains)?" },
+    { "nl": "Waar is de dichtstbijzijnde bushalte?", "en": "Where is the nearest bus stop?" },
+    { "nl": "Hoe kom ik bij het station?", "en": "How do I get to the station?" },
+    { "nl": "Een kaartje naar Rotterdam, alstublieft.", "en": "A ticket to Rotterdam, please." },
+    { "nl": "De trein heeft tien minuten vertraging.", "en": "The train is ten minutes delayed." },
+    { "nl": "Sorry dat ik te laat ben, de bus reed niet.", "en": "Sorry I'm late, the bus didn't run." },
+    { "nl": "Ga ik hier links of rechts?", "en": "Do I go left or right here?" },
+    { "nl": "Is het ver lopen naar het centrum?", "en": "Is it a long walk to the centre?" },
+    { "nl": "Ik ben er over een kwartier.", "en": "I'll be there in fifteen minutes." },
+    { "nl": "Hoe lang duurt de reis ongeveer?", "en": "About how long does the journey take?" }
+  ],
+  "dialogue": {
+    "title": "A traveller asks a station employee for help with a train to Groningen",
+    "lines": [
+      { "speaker": "Karim", "nl": "Pardon, mag ik u iets vragen? Hoe laat vertrekt de trein naar Groningen?", "en": "Excuse me, may I ask you something? What time does the train to Groningen leave?" },
+      { "speaker": "Eva", "nl": "De volgende trein vertrekt om kwart voor twee, van perron vijf.", "en": "The next train leaves at quarter to two, from platform five." },
+      { "speaker": "Karim", "nl": "Moet ik onderweg overstappen?", "en": "Do I have to change on the way?" },
+      { "speaker": "Eva", "nl": "Ja, in Zwolle stapt u over op de trein naar Groningen.", "en": "Yes, in Zwolle you change to the train to Groningen." },
+      { "speaker": "Karim", "nl": "En hoe laat kom ik dan aan?", "en": "And what time do I arrive then?" },
+      { "speaker": "Eva", "nl": "Rond half vier, als er geen vertraging is.", "en": "Around half past three, if there is no delay." },
+      { "speaker": "Karim", "nl": "Oké. Waar koop ik een kaartje?", "en": "Okay. Where do I buy a ticket?" },
+      { "speaker": "Eva", "nl": "Bij de gele automaat naast de ingang.", "en": "At the yellow machine next to the entrance." },
+      { "speaker": "Karim", "nl": "Dank u wel voor uw hulp!", "en": "Thank you very much for your help!" },
+      { "speaker": "Eva", "nl": "Graag gedaan, goede reis!", "en": "You're welcome, have a good trip!" }
+    ]
+  },
+  "writing": {
+    "prompt": "You are meeting a friend in another city tomorrow but you will arrive late because of a train delay. Write a short message explaining how you travel, what time you will arrive, and that you are sorry for being late.",
+    "tips": [
+      "Use times with 'om ... uur', 'half', 'kwart over' or 'kwart voor'.",
+      "Use 'met de trein/bus' to say how you travel and separable verbs like 'aankomen' and 'overstappen'.",
+      "Apologise with 'sorry dat ik te laat ben' and give a reason."
+    ],
+    "model": "Hoi Daan, sorry, ik ben morgen wat later. Ik reis met de trein naar Eindhoven en moet in Den Bosch overstappen. Mijn trein vertrekt om kwart voor tien, maar er is vandaag veel vertraging op die lijn. Ik denk dat ik rond half twaalf aankom op het station. Kun je daar op mij wachten? We hebben daarna nog genoeg tijd voor de lunch. Tot morgen! Groetjes, Anna"
+  }
+}

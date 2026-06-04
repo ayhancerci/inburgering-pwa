@@ -1,0 +1,10 @@
+# Netlify build + SPA routing config
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single-page-app fallback: send unknown paths to index.html so /examens, /cursus etc. work on refresh
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

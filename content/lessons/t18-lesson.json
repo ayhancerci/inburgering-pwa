@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-18",
+  "intro": "This chapter is about nature, the weather, the climate and pets. The weather is a favourite small-talk topic in the Netherlands, so these words are very useful in daily conversations. You will also learn how to compare things and how to make suggestions for a day out.",
+  "grammar": [
+    {
+      "title": "Comparative and superlative (warm / warmer / het warmst)",
+      "explanation": "To compare, add '-er' for the comparative and '-st' for the superlative. With the comparative you use 'dan' (than): 'warmer dan'. The superlative usually takes 'het': 'het warmst'. A few words are irregular: goed / beter / het best, and veel / meer / het meest.",
+      "examples": [
+        { "nl": "Vandaag is het warmer dan gisteren.", "en": "Today it is warmer than yesterday." },
+        { "nl": "De zomer is het warmst.", "en": "Summer is the warmest." },
+        { "nl": "Een hond is groter dan een poes.", "en": "A dog is bigger than a cat." },
+        { "nl": "Dit is het mooiste bos van Nederland.", "en": "This is the most beautiful forest in the Netherlands." }
+      ],
+      "tip": "Long adjectives that end in '-isch' do not get '-er'; you use 'meer' instead, for example 'meer typisch'."
+    },
+    {
+      "title": "Weather expressions (het regent, het vriest)",
+      "explanation": "Many weather expressions use an impersonal 'het' as the subject, just like 'it' in English: 'het regent' (it is raining), 'het sneeuwt' (it is snowing), 'het vriest' (it is freezing). For other weather you often use 'het is': 'het is koud', 'het is zonnig'.",
+      "examples": [
+        { "nl": "Het regent de hele dag.", "en": "It is raining all day." },
+        { "nl": "Het vriest vannacht, pas op de weg.", "en": "It is freezing tonight, be careful on the road." },
+        { "nl": "Het is zonnig en warm.", "en": "It is sunny and warm." },
+        { "nl": "Morgen sneeuwt het misschien.", "en": "Tomorrow it might snow." }
+      ],
+      "tip": "To ask about the weather, say: 'Wat voor weer is het?' (What is the weather like?)."
+    },
+    {
+      "title": "Making suggestions with Zullen we ...?",
+      "explanation": "To suggest doing something together, use 'Zullen we ...?' (Shall we ...?). The verb 'zullen' comes first, then 'we', and the main verb goes to the end of the sentence in its basic form (infinitive).",
+      "examples": [
+        { "nl": "Zullen we naar het bos gaan?", "en": "Shall we go to the forest?" },
+        { "nl": "Zullen we een wandeling maken?", "en": "Shall we go for a walk?" },
+        { "nl": "Zullen we de hond uitlaten?", "en": "Shall we walk the dog?" },
+        { "nl": "Zullen we binnen blijven? Het regent.", "en": "Shall we stay inside? It is raining." }
+      ],
+      "tip": "You can answer a suggestion with 'Ja, goed idee!' (Yes, good idea!) or 'Nee, liever niet.' (No, I'd rather not.)."
+    }
+  ],
+  "phrases": [
+    { "nl": "Wat voor weer is het vandaag?", "en": "What is the weather like today?" },
+    { "nl": "Het is mooi weer, de zon schijnt.", "en": "The weather is nice, the sun is shining." },
+    { "nl": "Het regent en het waait hard.", "en": "It is raining and the wind is blowing hard." },
+    { "nl": "Wat is het koud buiten!", "en": "How cold it is outside!" },
+    { "nl": "In de winter sneeuwt het soms.", "en": "In winter it sometimes snows." },
+    { "nl": "Het klimaat verandert langzaam.", "en": "The climate is changing slowly." },
+    { "nl": "Ik hou van de natuur en van wandelen.", "en": "I love nature and walking." },
+    { "nl": "Wij hebben een hond en twee poezen.", "en": "We have a dog and two cats." },
+    { "nl": "Zullen we vandaag naar het strand gaan?", "en": "Shall we go to the beach today?" },
+    { "nl": "Ik mis de zon van mijn land.", "en": "I miss the sun of my country." },
+    { "nl": "Neem een jas mee, het wordt kouder.", "en": "Take a coat, it is getting colder." },
+    { "nl": "Morgen wordt het mooier weer.", "en": "Tomorrow the weather will be nicer." }
+  ],
+  "dialogue": {
+    "title": "Two neighbours plan a day out and talk about the weather",
+    "lines": [
+      { "speaker": "Anna", "nl": "Hoi Tom! Wat voor weer wordt het morgen?", "en": "Hi Tom! What will the weather be like tomorrow?" },
+      { "speaker": "Tom", "nl": "Het wordt mooi en warm, warmer dan vandaag.", "en": "It will be nice and warm, warmer than today." },
+      { "speaker": "Anna", "nl": "Wat fijn! Zullen we dan een wandeling in het bos maken?", "en": "How nice! Shall we then go for a walk in the forest?" },
+      { "speaker": "Tom", "nl": "Goed idee. Nemen we de hond mee?", "en": "Good idea. Shall we bring the dog?" },
+      { "speaker": "Anna", "nl": "Ja, natuurlijk. Hij vindt de natuur het leukst.", "en": "Yes, of course. He likes nature the most." },
+      { "speaker": "Tom", "nl": "Maar pas op, vannacht vriest het nog.", "en": "But be careful, tonight it is still freezing." },
+      { "speaker": "Anna", "nl": "Dan neem ik een warme jas mee.", "en": "Then I will bring a warm coat." },
+      { "speaker": "Tom", "nl": "Prima. Zullen we om tien uur gaan?", "en": "Fine. Shall we go at ten o'clock?" },
+      { "speaker": "Anna", "nl": "Ja, perfect. Tot morgen!", "en": "Yes, perfect. See you tomorrow!" }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short message (about 50 words) in Dutch to a friend. Tell them what the weather is like today, suggest an activity outside together, and say what to bring. Ask your friend if they agree.",
+    "tips": [
+      "Use weather expressions like 'het regent', 'het is zonnig' or 'het wordt warmer'.",
+      "Make a suggestion with 'Zullen we ...?' and the main verb at the end.",
+      "Use a comparative with 'dan', for example 'warmer dan gisteren'.",
+      "End with a question like 'Vind je dat goed?' (Is that okay with you?)."
+    ],
+    "model": "Hoi Lisa, Het is vandaag mooi weer! De zon schijnt en het is warmer dan gisteren. Zullen we naar het bos gaan en een wandeling maken? We kunnen ook de hond meenemen. Neem wel goede schoenen mee, want het bos is nat van de regen. Misschien wordt het later koud, dus neem ook een jas mee. Vind je dat goed? Laat het me weten! Groetjes, Sara"
+  }
+}

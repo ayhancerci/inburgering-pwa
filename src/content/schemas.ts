@@ -165,3 +165,38 @@ export const examsFileSchema = z.object({
 })
 
 export type Exam = z.infer<typeof examSchema>
+
+/* ---------- Detailed lessons (book-style content per chapter) ---------- */
+
+export const biTextSchema = z.object({ nl: z.string(), en: z.string() })
+
+export const grammarPointSchema = z.object({
+  title: z.string(),
+  explanation: z.string(),
+  examples: z.array(biTextSchema).optional(),
+  tip: z.string().optional(),
+})
+
+export const dialogueLineSchema = z.object({
+  speaker: z.string(),
+  nl: z.string(),
+  en: z.string(),
+})
+
+export const lessonSchema = z.object({
+  themeId: z.string(),
+  intro: z.string(),
+  grammar: z.array(grammarPointSchema),
+  phrases: z.array(biTextSchema),
+  dialogue: z.object({
+    title: z.string().optional(),
+    lines: z.array(dialogueLineSchema),
+  }),
+  writing: z.object({
+    prompt: z.string(),
+    tips: z.array(z.string()),
+    model: z.string().optional(),
+  }),
+})
+
+export type Lesson = z.infer<typeof lessonSchema>

@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-02",
+  "intro": "This chapter is about doing the groceries: the different shops, asking for and offering help, talking about quantities, and understanding opening hours. Shopping is a daily activity, so being able to ask 'Waar vind ik...?' or say 'Ik wil graag...' makes a real difference. You will also learn to check whether a shop is still open, which is handy in the Netherlands where many shops close early.",
+  "grammar": [
+    {
+      "title": "The regular present tense",
+      "explanation": "Most Dutch verbs follow one simple pattern in the present tense. Take the stem (the infinitive minus -en) and add: nothing for 'ik', -t for 'jij/u/hij/zij/het', and -en for 'wij/jullie/zij'. For example 'kopen' (to buy): ik koop, jij koopt, hij koopt, wij kopen. 'Betalen' (to pay): ik betaal, jij betaalt, wij betalen. Remember the spelling: a single long vowel is doubled in a closed syllable (koop, not kop).",
+      "examples": [
+        { "nl": "Ik koop brood bij de bakker.", "en": "I buy bread at the baker's." },
+        { "nl": "Zij betaalt met de pinpas.", "en": "She pays with the debit card." },
+        { "nl": "Wij halen elke zaterdag boodschappen.", "en": "We get groceries every Saturday." },
+        { "nl": "Werk jij in de supermarkt?", "en": "Do you work in the supermarket?" }
+      ],
+      "tip": "When 'jij/je' comes after the verb in a question, drop the -t: 'Koop je dit ook?' not 'Koopt je dit ook?'."
+    },
+    {
+      "title": "willen and kunnen + infinitive",
+      "explanation": "To say what you want or what is possible, use 'willen' (to want) or 'kunnen' (can/to be able to). These helper verbs are conjugated, and the main verb goes to the end of the sentence in its full infinitive form. 'Willen': ik wil, jij wilt, wij willen. 'Kunnen': ik kan, jij kunt, wij kunnen. In a shop you constantly hear and use 'Kan ik u helpen?' and 'Ik wil graag...'.",
+      "examples": [
+        { "nl": "Ik wil graag een kilo appels kopen.", "en": "I would like to buy a kilo of apples." },
+        { "nl": "Kunt u mij helpen?", "en": "Can you help me?" },
+        { "nl": "Wij willen vanavond koken.", "en": "We want to cook tonight." },
+        { "nl": "Kan ik hier met de kaart betalen?", "en": "Can I pay by card here?" }
+      ],
+      "tip": "Add 'graag' after 'wil' to sound polite: 'Ik wil graag...' means 'I would like...' rather than a blunt 'I want...'."
+    },
+    {
+      "title": "de/het, een, and simple quantities",
+      "explanation": "Every Dutch noun is either a 'de'-word or a 'het'-word: de winkel, de appel, het brood, het ei. The indefinite article 'een' (a/an) is the same for both: een winkel, een brood. For quantities you often need no article at all: 'een kilo aardappelen', 'twee liter melk', 'een pak rijst', 'drie stuks'. Note that after a quantity the noun is usually plural (appels, eieren) but mass words stay singular (melk, kaas).",
+      "examples": [
+        { "nl": "Ik neem een brood en twee broodjes.", "en": "I'll take a loaf of bread and two rolls." },
+        { "nl": "Mag ik een halve kilo kaas?", "en": "May I have half a kilo of cheese?" },
+        { "nl": "We hebben nog een pak melk nodig.", "en": "We still need a carton of milk." },
+        { "nl": "Hoeveel kost een kilo tomaten?", "en": "How much does a kilo of tomatoes cost?" }
+      ],
+      "tip": "When you learn a new noun, always learn it with 'de' or 'het'. Most words are 'de'-words, so if you are unsure, 'de' is the safer guess."
+    }
+  ],
+  "phrases": [
+    { "nl": "Kan ik u helpen?", "en": "Can I help you?" },
+    { "nl": "Nee, dank u, ik kijk even rond.", "en": "No, thank you, I'm just looking around." },
+    { "nl": "Waar vind ik de melk?", "en": "Where do I find the milk?" },
+    { "nl": "Heeft u ook verse vis?", "en": "Do you also have fresh fish?" },
+    { "nl": "Ik wil graag een kilo appels.", "en": "I would like a kilo of apples." },
+    { "nl": "Dat is alles, dank u.", "en": "That's everything, thank you." },
+    { "nl": "Hoeveel kost dit?", "en": "How much does this cost?" },
+    { "nl": "Kan ik met pin betalen?", "en": "Can I pay by debit card?" },
+    { "nl": "Hoe laat gaat de winkel dicht?", "en": "What time does the shop close?" },
+    { "nl": "Is de supermarkt op zondag open?", "en": "Is the supermarket open on Sunday?" },
+    { "nl": "Mag het een onsje meer zijn?", "en": "Can it be a little more (100g)?" },
+    { "nl": "Doet u er maar twee.", "en": "I'll take two, please." }
+  ],
+  "dialogue": {
+    "title": "At the cheese counter in a supermarket",
+    "lines": [
+      { "speaker": "Verkoper", "nl": "Goedemiddag, kan ik u helpen?", "en": "Good afternoon, can I help you?" },
+      { "speaker": "Klant", "nl": "Ja, graag. Ik wil graag wat jonge kaas.", "en": "Yes, please. I would like some young cheese." },
+      { "speaker": "Verkoper", "nl": "Zeker. Hoeveel wilt u hebben?", "en": "Certainly. How much would you like?" },
+      { "speaker": "Klant", "nl": "Een halve kilo, alstublieft.", "en": "Half a kilo, please." },
+      { "speaker": "Verkoper", "nl": "Het is iets meer, mag dat?", "en": "It's a little more, is that all right?" },
+      { "speaker": "Klant", "nl": "Ja, dat is prima. Heeft u ook olijven?", "en": "Yes, that's fine. Do you also have olives?" },
+      { "speaker": "Verkoper", "nl": "Natuurlijk, daar in de koeling. Wilt u nog iets anders?", "en": "Of course, over there in the cooler. Would you like anything else?" },
+      { "speaker": "Klant", "nl": "Nee, dat was het. Kan ik met pin betalen?", "en": "No, that was it. Can I pay by debit card?" },
+      { "speaker": "Verkoper", "nl": "Ja hoor, bij de kassa. Een fijne dag nog!", "en": "Yes, of course, at the till. Have a nice day!" }
+    ]
+  },
+  "writing": {
+    "prompt": "You are sharing a flat with a housemate. Write a short note (briefje) in Dutch asking them to do the groceries because you have to work. List 4–5 things to buy and ask them to keep the receipt. Write about 40–60 words.",
+    "tips": [
+      "Begin with a greeting like 'Hoi' and the person's name.",
+      "Use a quantity with each item: een pak melk, een kilo aardappelen, zes eieren.",
+      "Use 'kun je' to ask politely: 'Kun je ... kopen?'.",
+      "End with 'Bedankt!' and your name."
+    ],
+    "model": "Hoi Lisa, ik moet vandaag werken, dus kun jij de boodschappen doen? We hebben nodig: een pak melk, een brood, een kilo aardappelen, zes eieren en wat groente. Kun je ook kaas kopen? Bewaar alsjeblieft de bon, dan reken ik later met je af. Heel erg bedankt! Groetjes, Omar."
+  }
+}

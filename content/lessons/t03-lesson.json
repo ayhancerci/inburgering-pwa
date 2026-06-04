@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-03",
+  "intro": "This chapter is about small talk: asking how someone is, chatting about the weather, inviting people, and congratulating them. In the Netherlands a quick 'Hoe gaat het?' or a comment about the weather is a normal way to start a friendly conversation with neighbours and colleagues. You will learn the words and reactions that make these little exchanges feel natural and warm.",
+  "grammar": [
+    {
+      "title": "Demonstratives: deze, dit, die, dat",
+      "explanation": "Dutch has four words for 'this' and 'that', and the choice depends on whether the noun is a 'de'-word or a 'het'-word, and on distance. For things nearby (this/these) use 'deze' with de-words and plurals, and 'dit' with het-words: deze man, deze kinderen, dit boek. For things further away (that/those) use 'die' with de-words and plurals, and 'dat' with het-words: die vrouw, die mensen, dat huis. They are very common in conversation when you point at or refer to something.",
+      "examples": [
+        { "nl": "Deze taart is heerlijk.", "en": "This cake is delicious." },
+        { "nl": "Dit weer is echt prachtig.", "en": "This weather is really lovely." },
+        { "nl": "Die film vond ik niet leuk.", "en": "I didn't like that film." },
+        { "nl": "Dat feest was heel gezellig.", "en": "That party was very pleasant." }
+      ],
+      "tip": "Quick rule: de-word? use deze/die. het-word? use dit/dat. Near = deze/dit, far = die/dat."
+    },
+    {
+      "title": "The adjective before the noun",
+      "explanation": "When an adjective comes before a noun, it usually gets an extra -e: 'de mooie dag', 'een leuke avond', 'lekkere koffie'. There is one exception: with a 'het'-word that has 'een' (or no article) and is singular, the adjective gets NO -e: 'een leuk feest', 'lekker weer', 'een mooi huis'. With 'het' itself the -e comes back: 'het leuke feest'. So the bare form only happens with: een/no article + singular het-word.",
+      "examples": [
+        { "nl": "Wat een mooie dag!", "en": "What a beautiful day!" },
+        { "nl": "Het was een gezellig feest.", "en": "It was a pleasant party." },
+        { "nl": "Lekker weer vandaag, hè?", "en": "Nice weather today, isn't it?" },
+        { "nl": "Dat zijn aardige buren.", "en": "Those are kind neighbours." }
+      ],
+      "tip": "Default to adding -e. Only drop it for a singular het-word with 'een' or no article: 'een leuk idee', 'koud water'."
+    },
+    {
+      "title": "Common reactions: leuk, gezellig, jammer",
+      "explanation": "Dutch small talk runs on a small set of reaction words. 'Leuk!' means 'Nice!/Fun!'. 'Gezellig' describes a cosy, sociable, pleasant atmosphere and has no exact English word. 'Wat fijn' means 'How nice/lovely'. 'Jammer' means 'A pity/Too bad', and 'Gefeliciteerd!' is 'Congratulations!'. You can stretch them: 'Wat leuk!', 'Echt gezellig!', 'Wat jammer nou'.",
+      "examples": [
+        { "nl": "Wat leuk dat je er bent!", "en": "How nice that you're here!" },
+        { "nl": "Het was heel gezellig, bedankt.", "en": "It was very pleasant, thank you." },
+        { "nl": "Jammer dat je niet kon komen.", "en": "A pity that you couldn't come." },
+        { "nl": "Gefeliciteerd met je verjaardag!", "en": "Congratulations on your birthday!" }
+      ],
+      "tip": "'Gezellig' is a favourite Dutch word. Use it for anything warm and sociable: a coffee with a friend, a full living room, a nice evening."
+    }
+  ],
+  "phrases": [
+    { "nl": "Hoe gaat het met je?", "en": "How are you?" },
+    { "nl": "Goed, dank je. En met jou?", "en": "Fine, thanks. And you?" },
+    { "nl": "Het gaat wel.", "en": "I'm okay (so-so)." },
+    { "nl": "Lekker weertje, hè?", "en": "Nice weather, isn't it?" },
+    { "nl": "Wat is het koud vandaag!", "en": "How cold it is today!" },
+    { "nl": "Leuk je weer te zien!", "en": "Nice to see you again!" },
+    { "nl": "Heb je zin om langs te komen?", "en": "Do you feel like dropping by?" },
+    { "nl": "Kom je vanavond koffiedrinken?", "en": "Are you coming over for coffee tonight?" },
+    { "nl": "Wat gezellig!", "en": "How cosy/nice!" },
+    { "nl": "Gefeliciteerd!", "en": "Congratulations!" },
+    { "nl": "Veel plezier!", "en": "Have fun!" },
+    { "nl": "Doe de groeten aan je vrouw.", "en": "Say hello to your wife." }
+  ],
+  "dialogue": {
+    "title": "Two colleagues chat in the morning at work",
+    "lines": [
+      { "speaker": "Sanne", "nl": "Goedemorgen! Hoe gaat het met je?", "en": "Good morning! How are you?" },
+      { "speaker": "Bram", "nl": "Goed hoor, dank je. En met jou?", "en": "Fine, thanks. And you?" },
+      { "speaker": "Sanne", "nl": "Prima. Lekker weer vandaag, hè?", "en": "Great. Nice weather today, isn't it?" },
+      { "speaker": "Bram", "nl": "Ja, eindelijk zon! Zeg, ik ben dit weekend jarig.", "en": "Yes, sunshine at last! Say, it's my birthday this weekend." },
+      { "speaker": "Sanne", "nl": "O, alvast gefeliciteerd! Doe je iets leuks?", "en": "Oh, congratulations in advance! Are you doing something fun?" },
+      { "speaker": "Bram", "nl": "Ik geef een klein feestje thuis. Heb je zin om langs te komen?", "en": "I'm having a small party at home. Do you feel like coming?" },
+      { "speaker": "Sanne", "nl": "Wat leuk! Hoe laat moet ik er zijn?", "en": "How nice! What time should I be there?" },
+      { "speaker": "Bram", "nl": "Vanaf acht uur. Het wordt vast gezellig.", "en": "From eight o'clock. It'll surely be cosy." },
+      { "speaker": "Sanne", "nl": "Top, ik kom graag. Tot zaterdag!", "en": "Great, I'd love to come. See you Saturday!" }
+    ]
+  },
+  "writing": {
+    "prompt": "A friend has just had a baby. Write a short, warm WhatsApp message in Dutch to congratulate them. Include: congratulations, one happy reaction, a question about how mother and baby are doing, and a sentence saying you'd like to visit. Write about 40–60 words.",
+    "tips": [
+      "Open with 'Gefeliciteerd met...' to congratulate them.",
+      "Use a reaction word like 'Wat leuk!' or 'Wat fijn!'.",
+      "Ask 'Hoe gaat het met...?' about the mother and the baby.",
+      "Offer to visit with 'Mag ik een keer langskomen?'."
+    ],
+    "model": "Hoi Nadia, gefeliciteerd met jullie kleine meisje! Wat een geweldig nieuws, ik ben heel blij voor jullie. Hoe gaat het met jou en met de baby? Heb je een beetje kunnen slapen? Ik zou jullie graag een keer komen bezoeken. Mag ik volgende week langskomen met een cadeautje? Geniet van deze mooie tijd. Liefs, Maria."
+  }
+}

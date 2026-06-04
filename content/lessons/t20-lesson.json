@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-20",
+  "intro": "This chapter is about media: television, social media, the news and giving your opinion. You will learn how to ask whether someone has seen or heard something, how to say what you think, and how to agree or disagree. These words help you join everyday conversations about the news and about what people share online.",
+  "grammar": [
+    {
+      "title": "The perfect tense for media (Heb je ... gezien/gehoord?)",
+      "explanation": "To ask if someone has seen or heard something, use the present perfect: a form of 'hebben' + a past participle at the end. Important participles here are 'gezien' (seen, from zien) and 'gehoord' (heard, from horen). In a question the verb 'hebben' comes first.",
+      "examples": [
+        { "nl": "Heb je het nieuws van vanavond gezien?", "en": "Did you see tonight's news?" },
+        { "nl": "Heb je dat bericht al gehoord?", "en": "Have you heard that news item yet?" },
+        { "nl": "Ik heb een grappig filmpje gezien op mijn telefoon.", "en": "I saw a funny video on my phone." },
+        { "nl": "We hebben gisteren het journaal gekeken.", "en": "We watched the TV news yesterday." }
+      ],
+      "tip": "'Zien' is for seeing with your eyes; 'kijken naar' is for watching on purpose, like a programme: 'Ik kijk naar het journaal.'"
+    },
+    {
+      "title": "Giving your opinion (Ik vind dat ...)",
+      "explanation": "To give your opinion, use 'Ik vind ...' + an adjective, or 'Ik vind dat ...' + a sentence. Note: after 'dat' the verb moves to the end of that part of the sentence. 'Ik denk dat ...' works the same way.",
+      "examples": [
+        { "nl": "Ik vind het nieuws vaak te negatief.", "en": "I find the news often too negative." },
+        { "nl": "Ik vind dat sociale media gevaarlijk kunnen zijn.", "en": "I think that social media can be dangerous." },
+        { "nl": "Ik denk dat dit programma erg leuk is.", "en": "I think that this programme is very nice." },
+        { "nl": "Wat vind jij van dit bericht?", "en": "What do you think of this news item?" }
+      ],
+      "tip": "Remember the word order after 'dat': the verb goes to the end. Compare 'Het is waar' with 'Ik denk dat het waar is'."
+    },
+    {
+      "title": "Agreeing and disagreeing (Ik ben het ermee eens)",
+      "explanation": "To agree, say 'Ik ben het ermee eens' (I agree with it) or 'Ik ben het met je eens' (I agree with you). To disagree, add 'niet': 'Ik ben het er niet mee eens.' These are fixed expressions, so learn them as whole sentences.",
+      "examples": [
+        { "nl": "Ik ben het helemaal met je eens.", "en": "I completely agree with you." },
+        { "nl": "Ik ben het er niet mee eens.", "en": "I do not agree with it." },
+        { "nl": "Daar ben ik het mee eens.", "en": "I agree with that." },
+        { "nl": "Sorry, maar dat vind ik niet.", "en": "Sorry, but I don't think so." }
+      ],
+      "tip": "To react more softly, you can say 'Je hebt gelijk' (You are right) or 'Dat klopt' (That's correct)."
+    }
+  ],
+  "phrases": [
+    { "nl": "Heb je het journaal van vanavond gezien?", "en": "Did you see tonight's TV news?" },
+    { "nl": "Waar gaat het bericht over?", "en": "What is the news item about?" },
+    { "nl": "Ik lees het nieuws meestal online.", "en": "I usually read the news online." },
+    { "nl": "Ik volg dat account op sociale media.", "en": "I follow that account on social media." },
+    { "nl": "Heb je dit filmpje al gedeeld?", "en": "Have you shared this video yet?" },
+    { "nl": "Wat vind jij van dit programma?", "en": "What do you think of this programme?" },
+    { "nl": "Ik vind dat er te veel reclame op tv is.", "en": "I think there is too much advertising on TV." },
+    { "nl": "Ik ben het helemaal met je eens.", "en": "I completely agree with you." },
+    { "nl": "Daar ben ik het niet mee eens.", "en": "I do not agree with that." },
+    { "nl": "Het staat vandaag in alle kranten.", "en": "It is in all the newspapers today." },
+    { "nl": "Ik denk dat sociale media veel tijd kosten.", "en": "I think social media takes a lot of time." },
+    { "nl": "Heb je daar iets over gehoord?", "en": "Have you heard anything about that?" }
+  ],
+  "dialogue": {
+    "title": "Two colleagues talk about the news and social media",
+    "lines": [
+      { "speaker": "Joost", "nl": "Heb je het nieuws van vanochtend gehoord?", "en": "Did you hear this morning's news?" },
+      { "speaker": "Leila", "nl": "Nee, nog niet. Waar gaat het over?", "en": "No, not yet. What is it about?" },
+      { "speaker": "Joost", "nl": "Over het weer. Het wordt dit weekend heel warm.", "en": "About the weather. It will be very warm this weekend." },
+      { "speaker": "Leila", "nl": "O, dat heb ik wel op sociale media gezien.", "en": "Oh, I did see that on social media." },
+      { "speaker": "Joost", "nl": "Ik vind dat er soms te veel nieuws op mijn telefoon staat.", "en": "I think there is sometimes too much news on my phone." },
+      { "speaker": "Leila", "nl": "Daar ben ik het helemaal mee eens. Het is te veel.", "en": "I completely agree with that. It is too much." },
+      { "speaker": "Joost", "nl": "Ik kijk daarom liever naar het journaal op tv.", "en": "That is why I prefer to watch the TV news." },
+      { "speaker": "Leila", "nl": "Ik ook. Maar ik deel soms wel een leuk filmpje met vrienden.", "en": "Me too. But I do sometimes share a fun video with friends." },
+      { "speaker": "Joost", "nl": "Dat doe ik ook. Stuur me dat filmpje maar!", "en": "I do that too. Just send me that video!" }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short post or message (about 50 words) in Dutch for a group chat. Tell your friends about something you saw or heard in the news or on social media. Give your opinion about it and ask what the others think.",
+    "tips": [
+      "Use the perfect tense: 'Ik heb ... gezien' or 'Ik heb ... gehoord'.",
+      "Give your opinion with 'Ik vind dat ...' and remember the verb goes to the end after 'dat'.",
+      "Use 'Ik volg', 'Ik deel' or 'online' to talk about social media.",
+      "End with a question like 'Wat vinden jullie?' (What do you all think?)."
+    ],
+    "model": "Hoi allemaal, Ik heb vanochtend op sociale media een filmpje over het klimaat gezien. Ik vind dat een belangrijk onderwerp. In het journaal hoorde ik dat veel mensen zich zorgen maken. Ik denk dat we allemaal iets kunnen doen, bijvoorbeeld minder met de auto rijden. Ik volg ook een account met goede tips. Ik deel het filmpje hier in de groep. Wat vinden jullie ervan? Groetjes, Nadia"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-08",
+  "intro": "This chapter is about your house, your street and your neighbourhood. You learn to talk about housemates and neighbours, to compare places and people, and to give your opinion with reasons. These skills help you get along with the people around you and join local activities like a language café.",
+  "grammar": [
+    {
+      "title": "The comparative: groter, leuker, beter",
+      "explanation": "To compare two things, add '-er' to the adjective: groot becomes groter (bigger), leuk becomes leuker (nicer). Some words are irregular: goed becomes beter (better), veel becomes meer (more). To say than, use 'dan': 'Mijn kamer is groter dan jouw kamer.'",
+      "examples": [
+        { "nl": "Mijn nieuwe buurt is rustiger dan de oude.", "en": "My new neighbourhood is quieter than the old one." },
+        { "nl": "De huur hier is hoger dan in mijn vorige huis.", "en": "The rent here is higher than in my previous house." },
+        { "nl": "Deze buurman is aardiger dan mijn vorige buurman.", "en": "This neighbour is nicer than my previous neighbour." },
+        { "nl": "Het taalcafé is leuker dan ik dacht.", "en": "The language café is nicer than I thought." }
+      ],
+      "tip": "Watch the spelling: 'groot' has a double o, but 'groter' has one o. Keep two consonants short, e.g. 'dik' becomes 'dikker'."
+    },
+    {
+      "title": "Equality: (net) zo ... als",
+      "explanation": "To say two things are equal, use 'zo ... als' (as ... as) around the adjective: 'Mijn kamer is zo groot als jouw kamer.' Add 'net' to stress that they are exactly the same: 'net zo groot als'. Use 'niet zo ... als' to say one is less.",
+      "examples": [
+        { "nl": "Mijn fiets is net zo oud als die van jou.", "en": "My bike is just as old as yours." },
+        { "nl": "Deze straat is zo rustig als een dorp.", "en": "This street is as quiet as a village." },
+        { "nl": "Het appartement is niet zo groot als het huis.", "en": "The apartment is not as big as the house." },
+        { "nl": "Mijn buurvrouw is net zo vriendelijk als de buurman.", "en": "My (female) neighbour is just as friendly as the (male) neighbour." }
+      ],
+      "tip": "With 'zo ... als' the adjective stays in its basic form (not the -er form): say 'zo groot als', never 'zo groter als'."
+    },
+    {
+      "title": "Giving opinions with vinden and reasons with omdat",
+      "explanation": "Use the verb 'vinden' to give an opinion: 'Ik vind mijn buurt gezellig' (I find my neighbourhood pleasant). To add a reason, use 'omdat' (because). After 'omdat' the verb jumps to the END of the clause: 'Ik vind het fijn, omdat de buren aardig zijn.'",
+      "examples": [
+        { "nl": "Ik vind het taalcafé leuk omdat ik daar veel mensen ontmoet.", "en": "I like the language café because I meet a lot of people there." },
+        { "nl": "Wij vinden onze straat fijn omdat het er rustig is.", "en": "We like our street because it is quiet there." },
+        { "nl": "Ik vind mijn huisgenoot vervelend omdat hij veel lawaai maakt.", "en": "I find my housemate annoying because he makes a lot of noise." },
+        { "nl": "Zij vindt de buurt onveilig omdat er weinig licht is.", "en": "She finds the neighbourhood unsafe because there is little light." }
+      ],
+      "tip": "After 'omdat' the conjugated verb goes to the very end: 'omdat de buren aardig zijn', not 'omdat de buren zijn aardig'."
+    }
+  ],
+  "phrases": [
+    { "nl": "Ik woon samen met twee huisgenoten.", "en": "I live together with two housemates." },
+    { "nl": "Wat vind jij van de buurt?", "en": "What do you think of the neighbourhood?" },
+    { "nl": "Ik vind het hier fijn wonen.", "en": "I like living here." },
+    { "nl": "Mijn buurman maakt 's avonds veel lawaai.", "en": "My neighbour makes a lot of noise in the evening." },
+    { "nl": "Kunt u alstublieft wat zachter doen?", "en": "Could you please be a bit quieter?" },
+    { "nl": "In het taalcafé oefen ik mijn Nederlands.", "en": "At the language café I practise my Dutch." },
+    { "nl": "Deze buurt is rustiger dan het centrum.", "en": "This neighbourhood is quieter than the centre." },
+    { "nl": "De buren helpen elkaar vaak.", "en": "The neighbours often help each other." },
+    { "nl": "Ik ben tevreden met mijn huisgenoten.", "en": "I am happy with my housemates." },
+    { "nl": "Er zijn veel activiteiten in de buurt.", "en": "There are a lot of activities in the neighbourhood." },
+    { "nl": "Ik heb een probleem met mijn buurman, omdat hij rommel maakt.", "en": "I have a problem with my neighbour, because he makes a mess." },
+    { "nl": "Mijn straat is net zo gezellig als vroeger.", "en": "My street is just as pleasant as it used to be." }
+  ],
+  "dialogue": {
+    "title": "Two neighbours chat about their street and a noise problem",
+    "lines": [
+      { "speaker": "Marit", "nl": "Hoi! Jij bent net verhuisd, hè? Hoe bevalt de buurt?", "en": "Hi! You just moved in, right? How do you like the neighbourhood?" },
+      { "speaker": "Youssef", "nl": "Heel goed, dank je. Ik vind het hier rustiger dan in mijn vorige straat.", "en": "Very good, thanks. I find it quieter here than in my previous street." },
+      { "speaker": "Marit", "nl": "Ja, het is een fijne buurt, omdat de mensen elkaar helpen.", "en": "Yes, it's a nice neighbourhood, because people help each other." },
+      { "speaker": "Youssef", "nl": "Dat merk ik. Alleen 's nachts hoor ik soms harde muziek.", "en": "I notice that. Only at night I sometimes hear loud music." },
+      { "speaker": "Marit", "nl": "Dat is de buurman op nummer twaalf. Hij maakt vaak lawaai.", "en": "That's the neighbour at number twelve. He often makes noise." },
+      { "speaker": "Youssef", "nl": "Wat kan ik daaraan doen?", "en": "What can I do about that?" },
+      { "speaker": "Marit", "nl": "Praat eerst rustig met hem. Vraag of hij de muziek zachter wil zetten.", "en": "First talk calmly with him. Ask if he will turn the music down." },
+      { "speaker": "Youssef", "nl": "Goed idee. Dat is beter dan meteen klagen bij de verhuurder.", "en": "Good idea. That is better than complaining to the landlord straight away." },
+      { "speaker": "Marit", "nl": "Precies. En kom anders naar het buurtfeest, dan leer je iedereen kennen.", "en": "Exactly. And otherwise come to the neighbourhood party, then you'll get to know everyone." },
+      { "speaker": "Youssef", "nl": "Leuk, dat doe ik! Tot dan.", "en": "Nice, I'll do that! See you then." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short message to a new friend describing your neighbourhood. Say what you like, compare it with another place you know, and give a reason for your opinion using 'omdat'.",
+    "tips": [
+      "Use 'ik vind ...' to give your opinion about the neighbourhood.",
+      "Use a comparative like 'rustiger' or 'leuker' with 'dan' to compare two places.",
+      "Add a reason with 'omdat' and put the verb at the end of that part."
+    ],
+    "model": "Hoi Selin, ik wil je graag iets over mijn buurt vertellen. Ik vind het hier heel fijn wonen. Mijn straat is veel rustiger dan mijn oude straat in de stad. Er is een mooi park naast mijn huis en de buren zijn aardig. Ik ga vaak naar het taalcafé, omdat ik daar nieuwe mensen ontmoet en mijn Nederlands oefen. Kom je een keer langs? Dan laat ik je de buurt zien. Groetjes, Anna"
+  }
+}

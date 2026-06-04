@@ -1,0 +1,74 @@
+{
+  "themeId": "link-0a2-13",
+  "intro": "This chapter is about the household: the appliances you use every day, gas and electricity, and how to save money on your energy bill. You also learn how to explain that something is broken and how to arrange a repair. These are very practical skills, because in the Netherlands you often have to call a company or a landlord yourself to get something fixed.",
+  "grammar": [
+    {
+      "title": "Conditional sentences with 'als' (if/when)",
+      "explanation": "Use 'als' to say what happens under a certain condition. After 'als' the verb goes to the end of that part. When the 'als'-part comes first, the second part starts with the verb (inversion), so the conjugated verb and subject swap places.",
+      "examples": [
+        { "nl": "Als de wasmachine kapot is, bel ik de monteur.", "en": "If the washing machine is broken, I call the repairman." },
+        { "nl": "Als je het licht uitzet, bespaar je stroom.", "en": "If you switch off the light, you save power." },
+        { "nl": "Ik kook op gas als ik thuis ben.", "en": "I cook on gas when I am at home." }
+      ],
+      "tip": "When the sentence starts with 'Als ...', the second part begins with the verb: 'Als het koud is, zet ik de verwarming aan.' Remember: verb-second after the comma."
+    },
+    {
+      "title": "'kunnen niet zonder' + noun (can't do without)",
+      "explanation": "Use 'kunnen niet zonder' followed by a noun to say you cannot manage without something. The opposite, 'kunnen prima/best zonder', means you can manage just fine without it. The noun comes right after 'zonder' with no extra verb.",
+      "examples": [
+        { "nl": "Ik kan niet zonder mijn koelkast.", "en": "I can't do without my fridge." },
+        { "nl": "We kunnen niet zonder elektriciteit.", "en": "We can't do without electricity." },
+        { "nl": "Hij kan prima zonder televisie.", "en": "He can manage just fine without a television." }
+      ],
+      "tip": "'zonder' means 'without' and is always followed directly by a noun: zonder gas, zonder water, zonder internet."
+    },
+    {
+      "title": "Modal verbs review: moeten, kunnen, willen",
+      "explanation": "Modal verbs say whether something is necessary (moeten = must/have to), possible/able (kunnen = can/be able to), or wanted (willen = want to). The modal verb is conjugated and stands in second position; the main verb stays in the infinitive at the end of the sentence.",
+      "examples": [
+        { "nl": "Ik moet de rekening vandaag betalen.", "en": "I have to pay the bill today." },
+        { "nl": "Kun je de afwasmachine repareren?", "en": "Can you repair the dishwasher?" },
+        { "nl": "We willen een nieuw apparaat kopen.", "en": "We want to buy a new appliance." }
+      ],
+      "tip": "The second verb is always an infinitive at the end: 'Ik wil de monteur bellen.' (not 'Ik wil bel ...')."
+    }
+  ],
+  "phrases": [
+    { "nl": "De wasmachine is kapot.", "en": "The washing machine is broken." },
+    { "nl": "Het apparaat doet het niet meer.", "en": "The appliance doesn't work anymore." },
+    { "nl": "Kunt u langskomen om het te repareren?", "en": "Can you come by to repair it?" },
+    { "nl": "Wanneer kunt u langskomen?", "en": "When can you come by?" },
+    { "nl": "Er is geen stroom in huis.", "en": "There is no power in the house." },
+    { "nl": "De rekening voor gas en licht is hoog.", "en": "The bill for gas and electricity is high." },
+    { "nl": "Hoe kan ik energie besparen?", "en": "How can I save energy?" },
+    { "nl": "Zet het licht uit als je weggaat.", "en": "Switch off the light when you leave." },
+    { "nl": "Ik gebruik de afwasmachine iedere dag.", "en": "I use the dishwasher every day." },
+    { "nl": "Dat is een goede tip!", "en": "That's a good tip!" },
+    { "nl": "Hoeveel kost het om het te maken?", "en": "How much does it cost to fix it?" }
+  ],
+  "dialogue": {
+    "title": "Calling a repair service because the washing machine is broken",
+    "lines": [
+      { "speaker": "Monteur", "nl": "Goedemiddag, met Reparatieservice De Vries.", "en": "Good afternoon, this is Repair Service De Vries." },
+      { "speaker": "Anna", "nl": "Goedemiddag. Mijn wasmachine is kapot. Hij doet het niet meer.", "en": "Good afternoon. My washing machine is broken. It doesn't work anymore." },
+      { "speaker": "Monteur", "nl": "Wat is er precies aan de hand?", "en": "What exactly is the matter?" },
+      { "speaker": "Anna", "nl": "Als ik hem aanzet, gebeurt er niets. Er komt geen water in.", "en": "When I switch it on, nothing happens. No water comes in." },
+      { "speaker": "Monteur", "nl": "Dat klinkt vervelend. Kan ik morgenochtend langskomen?", "en": "That sounds annoying. Can I come by tomorrow morning?" },
+      { "speaker": "Anna", "nl": "Ja, graag. Hoe laat kunt u er zijn?", "en": "Yes, please. What time can you be there?" },
+      { "speaker": "Monteur", "nl": "Rond tien uur. Wat kost een reparatie ongeveer?", "en": "Around ten o'clock. What does a repair cost roughly?" },
+      { "speaker": "Anna", "nl": "Dat wilde ik net vragen. Kunt u dat van tevoren zeggen?", "en": "That's just what I wanted to ask. Can you tell me that in advance?" },
+      { "speaker": "Monteur", "nl": "Het voorrijden kost vijftig euro, daarna zie ik wat er kapot is.", "en": "The call-out charge is fifty euros, then I will see what is broken." },
+      { "speaker": "Anna", "nl": "Prima. Tot morgen om tien uur, bedankt!", "en": "Fine. See you tomorrow at ten o'clock, thank you!" }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short email to your landlord (verhuurder) in Dutch. Your fridge is broken and you want it repaired. Explain what is wrong, ask the landlord to arrange a repair, and say when you are at home.",
+    "tips": [
+      "Start with 'Beste' and the name, and end with 'Met vriendelijke groet' and your name.",
+      "Use 'kapot' and 'het doet het niet meer' to describe the problem.",
+      "Use a polite request: 'Kunt u ...?' or 'Zou u ... kunnen?'",
+      "Say when you are home using 'Ik ben thuis op ...' or an 'als'-sentence."
+    ],
+    "model": "Beste meneer Jansen,\n\nIk schrijf u omdat mijn koelkast kapot is. Hij doet het sinds gisteren niet meer en mijn eten wordt warm. Kunt u alstublieft een monteur sturen om de koelkast te repareren? Als het kan, graag deze week. Ik ben thuis op maandag en woensdag, de hele dag. U kunt mij ook bellen op 06-12345678.\n\nAlvast bedankt.\n\nMet vriendelijke groet,\nAnna de Boer"
+  }
+}

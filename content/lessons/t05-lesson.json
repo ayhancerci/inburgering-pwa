@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-05",
+  "intro": "This chapter teaches you how to talk about your home: the rooms, the furniture and who lives where. You also learn the language of renting, which is very useful in the Netherlands where many people rent a house or a room. By the end you can describe your home, say what is in each room and write a short message to a landlord or housemate.",
+  "grammar": [
+    {
+      "title": "Saying what there is: er is / er zijn",
+      "explanation": "Use 'er is' (there is) with a singular noun and 'er zijn' (there are) with a plural noun. 'Er' introduces something new in the conversation, usually with 'een' or a number. In a question you turn it around: 'Is er ...?' / 'Zijn er ...?'.",
+      "examples": [
+        { "nl": "Er is een grote tuin achter het huis.", "en": "There is a big garden behind the house." },
+        { "nl": "Er zijn drie slaapkamers in dit appartement.", "en": "There are three bedrooms in this apartment." },
+        { "nl": "Is er een lift in het gebouw?", "en": "Is there a lift in the building?" },
+        { "nl": "Er zijn geen meubels in de woonkamer.", "en": "There is no furniture in the living room." }
+      ],
+      "tip": "Choose 'is' or 'zijn' by looking at the noun: one thing = 'er is', more than one = 'er zijn'."
+    },
+    {
+      "title": "Prepositions of place: op, in, naast, onder, boven",
+      "explanation": "These small words tell you where something is. 'op' = on, 'in' = in, 'naast' = next to, 'onder' = under, 'boven' = above. They usually come before 'de'/'het' + the place. With verbs of position you often use 'staan' (stands), 'liggen' (lies) or 'hangen' (hangs).",
+      "examples": [
+        { "nl": "De lamp hangt boven de tafel.", "en": "The lamp hangs above the table." },
+        { "nl": "De schoenen staan naast de deur.", "en": "The shoes are (standing) next to the door." },
+        { "nl": "De kat ligt onder de bank.", "en": "The cat is lying under the sofa." },
+        { "nl": "Het boek ligt op het bureau in de slaapkamer.", "en": "The book is on the desk in the bedroom." }
+      ],
+      "tip": "Dutch prefers a specific position verb: things that stand up use 'staan', flat things use 'liggen', and things on the wall 'hangen'."
+    },
+    {
+      "title": "Possessives: mijn, jouw, zijn, haar, ons",
+      "explanation": "Possessives say whose something is: mijn (my), jouw/je (your), zijn (his), haar (her), ons/onze (our), jullie (your, plural), hun (their). Only 'ons/onze' changes: use 'ons' before a het-word and 'onze' before a de-word or any plural.",
+      "examples": [
+        { "nl": "Mijn kamer is klein maar gezellig.", "en": "My room is small but cosy." },
+        { "nl": "Is dit jouw fiets in de gang?", "en": "Is this your bike in the hallway?" },
+        { "nl": "Haar slaapkamer is boven, naast de badkamer.", "en": "Her bedroom is upstairs, next to the bathroom." },
+        { "nl": "Onze tuin is groot, maar ons balkon is klein.", "en": "Our garden is big, but our balcony is small." }
+      ],
+      "tip": "Remember: 'ons huis' (het-word) but 'onze tuin' (de-word). All the other possessives never change."
+    }
+  ],
+  "phrases": [
+    { "nl": "Ik woon in een appartement op de tweede verdieping.", "en": "I live in an apartment on the second floor." },
+    { "nl": "Dit is de woonkamer en daar is de keuken.", "en": "This is the living room and over there is the kitchen." },
+    { "nl": "Hoeveel kamers heeft je huis?", "en": "How many rooms does your house have?" },
+    { "nl": "De huur is 750 euro per maand.", "en": "The rent is 750 euros per month." },
+    { "nl": "Ik zoek een kamer in het centrum.", "en": "I am looking for a room in the centre." },
+    { "nl": "Mag ik het huis even bekijken?", "en": "May I have a look at the house?" },
+    { "nl": "Het appartement is gemeubileerd.", "en": "The apartment is furnished." },
+    { "nl": "Er is een gedeelde keuken en badkamer.", "en": "There is a shared kitchen and bathroom." },
+    { "nl": "Wij gaan volgende maand verhuizen.", "en": "We are going to move (house) next month." },
+    { "nl": "De buren zijn aardig en rustig.", "en": "The neighbours are nice and quiet." },
+    { "nl": "Kun je de huurprijs nog wat verlagen?", "en": "Can you lower the rent a bit more?" },
+    { "nl": "Mijn slaapkamer kijkt uit op de tuin.", "en": "My bedroom looks out over the garden." }
+  ],
+  "dialogue": {
+    "title": "Sophie views a room she wants to rent and asks the landlord questions",
+    "lines": [
+      { "speaker": "Sophie", "nl": "Goedemiddag, ik kom voor de kamer. Mag ik hem bekijken?", "en": "Good afternoon, I'm here about the room. May I have a look at it?" },
+      { "speaker": "Bram", "nl": "Natuurlijk, kom binnen. Dit is de kamer, op de eerste verdieping.", "en": "Of course, come in. This is the room, on the first floor." },
+      { "speaker": "Sophie", "nl": "Wat een mooie, lichte kamer. Is er ook een bureau?", "en": "What a nice, bright room. Is there a desk too?" },
+      { "speaker": "Bram", "nl": "Ja, er is een bureau en een kast. Het bed staat onder het raam.", "en": "Yes, there is a desk and a wardrobe. The bed is under the window." },
+      { "speaker": "Sophie", "nl": "En de keuken, is die gedeeld?", "en": "And the kitchen, is it shared?" },
+      { "speaker": "Bram", "nl": "Ja, de keuken en de badkamer deel je met twee huisgenoten.", "en": "Yes, you share the kitchen and bathroom with two housemates." },
+      { "speaker": "Sophie", "nl": "Oké. Hoeveel is de huur per maand?", "en": "Okay. How much is the rent per month?" },
+      { "speaker": "Bram", "nl": "De huur is 550 euro, inclusief gas, water en licht.", "en": "The rent is 550 euros, including gas, water and electricity." },
+      { "speaker": "Sophie", "nl": "Dat klinkt goed. De kamer is precies wat ik zoek.", "en": "That sounds good. The room is exactly what I'm looking for." },
+      { "speaker": "Bram", "nl": "Fijn! Stuur me een mailtje, dan maken we een afspraak.", "en": "Great! Send me an email and then we'll make an appointment." }
+    ]
+  },
+  "writing": {
+    "prompt": "You have just moved into a new apartment. Write a short message to a friend describing your new home: which rooms there are, what is in your favourite room, and one thing you like about the neighbourhood.",
+    "tips": [
+      "Use 'er is' and 'er zijn' to list what the home has.",
+      "Use prepositions like 'op', 'in', 'naast' and 'onder' to say where things are.",
+      "Use possessives such as 'mijn' and 'onze' to talk about your things."
+    ],
+    "model": "Hoi Lisa, ik woon nu in mijn nieuwe appartement! Er zijn twee slaapkamers, een keuken en een grote woonkamer. Mijn favoriete kamer is de woonkamer. Er staat een bank naast het raam en boven de tafel hangt een mooie lamp. De keuken is klein, maar gezellig. Onze buurt is heel rustig en er is een park naast het huis. Kom je snel langs? Groetjes, Anna"
+  }
+}

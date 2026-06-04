@@ -1,0 +1,73 @@
+{
+  "themeId": "link-0a2-09",
+  "intro": "This chapter is about shopping for goods in the Netherlands: buying clothes, dealing with the wrong size, returning a parcel and asking for your money back. You learn to talk about things you have already done (\"Where did you buy that laptop?\"), which is essential when something is broken or you want a refund. These skills help you handle shops, online orders and second-hand purchases with confidence.",
+  "grammar": [
+    {
+      "title": "The perfect tense with hebben (regular verbs)",
+      "explanation": "To talk about the past, Dutch often uses the perfect tense: a form of 'hebben' + the past participle (voltooid deelwoord) at the END of the sentence. For regular verbs the participle is ge- + stem + t/d. Use -t after the soft consonants of 't kofschip (t, k, f, s, ch, p) and -d after the rest. Example: kopen -> stem 'koop', but watch the spelling: gekocht is irregular; betalen -> betaald, maken -> gemaakt.",
+      "examples": [
+        { "nl": "Ik heb deze jas online betaald.", "en": "I paid for this coat online." },
+        { "nl": "Heb je de bon bewaard?", "en": "Did you keep the receipt?" },
+        { "nl": "We hebben een nieuwe kast gemaakt.", "en": "We made/assembled a new cupboard." }
+      ],
+      "tip": "The helping verb (heb/hebt/heeft/hebben) stays in second position; the participle goes to the very end: 'Ik heb gisteren een broek gekocht.'"
+    },
+    {
+      "title": "Common irregular past participles",
+      "explanation": "Many high-frequency verbs have irregular participles you simply have to learn. In shopping situations the most useful are: kopen -> gekocht (bought), brengen -> gebracht (brought/taken), betalen -> betaald (regular but very common), krijgen -> gekregen (got/received), and doen -> gedaan (done).",
+      "examples": [
+        { "nl": "Waar heb je die laptop gekocht?", "en": "Where did you buy that laptop?" },
+        { "nl": "Ik heb de schoenen naar de winkel gebracht.", "en": "I took the shoes to the shop." },
+        { "nl": "Ik heb mijn geld terug gekregen.", "en": "I got my money back." }
+      ],
+      "tip": "Make a small list of irregular participles and review them daily; they appear constantly in everyday Dutch."
+    },
+    {
+      "title": "Separable verbs with 'terug' (terugbrengen, terugsturen)",
+      "explanation": "Many return-related verbs are separable: terugbrengen (to bring back), terugsturen (to send back), terugkrijgen (to get back). In a normal main sentence the prefix 'terug' splits off and goes to the end: 'Ik breng de jas terug.' In the perfect tense the participle joins together again with ge- in the middle: terug + ge + bracht = teruggebracht.",
+      "examples": [
+        { "nl": "Ik stuur het pakket morgen terug.", "en": "I will send the parcel back tomorrow." },
+        { "nl": "Heb je de broek al teruggebracht?", "en": "Have you already brought the trousers back?" },
+        { "nl": "Je kunt het gratis terugsturen.", "en": "You can send it back for free." }
+      ],
+      "tip": "With a modal verb (kunnen, willen, moeten) the separable verb stays whole at the end: 'Ik wil deze jurk terugbrengen.'"
+    }
+  ],
+  "phrases": [
+    { "nl": "Waar heb je dat gekocht?", "en": "Where did you buy that?" },
+    { "nl": "Ik wil deze broek graag ruilen.", "en": "I would like to exchange these trousers." },
+    { "nl": "Heeft u dit in maat 40?", "en": "Do you have this in size 40?" },
+    { "nl": "Deze schoenen passen niet goed.", "en": "These shoes don't fit well." },
+    { "nl": "Kan ik mijn geld terugkrijgen?", "en": "Can I get my money back?" },
+    { "nl": "Het is na een week kapotgegaan.", "en": "It broke after one week." },
+    { "nl": "Heb ik nog garantie op dit product?", "en": "Do I still have a warranty on this product?" },
+    { "nl": "Mag ik de bon zien, alstublieft?", "en": "May I see the receipt, please?" },
+    { "nl": "Ik heb het online besteld.", "en": "I ordered it online." },
+    { "nl": "Ik wil het pakket terugsturen.", "en": "I want to send the parcel back." },
+    { "nl": "Hoeveel korting krijg ik?", "en": "How much discount do I get?" },
+    { "nl": "Ik koop het liever tweedehands.", "en": "I prefer to buy it second-hand." }
+  ],
+  "dialogue": {
+    "title": "Returning a broken laptop charger at the shop",
+    "lines": [
+      { "speaker": "Klant", "nl": "Goedemiddag, ik heb hier vorige week een oplader gekocht.", "en": "Good afternoon, I bought a charger here last week." },
+      { "speaker": "Verkoper", "nl": "Goedemiddag. Wat is er aan de hand?", "en": "Good afternoon. What's the matter?" },
+      { "speaker": "Klant", "nl": "Hij is na drie dagen kapotgegaan. Hij doet het niet meer.", "en": "It broke after three days. It doesn't work anymore." },
+      { "speaker": "Verkoper", "nl": "Vervelend. Heeft u de bon bij u?", "en": "That's annoying. Do you have the receipt with you?" },
+      { "speaker": "Klant", "nl": "Ja, hier. Ik heb met pin betaald.", "en": "Yes, here. I paid by card." },
+      { "speaker": "Verkoper", "nl": "Prima. Wilt u een nieuwe oplader of uw geld terug?", "en": "Fine. Would you like a new charger or your money back?" },
+      { "speaker": "Klant", "nl": "Ik wil graag mijn geld terug, alstublieft.", "en": "I would like my money back, please." },
+      { "speaker": "Verkoper", "nl": "Geen probleem. Ik zet het bedrag terug op uw rekening.", "en": "No problem. I'll put the amount back into your account." },
+      { "speaker": "Klant", "nl": "Dank u wel. Fijne dag nog!", "en": "Thank you. Have a nice day!" }
+    ]
+  },
+  "writing": {
+    "prompt": "You ordered a jacket online, but it is too small and the color is wrong. Write a short email to the web shop. Explain what you bought, what the problem is, and what you want (an exchange or a refund). Ask how you can send the parcel back.",
+    "tips": [
+      "Start with 'Geachte heer/mevrouw,' and end with 'Met vriendelijke groet' and your name.",
+      "Use the perfect tense to say what you did: 'Ik heb ... besteld / gekocht / betaald.'",
+      "Be clear about what you want: 'Ik wil graag ruilen' or 'Ik wil mijn geld terug.'"
+    ],
+    "model": "Geachte heer/mevrouw,\n\nVorige week heb ik een blauwe jas bij u besteld. Ik heb de jas gisteren ontvangen, maar er zijn twee problemen. De maat is te klein en de kleur is zwart, niet blauw. Ik heb de jas dus niet gedragen.\n\nIk wil graag een nieuwe jas in maat L en in de kleur blauw. Kunt u mij vertellen hoe ik het pakket gratis kan terugsturen? De bon en het bestelnummer stuur ik mee.\n\nAlvast bedankt voor uw hulp.\n\nMet vriendelijke groet,\nSara Yıldız"
+  }
+}

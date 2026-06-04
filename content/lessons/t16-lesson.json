@@ -1,0 +1,74 @@
+{
+  "themeId": "link-0a2-16",
+  "intro": "This chapter is about official life in the Netherlands: separating your waste, dealing with the town hall, arranging things online and getting insurance. You learn polite, formal language with 'u' and how to understand and give instructions. This is essential because much of Dutch admin, from passports to insurance, you have to arrange yourself, often online or by appointment.",
+  "grammar": [
+    {
+      "title": "Formal 'u' and polite requests (Kunt u ...? / Zou u ...?)",
+      "explanation": "With strangers and at official places you use the polite 'u' instead of 'je/jij'. The verb takes the same form as 'hij/zij': 'u kunt', 'u heeft/hebt', 'u woont'. To make a request polite, start with 'Kunt u ...?' (Can you ...?) or the even softer 'Zou u ... kunnen?' (Could you ...?).",
+      "examples": [
+        { "nl": "Kunt u mij helpen?", "en": "Can you help me?" },
+        { "nl": "Zou u dat kunnen herhalen?", "en": "Could you repeat that?" },
+        { "nl": "Heeft u een afspraak gemaakt?", "en": "Have you made an appointment?" }
+      ],
+      "tip": "Add 'alstublieft' (the formal form of 'alsjeblieft') to sound extra polite: 'Kunt u mij alstublieft helpen?'"
+    },
+    {
+      "title": "The imperative for instructions",
+      "explanation": "The imperative gives a command or instruction. You normally use the verb stem (the 'ik'-form without -t): 'Gooi het glas in de groene container.' For the formal 'u' you add the stem + 't' and put 'u' after it: 'Gooit u het hier in.' On signs and forms the short stem form is most common.",
+      "examples": [
+        { "nl": "Scheid uw afval: papier, glas en plastic.", "en": "Separate your waste: paper, glass and plastic." },
+        { "nl": "Maak online een afspraak met de gemeente.", "en": "Make an appointment with the municipality online." },
+        { "nl": "Vul het formulier in en onderteken het.", "en": "Fill in the form and sign it." }
+      ],
+      "tip": "Separable verbs split in the imperative: 'invullen' becomes 'Vul ... in', 'aanzetten' becomes 'Zet ... aan'."
+    },
+    {
+      "title": "'moet u online regelen' (you have to arrange it online)",
+      "explanation": "Many official tasks must be done online or at the town hall. Use 'moeten' with the formal 'u' and put the main verb (often 'regelen', 'aanvragen', 'doorgeven') as an infinitive at the end. 'online' and similar words stand just before that infinitive.",
+      "examples": [
+        { "nl": "U moet uw verhuizing online doorgeven.", "en": "You have to report your move online." },
+        { "nl": "De verzekering moet u zelf regelen.", "en": "You have to arrange the insurance yourself." },
+        { "nl": "U kunt uw paspoort online aanvragen.", "en": "You can apply for your passport online." }
+      ],
+      "tip": "Useful verbs for admin: regelen (arrange), aanvragen (apply for), doorgeven (report/pass on), invullen (fill in)."
+    }
+  ],
+  "phrases": [
+    { "nl": "In Nederland scheiden we het afval.", "en": "In the Netherlands we separate the waste." },
+    { "nl": "Waar moet ik dit weggooien?", "en": "Where do I have to throw this away?" },
+    { "nl": "Het glas gaat in de groene container.", "en": "The glass goes in the green container." },
+    { "nl": "Ik wil een afspraak maken bij de gemeente.", "en": "I want to make an appointment at the municipality." },
+    { "nl": "Kunt u mij helpen, alstublieft?", "en": "Can you help me, please?" },
+    { "nl": "Zou u dat kunnen uitleggen?", "en": "Could you explain that?" },
+    { "nl": "Moet ik dit online regelen?", "en": "Do I have to arrange this online?" },
+    { "nl": "Ik kom mijn paspoort ophalen.", "en": "I am coming to collect my passport." },
+    { "nl": "Ben ik goed verzekerd?", "en": "Am I well insured?" },
+    { "nl": "Welke documenten moet ik meenemen?", "en": "Which documents do I have to bring?" },
+    { "nl": "Hoe vraag ik een verzekering aan?", "en": "How do I apply for an insurance?" }
+  ],
+  "dialogue": {
+    "title": "At the town hall to register a change of address",
+    "lines": [
+      { "speaker": "Anna", "nl": "Goedemiddag. Ik ben verhuisd en wil mijn nieuwe adres doorgeven.", "en": "Good afternoon. I have moved and want to report my new address." },
+      { "speaker": "Ambtenaar", "nl": "Dat kan. Heeft u een afspraak gemaakt?", "en": "That's possible. Have you made an appointment?" },
+      { "speaker": "Anna", "nl": "Nee, dat wist ik niet. Moet ik dat online doen?", "en": "No, I didn't know that. Do I have to do that online?" },
+      { "speaker": "Ambtenaar", "nl": "Ja, normaal moet u uw verhuizing online doorgeven of een afspraak maken.", "en": "Yes, normally you have to report your move online or make an appointment." },
+      { "speaker": "Anna", "nl": "Sorry. Zou u mij kunnen uitleggen hoe dat werkt?", "en": "Sorry. Could you explain to me how that works?" },
+      { "speaker": "Ambtenaar", "nl": "Natuurlijk. Ga naar de website van de gemeente en log in met uw DigiD.", "en": "Of course. Go to the website of the municipality and log in with your DigiD." },
+      { "speaker": "Anna", "nl": "En welke gegevens moet ik invullen?", "en": "And which details do I have to fill in?" },
+      { "speaker": "Ambtenaar", "nl": "Vul uw oude en nieuwe adres in en de datum van de verhuizing.", "en": "Fill in your old and new address and the date of the move." },
+      { "speaker": "Anna", "nl": "Duidelijk. Moet ik daarna nog langskomen?", "en": "Clear. Do I have to come by afterwards?" },
+      { "speaker": "Ambtenaar", "nl": "Nee, dat hoeft niet. U krijgt een bevestiging per e-mail.", "en": "No, that's not necessary. You will receive a confirmation by email." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short, polite email in Dutch to your municipality (gemeente). Ask one question about arranging something official, for example how to report a change of address, apply for a passport, or make an appointment. Use the formal 'u'.",
+    "tips": [
+      "Use the formal 'u' and polite requests: 'Kunt u ...?' or 'Zou u ...?'",
+      "Begin with 'Geachte heer/mevrouw' and end with 'Met vriendelijke groet'.",
+      "Use admin verbs: regelen, aanvragen, doorgeven, een afspraak maken.",
+      "Ask clearly what you have to do and whether it must be done online."
+    ],
+    "model": "Geachte heer/mevrouw,\n\nIk ben onlangs naar een nieuw adres in uw gemeente verhuisd. Ik wil graag mijn verhuizing doorgeven, maar ik weet niet precies hoe dat moet. Moet ik dit online regelen met mijn DigiD, of kan ik ook een afspraak maken op het gemeentehuis?\n\nZou u mij kunnen uitleggen welke documenten ik moet meenemen? Alvast hartelijk bedankt voor uw hulp.\n\nMet vriendelijke groet,\nAnna de Boer"
+  }
+}

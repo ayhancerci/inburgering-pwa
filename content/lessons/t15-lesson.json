@@ -1,0 +1,74 @@
+{
+  "themeId": "link-0a2-15",
+  "intro": "This chapter is about free time outside the home: joining a club, doing sport, hobbies and describing how people look. You learn how to say what you have to do, what you do not need to do, and what you feel like doing. This is useful for signing up at a gym or sports club and for making small talk about hobbies and appearance.",
+  "grammar": [
+    {
+      "title": "'moeten' versus 'hoeven niet te' (must vs. don't have to)",
+      "explanation": "'moeten' means 'must / have to'. To say something is NOT necessary, Dutch does not use 'moeten niet' but 'hoeven niet te' + infinitive. 'moeten niet' means 'must not / shouldn't'. With 'hoeven' you add 'te' before the main verb at the end.",
+      "examples": [
+        { "nl": "Je moet je eerst inschrijven.", "en": "You have to register first." },
+        { "nl": "Je hoeft geen lid te worden om mee te doen.", "en": "You don't have to become a member to join in." },
+        { "nl": "Je hoeft niet elke dag te sporten.", "en": "You don't have to do sport every day." }
+      ],
+      "tip": "Need-not = 'hoeven niet te'. Must-not = 'mogen niet' or 'moeten niet'. Don't mix them up!"
+    },
+    {
+      "title": "'houden van' and 'zin hebben in'",
+      "explanation": "'houden van' means 'to like / love' something in general and is followed by a noun or 'om ... te' + infinitive. 'zin hebben in' means 'to feel like / fancy' something right now and is followed by a noun; with a verb you use 'zin hebben om ... te'.",
+      "examples": [
+        { "nl": "Ik houd van zwemmen en fietsen.", "en": "I like swimming and cycling." },
+        { "nl": "Heb je zin in een wedstrijd?", "en": "Do you feel like a match?" },
+        { "nl": "Ik heb vandaag geen zin om te sporten.", "en": "I don't feel like doing sport today." }
+      ],
+      "tip": "'houden van' = a general preference; 'zin hebben in' = a wish at this moment. You can write 'houd' or 'hou'; both are correct."
+    },
+    {
+      "title": "Describing appearance with adjectives",
+      "explanation": "To describe how someone looks, use 'er ... uitzien' (to look) or 'hebben' for features. An adjective before a de-word or a plural gets an extra -e; before a het-word with 'een' it stays without -e. Use 'lang', 'kort', 'blond', 'donker' and so on.",
+      "examples": [
+        { "nl": "Hij heeft kort, donker haar en een baard.", "en": "He has short, dark hair and a beard." },
+        { "nl": "Zij ziet er sportief uit.", "en": "She looks sporty." },
+        { "nl": "Mijn vriendin heeft lang blond haar.", "en": "My friend has long blond hair." }
+      ],
+      "tip": "'haar' is a het-word, so after 'een' the adjective has no -e: 'een kort kapsel', but 'het korte haar'."
+    }
+  ],
+  "phrases": [
+    { "nl": "Ik wil lid worden van de sportschool.", "en": "I want to become a member of the gym." },
+    { "nl": "Hoeveel kost de contributie per maand?", "en": "How much is the membership fee per month?" },
+    { "nl": "Moet ik me van tevoren inschrijven?", "en": "Do I have to register in advance?" },
+    { "nl": "Je hoeft geen lid te worden.", "en": "You don't have to become a member." },
+    { "nl": "Ik sport drie keer per week.", "en": "I do sport three times a week." },
+    { "nl": "Heb je zin om mee te gaan?", "en": "Do you feel like coming along?" },
+    { "nl": "Wat is jouw hobby?", "en": "What is your hobby?" },
+    { "nl": "Ik houd van lezen en wandelen.", "en": "I like reading and walking." },
+    { "nl": "De wedstrijd begint om drie uur.", "en": "The match starts at three o'clock." },
+    { "nl": "Wat is je haar lang geworden!", "en": "Your hair has got so long!" },
+    { "nl": "Hij ziet er sportief uit.", "en": "He looks sporty." }
+  ],
+  "dialogue": {
+    "title": "At the reception of a gym to become a member",
+    "lines": [
+      { "speaker": "Medewerker", "nl": "Goedemorgen, kan ik u helpen?", "en": "Good morning, can I help you?" },
+      { "speaker": "Anna", "nl": "Ja, ik wil graag lid worden. Wat kost de contributie?", "en": "Yes, I would like to become a member. What does the membership fee cost?" },
+      { "speaker": "Medewerker", "nl": "Vijfentwintig euro per maand. U mag eerst gratis een proefles doen.", "en": "Twenty-five euros a month. You may first do a free trial lesson." },
+      { "speaker": "Anna", "nl": "Wat fijn. Moet ik me daarvoor inschrijven?", "en": "How nice. Do I have to register for that?" },
+      { "speaker": "Medewerker", "nl": "Voor de proefles hoeft u zich niet in te schrijven. U komt gewoon langs.", "en": "For the trial lesson you don't have to register. You just come by." },
+      { "speaker": "Anna", "nl": "Ik houd van zwemmen. Is er ook een zwembad?", "en": "I like swimming. Is there a swimming pool too?" },
+      { "speaker": "Medewerker", "nl": "Nee, alleen een sportschool. Heeft u zin in een rondleiding?", "en": "No, only a gym. Do you feel like a tour?" },
+      { "speaker": "Anna", "nl": "Ja, graag. Hoe laat zijn jullie open?", "en": "Yes, please. What time are you open?" },
+      { "speaker": "Medewerker", "nl": "Van zeven uur 's ochtends tot tien uur 's avonds.", "en": "From seven in the morning until ten in the evening." },
+      { "speaker": "Anna", "nl": "Perfect, dan kom ik morgen een proefles doen.", "en": "Perfect, then I'll come and do a trial lesson tomorrow." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short text in Dutch for a friend about your free time. Describe one hobby or sport you like, say how often you do it, and mention whether you are a member of a club. Add one sentence about why you enjoy it.",
+    "tips": [
+      "Use 'houden van' for what you like and 'zin hebben in' for what you fancy doing.",
+      "Use 'moeten' and 'hoeven niet te' to say what you do and don't have to do.",
+      "Say how often with 'een keer / twee keer per week'.",
+      "Keep it simple and use the present tense."
+    ],
+    "model": "Hoi Sam,\n\nIn mijn vrije tijd doe ik graag aan sport. Ik houd vooral van hardlopen. Ik ren twee keer per week in het park, meestal op dinsdag en zaterdag. Daarvoor hoef ik geen lid te worden van een club; ik ga gewoon naar buiten.\n\nIk vind het fijn omdat ik dan even niet aan werk denk en lekker buiten ben. Heb jij zin om een keer mee te gaan?\n\nGroetjes,\nAnna"
+  }
+}

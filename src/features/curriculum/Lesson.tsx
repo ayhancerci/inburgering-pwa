@@ -1,0 +1,147 @@
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { Panel } from '../../components/ui'
+import type { Lesson as LessonType, Theme } from '../../content/schemas'
+
+function ModelAnswer({ model }: { model: string }) {
+  const [show, setShow] = useState(false)
+  if (!show) {
+    return (
+      <button
+        onClick={() => setShow(true)}
+        className="text-xs font-semibold text-sky-600 underline"
+      >
+        Toon voorbeeldantwoord
+      </button>
+    )
+  }
+  return (
+    <div className="rounded-xl bg-emerald-50 p-3">
+      <p className="mb-1 text-xs font-bold uppercase text-emerald-700">Voorbeeldantwoord</p>
+      <p className="text-sm leading-relaxed text-slate-700">{model}</p>
+    </div>
+  )
+}
+
+function SectionTitle({ children }: { children: string }) {
+  return (
+    <h2 className="px-1 text-sm font-bold uppercase tracking-wide text-slate-500">{children}</h2>
+  )
+}
+
+export function Lesson({
+  theme,
+  lesson,
+  onBack,
+}: {
+  theme: Theme
+  lesson: LessonType
+  onBack: () => void
+}) {
+  return (
+    <div className="space-y-5">
+      <button onClick={onBack} className="text-sm font-semibold text-slate-500">
+        ← Terug naar cursus
+      </button>
+
+      <div>
+        <p className="text-xs font-bold uppercase text-yellow-600">Thema {theme.number}</p>
+        <h1 className="text-2xl font-extrabold text-slate-900">{theme.titleNl}</h1>
+        <p className="text-sm text-slate-500">{theme.titleEn}</p>
+      </div>
+
+      <Panel className="p-4">
+        <p className="text-sm leading-relaxed text-slate-700">{lesson.intro}</p>
+      </Panel>
+
+      <section className="space-y-2">
+        <SectionTitle>📘 Grammatica &amp; uitleg</SectionTitle>
+        {lesson.grammar.map((g, i) => (
+          <Panel key={i} className="space-y-2 p-4">
+            <h3 className="font-bold text-slate-900">{g.title}</h3>
+            <p className="text-sm leading-relaxed text-slate-700">{g.explanation}</p>
+            {g.examples && g.examples.length > 0 && (
+              <div className="space-y-1 rounded-xl bg-slate-50 p-3">
+                {g.examples.map((ex, j) => (
+                  <p key={j} className="text-sm">
+                    <span className="font-semibold text-slate-800">{ex.nl}</span>
+                    <span className="text-slate-400"> — {ex.en}</span>
+                  </p>
+                ))}
+              </div>
+            )}
+            {g.tip && (
+              <p className="rounded-xl bg-yellow-50 px-3 py-2 text-xs leading-relaxed text-slate-700">
+                💡 {g.tip}
+              </p>
+            )}
+          </Panel>
+        ))}
+      </section>
+
+      <section className="space-y-2">
+        <SectionTitle>🗣️ Handige zinnen</SectionTitle>
+        <Panel className="divide-y divide-slate-100">
+          {lesson.phrases.map((p, i) => (
+            <div key={i} className="px-4 py-2">
+              <span className="block text-sm font-semibold text-slate-800">{p.nl}</span>
+              <span className="block text-xs text-slate-400">{p.en}</span>
+            </div>
+          ))}
+        </Panel>
+      </section>
+
+      <section className="space-y-2">
+        <SectionTitle>💬 Voorbeelddialoog</SectionTitle>
+        <Panel className="space-y-3 p-4">
+          {lesson.dialogue.title && (
+            <p className="text-xs italic text-slate-400">{lesson.dialogue.title}</p>
+          )}
+          {lesson.dialogue.lines.map((l, i) => (
+            <div key={i}>
+              <p className="text-sm text-slate-800">
+                <span className="font-bold text-yellow-700">{l.speaker}: </span>
+                {l.nl}
+              </p>
+              <p className="text-xs text-slate-400">{l.en}</p>
+            </div>
+          ))}
+        </Panel>
+      </section>
+
+      <section className="space-y-2">
+        <SectionTitle>✍️ Schrijfoefening</SectionTitle>
+        <Panel className="space-y-3 p-4">
+          <p className="text-sm leading-relaxed text-slate-700">{lesson.writing.prompt}</p>
+          {lesson.writing.tips.length > 0 && (
+            <ul className="list-disc space-y-1 pl-5 text-xs text-slate-500">
+              {lesson.writing.tips.map((t, i) => (
+                <li key={i}>{t}</li>
+              ))}
+            </ul>
+          )}
+          {lesson.writing.model && <ModelAnswer model={lesson.writing.model} />}
+        </Panel>
+      </section>
+
+      <div className="flex flex-wrap gap-2">
+        {theme.deckId && (
+          <Link
+            to={`/flashcards?deck=${theme.deckId}`}
+            className="rounded-xl bg-slate-900 px-3 py-2 text-xs font-semibold text-white"
+          >
+            🃏 Woorden oefenen
+          </Link>
+        )}
+        {theme.quizId && (
+          <Link
+            to={`/quiz?quiz=${theme.quizId}`}
+            className="rounded-xl bg-yellow-400 px-3 py-2 text-xs font-semibold text-slate-900"
+          >
+            ✍️ Quiz
+          </Link>
+        )}
+      </div>
+    </div>
+  )
+}

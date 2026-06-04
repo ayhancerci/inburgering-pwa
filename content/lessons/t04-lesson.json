@@ -1,0 +1,77 @@
+{
+  "themeId": "link-0a2-04",
+  "intro": "This chapter is all about food: meals during the day, saying what you like and dislike, talking about healthy eating, and ordering when you eat out. Food is a great topic for everyday conversation, and you will often be asked 'Wat eet je graag?' or 'Lust je vis?'. By the end you will be able to express your preferences and order politely in a café or restaurant.",
+  "grammar": [
+    {
+      "title": "graag, liever, het liefst",
+      "explanation": "To say what you like doing, Dutch does not use a verb like 'to like' with another verb; instead it adds the word 'graag' to a normal sentence: 'Ik drink graag thee' (I like drinking tea). For comparisons use 'liever' (rather/prefer) and for the favourite use 'het liefst' (most of all). So: 'Ik eet graag pasta, maar ik eet liever rijst, en het liefst eet ik aardappels.' These three words form a neat ladder: graag → liever → het liefst.",
+      "examples": [
+        { "nl": "Ik drink graag koffie bij het ontbijt.", "en": "I like drinking coffee at breakfast." },
+        { "nl": "Ik eet liever vis dan vlees.", "en": "I prefer eating fish to meat." },
+        { "nl": "Het liefst eet ik verse groente.", "en": "Most of all I like eating fresh vegetables." },
+        { "nl": "Wat drink je het liefst?", "en": "What do you most like to drink?" }
+      ],
+      "tip": "'Liever ... dan ...' is the pattern for 'prefer ... to ...': 'Ik drink liever water dan cola.'"
+    },
+    {
+      "title": "lusten versus eten and drinken",
+      "explanation": "Dutch has a special verb 'lusten' that means 'to like the taste of (food or drink)'. It is mostly used for what you enjoy or do not enjoy eating: 'Ik lust geen spruitjes' (I don't like (the taste of) Brussels sprouts). For the simple action you still use 'eten' (to eat) and 'drinken' (to drink): 'Ik eet om zes uur' (I eat at six). So 'lusten' is about taste/preference, 'eten/drinken' about the activity. 'Lusten' conjugates regularly: ik lust, jij lust, wij lusten.",
+      "examples": [
+        { "nl": "Lust je vis?", "en": "Do you like (eating) fish?" },
+        { "nl": "Nee, ik lust geen vis.", "en": "No, I don't like fish." },
+        { "nl": "Wij eten meestal om half zeven.", "en": "We usually eat at half past six." },
+        { "nl": "Wat wil je drinken?", "en": "What do you want to drink?" }
+      ],
+      "tip": "Use 'lekker' to say something tastes good: 'Dit soepje is echt lekker!' To say you don't like a food, 'Ik lust geen...' is more natural than 'Ik vind ... niet lekker'."
+    },
+    {
+      "title": "er with quantities (er één, er geen)",
+      "explanation": "When you answer a question with a number or 'no' but leave out the noun, Dutch adds the little word 'er'. 'Wil je een appel?' — 'Ja, ik wil er twee' (Yes, I want two of them). 'Heb je nog koekjes?' — 'Nee, ik heb er geen meer' (No, I don't have any left). The word order is: verb + (subject) + er + ... + quantity. 'Er' replaces the noun and means 'of them'. It is very common and makes your Dutch sound natural.",
+      "examples": [
+        { "nl": "Hoeveel broodjes wil je? Ik wil er twee.", "en": "How many rolls do you want? I want two (of them)." },
+        { "nl": "Zijn er nog appels? Nee, er zijn er geen meer.", "en": "Are there any apples left? No, there are none left." },
+        { "nl": "Neem je nog een koekje? Ja, ik neem er nog één.", "en": "Are you having another biscuit? Yes, I'll have one more." },
+        { "nl": "Wil je eieren? Ik heb er nog zes.", "en": "Do you want eggs? I still have six (of them)." }
+      ],
+      "tip": "Whenever you would say 'one of them' or 'none' in English without repeating the noun, you almost always need 'er' in Dutch: 'ik wil er één', 'ik heb er geen'."
+    }
+  ],
+  "phrases": [
+    { "nl": "Wat eten we vanavond?", "en": "What are we eating tonight?" },
+    { "nl": "Ik heb honger.", "en": "I'm hungry." },
+    { "nl": "Ik heb dorst.", "en": "I'm thirsty." },
+    { "nl": "Wat eet je graag?", "en": "What do you like to eat?" },
+    { "nl": "Lust je dat?", "en": "Do you like (eating) that?" },
+    { "nl": "Het smaakt heerlijk!", "en": "It tastes delicious!" },
+    { "nl": "Eet smakelijk!", "en": "Enjoy your meal!" },
+    { "nl": "Mag ik de menukaart, alstublieft?", "en": "May I have the menu, please?" },
+    { "nl": "Ik wil graag de soep van de dag.", "en": "I would like the soup of the day." },
+    { "nl": "Voor mij een glas water, graag.", "en": "A glass of water for me, please." },
+    { "nl": "Mogen we afrekenen?", "en": "Could we pay (the bill)?" },
+    { "nl": "Het was heel lekker, dank u.", "en": "It was very tasty, thank you." }
+  ],
+  "dialogue": {
+    "title": "Ordering lunch in a café",
+    "lines": [
+      { "speaker": "Ober", "nl": "Goedemiddag, hebben jullie al gekozen?", "en": "Good afternoon, have you already chosen?" },
+      { "speaker": "Lena", "nl": "Bijna. Wat is de soep van de dag?", "en": "Almost. What is the soup of the day?" },
+      { "speaker": "Ober", "nl": "Vandaag is het tomatensoep. Heel lekker.", "en": "Today it's tomato soup. Very tasty." },
+      { "speaker": "Lena", "nl": "Lekker, die neem ik. En een broodje kaas erbij.", "en": "Nice, I'll have that. And a cheese roll with it." },
+      { "speaker": "Ober", "nl": "En voor u, meneer?", "en": "And for you, sir?" },
+      { "speaker": "Joost", "nl": "Ik lust geen soep. Doet u mij maar een tosti.", "en": "I don't like soup. I'll just have a toasted sandwich." },
+      { "speaker": "Ober", "nl": "Prima. Wilt u er iets bij drinken?", "en": "Fine. Would you like something to drink with it?" },
+      { "speaker": "Joost", "nl": "Twee koffie, graag. En een glas water.", "en": "Two coffees, please. And a glass of water." },
+      { "speaker": "Ober", "nl": "Komt eraan. Eet straks smakelijk!", "en": "Coming right up. Enjoy your meal shortly!" }
+    ]
+  },
+  "writing": {
+    "prompt": "You have invited a friend over for dinner. Write a short email in Dutch to ask what they like and don't like to eat, so you can plan the meal. Include: a greeting, the invitation with day and time, a question about what they like (graag/lust), a question about anything they can't eat, and a friendly closing. Write about 50–70 words.",
+    "tips": [
+      "Use 'Wat eet je graag?' and 'Lust je ...?' to ask about preferences.",
+      "Ask about allergies or restrictions: 'Is er iets wat je niet mag eten?'.",
+      "Give a clear day and time for the dinner.",
+      "Close warmly with 'Ik kijk ernaar uit!' (I'm looking forward to it!)."
+    ],
+    "model": "Hoi David, leuk dat je zaterdag komt eten! Ik wil graag iets lekkers koken. Wat eet je graag? Lust je vis, of eet je liever vlees? En is er iets wat je niet mag of niet lust? Ik eet zelf het liefst vegetarisch, maar dat hoeft niet. We beginnen om zeven uur. Laat maar weten! Ik kijk ernaar uit. Groetjes, Sofie."
+  }
+}

@@ -6,6 +6,7 @@ import {
   curriculumFileSchema,
   resourceFileSchema,
   examsFileSchema,
+  lessonSchema,
   type Deck,
   type Card,
   type Question,
@@ -15,6 +16,7 @@ import {
   type Theme,
   type Resource,
   type Exam,
+  type Lesson,
 } from './schemas'
 
 export interface QuizDef {
@@ -35,12 +37,14 @@ export interface LoadedContent {
   themes: Theme[]
   resources: Resource[]
   exams: Exam[]
+  lessons: Lesson[]
 }
 
 // Vite resolves these globs at build time; values are the parsed JSON objects.
 const deckFiles = import.meta.glob('/content/decks/*.json', { eager: true, import: 'default' })
 const quizFiles = import.meta.glob('/content/quizzes/*.json', { eager: true, import: 'default' })
 const mockFiles = import.meta.glob('/content/mocks/*.json', { eager: true, import: 'default' })
+const lessonFiles = import.meta.glob('/content/lessons/*.json', { eager: true, import: 'default' })
 const planFiles = import.meta.glob('/content/plan.json', { eager: true, import: 'default' })
 const checklistFiles = import.meta.glob('/content/checklist.json', { eager: true, import: 'default' })
 const curriculumFiles = import.meta.glob('/content/curriculum.json', { eager: true, import: 'default' })
@@ -80,8 +84,8 @@ export function loadContent(): LoadedContent {
     for (const q of qs) questions.push({ ...q, quizId: id })
   }
 
-  // Mock/practice exams: their questions go into the question pool (queried by quizId),
-  // but they are NOT added to `quizzes` so they don't show up in the normal Oefenen list.
+  // Mock/practice exams: questions join the pool (queried by quizId) but are NOT
+  // added to `quizzes`, so they don't appear in the normal Oefenen list.
   for (const [path, raw] of Object.entries(mockFiles)) {
     const parsed = quizFileSchema.safeParse(raw)
     if (!parsed.success) {
@@ -89,6 +93,16 @@ export function loadContent(): LoadedContent {
       continue
     }
     for (const q of parsed.data.questions) questions.push({ ...q, quizId: parsed.data.id })
+  }
+
+  const lessons: Lesson[] = []
+  for (const [path, raw] of Object.entries(lessonFiles)) {
+    const parsed = lessonSchema.safeParse(raw)
+    if (!parsed.success) {
+      console.error(`[content] invalid lesson file: ${path}`, parsed.error.issues)
+      continue
+    }
+    lessons.push(parsed.data)
   }
 
   let planWeeks: PlanWeek[] = []
@@ -147,6 +161,7 @@ export function loadContent(): LoadedContent {
     themes,
     resources,
     exams,
+    lessons,
   }
   return cache
 }

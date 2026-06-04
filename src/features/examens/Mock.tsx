@@ -4,7 +4,7 @@ import { useActiveProfile } from '../../store/profile'
 import { saveQuizAttempt } from '../../db/repo'
 import { Panel, Button, ProgressBar, cx } from '../../components/ui'
 import { QuestionInput, isCorrect, answerToText, correctText, type Answer } from '../quiz/Quiz'
-import { speak } from '../../lib/tts'
+import { play } from '../../lib/audio'
 import type { Question } from '../../content/schemas'
 
 function fmt(totalSec: number): string {
@@ -20,14 +20,14 @@ function AudioBlock({ text }: { text: string }) {
       <div className="flex items-center gap-2">
         <button
           type="button"
-          onClick={() => speak(text)}
+          onClick={() => play(text)}
           className="inline-flex items-center gap-2 rounded-xl bg-sky-600 px-4 py-2 text-sm font-bold text-white"
         >
           ▶ Speel het fragment af
         </button>
         <button
           type="button"
-          onClick={() => speak(text)}
+          onClick={() => play(text)}
           aria-label="Opnieuw afspelen"
           className="rounded-xl bg-white px-3 py-2 text-sm ring-1 ring-slate-200"
         >

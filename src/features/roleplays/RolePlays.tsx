@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { loadContent } from '../../content'
 import { Panel, Button, cx } from '../../components/ui'
 import { SpeakButton } from '../../components/SpeakButton'
-import { speakSequence } from '../../lib/tts'
+import { playSequence } from '../../lib/audio'
 import { useTranslationPref } from '../../store/prefs'
 import type { RolePlay } from '../../content/schemas'
 
@@ -28,7 +28,7 @@ function Player({ rp, onBack }: { rp: RolePlay; onBack: () => void }) {
         {show && <p className="mt-1 text-sm text-slate-500">{rp.scenario}</p>}
       </div>
 
-      <Button className="w-full" onClick={() => speakSequence(rp.turns.map((t) => t.nl))}>
+      <Button className="w-full" onClick={() => playSequence(rp.turns.map((t) => t.nl))}>
         ▶ Speel het hele gesprek
       </Button>
 

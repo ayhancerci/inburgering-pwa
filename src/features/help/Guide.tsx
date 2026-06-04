@@ -48,11 +48,6 @@ export function Guide({ open, onClose }: { open: boolean; onClose: () => void })
             <strong>“?”</strong> button at the top.
           </p>
 
-          <Section icon="👥" title="Two profiles (top-right)">
-            Switch between the two of you. Each person keeps their own progress — flashcards, quiz
-            scores and checked-off tasks. Tap your name before you start.
-          </Section>
-
           <Section icon="🗓️" title="Plan — your weekly schedule">
             Your week-by-week study plan. Tick each task as you finish it; the bars show your
             progress and the days left until the exam.

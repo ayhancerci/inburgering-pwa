@@ -1,18 +1,8 @@
-import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+// Single shared profile — the couple uses one account, so there is no switcher.
+// Kept as a hook-shaped helper so feature code keeps using `useActiveProfile().activeId`
+// and we could reintroduce multiple profiles later without touching every component.
+const ACTIVE_PROFILE_ID = 'him'
 
-interface ProfileStore {
-  activeId: string
-  setActive: (id: string) => void
+export function useActiveProfile(): { activeId: string } {
+  return { activeId: ACTIVE_PROFILE_ID }
 }
-
-/** Which learner (him/her) is currently using the app, persisted to localStorage. */
-export const useActiveProfile = create<ProfileStore>()(
-  persist(
-    (set) => ({
-      activeId: 'him',
-      setActive: (id) => set({ activeId: id }),
-    }),
-    { name: 'active-profile' },
-  ),
-)

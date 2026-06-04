@@ -225,6 +225,17 @@ export function Dashboard() {
         </div>
       </Panel>
 
+      <Link to="/schrijven">
+        <Panel className="flex items-center gap-3 p-4 ring-1 ring-indigo-100">
+          <span className="text-2xl">✍️</span>
+          <span className="flex-1">
+            <span className="block font-bold text-slate-900">AI Schrijftutor</span>
+            <span className="block text-xs text-slate-500">Laat je Nederlandse tekst nakijken (A2)</span>
+          </span>
+          <span className="text-slate-300">›</span>
+        </Panel>
+      </Link>
+
       <Panel className="flex items-center justify-between gap-3 px-4 py-3">
         <div className="flex items-center gap-2">
           <span className="text-2xl">🔥</span>

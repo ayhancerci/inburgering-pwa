@@ -6,6 +6,7 @@ import { Flashcards } from './features/flashcards/Flashcards'
 import { Quiz } from './features/quiz/Quiz'
 import { Examens } from './features/examens/Examens'
 import { RolePlays } from './features/roleplays/RolePlays'
+import { WritingTutor } from './features/schrijven/WritingTutor'
 import { Checklist } from './features/admin/Checklist'
 
 export function AppRoutes() {
@@ -18,6 +19,7 @@ export function AppRoutes() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/examens" element={<Examens />} />
         <Route path="/gesprekken" element={<RolePlays />} />
+        <Route path="/schrijven" element={<WritingTutor />} />
         <Route path="/checklist" element={<Checklist />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>

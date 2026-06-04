@@ -213,6 +213,12 @@ export function Lesson({
             <ModelAnswer model={ex.model} />
           </div>
         ))}
+        <Link
+          to={`/schrijven?task=${encodeURIComponent(lesson.writing.prompt)}`}
+          className="inline-flex items-center gap-1 rounded-xl bg-indigo-600 px-3 py-2 text-xs font-semibold text-white"
+        >
+          ✨ Laat de AI je tekst nakijken
+        </Link>
       </Collapsible>
 
       {themeRoleplays.length > 0 && (

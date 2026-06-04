@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Panel, cx } from '../../components/ui'
 import { SpeakButton } from '../../components/SpeakButton'
 import type { BasicsChapter, BasicsSection } from '../../content/schemas'
@@ -104,6 +105,39 @@ export function Basics({ chapter, onBack }: { chapter: BasicsChapter; onBack: ()
           </Panel>
         ) : s.type === 'example' ? (
           <ExampleBlock key={i} s={s} />
+        ) : s.type === 'links' ? (
+          <section key={i} className="space-y-2">
+            {s.title && (
+              <h2 className="px-1 text-sm font-bold uppercase tracking-wide text-slate-500">
+                {s.title}
+              </h2>
+            )}
+            <Panel className="divide-y divide-slate-100">
+              {s.items.map((it, j) =>
+                it.mock ? (
+                  <Link key={j} to={`/examens?mock=${it.mock}`} className="block px-4 py-3">
+                    <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
+                      {it.label} <span className="text-sky-500">›</span>
+                    </span>
+                    {it.note && <span className="block text-xs text-slate-400">{it.note}</span>}
+                  </Link>
+                ) : (
+                  <a
+                    key={j}
+                    href={it.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block px-4 py-3"
+                  >
+                    <span className="flex items-center gap-1 text-sm font-semibold text-slate-900">
+                      {it.label} <span className="text-sky-500">↗</span>
+                    </span>
+                    {it.note && <span className="block text-xs text-slate-400">{it.note}</span>}
+                  </a>
+                ),
+              )}
+            </Panel>
+          </section>
         ) : (
           <section key={i} className="space-y-2">
             <h2 className="px-1 text-sm font-bold uppercase tracking-wide text-slate-500">

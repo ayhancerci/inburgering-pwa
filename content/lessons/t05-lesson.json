@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-05",
   "intro": "This chapter teaches you how to talk about your home: the rooms, the furniture and who lives where. You also learn the language of renting, which is very useful in the Netherlands where many people rent a house or a room. By the end you can describe your home, say what is in each room and write a short message to a landlord or housemate.",
+  "vocab": [
+    { "nl": "het huis", "en": "the house" },
+    { "nl": "het appartement", "en": "the apartment" },
+    { "nl": "de kamer", "en": "the room" },
+    { "nl": "de woonkamer", "en": "the living room" },
+    { "nl": "de slaapkamer", "en": "the bedroom" },
+    { "nl": "de keuken", "en": "the kitchen" },
+    { "nl": "de badkamer", "en": "the bathroom" },
+    { "nl": "de tuin", "en": "the garden" },
+    { "nl": "de tafel", "en": "the table" },
+    { "nl": "de stoel", "en": "the chair" },
+    { "nl": "het bed", "en": "the bed" },
+    { "nl": "de kast", "en": "the cupboard / wardrobe" },
+    { "nl": "de huur", "en": "the rent" },
+    { "nl": "de huisbaas", "en": "the landlord" }
+  ],
   "grammar": [
     {
       "title": "Saying what there is: er is / er zijn",
@@ -50,6 +66,13 @@
     { "nl": "Kun je de huurprijs nog wat verlagen?", "en": "Can you lower the rent a bit more?" },
     { "nl": "Mijn slaapkamer kijkt uit op de tuin.", "en": "My bedroom looks out over the garden." }
   ],
+  "sayings": [
+    { "nl": "Welkom thuis!", "en": "Welcome home!" },
+    { "nl": "Doe alsof je thuis bent.", "en": "Make yourself at home." },
+    { "nl": "Oost west, thuis best.", "en": "East, west, home is best. (there's no place like home — a Dutch proverb)" },
+    { "nl": "Eigen haard is goud waard.", "en": "Your own hearth is worth gold. (having your own home is precious — a proverb)" },
+    { "nl": "Voel je thuis!", "en": "Feel at home!" }
+  ],
   "dialogue": {
     "title": "Sophie views a room she wants to rent and asks the landlord questions",
     "lines": [
@@ -70,8 +93,20 @@
     "tips": [
       "Use 'er is' and 'er zijn' to list what the home has.",
       "Use prepositions like 'op', 'in', 'naast' and 'onder' to say where things are.",
-      "Use possessives such as 'mijn' and 'onze' to talk about your things."
+      "Use possessives such as 'mijn' and 'onze' to talk about your things.",
+      "Name the rooms one by one: de woonkamer, de keuken, de slaapkamer.",
+      "End with an invitation like 'Kom je snel langs?' or 'Je bent welkom!'."
     ],
-    "model": "Hoi Lisa, ik woon nu in mijn nieuwe appartement! Er zijn twee slaapkamers, een keuken en een grote woonkamer. Mijn favoriete kamer is de woonkamer. Er staat een bank naast het raam en boven de tafel hangt een mooie lamp. De keuken is klein, maar gezellig. Onze buurt is heel rustig en er is een park naast het huis. Kom je snel langs? Groetjes, Anna"
+    "model": "Hoi Lisa, ik woon nu in mijn nieuwe appartement! Er zijn twee slaapkamers, een keuken en een grote woonkamer. Mijn favoriete kamer is de woonkamer. Er staat een bank naast het raam en boven de tafel hangt een mooie lamp. De keuken is klein, maar gezellig. Onze buurt is heel rustig en er is een park naast het huis. Kom je snel langs? Groetjes, Anna",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort mailtje aan een huisbaas. Vraag of de kamer nog vrij is en hoeveel de huur per maand is.",
+        "model": "Beste meneer De Vries, ik zoek een kamer in het centrum en ik zag uw advertentie. Is de kamer nog vrij? En hoeveel is de huur per maand? Mag ik de kamer een keer komen bekijken? Ik hoor graag van u. Met vriendelijke groet, Yusuf"
+      },
+      {
+        "prompt": "Je krijgt een nieuwe huisgenoot. Schrijf een kort welkomstberichtje en vertel waar de keuken en de badkamer zijn.",
+        "model": "Hoi Lina, welkom in ons huis! Jouw kamer is boven, naast de badkamer. De keuken is beneden, naast de woonkamer. We delen de keuken en de badkamer met zijn drieën. Heb je nog vragen? Stel ze gerust. Ik hoop dat je je hier snel thuis voelt! Groetjes, Pim"
+      }
+    ]
   }
 }

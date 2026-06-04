@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-07",
   "intro": "This chapter helps you visit the doctor in the Netherlands. You learn the parts of the body, how to say what hurts and how you feel, and how to make and understand an appointment. You also learn the words doctors use to give advice, so you can follow their instructions about medicine and rest.",
+  "vocab": [
+    { "nl": "de dokter", "en": "the doctor" },
+    { "nl": "de huisarts", "en": "the general practitioner" },
+    { "nl": "de afspraak", "en": "the appointment" },
+    { "nl": "de apotheek", "en": "the pharmacy" },
+    { "nl": "het medicijn", "en": "the medicine" },
+    { "nl": "de koorts", "en": "the fever" },
+    { "nl": "de pijn", "en": "the pain" },
+    { "nl": "de klacht", "en": "the complaint" },
+    { "nl": "de wachtkamer", "en": "the waiting room" },
+    { "nl": "de keel", "en": "the throat" },
+    { "nl": "de rug", "en": "the back" },
+    { "nl": "de buik", "en": "the belly" },
+    { "nl": "het recept", "en": "the prescription" },
+    { "nl": "de griep", "en": "the flu" }
+  ],
   "grammar": [
     {
       "title": "Saying what hurts: ik heb ... pijn and body parts",
@@ -50,6 +66,14 @@
     { "nl": "Heeft u een verzekeringspas bij u?", "en": "Do you have your insurance card with you?" },
     { "nl": "Bel 112 als het een noodgeval is.", "en": "Call 112 if it is an emergency." }
   ],
+  "sayings": [
+    { "nl": "Beterschap!", "en": "Get well soon!" },
+    { "nl": "Hoe gaat het met je?", "en": "How are you?" },
+    { "nl": "Het gaat wel.", "en": "I'm okay. (so-so)" },
+    { "nl": "Voorkomen is beter dan genezen.", "en": "Prevention is better than cure. (Dutch proverb)" },
+    { "nl": "Een appel per dag houdt de dokter weg.", "en": "An apple a day keeps the doctor away. (saying)" },
+    { "nl": "Rust roest.", "en": "Rest rusts. (if you rest too much you get stiff)" }
+  ],
   "dialogue": {
     "title": "A patient visits the GP because she has had a sore throat and a fever for several days",
     "lines": [
@@ -70,8 +94,20 @@
     "tips": [
       "Use 'ik heb pijn in ...' or words like 'hoofdpijn' and 'keelpijn' to say what hurts.",
       "Use the modal verb 'moeten' to say what you have to do ('ik moet naar de dokter').",
-      "Be polite and end with a question about the homework."
+      "Be polite and end with a question about the homework.",
+      "Say how long you have been ill with 'ik ben al ... dagen ziek'.",
+      "Wish the reader well or thank them at the end, for example 'alvast bedankt'."
     ],
-    "model": "Beste meneer Jansen, ik voel me vandaag niet goed. Ik heb koorts en veel pijn in mijn keel. Ik kan morgen niet naar de les komen. Vanmiddag moet ik naar de dokter, want ik ben al drie dagen ziek. Hopelijk word ik snel weer beter. Kunt u mij vertellen welk huiswerk ik moet maken? Dan kan ik thuis een beetje oefenen. Met vriendelijke groet, Anna"
+    "model": "Beste meneer Jansen, ik voel me vandaag niet goed. Ik heb koorts en veel pijn in mijn keel. Ik kan morgen niet naar de les komen. Vanmiddag moet ik naar de dokter, want ik ben al drie dagen ziek. Hopelijk word ik snel weer beter. Kunt u mij vertellen welk huiswerk ik moet maken? Dan kan ik thuis een beetje oefenen. Met vriendelijke groet, Anna",
+    "examples": [
+      {
+        "prompt": "Bel je niet, maar schrijf een bericht aan de huisarts. Je wilt een afspraak maken omdat je rugpijn hebt.",
+        "model": "Goedemorgen, ik wil graag een afspraak maken. Ik heb al een week pijn in mijn rug. De pijn wordt 's nachts erger en ik slaap slecht. Kan ik deze week nog langskomen? Ik kan in de ochtend en in de middag. Alvast bedankt. Met vriendelijke groet, Omar Demir"
+      },
+      {
+        "prompt": "Schrijf een kort bericht aan een vriend die ziek is.",
+        "model": "Hoi Nora, ik hoorde dat je ziek bent. Wat vervelend! Heb je nog koorts? Neem veel rust en drink genoeg water. Heb je medicijnen in huis, of moet ik iets bij de apotheek halen? Laat het me weten. Beterschap en tot snel! Groetjes, Eva"
+      }
+    ]
   }
 }

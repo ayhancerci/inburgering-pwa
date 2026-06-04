@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-04",
   "intro": "This chapter is all about food: meals during the day, saying what you like and dislike, talking about healthy eating, and ordering when you eat out. Food is a great topic for everyday conversation, and you will often be asked 'Wat eet je graag?' or 'Lust je vis?'. By the end you will be able to express your preferences and order politely in a café or restaurant.",
+  "vocab": [
+    { "nl": "het ontbijt", "en": "the breakfast" },
+    { "nl": "de lunch", "en": "the lunch" },
+    { "nl": "het avondeten", "en": "the dinner / evening meal" },
+    { "nl": "het bord", "en": "the plate" },
+    { "nl": "de groente", "en": "the vegetables" },
+    { "nl": "het fruit", "en": "the fruit" },
+    { "nl": "het vlees", "en": "the meat" },
+    { "nl": "de vis", "en": "the fish" },
+    { "nl": "de kaas", "en": "the cheese" },
+    { "nl": "het water", "en": "the water" },
+    { "nl": "de menukaart", "en": "the menu" },
+    { "nl": "de rekening", "en": "the bill" },
+    { "nl": "lekker", "en": "tasty / nice" },
+    { "nl": "gezond", "en": "healthy" }
+  ],
   "grammar": [
     {
       "title": "graag, liever, het liefst",
@@ -50,6 +66,13 @@
     { "nl": "Mogen we afrekenen?", "en": "Could we pay (the bill)?" },
     { "nl": "Het was heel lekker, dank u.", "en": "It was very tasty, thank you." }
   ],
+  "sayings": [
+    { "nl": "Eet smakelijk!", "en": "Enjoy your meal! (said before eating)" },
+    { "nl": "Het smaakt naar meer.", "en": "It tastes so good I want more." },
+    { "nl": "Ik zit vol.", "en": "I'm full." },
+    { "nl": "De aanhouder wint.", "en": "The persistent one wins. (keep at it — a Dutch proverb)" },
+    { "nl": "Honger is de beste saus.", "en": "Hunger is the best sauce. (food tastes best when you're hungry — a proverb)" }
+  ],
   "dialogue": {
     "title": "Ordering lunch in a café",
     "lines": [
@@ -70,8 +93,20 @@
       "Use 'Wat eet je graag?' and 'Lust je ...?' to ask about preferences.",
       "Ask about allergies or restrictions: 'Is er iets wat je niet mag eten?'.",
       "Give a clear day and time for the dinner.",
-      "Close warmly with 'Ik kijk ernaar uit!' (I'm looking forward to it!)."
+      "Close warmly with 'Ik kijk ernaar uit!' (I'm looking forward to it!).",
+      "Use 'liever' to offer a choice: 'Eet je liever vis of vlees?'.",
+      "Keep sentences short and ask one question at a time."
     ],
-    "model": "Hoi David, leuk dat je zaterdag komt eten! Ik wil graag iets lekkers koken. Wat eet je graag? Lust je vis, of eet je liever vlees? En is er iets wat je niet mag of niet lust? Ik eet zelf het liefst vegetarisch, maar dat hoeft niet. We beginnen om zeven uur. Laat maar weten! Ik kijk ernaar uit. Groetjes, Sofie."
+    "model": "Hoi David, leuk dat je zaterdag komt eten! Ik wil graag iets lekkers koken. Wat eet je graag? Lust je vis, of eet je liever vlees? En is er iets wat je niet mag of niet lust? Ik eet zelf het liefst vegetarisch, maar dat hoeft niet. We beginnen om zeven uur. Laat maar weten! Ik kijk ernaar uit. Groetjes, Sofie.",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort berichtje aan een vriend. Vraag of hij zin heeft om vanavond samen uit eten te gaan.",
+        "model": "Hoi Karim, heb je vanavond zin om uit eten te gaan? Er is een leuk restaurant in het centrum. Ze hebben lekkere vis en ook vegetarische gerechten. Zullen we om zeven uur afspreken? Laat maar weten of het je uitkomt. Eet smakelijk straks! Groetjes, Tess"
+      },
+      {
+        "prompt": "Je bent bij vrienden geweest om te eten. Schrijf een kort bedankberichtje en zeg wat je lekker vond.",
+        "model": "Hoi Femke, heel erg bedankt voor het lekkere eten gisteren! De soep was heerlijk en het toetje vond ik het allerlekkerst. Het was ook erg gezellig om jullie weer te zien. De volgende keer kook ik voor jullie. Tot snel! Liefs, Jonas"
+      }
+    ]
   }
 }

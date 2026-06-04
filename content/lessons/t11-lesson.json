@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-11",
   "intro": "This chapter is about making plans with other people: inviting someone, accepting or politely refusing, swapping work shifts and arranging a day off. You learn to talk about the future with 'gaan' + infinitive (\"Wat gaan we doen?\") and to make polite suggestions. These language tools are useful for your social life and for arranging things with colleagues at work.",
+  "vocab": [
+    { "nl": "het plan", "en": "the plan" },
+    { "nl": "de afspraak", "en": "the appointment / arrangement" },
+    { "nl": "de uitnodiging", "en": "the invitation" },
+    { "nl": "het feest", "en": "the party" },
+    { "nl": "de verjaardag", "en": "the birthday" },
+    { "nl": "de vrije dag", "en": "the day off" },
+    { "nl": "het weekend", "en": "the weekend" },
+    { "nl": "de collega", "en": "the colleague" },
+    { "nl": "de dienst", "en": "the work shift" },
+    { "nl": "de vrije tijd", "en": "the free time" },
+    { "nl": "het idee", "en": "the idea" },
+    { "nl": "samen", "en": "together" },
+    { "nl": "vrij", "en": "free / off" },
+    { "nl": "bezig", "en": "busy" }
+  ],
   "grammar": [
     {
       "title": "The future with 'gaan' + infinitive",
@@ -47,6 +63,14 @@
     { "nl": "Ik kan helaas niet komen.", "en": "Unfortunately I can't come." },
     { "nl": "Hoe laat en waar spreken we af?", "en": "What time and where shall we meet?" }
   ],
+  "sayings": [
+    { "nl": "Afspraak is afspraak.", "en": "A deal is a deal. (Dutch saying: you keep your appointments)" },
+    { "nl": "Gezellig!", "en": "How cosy / nice! (typical Dutch word for a pleasant get-together)" },
+    { "nl": "Hoe meer zielen, hoe meer vreugd.", "en": "The more souls, the more joy. (Dutch proverb: the more the merrier)" },
+    { "nl": "Het komt wel goed.", "en": "It will be fine." },
+    { "nl": "Doe maar gezellig.", "en": "Just make it nice and cosy." },
+    { "nl": "De aanhouder wint.", "en": "The one who keeps trying wins. (Dutch proverb: persistence pays off)" }
+  ],
   "dialogue": {
     "title": "Inviting a friend and swapping a work shift",
     "lines": [
@@ -66,8 +90,20 @@
     "tips": [
       "Refuse politely: 'Sorry', 'Helaas', 'Dat komt niet uit'.",
       "Give a reason with 'want': 'want ik ben die dag vrij / heb een afspraak'.",
-      "Offer an alternative with 'gaan' or 'kunnen': 'Ik kan wel zaterdag' or 'Zullen we ...?'"
+      "Offer an alternative with 'gaan' or 'kunnen': 'Ik kan wel zaterdag' or 'Zullen we ...?'",
+      "Start friendly and thank the person: 'Hoi ...! Bedankt voor je bericht.'",
+      "End with a question so the other person can answer: 'Laat je weten wat je wilt?'"
     ],
-    "model": "Hoi Lisa,\n\nBedankt voor je bericht. Sorry, maar vrijdag komt echt niet uit. Ik kan die dag niet invallen, want ik heb al een afspraak met mijn familie. Dat plan kan ik helaas niet veranderen.\n\nKun je het misschien aan Tom vragen? Anders wil ik graag op zondag voor je werken. Dan ben ik wel vrij. Laat je weten wat je wilt doen?\n\nGroetjes,\nFatma"
+    "model": "Hoi Lisa,\n\nBedankt voor je bericht. Sorry, maar vrijdag komt echt niet uit. Ik kan die dag niet invallen, want ik heb al een afspraak met mijn familie. Dat plan kan ik helaas niet veranderen.\n\nKun je het misschien aan Tom vragen? Anders wil ik graag op zondag voor je werken. Dan ben ik wel vrij. Laat je weten wat je wilt doen?\n\nGroetjes,\nFatma",
+    "examples": [
+      {
+        "prompt": "Een vriend nodigt je uit voor zijn feest op zaterdag. Schrijf een kort bericht terug. Zeg dat je graag komt en vraag hoe laat en waar.",
+        "model": "Hoi Jamal, bedankt voor de uitnodiging! Ja, leuk, ik kom graag naar je feest. Ik ben zaterdag de hele avond vrij. Hoe laat begint het en waar is het precies? Kan ik iets meenemen, bijvoorbeeld drinken? Tot zaterdag! Groetjes, Amal"
+      },
+      {
+        "prompt": "Schrijf een korte mail aan je leidinggevende. Je wilt graag een vrije dag op vrijdag, want je hebt een afspraak bij de dokter.",
+        "model": "Beste mevrouw De Wit, ik schrijf u omdat ik graag vrijdag een vrije dag wil. Ik heb die dag een afspraak bij de dokter. Kan een collega misschien voor mij invallen? Ik wil graag op maandag extra werken. Hoor ik van u of dit kan? Met vriendelijke groet, Karim"
+      }
+    ]
   }
 }

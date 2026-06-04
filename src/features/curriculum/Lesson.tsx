@@ -82,6 +82,23 @@ export function Lesson({
         </Panel>
       )}
 
+      {lesson.vocab && lesson.vocab.length > 0 && (
+        <section className="space-y-2">
+          <SectionTitle>🔑 Kernwoorden</SectionTitle>
+          <Panel className="divide-y divide-slate-100">
+            {lesson.vocab.map((w, i) => (
+              <div key={i} className="flex items-center gap-2 px-4 py-2">
+                <SpeakButton text={w.nl} />
+                <span className="flex-1">
+                  <span className="block text-sm font-semibold text-slate-800">{w.nl}</span>
+                  {show && <span className="block text-xs text-slate-400">{w.en}</span>}
+                </span>
+              </div>
+            ))}
+          </Panel>
+        </section>
+      )}
+
       <section className="space-y-2">
         <SectionTitle>📘 Grammatica</SectionTitle>
         {lesson.grammar.map((g, i) => (
@@ -125,6 +142,23 @@ export function Lesson({
         </Panel>
       </section>
 
+      {lesson.sayings && lesson.sayings.length > 0 && (
+        <section className="space-y-2">
+          <SectionTitle>💬 Uitdrukkingen &amp; gezegden</SectionTitle>
+          <Panel className="divide-y divide-slate-100">
+            {lesson.sayings.map((s, i) => (
+              <div key={i} className="flex items-center gap-2 px-4 py-2">
+                <SpeakButton text={s.nl} />
+                <span className="flex-1">
+                  <span className="block text-sm font-semibold text-slate-800">{s.nl}</span>
+                  {show && <span className="block text-xs text-slate-400">{s.en}</span>}
+                </span>
+              </div>
+            ))}
+          </Panel>
+        </section>
+      )}
+
       <section className="space-y-2">
         <SectionTitle>💬 Voorbeelddialoog</SectionTitle>
         <Panel className="space-y-3 p-4">
@@ -161,6 +195,15 @@ export function Lesson({
             </ul>
           )}
           {lesson.writing.model && <ModelAnswer model={lesson.writing.model} />}
+          {lesson.writing.examples?.map((ex, i) => (
+            <div key={i} className="space-y-2 border-t border-slate-100 pt-3">
+              <p className="text-sm text-slate-700">
+                <span className="font-bold">Nog een voorbeeld: </span>
+                {ex.prompt}
+              </p>
+              <ModelAnswer model={ex.model} />
+            </div>
+          ))}
         </Panel>
       </section>
 

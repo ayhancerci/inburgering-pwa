@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-16",
   "intro": "This chapter is about official life in the Netherlands: separating your waste, dealing with the town hall, arranging things online and getting insurance. You learn polite, formal language with 'u' and how to understand and give instructions. This is essential because much of Dutch admin, from passports to insurance, you have to arrange yourself, often online or by appointment.",
+  "vocab": [
+    { "nl": "de gemeente", "en": "the municipality" },
+    { "nl": "het gemeentehuis", "en": "the town hall" },
+    { "nl": "de afspraak", "en": "the appointment" },
+    { "nl": "het afval", "en": "the waste" },
+    { "nl": "de container", "en": "the container / bin" },
+    { "nl": "het paspoort", "en": "the passport" },
+    { "nl": "de verzekering", "en": "the insurance" },
+    { "nl": "het formulier", "en": "the form" },
+    { "nl": "de verhuizing", "en": "the move (house)" },
+    { "nl": "de gegevens", "en": "the details / data" },
+    { "nl": "de bevestiging", "en": "the confirmation" },
+    { "nl": "het glas", "en": "the glass" },
+    { "nl": "het papier", "en": "the paper" },
+    { "nl": "de handtekening", "en": "the signature" }
+  ],
   "grammar": [
     {
       "title": "Formal 'u' and polite requests (Kunt u ...? / Zou u ...?)",
@@ -46,6 +62,14 @@
     { "nl": "Welke documenten moet ik meenemen?", "en": "Which documents do I have to bring?" },
     { "nl": "Hoe vraag ik een verzekering aan?", "en": "How do I apply for an insurance?" }
   ],
+  "sayings": [
+    { "nl": "Een momentje, alstublieft.", "en": "One moment, please." },
+    { "nl": "Dat is goed geregeld.", "en": "That is well arranged." },
+    { "nl": "Dat hoeft niet.", "en": "That is not necessary." },
+    { "nl": "Komt voor elkaar.", "en": "It will be taken care of." },
+    { "nl": "Afspraak is afspraak.", "en": "An agreement is an agreement. (a promise is a promise)" },
+    { "nl": "Een afspraak maken kost niets.", "en": "Making an appointment costs nothing." }
+  ],
   "dialogue": {
     "title": "At the town hall to register a change of address",
     "lines": [
@@ -67,8 +91,20 @@
       "Use the formal 'u' and polite requests: 'Kunt u ...?' or 'Zou u ...?'",
       "Begin with 'Geachte heer/mevrouw' and end with 'Met vriendelijke groet'.",
       "Use admin verbs: regelen, aanvragen, doorgeven, een afspraak maken.",
-      "Ask clearly what you have to do and whether it must be done online."
+      "Ask clearly what you have to do and whether it must be done online.",
+      "Mention your DigiD if the task is done online: 'met mijn DigiD'.",
+      "Keep one clear question per email so the answer is easy."
     ],
-    "model": "Geachte heer/mevrouw,\n\nIk ben onlangs naar een nieuw adres in uw gemeente verhuisd. Ik wil graag mijn verhuizing doorgeven, maar ik weet niet precies hoe dat moet. Moet ik dit online regelen met mijn DigiD, of kan ik ook een afspraak maken op het gemeentehuis?\n\nZou u mij kunnen uitleggen welke documenten ik moet meenemen? Alvast hartelijk bedankt voor uw hulp.\n\nMet vriendelijke groet,\nAnna de Boer"
+    "model": "Geachte heer/mevrouw,\n\nIk ben onlangs naar een nieuw adres in uw gemeente verhuisd. Ik wil graag mijn verhuizing doorgeven, maar ik weet niet precies hoe dat moet. Moet ik dit online regelen met mijn DigiD, of kan ik ook een afspraak maken op het gemeentehuis?\n\nZou u mij kunnen uitleggen welke documenten ik moet meenemen? Alvast hartelijk bedankt voor uw hulp.\n\nMet vriendelijke groet,\nAnna de Boer",
+    "examples": [
+      {
+        "prompt": "Schrijf een korte, beleefde e-mail aan de gemeente om een afspraak te maken voor een nieuw paspoort.",
+        "model": "Geachte heer/mevrouw,\n\nMijn paspoort is bijna verlopen en ik wil graag een nieuw paspoort aanvragen. Kunt u mij vertellen hoe ik een afspraak kan maken op het gemeentehuis? Moet ik dit online regelen met mijn DigiD?\n\nZou u mij ook kunnen uitleggen welke documenten ik moet meenemen? Alvast bedankt voor uw hulp.\n\nMet vriendelijke groet,\nKarim Aydin"
+      },
+      {
+        "prompt": "Schrijf een korte e-mail met een vraag over het scheiden van afval in uw wijk.",
+        "model": "Geachte heer/mevrouw,\n\nIk woon sinds kort in uw gemeente en ik heb een vraag over het afval. Ik weet niet goed in welke container het glas en het papier moeten. Kunt u mij uitleggen hoe ik mijn afval moet scheiden?\n\nIs er ook een vaste dag waarop ik de container buiten moet zetten? Hartelijk dank voor uw hulp.\n\nMet vriendelijke groet,\nSara Yilmaz"
+      }
+    ]
   }
 }

@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-20",
   "intro": "This chapter is about media: television, social media, the news and giving your opinion. You will learn how to ask whether someone has seen or heard something, how to say what you think, and how to agree or disagree. These words help you join everyday conversations about the news and about what people share online.",
+  "vocab": [
+    { "nl": "het nieuws", "en": "the news" },
+    { "nl": "het journaal", "en": "the TV news" },
+    { "nl": "de krant", "en": "the newspaper" },
+    { "nl": "het programma", "en": "the programme" },
+    { "nl": "het bericht", "en": "the message, news item" },
+    { "nl": "de televisie", "en": "the television" },
+    { "nl": "de reclame", "en": "the advertising" },
+    { "nl": "het filmpje", "en": "the video clip" },
+    { "nl": "de mening", "en": "the opinion" },
+    { "nl": "het onderwerp", "en": "the topic" },
+    { "nl": "de zender", "en": "the channel" },
+    { "nl": "het account", "en": "the account" },
+    { "nl": "de aflevering", "en": "the episode" },
+    { "nl": "de kijker", "en": "the viewer" }
+  ],
   "grammar": [
     {
       "title": "The perfect tense for media (Heb je ... gezien/gehoord?)",
@@ -50,6 +66,14 @@
     { "nl": "Ik denk dat sociale media veel tijd kosten.", "en": "I think social media takes a lot of time." },
     { "nl": "Heb je daar iets over gehoord?", "en": "Have you heard anything about that?" }
   ],
+  "sayings": [
+    { "nl": "Geen nieuws is goed nieuws.", "en": "No news is good news. (common saying)" },
+    { "nl": "Dat is oud nieuws.", "en": "That is old news." },
+    { "nl": "Ik heb het van horen zeggen.", "en": "I have it from hearsay." },
+    { "nl": "De een zijn dood is de ander zijn brood.", "en": "One person's death is another's bread. (one's loss is another's gain, Dutch proverb)" },
+    { "nl": "Ieder zijn meug.", "en": "To each their own taste. (Dutch saying)" },
+    { "nl": "Daar kan ik me wel in vinden.", "en": "I can agree with that." }
+  ],
   "dialogue": {
     "title": "Two colleagues talk about the news and social media",
     "lines": [
@@ -70,8 +94,20 @@
       "Use the perfect tense: 'Ik heb ... gezien' or 'Ik heb ... gehoord'.",
       "Give your opinion with 'Ik vind dat ...' and remember the verb goes to the end after 'dat'.",
       "Use 'Ik volg', 'Ik deel' or 'online' to talk about social media.",
-      "End with a question like 'Wat vinden jullie?' (What do you all think?)."
+      "End with a question like 'Wat vinden jullie?' (What do you all think?).",
+      "Name the topic clearly first, so your friends know what you mean.",
+      "Use a linking word like 'omdat' or 'want' to give a short reason for your opinion."
     ],
-    "model": "Hoi allemaal, Ik heb vanochtend op sociale media een filmpje over het klimaat gezien. Ik vind dat een belangrijk onderwerp. In het journaal hoorde ik dat veel mensen zich zorgen maken. Ik denk dat we allemaal iets kunnen doen, bijvoorbeeld minder met de auto rijden. Ik volg ook een account met goede tips. Ik deel het filmpje hier in de groep. Wat vinden jullie ervan? Groetjes, Nadia"
+    "model": "Hoi allemaal, Ik heb vanochtend op sociale media een filmpje over het klimaat gezien. Ik vind dat een belangrijk onderwerp. In het journaal hoorde ik dat veel mensen zich zorgen maken. Ik denk dat we allemaal iets kunnen doen, bijvoorbeeld minder met de auto rijden. Ik volg ook een account met goede tips. Ik deel het filmpje hier in de groep. Wat vinden jullie ervan? Groetjes, Nadia",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort bericht in een groepschat over een tv-programma dat je leuk vindt.",
+        "model": "Hoi allemaal, Hebben jullie het nieuwe programma op tv gezien? Ik vind het echt leuk. Het gaat over koken en de mensen zijn grappig. Ik kijk elke week naar een nieuwe aflevering. Er is wel veel reclame, dat vind ik jammer. Kijken jullie ook? Wat vinden jullie ervan? Groetjes, Said"
+      },
+      {
+        "prompt": "Schrijf een paar zinnen over hoe jij het nieuws volgt en wat je daarvan vindt.",
+        "model": "Ik lees het nieuws meestal online op mijn telefoon. Soms kijk ik ook naar het journaal op tv. Ik vind dat er veel slecht nieuws is en dat is niet altijd fijn. Daarom lees ik niet de hele dag berichten. Ik volg een paar accounts met positief nieuws. Wat vind jij van het nieuws?"
+      }
+    ]
   }
 }

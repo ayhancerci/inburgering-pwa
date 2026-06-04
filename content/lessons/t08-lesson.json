@@ -1,6 +1,21 @@
 {
   "themeId": "link-0a2-08",
   "intro": "This chapter is about your house, your street and your neighbourhood. You learn to talk about housemates and neighbours, to compare places and people, and to give your opinion with reasons. These skills help you get along with the people around you and join local activities like a language café.",
+  "vocab": [
+    { "nl": "de buurt", "en": "the neighbourhood" },
+    { "nl": "de straat", "en": "the street" },
+    { "nl": "de buurman", "en": "the (male) neighbour" },
+    { "nl": "de buurvrouw", "en": "the (female) neighbour" },
+    { "nl": "de huisgenoot", "en": "the housemate" },
+    { "nl": "het lawaai", "en": "the noise" },
+    { "nl": "het taalcafé", "en": "the language café" },
+    { "nl": "de activiteit", "en": "the activity" },
+    { "nl": "de huur", "en": "the rent" },
+    { "nl": "de verhuurder", "en": "the landlord" },
+    { "nl": "het park", "en": "the park" },
+    { "nl": "het buurtfeest", "en": "the neighbourhood party" },
+    { "nl": "de rommel", "en": "the mess" }
+  ],
   "grammar": [
     {
       "title": "The comparative: groter, leuker, beter",
@@ -50,6 +65,13 @@
     { "nl": "Ik heb een probleem met mijn buurman, omdat hij rommel maakt.", "en": "I have a problem with my neighbour, because he makes a mess." },
     { "nl": "Mijn straat is net zo gezellig als vroeger.", "en": "My street is just as pleasant as it used to be." }
   ],
+  "sayings": [
+    { "nl": "Doe maar gewoon, dan doe je al gek genoeg.", "en": "Just act normal, that's crazy enough. (a very Dutch saying about not showing off)" },
+    { "nl": "Een goede buur is beter dan een verre vriend.", "en": "A good neighbour is better than a distant friend. (Dutch proverb)" },
+    { "nl": "Voel je thuis.", "en": "Make yourself at home." },
+    { "nl": "Beter een goede buur dan een grote broer.", "en": "Better a good neighbour than a big brother. (proverb)" },
+    { "nl": "Oost west, thuis best.", "en": "East west, home is best. (there is no place like home)" }
+  ],
   "dialogue": {
     "title": "Two neighbours chat about their street and a noise problem",
     "lines": [
@@ -70,8 +92,20 @@
     "tips": [
       "Use 'ik vind ...' to give your opinion about the neighbourhood.",
       "Use a comparative like 'rustiger' or 'leuker' with 'dan' to compare two places.",
-      "Add a reason with 'omdat' and put the verb at the end of that part."
+      "Add a reason with 'omdat' and put the verb at the end of that part.",
+      "Invite the reader to visit with 'kom je een keer langs?'.",
+      "Use 'er is' or 'er zijn' to describe what is in your neighbourhood."
     ],
-    "model": "Hoi Selin, ik wil je graag iets over mijn buurt vertellen. Ik vind het hier heel fijn wonen. Mijn straat is veel rustiger dan mijn oude straat in de stad. Er is een mooi park naast mijn huis en de buren zijn aardig. Ik ga vaak naar het taalcafé, omdat ik daar nieuwe mensen ontmoet en mijn Nederlands oefen. Kom je een keer langs? Dan laat ik je de buurt zien. Groetjes, Anna"
+    "model": "Hoi Selin, ik wil je graag iets over mijn buurt vertellen. Ik vind het hier heel fijn wonen. Mijn straat is veel rustiger dan mijn oude straat in de stad. Er is een mooi park naast mijn huis en de buren zijn aardig. Ik ga vaak naar het taalcafé, omdat ik daar nieuwe mensen ontmoet en mijn Nederlands oefen. Kom je een keer langs? Dan laat ik je de buurt zien. Groetjes, Anna",
+    "examples": [
+      {
+        "prompt": "Schrijf een briefje aan je buurman. Hij maakt 's avonds veel lawaai en jij wilt dat vragen te stoppen.",
+        "model": "Beste buurman, ik woon naast u op nummer tien. Ik hoor 's avonds vaak harde muziek. Daardoor kan ik niet goed slapen. Wilt u de muziek na tien uur wat zachter zetten? Dan blijven we goede buren. Alvast bedankt voor uw begrip. Met vriendelijke groet, Anna"
+      },
+      {
+        "prompt": "Schrijf een uitnodiging voor je buren voor een klein buurtfeest in het park.",
+        "model": "Beste buren, op zaterdag is er een buurtfeest in het park. Het begint om twee uur in de middag. Er is koffie, thee en wat lekkers. Komen jullie ook? Het is gezellig en je leert de buren beter kennen. Tot zaterdag! Groetjes, de buurtgroep"
+      }
+    ]
   }
 }

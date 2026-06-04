@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-18",
   "intro": "This chapter is about nature, the weather, the climate and pets. The weather is a favourite small-talk topic in the Netherlands, so these words are very useful in daily conversations. You will also learn how to compare things and how to make suggestions for a day out.",
+  "vocab": [
+    { "nl": "het weer", "en": "the weather" },
+    { "nl": "de zon", "en": "the sun" },
+    { "nl": "de regen", "en": "the rain" },
+    { "nl": "de wind", "en": "the wind" },
+    { "nl": "de sneeuw", "en": "the snow" },
+    { "nl": "het seizoen", "en": "the season" },
+    { "nl": "de lente", "en": "the spring" },
+    { "nl": "de zomer", "en": "the summer" },
+    { "nl": "de herfst", "en": "the autumn" },
+    { "nl": "de winter", "en": "the winter" },
+    { "nl": "het bos", "en": "the forest" },
+    { "nl": "het klimaat", "en": "the climate" },
+    { "nl": "het huisdier", "en": "the pet" },
+    { "nl": "de wolk", "en": "the cloud" }
+  ],
   "grammar": [
     {
       "title": "Comparative and superlative (warm / warmer / het warmst)",
@@ -50,6 +66,14 @@
     { "nl": "Neem een jas mee, het wordt kouder.", "en": "Take a coat, it is getting colder." },
     { "nl": "Morgen wordt het mooier weer.", "en": "Tomorrow the weather will be nicer." }
   ],
+  "sayings": [
+    { "nl": "Lekker weertje, he?", "en": "Nice weather, isn't it?" },
+    { "nl": "Het regent pijpenstelen.", "en": "It is raining pipe stems. (it is pouring down)" },
+    { "nl": "Na regen komt zonneschijn.", "en": "After rain comes sunshine. (things get better, Dutch proverb)" },
+    { "nl": "Geen weer om een hond door te jagen.", "en": "No weather to chase a dog through. (terrible weather, Dutch saying)" },
+    { "nl": "Het is hondenweer vandaag.", "en": "It is rotten weather today." },
+    { "nl": "We boffen met het weer.", "en": "We are lucky with the weather." }
+  ],
   "dialogue": {
     "title": "Two neighbours plan a day out and talk about the weather",
     "lines": [
@@ -70,8 +94,20 @@
       "Use weather expressions like 'het regent', 'het is zonnig' or 'het wordt warmer'.",
       "Make a suggestion with 'Zullen we ...?' and the main verb at the end.",
       "Use a comparative with 'dan', for example 'warmer dan gisteren'.",
-      "End with a question like 'Vind je dat goed?' (Is that okay with you?)."
+      "End with a question like 'Vind je dat goed?' (Is that okay with you?).",
+      "Name the season or the weather first, so your friend knows what to expect.",
+      "Keep your sentences short and use 'en' or 'maar' to link them."
     ],
-    "model": "Hoi Lisa, Het is vandaag mooi weer! De zon schijnt en het is warmer dan gisteren. Zullen we naar het bos gaan en een wandeling maken? We kunnen ook de hond meenemen. Neem wel goede schoenen mee, want het bos is nat van de regen. Misschien wordt het later koud, dus neem ook een jas mee. Vind je dat goed? Laat het me weten! Groetjes, Sara"
+    "model": "Hoi Lisa, Het is vandaag mooi weer! De zon schijnt en het is warmer dan gisteren. Zullen we naar het bos gaan en een wandeling maken? We kunnen ook de hond meenemen. Neem wel goede schoenen mee, want het bos is nat van de regen. Misschien wordt het later koud, dus neem ook een jas mee. Vind je dat goed? Laat het me weten! Groetjes, Sara",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort bericht aan een vriend over het slechte weer en stel iets voor om binnen te doen.",
+        "model": "Hoi Daan, Wat een slecht weer vandaag! Het regent hard en het waait. Het is geen weer om naar buiten te gaan. Zullen we binnen blijven en een film kijken? Ik maak warme thee voor ons. Vind je dat een goed idee? Tot straks! Groetjes, Mila"
+      },
+      {
+        "prompt": "Schrijf een paar zinnen over je favoriete seizoen en de natuur.",
+        "model": "Mijn favoriete seizoen is de zomer. Dan is het warm en schijnt de zon vaak. Ik hou van de natuur en ik wandel graag in het bos. In de zomer zijn de dagen langer dan in de winter. Soms ga ik met mijn hond naar het strand. Dat vind ik het leukst."
+      }
+    ]
   }
 }

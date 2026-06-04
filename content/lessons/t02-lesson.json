@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-02",
   "intro": "This chapter is about doing the groceries: the different shops, asking for and offering help, talking about quantities, and understanding opening hours. Shopping is a daily activity, so being able to ask 'Waar vind ik...?' or say 'Ik wil graag...' makes a real difference. You will also learn to check whether a shop is still open, which is handy in the Netherlands where many shops close early.",
+  "vocab": [
+    { "nl": "de winkel", "en": "the shop" },
+    { "nl": "de supermarkt", "en": "the supermarket" },
+    { "nl": "de markt", "en": "the market" },
+    { "nl": "de bakker", "en": "the baker (baker's shop)" },
+    { "nl": "de boodschappen", "en": "the groceries" },
+    { "nl": "het mandje", "en": "the (shopping) basket" },
+    { "nl": "de kassa", "en": "the till / checkout" },
+    { "nl": "de groente", "en": "the vegetables" },
+    { "nl": "het fruit", "en": "the fruit" },
+    { "nl": "de melk", "en": "the milk" },
+    { "nl": "het brood", "en": "the bread" },
+    { "nl": "de prijs", "en": "the price" },
+    { "nl": "de aanbieding", "en": "the special offer" },
+    { "nl": "de openingstijden", "en": "the opening hours" }
+  ],
   "grammar": [
     {
       "title": "The regular present tense",
@@ -50,6 +66,13 @@
     { "nl": "Mag het een onsje meer zijn?", "en": "Can it be a little more (100g)?" },
     { "nl": "Doet u er maar twee.", "en": "I'll take two, please." }
   ],
+  "sayings": [
+    { "nl": "Even een boodschapje doen.", "en": "Just popping out for a few groceries." },
+    { "nl": "Dat is een koopje!", "en": "That's a bargain!" },
+    { "nl": "De winkel is gesloten.", "en": "The shop is closed." },
+    { "nl": "Goedkoop is duurkoop.", "en": "Cheap is dear in the end. (buying cheap costs you more later)" },
+    { "nl": "Wie het kleine niet eert, is het grote niet weerd.", "en": "Whoever does not value small things does not deserve big ones. (look after the pennies — a Dutch proverb)" }
+  ],
   "dialogue": {
     "title": "At the cheese counter in a supermarket",
     "lines": [
@@ -70,8 +93,20 @@
       "Begin with a greeting like 'Hoi' and the person's name.",
       "Use a quantity with each item: een pak melk, een kilo aardappelen, zes eieren.",
       "Use 'kun je' to ask politely: 'Kun je ... kopen?'.",
-      "End with 'Bedankt!' and your name."
+      "End with 'Bedankt!' and your name.",
+      "Write the shopping list as one clear line, separated by commas.",
+      "Say which shop to go to if it matters: bij de bakker of in de supermarkt."
     ],
-    "model": "Hoi Lisa, ik moet vandaag werken, dus kun jij de boodschappen doen? We hebben nodig: een pak melk, een brood, een kilo aardappelen, zes eieren en wat groente. Kun je ook kaas kopen? Bewaar alsjeblieft de bon, dan reken ik later met je af. Heel erg bedankt! Groetjes, Omar."
+    "model": "Hoi Lisa, ik moet vandaag werken, dus kun jij de boodschappen doen? We hebben nodig: een pak melk, een brood, een kilo aardappelen, zes eieren en wat groente. Kun je ook kaas kopen? Bewaar alsjeblieft de bon, dan reken ik later met je af. Heel erg bedankt! Groetjes, Omar.",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort briefje aan je huisgenoot. Vraag of hij of zij brood en fruit wil halen bij de supermarkt.",
+        "model": "Hoi Sam, ik ben de hele dag weg. Kun je bij de supermarkt nog wat halen? We hebben geen brood meer. Neem alsjeblieft ook wat fruit mee, bijvoorbeeld appels en bananen. De winkel is open tot acht uur. Bedankt alvast! Groetjes, Noor"
+      },
+      {
+        "prompt": "Stuur een berichtje aan een vriend. Vraag hoe laat de supermarkt opengaat en of hij meegaat boodschappen doen.",
+        "model": "Hoi Daan, ik wil vanmiddag boodschappen doen. Weet jij hoe laat de supermarkt opengaat? Ik denk om acht uur. Ga je mee? Ik heb veel nodig en samen is het gezelliger. Laat maar weten! Groetjes, Eva"
+      }
+    ]
   }
 }

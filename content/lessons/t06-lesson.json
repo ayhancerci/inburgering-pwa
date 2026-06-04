@@ -1,6 +1,21 @@
 {
   "themeId": "link-0a2-06",
   "intro": "This chapter is about getting around the Netherlands by train, bus, bike or car. You learn to tell the time, ask 'what time does it leave?', read a timetable and ask for directions. These skills help you travel to work, school or an appointment and explain it when you are running late.",
+  "vocab": [
+    { "nl": "het station", "en": "the station" },
+    { "nl": "het perron", "en": "the platform" },
+    { "nl": "de halte", "en": "the stop" },
+    { "nl": "het kaartje", "en": "the ticket" },
+    { "nl": "de vertraging", "en": "the delay" },
+    { "nl": "de dienstregeling", "en": "the timetable" },
+    { "nl": "de reis", "en": "the journey" },
+    { "nl": "de fiets", "en": "the bike" },
+    { "nl": "de auto", "en": "the car" },
+    { "nl": "de file", "en": "the traffic jam" },
+    { "nl": "de uitgang", "en": "the exit" },
+    { "nl": "de richting", "en": "the direction" },
+    { "nl": "het kruispunt", "en": "the intersection" }
+  ],
   "grammar": [
     {
       "title": "Telling the time and asking 'hoe laat ...?'",
@@ -50,6 +65,13 @@
     { "nl": "Ik ben er over een kwartier.", "en": "I'll be there in fifteen minutes." },
     { "nl": "Hoe lang duurt de reis ongeveer?", "en": "About how long does the journey take?" }
   ],
+  "sayings": [
+    { "nl": "Beter laat dan nooit.", "en": "Better late than never." },
+    { "nl": "Ik ben net op tijd.", "en": "I am just in time." },
+    { "nl": "We zitten in hetzelfde schuitje.", "en": "We are in the same boat. (we have the same problem)" },
+    { "nl": "Goede reis!", "en": "Have a good trip!" },
+    { "nl": "Die gaat als een speer.", "en": "That one goes really fast. (literally: it goes like a spear)" }
+  ],
   "dialogue": {
     "title": "A traveller asks a station employee for help with a train to Groningen",
     "lines": [
@@ -70,8 +92,20 @@
     "tips": [
       "Use times with 'om ... uur', 'half', 'kwart over' or 'kwart voor'.",
       "Use 'met de trein/bus' to say how you travel and separable verbs like 'aankomen' and 'overstappen'.",
-      "Apologise with 'sorry dat ik te laat ben' and give a reason."
+      "Apologise with 'sorry dat ik te laat ben' and give a reason.",
+      "Say how long you will be with 'over een kwartier' or 'over tien minuten'.",
+      "Ask the other person to wait with 'kun je op mij wachten?'."
     ],
-    "model": "Hoi Daan, sorry, ik ben morgen wat later. Ik reis met de trein naar Eindhoven en moet in Den Bosch overstappen. Mijn trein vertrekt om kwart voor tien, maar er is vandaag veel vertraging op die lijn. Ik denk dat ik rond half twaalf aankom op het station. Kun je daar op mij wachten? We hebben daarna nog genoeg tijd voor de lunch. Tot morgen! Groetjes, Anna"
+    "model": "Hoi Daan, sorry, ik ben morgen wat later. Ik reis met de trein naar Eindhoven en moet in Den Bosch overstappen. Mijn trein vertrekt om kwart voor tien, maar er is vandaag veel vertraging op die lijn. Ik denk dat ik rond half twaalf aankom op het station. Kun je daar op mij wachten? We hebben daarna nog genoeg tijd voor de lunch. Tot morgen! Groetjes, Anna",
+    "examples": [
+      {
+        "prompt": "Schrijf een bericht aan een collega. Je bent ziek en komt vandaag niet met de trein naar je werk.",
+        "model": "Hoi Mark, ik kom vandaag niet naar het werk. Ik voel me niet goed en blijf thuis. Normaal reis ik met de trein van negen uur, maar dat lukt nu niet. Ik hoop dat ik morgen weer beter ben. Wil je dit aan de chef vertellen? Bedankt en tot snel. Groetjes, Sam"
+      },
+      {
+        "prompt": "Schrijf een korte uitleg voor een vriend hoe hij met de bus naar jouw huis komt.",
+        "model": "Hoi Lisa, dit is de weg naar mijn huis. Neem bus twaalf bij het station. Je stapt uit bij de halte Marktplein. Daarna ga je rechts en loop je rechtdoor. Mijn huis is het derde huis links. De reis duurt ongeveer twintig minuten. Tot zo!"
+      }
+    ]
   }
 }

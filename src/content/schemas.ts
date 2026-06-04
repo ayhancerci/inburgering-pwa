@@ -201,8 +201,10 @@ export const dialogueLineSchema = z.object({
 export const lessonSchema = z.object({
   themeId: z.string(),
   intro: z.string(),
+  vocab: z.array(biTextSchema).optional(), // key words for this chapter (Kernwoorden)
   grammar: z.array(grammarPointSchema),
   phrases: z.array(biTextSchema),
+  sayings: z.array(biTextSchema).optional(), // typical Dutch expressions / proverbs
   dialogue: z.object({
     title: z.string().optional(),
     lines: z.array(dialogueLineSchema),
@@ -211,6 +213,7 @@ export const lessonSchema = z.object({
     prompt: z.string(),
     tips: z.array(z.string()),
     model: z.string().optional(),
+    examples: z.array(z.object({ prompt: z.string(), model: z.string() })).optional(),
   }),
 })
 
@@ -263,6 +266,19 @@ export const basicsSectionSchema = z.discriminatedUnion('type', [
     options: z.array(z.string()).optional(),
     answer: z.string().optional(),
     explanation: z.string().optional(),
+  }),
+  // Links: external practice exams (url) or the in-app timed practice exam (mock = exam id).
+  z.object({
+    type: z.literal('links'),
+    title: z.string().optional(),
+    items: z.array(
+      z.object({
+        label: z.string(),
+        url: z.string().optional(),
+        mock: z.string().optional(),
+        note: z.string().optional(),
+      }),
+    ),
   }),
 ])
 

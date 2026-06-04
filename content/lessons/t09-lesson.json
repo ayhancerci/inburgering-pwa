@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-09",
   "intro": "This chapter is about shopping for goods in the Netherlands: buying clothes, dealing with the wrong size, returning a parcel and asking for your money back. You learn to talk about things you have already done (\"Where did you buy that laptop?\"), which is essential when something is broken or you want a refund. These skills help you handle shops, online orders and second-hand purchases with confidence.",
+  "vocab": [
+    { "nl": "de winkel", "en": "the shop" },
+    { "nl": "de bon", "en": "the receipt" },
+    { "nl": "de maat", "en": "the size" },
+    { "nl": "de korting", "en": "the discount" },
+    { "nl": "het pakket", "en": "the parcel" },
+    { "nl": "de garantie", "en": "the warranty" },
+    { "nl": "de kleur", "en": "the colour" },
+    { "nl": "de jas", "en": "the coat" },
+    { "nl": "de broek", "en": "the trousers" },
+    { "nl": "de schoenen", "en": "the shoes" },
+    { "nl": "de prijs", "en": "the price" },
+    { "nl": "het geld", "en": "the money" },
+    { "nl": "de verkoper", "en": "the salesperson" },
+    { "nl": "het bestelnummer", "en": "the order number" }
+  ],
   "grammar": [
     {
       "title": "The perfect tense with hebben (regular verbs)",
@@ -47,6 +63,13 @@
     { "nl": "Hoeveel korting krijg ik?", "en": "How much discount do I get?" },
     { "nl": "Ik koop het liever tweedehands.", "en": "I prefer to buy it second-hand." }
   ],
+  "sayings": [
+    { "nl": "Koop je geen kat in de zak.", "en": "Don't buy a cat in a bag. (don't buy something without checking it)" },
+    { "nl": "Goedkoop is duurkoop.", "en": "Cheap is expensive. (buying cheap costs you more in the end)" },
+    { "nl": "Dat is een koopje!", "en": "That is a bargain!" },
+    { "nl": "Eerst zien, dan geloven.", "en": "First see, then believe. (seeing is believing)" },
+    { "nl": "De klant is koning.", "en": "The customer is king." }
+  ],
   "dialogue": {
     "title": "Returning a broken laptop charger at the shop",
     "lines": [
@@ -66,8 +89,20 @@
     "tips": [
       "Start with 'Geachte heer/mevrouw,' and end with 'Met vriendelijke groet' and your name.",
       "Use the perfect tense to say what you did: 'Ik heb ... besteld / gekocht / betaald.'",
-      "Be clear about what you want: 'Ik wil graag ruilen' or 'Ik wil mijn geld terug.'"
+      "Be clear about what you want: 'Ik wil graag ruilen' or 'Ik wil mijn geld terug.'",
+      "Give the details the shop needs, like the size, the colour and the order number.",
+      "End with a polite question, for example 'kunt u mij helpen?'."
     ],
-    "model": "Geachte heer/mevrouw,\n\nVorige week heb ik een blauwe jas bij u besteld. Ik heb de jas gisteren ontvangen, maar er zijn twee problemen. De maat is te klein en de kleur is zwart, niet blauw. Ik heb de jas dus niet gedragen.\n\nIk wil graag een nieuwe jas in maat L en in de kleur blauw. Kunt u mij vertellen hoe ik het pakket gratis kan terugsturen? De bon en het bestelnummer stuur ik mee.\n\nAlvast bedankt voor uw hulp.\n\nMet vriendelijke groet,\nSara Yıldız"
+    "model": "Geachte heer/mevrouw,\n\nVorige week heb ik een blauwe jas bij u besteld. Ik heb de jas gisteren ontvangen, maar er zijn twee problemen. De maat is te klein en de kleur is zwart, niet blauw. Ik heb de jas dus niet gedragen.\n\nIk wil graag een nieuwe jas in maat L en in de kleur blauw. Kunt u mij vertellen hoe ik het pakket gratis kan terugsturen? De bon en het bestelnummer stuur ik mee.\n\nAlvast bedankt voor uw hulp.\n\nMet vriendelijke groet,\nSara Yıldız",
+    "examples": [
+      {
+        "prompt": "Schrijf een korte e-mail naar een webwinkel. Je hebt schoenen gekocht, maar ze zijn te klein. Je wilt ze ruilen voor een grotere maat.",
+        "model": "Geachte heer/mevrouw,\n\nVorige week heb ik bij u een paar bruine schoenen besteld in maat 41. De schoenen zijn helaas te klein. Ik heb ze maar een keer in huis gepast.\n\nIk wil de schoenen graag ruilen voor maat 42. Kunt u mij vertellen hoe ik dat doe? Mijn bestelnummer staat in de bijlage.\n\nAlvast bedankt.\n\nMet vriendelijke groet,\nJamal Aydin"
+      },
+      {
+        "prompt": "Schrijf een bericht aan een verkoper op een tweedehands site. Je wilt weten of de fiets nog te koop is en wat de prijs is.",
+        "model": "Hoi, ik zag jouw advertentie voor de blauwe fiets. Is de fiets nog te koop? Werkt alles goed? Ik wil graag weten wat de laatste prijs is. Kan ik de fiets dit weekend komen bekijken? Ik hoor het graag. Groetjes, Mei"
+      }
+    ]
   }
 }

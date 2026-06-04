@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-10",
   "intro": "This chapter is about safety, accidents and emergencies in the Netherlands. You learn how to say what happened (\"Wat is er gebeurd?\"), to call the emergency number 112, and to talk to the police or a witness. You also practise the rules of what you must, may and may not do, which is useful at work, in traffic and in daily life.",
+  "vocab": [
+    { "nl": "het ongeluk", "en": "the accident" },
+    { "nl": "de brand", "en": "the fire" },
+    { "nl": "de politie", "en": "the police" },
+    { "nl": "de brandweer", "en": "the fire brigade" },
+    { "nl": "de ambulance", "en": "the ambulance" },
+    { "nl": "het alarmnummer", "en": "the emergency number" },
+    { "nl": "het gevaar", "en": "the danger" },
+    { "nl": "de getuige", "en": "the witness" },
+    { "nl": "de hulp", "en": "the help" },
+    { "nl": "het slachtoffer", "en": "the victim" },
+    { "nl": "de regel", "en": "the rule" },
+    { "nl": "gewond", "en": "injured" },
+    { "nl": "voorzichtig", "en": "careful" },
+    { "nl": "verboden", "en": "forbidden" }
+  ],
   "grammar": [
     {
       "title": "The perfect tense for events: 'Wat is er gebeurd?'",
@@ -47,6 +63,14 @@
     { "nl": "Waar doet het pijn?", "en": "Where does it hurt?" },
     { "nl": "De ambulance is onderweg.", "en": "The ambulance is on its way." }
   ],
+  "sayings": [
+    { "nl": "Beter voorkomen dan genezen.", "en": "Better to prevent than to cure. (Dutch proverb: prevention is better than cure)" },
+    { "nl": "Veiligheid voor alles.", "en": "Safety before everything." },
+    { "nl": "Bezint eer ge begint.", "en": "Think before you begin. (Dutch proverb: look before you leap)" },
+    { "nl": "Pas goed op jezelf.", "en": "Take good care of yourself." },
+    { "nl": "Geen paniek, blijf kalm.", "en": "No panic, stay calm." },
+    { "nl": "Ongelukken zitten in een klein hoekje.", "en": "Accidents lurk in a small corner. (Dutch saying: accidents happen easily)" }
+  ],
   "dialogue": {
     "title": "Reporting a bicycle accident to the emergency line (112)",
     "lines": [
@@ -66,8 +90,20 @@
     "tips": [
       "Use ordering words to structure your story: eerst, toen, daarna.",
       "Use the perfect tense; remember 'gebeuren' and 'vallen' take 'zijn': is gebeurd, is gevallen.",
-      "Keep it short and factual: what, where, who, and what you did."
+      "Keep it short and factual: what, where, who, and what you did.",
+      "Say clearly whether you called help: 'Ik heb 112 gebeld' or 'Ik heb geen 112 gebeld, want ...'.",
+      "Close with a warning or tip for the neighbours: 'Wees voorzichtig op deze plek.'"
     ],
-    "model": "Gisteren is er een klein ongeluk gebeurd in onze straat. Eerst zag ik een man op de fiets. Toen deed een automobilist plotseling zijn deur open. De fietser kon niet stoppen en is gevallen.\n\nHij was een beetje gewond aan zijn arm, maar het was niet ernstig. Daarna heb ik hem geholpen en zijn fiets vastgehouden. We hebben geen 112 gebeld, want de man kon weer lopen. Wees voorzichtig op deze plek, want het is daar gevaarlijk."
+    "model": "Gisteren is er een klein ongeluk gebeurd in onze straat. Eerst zag ik een man op de fiets. Toen deed een automobilist plotseling zijn deur open. De fietser kon niet stoppen en is gevallen.\n\nHij was een beetje gewond aan zijn arm, maar het was niet ernstig. Daarna heb ik hem geholpen en zijn fiets vastgehouden. We hebben geen 112 gebeld, want de man kon weer lopen. Wees voorzichtig op deze plek, want het is daar gevaarlijk.",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort bericht voor de buurtapp. Er was vanmorgen brand in een schuur in de straat. Vertel wat er is gebeurd en wat de mensen moeten doen.",
+        "model": "Beste buren, vanmorgen was er brand in een schuur in onze straat. Eerst zag ik veel rook. Toen heb ik meteen 112 gebeld. De brandweer was snel en heeft de brand geblust. Gelukkig is niemand gewond. Pas goed op met vuur in de tuin. Wees voorzichtig, want het is droog weer."
+      },
+      {
+        "prompt": "Schrijf een korte mail aan je werk. Je hebt op het werk een ongeluk gezien en je bent getuige. Vertel wat er is gebeurd.",
+        "model": "Beste meneer Smit, ik schrijf u omdat ik vanochtend een ongeluk heb gezien. Een collega is in het magazijn gevallen. Hij was gewond aan zijn knie en kon niet lopen. Ik heb hem geholpen en de bedrijfshulp gebeld. Ik ben getuige en wil graag helpen. Met vriendelijke groet, Omar"
+      }
+    ]
   }
 }

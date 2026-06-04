@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-03",
   "intro": "This chapter is about small talk: asking how someone is, chatting about the weather, inviting people, and congratulating them. In the Netherlands a quick 'Hoe gaat het?' or a comment about the weather is a normal way to start a friendly conversation with neighbours and colleagues. You will learn the words and reactions that make these little exchanges feel natural and warm.",
+  "vocab": [
+    { "nl": "het weer", "en": "the weather" },
+    { "nl": "de zon", "en": "the sun" },
+    { "nl": "de regen", "en": "the rain" },
+    { "nl": "de wind", "en": "the wind" },
+    { "nl": "de sneeuw", "en": "the snow" },
+    { "nl": "de groet", "en": "the greeting" },
+    { "nl": "de uitnodiging", "en": "the invitation" },
+    { "nl": "het feestje", "en": "the (little) party" },
+    { "nl": "de verjaardag", "en": "the birthday" },
+    { "nl": "het cadeautje", "en": "the little present" },
+    { "nl": "het nieuws", "en": "the news" },
+    { "nl": "warm", "en": "warm" },
+    { "nl": "koud", "en": "cold" },
+    { "nl": "druk", "en": "busy" }
+  ],
   "grammar": [
     {
       "title": "Demonstratives: deze, dit, die, dat",
@@ -50,6 +66,14 @@
     { "nl": "Veel plezier!", "en": "Have fun!" },
     { "nl": "Doe de groeten aan je vrouw.", "en": "Say hello to your wife." }
   ],
+  "sayings": [
+    { "nl": "Lekker weertje, hè?", "en": "Nice weather, isn't it? (a classic small-talk opener)" },
+    { "nl": "Het regent pijpenstelen.", "en": "It's raining cats and dogs. (literally: raining pipe stems)" },
+    { "nl": "Gezellig dat je er bent!", "en": "How nice that you're here!" },
+    { "nl": "Tot de volgende keer!", "en": "Until next time!" },
+    { "nl": "Na regen komt zonneschijn.", "en": "After rain comes sunshine. (better times will come — a Dutch proverb)" },
+    { "nl": "Beterschap!", "en": "Get well soon!" }
+  ],
   "dialogue": {
     "title": "Two colleagues chat in the morning at work",
     "lines": [
@@ -70,8 +94,20 @@
       "Open with 'Gefeliciteerd met...' to congratulate them.",
       "Use a reaction word like 'Wat leuk!' or 'Wat fijn!'.",
       "Ask 'Hoe gaat het met...?' about the mother and the baby.",
-      "Offer to visit with 'Mag ik een keer langskomen?'."
+      "Offer to visit with 'Mag ik een keer langskomen?'.",
+      "Keep the tone warm and short; an emoji or 'Liefs' at the end is normal.",
+      "End with a good wish like 'Geniet ervan!' or 'Veel geluk samen!'."
     ],
-    "model": "Hoi Nadia, gefeliciteerd met jullie kleine meisje! Wat een geweldig nieuws, ik ben heel blij voor jullie. Hoe gaat het met jou en met de baby? Heb je een beetje kunnen slapen? Ik zou jullie graag een keer komen bezoeken. Mag ik volgende week langskomen met een cadeautje? Geniet van deze mooie tijd. Liefs, Maria."
+    "model": "Hoi Nadia, gefeliciteerd met jullie kleine meisje! Wat een geweldig nieuws, ik ben heel blij voor jullie. Hoe gaat het met jou en met de baby? Heb je een beetje kunnen slapen? Ik zou jullie graag een keer komen bezoeken. Mag ik volgende week langskomen met een cadeautje? Geniet van deze mooie tijd. Liefs, Maria.",
+    "examples": [
+      {
+        "prompt": "Een collega is jarig. Schrijf een kort berichtje om hem te feliciteren en hem een fijne dag te wensen.",
+        "model": "Hoi Tom, van harte gefeliciteerd met je verjaardag! Ik hoop dat je een heel fijne dag hebt. Doe je iets leuks vanavond? Geniet er lekker van met je familie en vrienden. Tot maandag op het werk! Groetjes, Anouk"
+      },
+      {
+        "prompt": "Nodig een vriendin uit voor de koffie. Stel een dag en tijd voor en vraag of het haar uitkomt.",
+        "model": "Hoi Saskia, heb je deze week zin om koffie te komen drinken? Het is alweer veel te lang geleden. Komt vrijdagmiddag om drie uur jou uit? Dan bak ik iets lekkers erbij. Laat maar weten of het lukt. Het wordt vast gezellig! Liefs, Mila"
+      }
+    ]
   }
 }

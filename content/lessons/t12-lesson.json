@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-12",
   "intro": "This chapter is about education in the Netherlands: primary school (basisschool), secondary school (middelbare school), study plans and learning Dutch. You learn to give reasons with 'omdat', 'want' and 'dat', which lets you explain why you do something and what you think. This is useful for parent meetings at school, for talking about your children's education and for explaining your own learning goals.",
+  "vocab": [
+    { "nl": "de basisschool", "en": "the primary school" },
+    { "nl": "de middelbare school", "en": "the secondary school" },
+    { "nl": "de leerling", "en": "the pupil" },
+    { "nl": "de leraar", "en": "the teacher (male)" },
+    { "nl": "de juf", "en": "the teacher (female, primary school)" },
+    { "nl": "het vak", "en": "the (school) subject" },
+    { "nl": "de toets", "en": "the test" },
+    { "nl": "het cijfer", "en": "the grade / mark" },
+    { "nl": "het huiswerk", "en": "the homework" },
+    { "nl": "het diploma", "en": "the diploma" },
+    { "nl": "de cursus", "en": "the course" },
+    { "nl": "het examen", "en": "the exam" },
+    { "nl": "het oudergesprek", "en": "the parent meeting" },
+    { "nl": "de klas", "en": "the class / classroom" }
+  ],
   "grammar": [
     {
       "title": "Reasons with 'want' and 'omdat'",
@@ -47,6 +63,14 @@
     { "nl": "Mijn dochter haalt dit jaar haar diploma.", "en": "My daughter is getting her diploma this year." },
     { "nl": "Kunt u dat nog een keer uitleggen?", "en": "Could you explain that one more time?" }
   ],
+  "sayings": [
+    { "nl": "Oefening baart kunst.", "en": "Practice creates skill. (Dutch proverb: practice makes perfect)" },
+    { "nl": "Een goed begin is het halve werk.", "en": "A good start is half the work. (Dutch proverb)" },
+    { "nl": "Je bent nooit te oud om te leren.", "en": "You are never too old to learn." },
+    { "nl": "Al doende leert men.", "en": "By doing, one learns. (Dutch proverb: you learn by doing)" },
+    { "nl": "Stap voor stap.", "en": "Step by step." },
+    { "nl": "Vol goede moed.", "en": "Full of good courage / with confidence." }
+  ],
   "dialogue": {
     "title": "A parent talks with the teacher at a parent meeting",
     "lines": [
@@ -66,8 +90,20 @@
     "tips": [
       "Give reasons with 'omdat' (verb to the end) and 'want' (normal word order).",
       "Use 'dat' after 'ik denk', 'ik hoop', 'ik vind'.",
-      "Talk about the future with 'gaan' + infinitive or 'ik wil ...'."
+      "Talk about the future with 'gaan' + infinitive or 'ik wil ...'.",
+      "Name a concrete goal, like an exam or diploma: 'Ik wil mijn examen halen.'",
+      "Use 'leren' for the language and 'studeren' only for higher education, so you do not mix them up."
     ],
-    "model": "Ik leer Nederlands omdat ik in Nederland woon en werk. Ik vind het belangrijk, want ik wil met mijn buren en collega's praten. De woorden vind ik soms moeilijk, maar spreken vind ik leuk.\n\nIk denk dat ik elke dag moet oefenen. Daarom ga ik volgende maand een cursus doen. Ik hoop dat ik dan mijn examen haal. Ook wil ik mijn kinderen helpen met hun huiswerk, omdat goed Nederlands op school heel belangrijk is."
+    "model": "Ik leer Nederlands omdat ik in Nederland woon en werk. Ik vind het belangrijk, want ik wil met mijn buren en collega's praten. De woorden vind ik soms moeilijk, maar spreken vind ik leuk.\n\nIk denk dat ik elke dag moet oefenen. Daarom ga ik volgende maand een cursus doen. Ik hoop dat ik dan mijn examen haal. Ook wil ik mijn kinderen helpen met hun huiswerk, omdat goed Nederlands op school heel belangrijk is.",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort bericht aan de juf van je zoon. Je kunt niet naar het oudergesprek komen op dinsdag. Vraag om een andere dag.",
+        "model": "Beste juf, ik kan helaas niet naar het oudergesprek op dinsdag komen, want ik moet die dag werken. Ik vind het wel belangrijk om met u te praten over mijn zoon. Kunnen we misschien een andere dag afspreken? Ik ben donderdag en vrijdag vrij. Hoor ik van u? Met vriendelijke groet, Sara"
+      },
+      {
+        "prompt": "Schrijf een korte tekst over je kind op school. Vertel naar welke school het gaat, welk vak het leuk vindt en wat je hoopt.",
+        "model": "Mijn dochter zit op de basisschool in onze wijk. Ze gaat graag naar school, omdat ze veel vriendinnen heeft. Ze vindt tekenen het leukste vak. Rekenen is moeilijk, maar ze oefent elke dag. Ik denk dat ze het goed doet. Ik hoop dat ze later haar diploma haalt en gaat studeren."
+      }
+    ]
   }
 }

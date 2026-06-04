@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-19",
   "intro": "This chapter is about money: spending, saving, bills and tax. It also asks whether money makes you happy. You will learn how to talk about what you spend money on, how to say something is too expensive or too cheap, and how to ask polite, formal questions about a bill or a tax assessment (belastingaanslag).",
+  "vocab": [
+    { "nl": "het geld", "en": "the money" },
+    { "nl": "de rekening", "en": "the bill" },
+    { "nl": "het bedrag", "en": "the amount" },
+    { "nl": "de belasting", "en": "the tax" },
+    { "nl": "de bank", "en": "the bank" },
+    { "nl": "het salaris", "en": "the salary" },
+    { "nl": "de huur", "en": "the rent" },
+    { "nl": "de korting", "en": "the discount" },
+    { "nl": "de schuld", "en": "the debt" },
+    { "nl": "de spaarrekening", "en": "the savings account" },
+    { "nl": "het budget", "en": "the budget" },
+    { "nl": "de pinpas", "en": "the debit card" },
+    { "nl": "de toeslag", "en": "the benefit allowance" },
+    { "nl": "de uitgaven", "en": "the expenses" }
+  ],
   "grammar": [
     {
       "title": "geld uitgeven aan (to spend money on)",
@@ -50,6 +66,14 @@
     { "nl": "Geld maakt niet altijd gelukkig.", "en": "Money does not always make you happy." },
     { "nl": "Kunt u mij helpen met deze brief?", "en": "Can you help me with this letter?" }
   ],
+  "sayings": [
+    { "nl": "Geld groeit niet aan de bomen.", "en": "Money does not grow on trees. (you have to work for it)" },
+    { "nl": "De kosten gaan voor de baten uit.", "en": "The costs come before the profits. (you must spend before you earn, Dutch proverb)" },
+    { "nl": "Wie het kleine niet eert, is het grote niet weerd.", "en": "Who does not value the small is not worth the big. (save your pennies, Dutch proverb)" },
+    { "nl": "Het is even slikken bij die prijs.", "en": "That price is a bit hard to swallow." },
+    { "nl": "Ik moet op de kleintjes letten.", "en": "I have to watch the pennies." },
+    { "nl": "Dat is geen geld.", "en": "That is not a lot of money. (that is cheap)" }
+  ],
   "dialogue": {
     "title": "Calling the tax office about a tax assessment",
     "lines": [
@@ -71,8 +95,20 @@
       "Begin with 'Geachte heer/mevrouw,' and use the polite form 'u'.",
       "Use 'te' to say it is too much: 'De rekening is te hoog.'",
       "Use polite questions: 'Kunt u uitleggen ...?' and 'Mag ik in termijnen betalen?'.",
-      "End with 'Met vriendelijke groet,' and your name."
+      "End with 'Met vriendelijke groet,' and your name.",
+      "Give the amount and the date of the bill, so the company can find it quickly.",
+      "Stay friendly and short; one clear question per sentence works best."
     ],
-    "model": "Geachte heer/mevrouw, Ik heb een rekening van u gekregen voor honderdvijftig euro. Ik denk dat dit bedrag te hoog is. Kunt u mij uitleggen waarom de rekening zo hoog is? Klopt dit bedrag wel? Ik heb dit jaar te weinig geld over, dus betalen is moeilijk voor mij. Mag ik de rekening misschien in termijnen betalen? Ik hoor graag van u. Met vriendelijke groet, Omar Hassan"
+    "model": "Geachte heer/mevrouw, Ik heb een rekening van u gekregen voor honderdvijftig euro. Ik denk dat dit bedrag te hoog is. Kunt u mij uitleggen waarom de rekening zo hoog is? Klopt dit bedrag wel? Ik heb dit jaar te weinig geld over, dus betalen is moeilijk voor mij. Mag ik de rekening misschien in termijnen betalen? Ik hoor graag van u. Met vriendelijke groet, Omar Hassan",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort bericht aan een vriend. Vertel hoe jij geld probeert te sparen.",
+        "model": "Hoi Sam, Ik probeer dit jaar meer geld te sparen. Elke maand zet ik wat geld op mijn spaarrekening. Ik geef nu minder geld uit aan kleding en uit eten. Ik let goed op de kleintjes. Soms is het moeilijk, maar het lukt langzaam. Hoe doe jij dat? Groetjes, Ali"
+      },
+      {
+        "prompt": "Schrijf een korte e-mail aan de Belastingdienst. Je begrijpt je belastingaanslag niet.",
+        "model": "Geachte heer/mevrouw, Ik heb een belastingaanslag ontvangen, maar ik begrijp het bedrag niet goed. Kunt u mij uitleggen hoe dit bedrag is berekend? Klopt dit wel? Ik heb te weinig geld om alles in een keer te betalen. Mag ik in termijnen betalen? Ik hoor graag van u. Met vriendelijke groet, Lena Petrov"
+      }
+    ]
   }
 }

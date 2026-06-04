@@ -551,6 +551,16 @@
       "intro": "KNM = 40 multiple-choice questions in 45 minutes about how life in the Netherlands works. You watch short scenes and photos and pick the best answer. It's one of the easiest parts to pass early, so many people sit it first.",
       "sections": [
         {
+          "type": "links",
+          "title": "🔗 Oefen dit examen",
+          "items": [
+            { "label": "▶ Oefen KNM in de app (met timer)", "mock": "knm", "note": "In-app oefenexamen met timer" },
+            { "label": "Officieel DUO-oefenexamen", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/" },
+            { "label": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp" },
+            { "label": "KNM Oefenen — 450+ gratis vragen", "url": "https://knmoefenen.nl/inburgering-knm-oefenen" }
+          ]
+        },
+        {
           "type": "note",
           "title": "Wat wordt er getoetst?",
           "body": "Practical knowledge about Dutch society: work & income, education, health & care, housing, history & geography, government & the rule of law, official bodies (instanties), and norms & values. You don't memorise dates — you need to know how things work and what's normal here."
@@ -650,6 +660,15 @@
       "intro": "The Reading exam: about 65 minutes on a computer. You read everyday texts — letters, ads, signs, short articles — and answer multiple-choice questions.",
       "sections": [
         {
+          "type": "links",
+          "title": "🔗 Oefen dit examen",
+          "items": [
+            { "label": "▶ Oefen Lezen in de app (met timer)", "mock": "lezen", "note": "In-app oefenexamen met timer" },
+            { "label": "Officieel DUO-oefenexamen", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/" },
+            { "label": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp" }
+          ]
+        },
+        {
           "type": "note",
           "title": "Hoe werkt het?",
           "body": "You get several short texts, each with a few multiple-choice questions. You can go back, change answers, and flag questions to return to. You don't need to understand every word — just enough to answer."
@@ -699,6 +718,15 @@
       "intro": "The Listening exam: about 45 minutes on a computer with headphones. You hear short conversations and announcements and answer multiple-choice questions.",
       "sections": [
         {
+          "type": "links",
+          "title": "🔗 Oefen dit examen",
+          "items": [
+            { "label": "▶ Oefen Luisteren in de app (met timer)", "mock": "luisteren", "note": "In-app oefenexamen met timer" },
+            { "label": "Officieel DUO-oefenexamen (met echt geluid)", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/" },
+            { "label": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp" }
+          ]
+        },
+        {
           "type": "note",
           "title": "Hoe werkt het?",
           "body": "You usually hear each fragment twice. Read the question and the options BEFORE the audio starts, so you know exactly what to listen for."
@@ -745,6 +773,14 @@
       "intro": "The Writing exam: about 40 minutes, on paper. You write short, practical texts — fill in a form, write a brief note or email, and answer questions.",
       "sections": [
         {
+          "type": "links",
+          "title": "🔗 Oefen dit examen",
+          "items": [
+            { "label": "Officieel DUO-oefenexamen", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/" },
+            { "label": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp" }
+          ]
+        },
+        {
           "type": "note",
           "title": "Hoe werkt het?",
           "body": "Tasks are everyday and short: complete a form with your details, write a brief message (to a teacher, neighbour or company), or answer a few written questions. Neat, simple, correct sentences score well."
@@ -790,6 +826,14 @@
       "titleEn": "Exam: Speaking",
       "intro": "The Speaking exam: about 35 minutes on a computer. You speak into a microphone — describe a photo, answer questions, and react to short video situations.",
       "sections": [
+        {
+          "type": "links",
+          "title": "🔗 Oefen dit examen",
+          "items": [
+            { "label": "Officieel DUO-oefenexamen", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/" },
+            { "label": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp" }
+          ]
+        },
         {
           "type": "note",
           "title": "Hoe werkt het?",

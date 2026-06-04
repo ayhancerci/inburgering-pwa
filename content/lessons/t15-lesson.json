@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-15",
   "intro": "This chapter is about free time outside the home: joining a club, doing sport, hobbies and describing how people look. You learn how to say what you have to do, what you do not need to do, and what you feel like doing. This is useful for signing up at a gym or sports club and for making small talk about hobbies and appearance.",
+  "vocab": [
+    { "nl": "de vrije tijd", "en": "the free time" },
+    { "nl": "de hobby", "en": "the hobby" },
+    { "nl": "de sport", "en": "the sport" },
+    { "nl": "de sportschool", "en": "the gym" },
+    { "nl": "de vereniging", "en": "the club / association" },
+    { "nl": "het lid", "en": "the member" },
+    { "nl": "de contributie", "en": "the membership fee" },
+    { "nl": "de wedstrijd", "en": "the match" },
+    { "nl": "het team", "en": "the team" },
+    { "nl": "de training", "en": "the training" },
+    { "nl": "het haar", "en": "the hair" },
+    { "nl": "de baard", "en": "the beard" },
+    { "nl": "de bril", "en": "the glasses" },
+    { "nl": "de uitdaging", "en": "the challenge" }
+  ],
   "grammar": [
     {
       "title": "'moeten' versus 'hoeven niet te' (must vs. don't have to)",
@@ -46,6 +62,13 @@
     { "nl": "Wat is je haar lang geworden!", "en": "Your hair has got so long!" },
     { "nl": "Hij ziet er sportief uit.", "en": "He looks sporty." }
   ],
+  "sayings": [
+    { "nl": "Even lekker eruit!", "en": "Just nice to get out for a bit!" },
+    { "nl": "Doe je mee?", "en": "Are you joining in?" },
+    { "nl": "Veel plezier met sporten!", "en": "Have fun doing sport!" },
+    { "nl": "Een gezonde geest in een gezond lichaam.", "en": "A healthy mind in a healthy body. (sport keeps you well)" },
+    { "nl": "Oefening baart kunst.", "en": "Practice gives birth to skill. (practice makes perfect)" }
+  ],
   "dialogue": {
     "title": "At the reception of a gym to become a member",
     "lines": [
@@ -67,8 +90,20 @@
       "Use 'houden van' for what you like and 'zin hebben in' for what you fancy doing.",
       "Use 'moeten' and 'hoeven niet te' to say what you do and don't have to do.",
       "Say how often with 'een keer / twee keer per week'.",
-      "Keep it simple and use the present tense."
+      "Keep it simple and use the present tense.",
+      "Describe how you look with 'Ik heb ...' and 'Ik zie er ... uit'.",
+      "Invite the other person with 'Heb je zin om mee te gaan?'."
     ],
-    "model": "Hoi Sam,\n\nIn mijn vrije tijd doe ik graag aan sport. Ik houd vooral van hardlopen. Ik ren twee keer per week in het park, meestal op dinsdag en zaterdag. Daarvoor hoef ik geen lid te worden van een club; ik ga gewoon naar buiten.\n\nIk vind het fijn omdat ik dan even niet aan werk denk en lekker buiten ben. Heb jij zin om een keer mee te gaan?\n\nGroetjes,\nAnna"
+    "model": "Hoi Sam,\n\nIn mijn vrije tijd doe ik graag aan sport. Ik houd vooral van hardlopen. Ik ren twee keer per week in het park, meestal op dinsdag en zaterdag. Daarvoor hoef ik geen lid te worden van een club; ik ga gewoon naar buiten.\n\nIk vind het fijn omdat ik dan even niet aan werk denk en lekker buiten ben. Heb jij zin om een keer mee te gaan?\n\nGroetjes,\nAnna",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort bericht aan een vriend over een sportclub waar je lid van bent geworden.",
+        "model": "Hoi Daan,\n\nIk ben sinds vorige week lid van een voetbalclub. We trainen twee keer per week en op zaterdag is er een wedstrijd. De contributie is niet duur en het team is heel aardig. Ik houd van voetbal omdat ik dan veel nieuwe mensen leer kennen. Heb jij zin om een keer te komen kijken?\n\nGroetjes,\nAnna"
+      },
+      {
+        "prompt": "Beschrijf in een kort bericht hoe een nieuwe vriendin eruitziet.",
+        "model": "Hoi Lisa,\n\nIk heb een nieuwe vriendin op de sportschool. Ze heet Sara en ze ziet er heel sportief uit. Ze heeft lang donker haar en een vrolijke lach. Ze draagt altijd een bril. We sporten samen en daarna drinken we koffie. Ik denk dat jullie elkaar leuk vinden. Tot snel!\n\nGroetjes,\nAnna"
+      }
+    ]
   }
 }

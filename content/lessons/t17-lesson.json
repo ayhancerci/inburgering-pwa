@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-17",
   "intro": "This chapter helps you look for and apply for work in the Netherlands. You will learn how to describe your personal qualities, talk about your work experience, and use your network. These are exactly the words and sentences you need for a job advert, a cover letter, and a job interview.",
+  "vocab": [
+    { "nl": "het werk", "en": "the work" },
+    { "nl": "de baan", "en": "the job" },
+    { "nl": "de vacature", "en": "the vacancy" },
+    { "nl": "de sollicitatiebrief", "en": "the cover letter" },
+    { "nl": "het cv", "en": "the CV / resume" },
+    { "nl": "het sollicitatiegesprek", "en": "the job interview" },
+    { "nl": "de ervaring", "en": "the experience" },
+    { "nl": "de collega", "en": "the colleague" },
+    { "nl": "de werkgever", "en": "the employer" },
+    { "nl": "de werknemer", "en": "the employee" },
+    { "nl": "het contract", "en": "the contract" },
+    { "nl": "het netwerk", "en": "the network" },
+    { "nl": "het salaris", "en": "the salary" },
+    { "nl": "het diploma", "en": "the diploma" }
+  ],
   "grammar": [
     {
       "title": "Adjectives for personal qualities",
@@ -50,6 +66,13 @@
     { "nl": "Wanneer kan ik beginnen?", "en": "When can I start?" },
     { "nl": "Krijg ik een vast contract?", "en": "Will I get a permanent contract?" }
   ],
+  "sayings": [
+    { "nl": "Veel succes met solliciteren!", "en": "Good luck with applying!" },
+    { "nl": "Ik hoop op een goede afloop.", "en": "I hope for a good outcome." },
+    { "nl": "Een goed begin is het halve werk.", "en": "A good start is half the work. (well begun is half done)" },
+    { "nl": "Wie niet waagt, die niet wint.", "en": "Who does not dare, does not win. (nothing ventured, nothing gained)" },
+    { "nl": "De aanhouder wint.", "en": "The persistent one wins. (perseverance pays off)" }
+  ],
   "dialogue": {
     "title": "A short job interview at a shop",
     "lines": [
@@ -71,8 +94,20 @@
       "Start with 'Geachte heer/mevrouw,' and end with 'Met vriendelijke groet,' and your name.",
       "Use 'Ik heb ... gezien' to mention the vacancy and 'Ik wil graag solliciteren op ...' for the job.",
       "Describe yourself with adjectives like betrouwbaar, flexibel or geduldig.",
-      "Use the present perfect for experience: 'Ik heb ... jaar gewerkt als ...'."
+      "Use the present perfect for experience: 'Ik heb ... jaar gewerkt als ...'.",
+      "Say how many hours you can work: 'Ik kan ... uur per week werken'.",
+      "End with 'Ik hoor graag van u' to ask for an answer."
     ],
-    "model": "Geachte heer/mevrouw, Ik heb uw vacature voor een verkoper in de supermarkt gezien. Ik wil graag op deze baan solliciteren. Ik ben vriendelijk, geduldig en heel betrouwbaar. Ik kom altijd op tijd en ik werk graag met klanten. Ik heb twee jaar gewerkt als verkoper in een winkel, dus ik heb ervaring met de kassa en met producten. Ik ben flexibel en kan ook in het weekend werken. Ik hoor graag van u. Met vriendelijke groet, Sara Yilmaz"
+    "model": "Geachte heer/mevrouw, Ik heb uw vacature voor een verkoper in de supermarkt gezien. Ik wil graag op deze baan solliciteren. Ik ben vriendelijk, geduldig en heel betrouwbaar. Ik kom altijd op tijd en ik werk graag met klanten. Ik heb twee jaar gewerkt als verkoper in een winkel, dus ik heb ervaring met de kassa en met producten. Ik ben flexibel en kan ook in het weekend werken. Ik hoor graag van u. Met vriendelijke groet, Sara Yilmaz",
+    "examples": [
+      {
+        "prompt": "Schrijf een korte sollicitatiebrief voor een baan als schoonmaker in een hotel.",
+        "model": "Geachte heer/mevrouw, Ik heb uw vacature voor een schoonmaker in het hotel gezien. Ik wil graag op deze baan solliciteren. Ik ben netjes, snel en heel betrouwbaar. Ik heb drie jaar gewerkt als schoonmaker in een kantoor, dus ik heb veel ervaring. Ik kan ook vroeg in de ochtend werken. Ik ben flexibel en leer snel. Ik hoor graag van u. Met vriendelijke groet, Karim Aydin"
+      },
+      {
+        "prompt": "Schrijf een kort bericht aan een vriend dat je via hem een baan zoekt.",
+        "model": "Hoi Daan,\n\nIk zoek op dit moment werk in de horeca. Jij werkt in een restaurant, dus misschien kun je me helpen. Ik heb twee jaar gewerkt als kok en ik ben heel flexibel. Weet jij of er een vacature is? Kun je het voor mij vragen? Alvast bedankt!\n\nGroetjes,\nSara"
+      }
+    ]
   }
 }

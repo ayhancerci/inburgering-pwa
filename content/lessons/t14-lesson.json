@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-14",
   "intro": "This chapter is about family and relationships: visiting each other, getting married, and talking about who looks like whom in the family. You learn how to describe your relatives and how to talk about events in the past, such as a wedding. This helps you chat with neighbours, colleagues and other parents about your family life in the Netherlands.",
+  "vocab": [
+    { "nl": "de familie", "en": "the family" },
+    { "nl": "de ouders", "en": "the parents" },
+    { "nl": "de broer", "en": "the brother" },
+    { "nl": "de zus", "en": "the sister" },
+    { "nl": "de oma", "en": "the grandma" },
+    { "nl": "de opa", "en": "the grandpa" },
+    { "nl": "het kleinkind", "en": "the grandchild" },
+    { "nl": "de schoonmoeder", "en": "the mother-in-law" },
+    { "nl": "het huwelijk", "en": "the marriage" },
+    { "nl": "de bruiloft", "en": "the wedding" },
+    { "nl": "de scheiding", "en": "the divorce" },
+    { "nl": "het bezoek", "en": "the visit" },
+    { "nl": "de relatie", "en": "the relationship" },
+    { "nl": "de verjaardag", "en": "the birthday" }
+  ],
   "grammar": [
     {
       "title": "The reciprocal pronoun 'elkaar' (each other)",
@@ -46,6 +62,13 @@
     { "nl": "Hoe gaat het met je familie?", "en": "How is your family doing?" },
     { "nl": "Ik mis mijn familie heel erg.", "en": "I miss my family very much." }
   ],
+  "sayings": [
+    { "nl": "Doe de groeten aan je familie.", "en": "Give my regards to your family." },
+    { "nl": "Hoe is het met de kinderen?", "en": "How are the children doing?" },
+    { "nl": "We zijn een hechte familie.", "en": "We are a close family." },
+    { "nl": "Bloed kruipt waar het niet gaan kan.", "en": "Blood crawls where it cannot walk. (blood is thicker than water)" },
+    { "nl": "De appel valt niet ver van de boom.", "en": "The apple does not fall far from the tree. (children resemble their parents)" }
+  ],
   "dialogue": {
     "title": "Two neighbours chat about their families",
     "lines": [
@@ -67,8 +90,20 @@
       "Use possessives: mijn moeder, mijn broer, onze kinderen.",
       "Use 'lijken op' to describe resemblance: 'Ik lijk op ...'.",
       "Use the past with 'zijn/hebben' + participle: 'We zijn ... getrouwd', 'Mijn zus is ... op bezoek geweest'.",
-      "Use 'elkaar' for things you do together: 'We bellen elkaar vaak.'"
+      "Use 'elkaar' for things you do together: 'We bellen elkaar vaak.'",
+      "Use simple time words for the past: vorig jaar, vorige maand, in 2018.",
+      "Close warmly with 'Doe iedereen de groeten' or 'Tot snel'."
     ],
-    "model": "Hoi Lisa,\n\nHoe gaat het met je? Ik vertel je iets over mijn familie. Ik heb een broer en een zus. Mijn zus en ik lijken sprekend op elkaar; we hebben allebei bruin haar. We bellen elkaar bijna iedere dag.\n\nVorig jaar is mijn broer getrouwd met zijn vriendin. Het was een mooi feest en de hele familie was er. Wanneer komen jouw ouders weer op bezoek?\n\nGroetjes,\nAnna"
+    "model": "Hoi Lisa,\n\nHoe gaat het met je? Ik vertel je iets over mijn familie. Ik heb een broer en een zus. Mijn zus en ik lijken sprekend op elkaar; we hebben allebei bruin haar. We bellen elkaar bijna iedere dag.\n\nVorig jaar is mijn broer getrouwd met zijn vriendin. Het was een mooi feest en de hele familie was er. Wanneer komen jouw ouders weer op bezoek?\n\nGroetjes,\nAnna",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort bericht aan een vriendin over een bezoek van je familie afgelopen weekend.",
+        "model": "Hoi Nadia,\n\nAfgelopen weekend zijn mijn ouders op bezoek geweest. We hebben elkaar lang niet gezien, dus het was heel gezellig. Mijn moeder heeft lekker gekookt en we hebben veel gepraat. Mijn vader lijkt nog steeds op mijn opa. Zondag zijn ze weer naar huis gegaan. Kom jij ook snel een keer langs?\n\nGroetjes,\nAnna"
+      },
+      {
+        "prompt": "Schrijf aan een vriend over de bruiloft van je zus.",
+        "model": "Hoi Tom,\n\nMijn zus is vorige maand getrouwd met haar vriend. Het was een mooie bruiloft en de hele familie was er. Mijn oma en opa waren ook gekomen. We hebben gegeten, gedanst en veel foto's gemaakt. Mijn zus en ik lijken erg op elkaar, dus iedereen lachte op de foto's. Wanneer zie ik jou weer?\n\nGroetjes,\nSara"
+      }
+    ]
   }
 }

@@ -104,6 +104,8 @@ for (const f of readdirSync(join(CONTENT, 'lessons'))) {
   const l = readJson(join(CONTENT, 'lessons', f))
   for (const g of l.grammar) for (const e of g.examples || []) if (e.nl) addJob(variedVoice(e.nl), e.nl)
   for (const p of l.phrases) if (p.nl) addJob(variedVoice(p.nl), p.nl)
+  for (const w of l.vocab || []) if (w.nl) addJob(variedVoice(w.nl), w.nl)
+  for (const s of l.sayings || []) if (s.nl) addJob(variedVoice(s.nl), s.nl)
   const speakers = []
   for (const x of l.dialogue.lines) if (!speakers.includes(x.speaker)) speakers.push(x.speaker)
   const voiceMap = assignVoices(speakers)

@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-13",
   "intro": "This chapter is about the household: the appliances you use every day, gas and electricity, and how to save money on your energy bill. You also learn how to explain that something is broken and how to arrange a repair. These are very practical skills, because in the Netherlands you often have to call a company or a landlord yourself to get something fixed.",
+  "vocab": [
+    { "nl": "de wasmachine", "en": "the washing machine" },
+    { "nl": "de koelkast", "en": "the fridge" },
+    { "nl": "de afwasmachine", "en": "the dishwasher" },
+    { "nl": "de verwarming", "en": "the heating" },
+    { "nl": "het apparaat", "en": "the appliance / device" },
+    { "nl": "het gas", "en": "the gas" },
+    { "nl": "de stroom", "en": "the electricity / power" },
+    { "nl": "het water", "en": "the water" },
+    { "nl": "de rekening", "en": "the bill" },
+    { "nl": "de monteur", "en": "the repairman" },
+    { "nl": "de reparatie", "en": "the repair" },
+    { "nl": "de verhuurder", "en": "the landlord" },
+    { "nl": "de stekker", "en": "the plug" },
+    { "nl": "kapot", "en": "broken" }
+  ],
   "grammar": [
     {
       "title": "Conditional sentences with 'als' (if/when)",
@@ -46,6 +62,14 @@
     { "nl": "Dat is een goede tip!", "en": "That's a good tip!" },
     { "nl": "Hoeveel kost het om het te maken?", "en": "How much does it cost to fix it?" }
   ],
+  "sayings": [
+    { "nl": "Oost west, thuis best.", "en": "East, west, home is best. (Dutch proverb: there's no place like home)" },
+    { "nl": "Wie het kleine niet eert, is het grote niet waard.", "en": "Who does not value the small is not worthy of the large. (Dutch proverb: take care of the little things)" },
+    { "nl": "Het is weer pico bello in orde.", "en": "It is in perfect order again." },
+    { "nl": "Dat is een koud kunstje.", "en": "That is a piece of cake. (Dutch saying: very easy to do)" },
+    { "nl": "Beter laat dan nooit.", "en": "Better late than never. (Dutch proverb)" },
+    { "nl": "Het loopt op rolletjes.", "en": "It runs on little wheels. (Dutch saying: everything runs smoothly)" }
+  ],
   "dialogue": {
     "title": "Calling a repair service because the washing machine is broken",
     "lines": [
@@ -67,8 +91,20 @@
       "Start with 'Beste' and the name, and end with 'Met vriendelijke groet' and your name.",
       "Use 'kapot' and 'het doet het niet meer' to describe the problem.",
       "Use a polite request: 'Kunt u ...?' or 'Zou u ... kunnen?'",
-      "Say when you are home using 'Ik ben thuis op ...' or an 'als'-sentence."
+      "Say when you are home using 'Ik ben thuis op ...' or an 'als'-sentence.",
+      "Mention since when the appliance is broken: 'Hij doet het sinds gisteren niet meer.'",
+      "Add a phone number so the monteur can reach you: 'U kunt mij bellen op ...'"
     ],
-    "model": "Beste meneer Jansen,\n\nIk schrijf u omdat mijn koelkast kapot is. Hij doet het sinds gisteren niet meer en mijn eten wordt warm. Kunt u alstublieft een monteur sturen om de koelkast te repareren? Als het kan, graag deze week. Ik ben thuis op maandag en woensdag, de hele dag. U kunt mij ook bellen op 06-12345678.\n\nAlvast bedankt.\n\nMet vriendelijke groet,\nAnna de Boer"
+    "model": "Beste meneer Jansen,\n\nIk schrijf u omdat mijn koelkast kapot is. Hij doet het sinds gisteren niet meer en mijn eten wordt warm. Kunt u alstublieft een monteur sturen om de koelkast te repareren? Als het kan, graag deze week. Ik ben thuis op maandag en woensdag, de hele dag. U kunt mij ook bellen op 06-12345678.\n\nAlvast bedankt.\n\nMet vriendelijke groet,\nAnna de Boer",
+    "examples": [
+      {
+        "prompt": "Schrijf een korte mail aan de verhuurder. Er is geen warm water in je woning. Vraag om hulp en zeg wanneer je thuis bent.",
+        "model": "Beste mevrouw Bakker, ik schrijf u omdat er geen warm water in mijn woning is. De verwarming doet het ook niet meer. Kunt u alstublieft snel een monteur sturen? Als het kan, graag morgen. Ik ben thuis op dinsdag en donderdag. U kunt mij bellen op 06-87654321. Alvast bedankt. Met vriendelijke groet, Yusuf Kaya"
+      },
+      {
+        "prompt": "Schrijf een kort bericht aan een buurman. Je vraagt een tip om energie te besparen, want je rekening is hoog.",
+        "model": "Hoi Peter, mijn rekening voor gas en stroom is heel hoog. Heb jij misschien een goede tip om energie te besparen? Ik zet het licht al uit als ik weg ga. Wat doe jij thuis? Ik hoor het graag van je. Bedankt! Groetjes, Amina"
+      }
+    ]
   }
 }

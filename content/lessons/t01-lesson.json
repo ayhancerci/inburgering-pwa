@@ -1,6 +1,22 @@
 {
   "themeId": "link-0a2-01",
   "intro": "This chapter teaches you how to introduce yourself and meet new people in Dutch: saying your name, where you come from, where you live, and giving your phone number. You will also practise filling in simple forms and welcoming a new neighbour. These are some of the very first things you need in daily life in the Netherlands, whether you meet someone at the door, register at the town hall, or start a course.",
+  "vocab": [
+    { "nl": "de naam", "en": "the name" },
+    { "nl": "de voornaam", "en": "the first name" },
+    { "nl": "de achternaam", "en": "the surname" },
+    { "nl": "het adres", "en": "the address" },
+    { "nl": "de straat", "en": "the street" },
+    { "nl": "het huisnummer", "en": "the house number" },
+    { "nl": "de woonplaats", "en": "the place of residence (town)" },
+    { "nl": "het telefoonnummer", "en": "the phone number" },
+    { "nl": "de geboortedatum", "en": "the date of birth" },
+    { "nl": "het formulier", "en": "the form" },
+    { "nl": "de handtekening", "en": "the signature" },
+    { "nl": "de buurman / de buurvrouw", "en": "the (male/female) neighbour" },
+    { "nl": "getrouwd", "en": "married" },
+    { "nl": "nieuw", "en": "new" }
+  ],
   "grammar": [
     {
       "title": "The present tense of zijn, heten, komen and wonen",
@@ -49,6 +65,13 @@
     { "nl": "Ik ben uw nieuwe buurvrouw.", "en": "I am your new (female) neighbour." },
     { "nl": "Leuk u te ontmoeten.", "en": "Nice to meet you." }
   ],
+  "sayings": [
+    { "nl": "Aangenaam!", "en": "Pleased to meet you! (a one-word greeting when introduced)" },
+    { "nl": "Hoe gaat het? — Goed, en met u?", "en": "How are you? — Fine, and you?" },
+    { "nl": "Doe de groeten thuis!", "en": "Say hi at home! (give my regards to your family)" },
+    { "nl": "Een goede buur is beter dan een verre vriend.", "en": "A good neighbour is better than a distant friend. (Dutch proverb)" },
+    { "nl": "Doe maar gewoon, dan doe je al gek genoeg.", "en": "Just act normal — that's crazy enough. (a very Dutch saying: don't show off)" }
+  ],
   "dialogue": {
     "title": "Two neighbours meet for the first time on the stairs",
     "lines": [
@@ -70,8 +93,20 @@
       "Start each sentence with the verb in second position (Ik heet..., Ik kom..., Ik woon...).",
       "Write your phone number out with the digits separated, as people say it aloud.",
       "End with a reason using 'omdat' or 'want': Ik leer Nederlands omdat...",
-      "Keep it simple: short sentences are better than long, complicated ones."
+      "Keep it simple: short sentences are better than long, complicated ones.",
+      "Open with 'Beste docent,' and close with 'Met vriendelijke groet, [your name]'.",
+      "Check every verb ending: ik woon, jij/u woont, wij wonen."
     ],
-    "model": "Beste docent, ik heet Fatima Yilmaz. Ik kom uit Turkije. Sinds januari woon ik in Amsterdam, op de Kerkstraat 8. Mijn telefoonnummer is nul zes, twee drie vier, vijf zes zeven. Ik ben getrouwd en ik heb twee kinderen. Ik wil graag Nederlands leren, omdat ik werk wil vinden en met mijn buren wil praten. Tot de eerste les! Met vriendelijke groet, Fatima."
+    "model": "Beste docent, ik heet Fatima Yilmaz. Ik kom uit Turkije. Sinds januari woon ik in Amsterdam, op de Kerkstraat 8. Mijn telefoonnummer is nul zes, twee drie vier, vijf zes zeven. Ik ben getrouwd en ik heb twee kinderen. Ik wil graag Nederlands leren, omdat ik werk wil vinden en met mijn buren wil praten. Tot de eerste les! Met vriendelijke groet, Fatima.",
+    "examples": [
+      {
+        "prompt": "Schrijf een kort berichtje aan je nieuwe buurvrouw. Stel jezelf voor en nodig haar uit voor een kopje koffie.",
+        "model": "Beste buurvrouw, ik ben Mert, uw nieuwe buurman op nummer 8. Leuk om kennis te maken! Heeft u zin om een keer koffie te komen drinken? Bijvoorbeeld zaterdagmiddag om drie uur. Met vriendelijke groet, Mert"
+      },
+      {
+        "prompt": "Vul een inschrijfformulier in, maar nu in hele zinnen: schrijf je naam, je adres en je geboortedatum.",
+        "model": "Mijn naam is Sara Yilmaz. Ik woon op de Kerkstraat 8 in Utrecht. Mijn geboortedatum is twaalf maart 1986. Mijn telefoonnummer is nul zes, een twee drie, vier vijf zes zeven. Ik kom uit Turkije en ik spreek Turks, Engels en een beetje Nederlands."
+      }
+    ]
   }
 }

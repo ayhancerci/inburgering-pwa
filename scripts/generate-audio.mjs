@@ -63,6 +63,8 @@ console.log(`Voice ${VOICE} — ${list.length} unique phrases.`)
 
 let idx = 0
 let made = 0
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+
 async function synth(text) {
   const file = hash(text) + '.mp3'
   const path = join(OUT, file)
@@ -70,20 +72,29 @@ async function synth(text) {
     manifest[text] = file
     return
   }
-  const res = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${KEY}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      input: { text },
-      voice: { languageCode: 'nl-NL', name: VOICE },
-      audioConfig: { audioEncoding: 'MP3', speakingRate: RATE },
-    }),
-  })
-  if (!res.ok) throw new Error(`TTS ${res.status}: ${await res.text()}`)
-  const j = await res.json()
-  writeFileSync(path, Buffer.from(j.audioContent, 'base64'))
-  manifest[text] = file
-  made++
+  for (let attempt = 0; attempt < 10; attempt++) {
+    const res = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${KEY}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        input: { text },
+        voice: { languageCode: 'nl-NL', name: VOICE },
+        audioConfig: { audioEncoding: 'MP3', speakingRate: RATE },
+      }),
+    })
+    if (res.status === 429) {
+      await sleep(20000) // rate limited — wait for the per-minute window to reset
+      continue
+    }
+    if (!res.ok) throw new Error(`TTS ${res.status}: ${(await res.text()).slice(0, 150)}`)
+    const j = await res.json()
+    writeFileSync(path, Buffer.from(j.audioContent, 'base64'))
+    manifest[text] = file
+    made++
+    await sleep(Number(process.env.DELAY || 120)) // gentle pacing
+    return
+  }
+  throw new Error('still 429 after retries')
 }
 
 async function worker() {
@@ -101,6 +112,6 @@ async function worker() {
   }
 }
 
-await Promise.all(Array.from({ length: 5 }, worker))
+await Promise.all(Array.from({ length: Number(process.env.CONC || 2) }, worker))
 writeFileSync(MANIFEST, JSON.stringify(manifest))
 console.log(`Done. ${made} new clips, ${Object.keys(manifest).length} total in manifest.`)

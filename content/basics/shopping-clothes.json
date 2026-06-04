@@ -1,0 +1,219 @@
+{
+  "chapters": [
+    {
+      "id": "basis-boodschappen",
+      "sort": 2.4,
+      "category": "basis",
+      "icon": "🛒",
+      "titleNl": "Boodschappen & winkelen",
+      "titleEn": "Groceries & shopping",
+      "intro": "Doing your boodschappen (groceries) is one of the first things you do every week in the Netherlands. This chapter gives you the food words, the names of the shops, and the short phrases you need at the counter and the market. Tap 🔊 to hear each word, and notice the de or het in front of every noun.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "How shopping works here",
+          "body": "Most people shop at a supermarkt like Albert Heijn, Jumbo or Lidl, and many towns also have a weekly markt with fresh, often cheaper produce. At the market you usually order by weight: een ons is 100 grams and een pond is 500 grams. Bring a bag, because plastic bags cost money."
+        },
+        {
+          "type": "pairs",
+          "title": "Boodschappen",
+          "note": "Everyday food and drink. Note that de eieren is plural; one egg is het ei.",
+          "items": [
+            { "nl": "de melk", "en": "the milk" },
+            { "nl": "het brood", "en": "the bread" },
+            { "nl": "de kaas", "en": "the cheese" },
+            { "nl": "de eieren", "en": "the eggs" },
+            { "nl": "de boter", "en": "the butter" },
+            { "nl": "de groente", "en": "the vegetables" },
+            { "nl": "het fruit", "en": "the fruit" },
+            { "nl": "de aardappel", "en": "the potato" },
+            { "nl": "de tomaat", "en": "the tomato" },
+            { "nl": "de ui", "en": "the onion" },
+            { "nl": "de banaan", "en": "the banana" },
+            { "nl": "de appel", "en": "the apple" },
+            { "nl": "de yoghurt", "en": "the yoghurt" },
+            { "nl": "het vlees", "en": "the meat" },
+            { "nl": "de vis", "en": "the fish" },
+            { "nl": "de rijst", "en": "the rice" },
+            { "nl": "de pasta", "en": "the pasta" },
+            { "nl": "de suiker", "en": "the sugar" },
+            { "nl": "de koffie", "en": "the coffee" },
+            { "nl": "de thee", "en": "the tea" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Winkels & op de markt",
+          "note": "The shops you buy from and the things you use while shopping.",
+          "items": [
+            { "nl": "de supermarkt", "en": "the supermarket" },
+            { "nl": "de markt", "en": "the market" },
+            { "nl": "de bakker", "en": "the bakery / the baker" },
+            { "nl": "de slager", "en": "the butcher" },
+            { "nl": "de groenteboer", "en": "the greengrocer" },
+            { "nl": "de drogist", "en": "the drugstore (toiletries and medicine)" },
+            { "nl": "de viskraam", "en": "the fish stall" },
+            { "nl": "de kassa", "en": "the checkout / the till" },
+            { "nl": "het mandje", "en": "the basket" },
+            { "nl": "de winkelwagen", "en": "the shopping trolley / cart" },
+            { "nl": "de kraam", "en": "the market stall" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Asking for amounts",
+          "body": "When you buy meat, cheese or fish you order by weight. The vendor often asks Mag het een onsje meer zijn? which means Is a little bit more okay? You can say Ja, prima or Nee, dat is genoeg (no, that is enough). Een onsje is the friendly form of een ons."
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen",
+          "note": "Short phrases you will hear and say while shopping.",
+          "items": [
+            { "nl": "Mag het een onsje meer zijn?", "en": "Is a little bit more okay? (asked by the vendor)" },
+            { "nl": "Doet u maar een kilo", "en": "A kilo, please" },
+            { "nl": "Waar staat de melk?", "en": "Where is the milk? (where does it stand)" },
+            { "nl": "Hebt u verse vis?", "en": "Do you have fresh fish?" },
+            { "nl": "Ik zoek de koffie", "en": "I am looking for the coffee" },
+            { "nl": "Wat kost dit?", "en": "How much is this?" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Bij de kassa",
+          "note": "Paying and finishing up. Pinnen means to pay by debit card, which is the normal way to pay here.",
+          "items": [
+            { "nl": "Wilt u pinnen of contant betalen?", "en": "Would you like to pay by card or cash?" },
+            { "nl": "Ik wil graag pinnen", "en": "I would like to pay by card" },
+            { "nl": "Hebt u een bonus kaart?", "en": "Do you have a loyalty card?" },
+            { "nl": "Wilt u de bon?", "en": "Would you like the receipt?" },
+            { "nl": "Een tasje, alstublieft", "en": "A bag, please" },
+            { "nl": "Dat is samen acht euro vijftig", "en": "That is eight euros fifty in total" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "De slager vraagt: Mag het een onsje meer zijn? Wat zegt u als het goed is?",
+          "qEn": "The butcher asks if a little more is okay. What do you say if that is fine?",
+          "options": ["Ja, prima", "Waar staat de kaas?", "Ik kan niet komen"],
+          "answer": "Ja, prima",
+          "explanation": "Ja, prima means yes, fine. The other answers ask where the cheese is and say I cannot come, which do not fit the question."
+        },
+        {
+          "type": "example",
+          "q": "U vindt de melk niet in de supermarkt. Wat vraagt u aan een medewerker?",
+          "qEn": "You cannot find the milk in the supermarket. What do you ask an employee?",
+          "options": ["Waar staat de melk?", "Mag het een onsje meer zijn?", "Wilt u de bon?"],
+          "answer": "Waar staat de melk?",
+          "explanation": "Waar staat de melk? asks where the milk is. The second phrase is what a vendor asks about weight, and the third asks if you want the receipt."
+        }
+      ]
+    },
+    {
+      "id": "basis-kleuren-kleding",
+      "sort": 9.3,
+      "category": "basis",
+      "icon": "👕",
+      "titleNl": "Kleuren & kleding",
+      "titleEn": "Colours & clothes",
+      "intro": "Colours and clothing come up when you shop, describe people, or fill in a form. This chapter gives you the main colours, the clothes you wear through the seasons, and the phrases you need in a clothing shop. Tap 🔊 to hear each word, and remember the de or het before every noun.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "De kleuren",
+          "note": "Colours are adjectives. You will learn the endings later; for now just learn the base colour words.",
+          "items": [
+            { "nl": "rood", "en": "red" },
+            { "nl": "oranje", "en": "orange" },
+            { "nl": "geel", "en": "yellow" },
+            { "nl": "groen", "en": "green" },
+            { "nl": "blauw", "en": "blue" },
+            { "nl": "paars", "en": "purple" },
+            { "nl": "roze", "en": "pink" },
+            { "nl": "bruin", "en": "brown" },
+            { "nl": "zwart", "en": "black" },
+            { "nl": "wit", "en": "white" },
+            { "nl": "grijs", "en": "grey" },
+            { "nl": "lichtblauw", "en": "light blue" },
+            { "nl": "donkergroen", "en": "dark green" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Light and dark",
+          "body": "To make a colour lighter or darker you put licht (light) or donker (dark) in front of it, with no space: lichtblauw is light blue and donkergroen is dark green. This works with most colours, for example donkerblauw and lichtgroen."
+        },
+        {
+          "type": "pairs",
+          "title": "Kleding",
+          "note": "Clothes you wear. Een spijkerbroek is a pair of jeans; het ondergoed is underwear and has no plural.",
+          "items": [
+            { "nl": "de jas", "en": "the coat / jacket" },
+            { "nl": "de broek", "en": "the trousers / pants" },
+            { "nl": "de spijkerbroek", "en": "the jeans" },
+            { "nl": "de trui", "en": "the sweater / jumper" },
+            { "nl": "het overhemd", "en": "the shirt (with buttons)" },
+            { "nl": "het T-shirt", "en": "the T-shirt" },
+            { "nl": "de jurk", "en": "the dress" },
+            { "nl": "de rok", "en": "the skirt" },
+            { "nl": "de schoen", "en": "the shoe" },
+            { "nl": "de laars", "en": "the boot" },
+            { "nl": "de sok", "en": "the sock" },
+            { "nl": "de muts", "en": "the woolly hat / beanie" },
+            { "nl": "de sjaal", "en": "the scarf" },
+            { "nl": "de handschoen", "en": "the glove" },
+            { "nl": "de jas", "en": "the coat (the word you say most in winter)" },
+            { "nl": "het ondergoed", "en": "the underwear" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Wearing clothes: dragen and aanhebben",
+          "body": "There are two common ways to say you wear something. Ik draag een blauwe trui means I wear a blue sweater. Or you can use the separable verb aanhebben: Ik heb een jas aan means I have a coat on. Both are normal in everyday speech."
+        },
+        {
+          "type": "pairs",
+          "title": "Wat draag je?",
+          "note": "Talking about what you wear and how it fits. Welke maat means which size.",
+          "items": [
+            { "nl": "Ik draag een blauwe trui", "en": "I am wearing a blue sweater" },
+            { "nl": "Ik heb een jas aan", "en": "I have a coat on" },
+            { "nl": "Het past goed", "en": "It fits well" },
+            { "nl": "Het is te klein", "en": "It is too small" },
+            { "nl": "Het is te groot", "en": "It is too big" },
+            { "nl": "Welke maat hebt u?", "en": "What size do you have / take? (asked in the shop)" },
+            { "nl": "Ik zoek een warme jas", "en": "I am looking for a warm coat" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "In de kledingwinkel",
+          "note": "Useful phrases in a clothing shop. De paskamer is the fitting room.",
+          "items": [
+            { "nl": "Kan ik u helpen?", "en": "Can I help you? (asked by staff)" },
+            { "nl": "Ik kijk alleen even", "en": "I am just looking" },
+            { "nl": "Mag ik dit passen?", "en": "May I try this on?" },
+            { "nl": "Waar is de paskamer?", "en": "Where is the fitting room?" },
+            { "nl": "Hebt u dit in een andere kleur?", "en": "Do you have this in another colour?" },
+            { "nl": "Hebt u een grotere maat?", "en": "Do you have a bigger size?" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "U past een trui, maar hij is te klein. Wat vraagt u in de winkel?",
+          "qEn": "You try on a sweater, but it is too small. What do you ask in the shop?",
+          "options": ["Hebt u een grotere maat?", "Het past goed", "Ik kijk alleen even"],
+          "answer": "Hebt u een grotere maat?",
+          "explanation": "Hebt u een grotere maat? asks for a bigger size, which is what you need when something is too small. It fits well and I am just looking do not solve the problem."
+        },
+        {
+          "type": "example",
+          "q": "Welke zin betekent dat de jas precies goed zit?",
+          "qEn": "Which sentence means the coat fits just right?",
+          "options": ["Het past goed", "Het is te groot", "Het is te klein"],
+          "answer": "Het past goed",
+          "explanation": "Het past goed means it fits well. Te groot means too big and te klein means too small, so neither fits right."
+        }
+      ]
+    }
+  ]
+}

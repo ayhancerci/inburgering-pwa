@@ -1,0 +1,202 @@
+{
+  "chapters": [
+    {
+      "id": "basis-begroeten",
+      "sort": 0.1,
+      "category": "basis",
+      "icon": "👋",
+      "titleNl": "Begroeten, voorstellen & afscheid",
+      "titleEn": "Greetings, introductions & farewells",
+      "intro": "The first words of any conversation: how to say hello, introduce yourself and say goodbye. Tap 🔊 to hear each phrase and practise saying it back.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Formal (u) or informal (jij)?",
+          "body": "Dutch has two words for you. Use jij (or je) with friends, family, children and people your own age. Use u with strangers, older people, your boss, officials at the gemeente and in shops or at the doctor. When you are unsure, start with u to be polite; the other person will often say je mag je zeggen (you may use je) if they want it less formal. The greeting changes too: Hoe gaat het met je? is informal, Hoe gaat het met u? is formal."
+        },
+        {
+          "type": "pairs",
+          "title": "Begroetingen",
+          "note": "Goedemorgen until about noon, goedemiddag in the afternoon, goedenavond in the evening. Hoi and Hallo work any time and any tone.",
+          "items": [
+            { "nl": "Hallo!", "en": "Hello! (any time, neutral)" },
+            { "nl": "Hoi!", "en": "Hi! (informal, friendly)" },
+            { "nl": "Goedemorgen.", "en": "Good morning. (until about noon)" },
+            { "nl": "Goedemiddag.", "en": "Good afternoon." },
+            { "nl": "Goedenavond.", "en": "Good evening." },
+            { "nl": "Dag!", "en": "Hi / Bye! (works both ways)" },
+            { "nl": "Hoe gaat het?", "en": "How are you? (neutral)" },
+            { "nl": "Alles goed?", "en": "All good? / How is it going? (informal)" },
+            { "nl": "Hoe gaat het met u?", "en": "How are you? (formal)" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Jezelf voorstellen",
+          "note": "Ik ben and Ik heet both introduce your name. Mag ik me even voorstellen? is a polite way to start.",
+          "items": [
+            { "nl": "Ik ben Ayhan.", "en": "I am Ayhan." },
+            { "nl": "Ik heet Ayhan.", "en": "My name is Ayhan." },
+            { "nl": "Mag ik me even voorstellen?", "en": "May I introduce myself?" },
+            { "nl": "Aangenaam.", "en": "Pleased to meet you. (formal)" },
+            { "nl": "Leuk je te ontmoeten.", "en": "Nice to meet you. (informal)" },
+            { "nl": "Dit is mijn vrouw.", "en": "This is my wife." },
+            { "nl": "Wat is uw naam?", "en": "What is your name? (formal)" },
+            { "nl": "Hoe heet jij?", "en": "What is your name? (informal)" },
+            { "nl": "Waar kom je vandaan?", "en": "Where are you from?" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Shaking hands and the three kisses",
+          "body": "When you meet someone formally, you say your name and shake hands. With friends and family, Dutch people often give three kisses on the cheek (left, right, left), though since recent years many people just wave or do a quick hello. Just follow what the other person does."
+        },
+        {
+          "type": "pairs",
+          "title": "Afscheid nemen",
+          "note": "Tot straks, tot morgen and tot de volgende keer all mean see you, with the time added. Welterusten and goedenacht are only for going to bed.",
+          "items": [
+            { "nl": "Tot ziens!", "en": "Goodbye! (neutral, polite)" },
+            { "nl": "Tot straks!", "en": "See you later! (same day)" },
+            { "nl": "Tot morgen!", "en": "See you tomorrow!" },
+            { "nl": "Doei!", "en": "Bye! (informal)" },
+            { "nl": "Fijne dag!", "en": "Have a nice day!" },
+            { "nl": "Tot de volgende keer!", "en": "Until next time!" },
+            { "nl": "Welterusten.", "en": "Sleep well. (when going to bed)" },
+            { "nl": "Goedenacht.", "en": "Good night. (going to bed)" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Beleefde woordjes",
+          "note": "Small polite words you will use in every conversation.",
+          "items": [
+            { "nl": "Alstublieft.", "en": "Please / Here you are. (formal)" },
+            { "nl": "Alsjeblieft.", "en": "Please / Here you are. (informal)" },
+            { "nl": "Dank u wel.", "en": "Thank you. (formal)" },
+            { "nl": "Dank je wel.", "en": "Thank you. (informal)" },
+            { "nl": "Graag gedaan.", "en": "You are welcome." },
+            { "nl": "Sorry.", "en": "Sorry / Excuse me." },
+            { "nl": "Pardon.", "en": "Excuse me. (to pass or get attention)" },
+            { "nl": "Geen probleem.", "en": "No problem." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "U ontmoet de buurman voor het eerst. Hoe begroet u hem beleefd?",
+          "qEn": "You meet your neighbour for the first time. How do you greet him politely?",
+          "options": ["Doei, alles goed?", "Goedemiddag, aangenaam.", "Welterusten!"],
+          "answer": "Goedemiddag, aangenaam.",
+          "explanation": "With someone you meet for the first time you stay polite: a time-of-day greeting like Goedemiddag plus Aangenaam (pleased to meet you). Doei and alles goed are too casual, and Welterusten is only for going to bed."
+        },
+        {
+          "type": "example",
+          "q": "Stel jezelf voor: zeg hallo, je naam, waar je vandaan komt en sluit netjes af.",
+          "qEn": "Introduce yourself: say hello, your name, where you are from, and finish politely.",
+          "answer": "Goedemiddag, mag ik me even voorstellen? Ik heet Ayhan en ik kom uit Turkije. Ik woon nu in Nederland en ik leer Nederlands. Aangenaam kennis te maken. Fijne dag nog!",
+          "explanation": "A clear self-introduction has four parts: a greeting (Goedemiddag), your name (Ik heet Ayhan), where you are from (ik kom uit Turkije), and a polite close (Aangenaam, Fijne dag). Mag ik me even voorstellen? is a natural, polite opener."
+        }
+      ]
+    },
+    {
+      "id": "basis-beschrijf-ik",
+      "sort": 1.6,
+      "category": "basis",
+      "icon": "🪪",
+      "titleNl": "Beschrijven: adres, werk & familie",
+      "titleEn": "Describe: your address, job & family",
+      "intro": "The questions you get asked the most: where you live, what you do and who is in your family. These are exactly what the Spreken exam expects you to describe. Tap 🔊 to hear each phrase.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Saying where you live",
+          "body": "Use ik woon in for a town or country (ik woon in Utrecht) and ik woon op for the street with the house number (ik woon op de Kerkstraat 8). A Dutch postcode is four numbers plus two letters, like 1234 AB, said number by number then the letters. Many people live in a flat (an apartment) or a huis (a house), and you can add which floor with op de eerste verdieping."
+        },
+        {
+          "type": "pairs",
+          "title": "Mijn adres",
+          "note": "de begane grond is the ground floor; de eerste verdieping is one floor up.",
+          "items": [
+            { "nl": "Ik woon op de Kerkstraat 8.", "en": "I live at Kerkstraat number 8." },
+            { "nl": "Mijn postcode is 1234 AB.", "en": "My postcode is 1234 AB." },
+            { "nl": "Ik woon in Utrecht.", "en": "I live in Utrecht." },
+            { "nl": "Ik woon in een flat.", "en": "I live in a flat / apartment." },
+            { "nl": "Ik woon in een huis.", "en": "I live in a house." },
+            { "nl": "Ik woon op de eerste verdieping.", "en": "I live on the first floor (one up)." },
+            { "nl": "Ik woon op de begane grond.", "en": "I live on the ground floor." },
+            { "nl": "Wat is uw adres?", "en": "What is your address? (formal)" },
+            { "nl": "Ik woon hier al twee jaar.", "en": "I have lived here for two years already." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Talking about your job",
+          "body": "To say your profession, Dutch leaves out the word a: you say ik ben kok (I am a cook), not ik ben een kok. You can also say ik werk als plus the job (ik werk als monteur). Add where with ik werk bij plus the company or place (ik werk bij een supermarkt). If you do not have a job right now, useful words are werkzoekend (job-seeking), met pensioen (retired) and huisvrouw or huisman (homemaker)."
+        },
+        {
+          "type": "pairs",
+          "title": "Mijn werk",
+          "note": "fulltime is a full week; parttime is fewer days. Drop the a after ik ben: ik ben verpleegkundige.",
+          "items": [
+            { "nl": "Ik werk als verpleegkundige.", "en": "I work as a nurse." },
+            { "nl": "Ik ben verpleegkundige.", "en": "I am a nurse." },
+            { "nl": "Ik werk bij een ziekenhuis.", "en": "I work at a hospital." },
+            { "nl": "Ik werk fulltime.", "en": "I work full-time." },
+            { "nl": "Ik werk parttime.", "en": "I work part-time." },
+            { "nl": "Ik ben werkzoekend.", "en": "I am looking for work." },
+            { "nl": "Ik ben met pensioen.", "en": "I am retired." },
+            { "nl": "de leraar", "en": "the teacher" },
+            { "nl": "de kok", "en": "the cook / chef" },
+            { "nl": "de monteur", "en": "the mechanic" },
+            { "nl": "de chauffeur", "en": "the driver" },
+            { "nl": "de schoonmaker", "en": "the cleaner" },
+            { "nl": "de winkelmedewerker", "en": "the shop assistant" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Mijn familie",
+          "note": "getrouwd means married; samenwonen means living together (unmarried). de man here means husband, de vrouw means wife.",
+          "items": [
+            { "nl": "Ik ben getrouwd.", "en": "I am married." },
+            { "nl": "Ik woon samen.", "en": "I live together (with my partner)." },
+            { "nl": "Ik heb twee kinderen.", "en": "I have two children." },
+            { "nl": "Mijn man heet Daan.", "en": "My husband is called Daan." },
+            { "nl": "Mijn vrouw heet Sara.", "en": "My wife is called Sara." },
+            { "nl": "Ik heb een broer en een zus.", "en": "I have a brother and a sister." },
+            { "nl": "Ik ben alleenstaand.", "en": "I am single." },
+            { "nl": "Mijn kinderen gaan naar school.", "en": "My children go to school." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Over jezelf vertellen",
+          "note": "Handy extra lines to round out a self-description: your age, your hobby and how long you have been here.",
+          "items": [
+            { "nl": "Ik ben vijfendertig jaar oud.", "en": "I am thirty-five years old." },
+            { "nl": "Ik kom uit Turkije.", "en": "I am from Turkey." },
+            { "nl": "Ik leer Nederlands.", "en": "I am learning Dutch." },
+            { "nl": "In mijn vrije tijd wandel ik graag.", "en": "In my free time I like to walk." },
+            { "nl": "Ik hou van koken.", "en": "I love cooking." },
+            { "nl": "Ik spreek een beetje Nederlands.", "en": "I speak a little Dutch." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Vul in: Ik ... als kok in een restaurant.",
+          "qEn": "Fill in the gap: 'I ... as a cook in a restaurant' (I work as a cook).",
+          "options": ["werk", "woon", "heet"],
+          "answer": "werk",
+          "explanation": "ik werk als ... means I work as ... . woon means live and heet means am called, so neither fits a job. Note that after ik ben you would drop the als and the a: ik ben kok."
+        },
+        {
+          "type": "example",
+          "q": "Beschrijf jezelf: vertel waar je woont, wat je doet en iets over je familie.",
+          "qEn": "Describe yourself: say where you live, what you do, and something about your family.",
+          "answer": "Ik heet Ayhan en ik kom uit Turkije. Ik woon in Utrecht, in een flat op de eerste verdieping. Ik werk als monteur bij een garage en ik werk fulltime. Ik ben getrouwd en ik heb twee kinderen. Mijn vrouw heet Sara en zij werkt parttime. In mijn vrije tijd wandel ik graag en ik leer nu Nederlands.",
+          "explanation": "A good self-description covers the three topics in order: where you live (ik woon in Utrecht, in een flat), your work (ik werk als monteur, fulltime), and your family (ik ben getrouwd, twee kinderen). Short, clear sentences with ik woon, ik werk and ik heb are exactly what the examiner wants."
+        }
+      ]
+    }
+  ]
+}

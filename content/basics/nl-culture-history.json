@@ -1,0 +1,142 @@
+{
+  "chapters": [
+    {
+      "id": "basis-beroemde-nederlanders",
+      "sort": 80,
+      "category": "basis",
+      "icon": "🌟",
+      "titleNl": "Beroemde Nederlanders",
+      "titleEn": "Famous Dutch people",
+      "intro": "A friendly tour of well-known Dutch people: painters and artists, a writer, a footballer, a thinker, scientists and the royal family. These names come up in everyday culture and in the KNM exam. Each line is a short Dutch sentence; tap the speaker to hear it.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Why learn these names?",
+          "body": "Knowing a handful of famous Dutch people helps you follow conversations, understand museums and the news, and answer culture questions. You do not need exact dates; just remember who each person was and what they are famous for."
+        },
+        {
+          "type": "pairs",
+          "title": "Kunstenaars en schilders",
+          "note": "Artists and painters. Note: een schilder is a painter, een kunstenaar is an artist.",
+          "items": [
+            { "nl": "Rembrandt van Rijn was een beroemde schilder uit de Gouden Eeuw.", "en": "Rembrandt van Rijn was a famous painter from the Golden Age (17th century)." },
+            { "nl": "Vincent van Gogh schilderde de Zonnebloemen.", "en": "Vincent van Gogh painted the Sunflowers; a world-famous painter." },
+            { "nl": "Johannes Vermeer schilderde Het Meisje met de Parel.", "en": "Johannes Vermeer painted Girl with a Pearl Earring." },
+            { "nl": "M.C. Escher was een kunstenaar die bijzondere prenten maakte.", "en": "M.C. Escher was an artist known for his special prints with optical illusions." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Andere beroemde Nederlanders",
+          "note": "A writer, a footballer, a thinker, scientists and the royal couple.",
+          "items": [
+            { "nl": "Anne Frank schreef haar dagboek tijdens de Tweede Wereldoorlog.", "en": "Anne Frank wrote her diary while hiding during World War II in Amsterdam." },
+            { "nl": "Johan Cruijff was een wereldberoemde voetballer.", "en": "Johan Cruijff was a world-famous footballer and coach." },
+            { "nl": "Erasmus was een beroemde denker en humanist.", "en": "Erasmus was a famous thinker and humanist from Rotterdam." },
+            { "nl": "Antoni van Leeuwenhoek was een wetenschapper en maakte microscopen.", "en": "Antoni van Leeuwenhoek was a scientist who built microscopes and studied tiny life." },
+            { "nl": "Koning Willem-Alexander is het staatshoofd van Nederland.", "en": "King Willem-Alexander is the head of state of the Netherlands." },
+            { "nl": "Koningin Máxima komt uit Argentinië.", "en": "Queen Máxima comes from Argentina." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "A little context",
+          "body": "Rembrandt, Vermeer and others lived in the Gouden Eeuw, the 17th-century Golden Age when Dutch painting was world-famous. Van Gogh lived much later, in the 19th century. Anne Frank was a Jewish girl whose diary, written while in hiding, is read all over the world today."
+        },
+        {
+          "type": "example",
+          "q": "Wie schilderde Het Meisje met de Parel?",
+          "qEn": "Who painted Girl with a Pearl Earring?",
+          "options": ["Vincent van Gogh", "Johannes Vermeer", "Rembrandt van Rijn"],
+          "answer": "Johannes Vermeer",
+          "explanation": "Johannes Vermeer painted Het Meisje met de Parel. Van Gogh is famous for the Sunflowers, and Rembrandt for works such as the Nachtwacht (Night Watch)."
+        },
+        {
+          "type": "example",
+          "q": "Waarom is Anne Frank beroemd?",
+          "qEn": "Why is Anne Frank famous?",
+          "options": ["Zij was een schilder.", "Zij schreef een dagboek in de oorlog.", "Zij was een voetballer."],
+          "answer": "Zij schreef een dagboek in de oorlog.",
+          "explanation": "Anne Frank wrote a diary while in hiding during World War II. It is one of the most-read books in the world."
+        }
+      ]
+    },
+    {
+      "id": "basis-geschiedenis",
+      "sort": 81,
+      "category": "basis",
+      "icon": "📜",
+      "titleNl": "De geschiedenis van Nederland",
+      "titleEn": "The history of the Netherlands",
+      "intro": "A short story of the Netherlands: from the fight for independence from Spain, through the wealthy Golden Age of trade, to the Second World War and the country's long battle against water. None of this needs to be memorised by date; understand the big picture, which also helps for the KNM exam.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "The big picture",
+          "body": "Long ago the Dutch fought an Eighty Years War against Spain to become independent. In the 17th century, the Golden Age, the country grew rich through trade and shipping. In the 20th century the Netherlands was occupied during World War II and was freed in 1945. Throughout its history, the Dutch have also fought a different enemy: the water."
+        },
+        {
+          "type": "pairs",
+          "title": "Belangrijke periodes",
+          "note": "Key periods and events. Eeuw means century; oorlog means war.",
+          "items": [
+            { "nl": "Willem van Oranje was de leider in de Tachtigjarige Oorlog tegen Spanje.", "en": "William of Orange led the Dutch in the Eighty Years War for independence from Spain." },
+            { "nl": "De Gouden Eeuw was de zeventiende eeuw, een tijd van rijkdom en handel.", "en": "The Golden Age was the 17th century, a time of great wealth and trade." },
+            { "nl": "De VOC was een grote handelsorganisatie die over zee handelde.", "en": "The VOC was the Dutch East India Company, a large trading company that traded overseas." },
+            { "nl": "De Tweede Wereldoorlog duurde in Nederland van 1940 tot 1945.", "en": "World War II lasted in the Netherlands from 1940 to 1945." },
+            { "nl": "De bevrijding was in 1945, aan het einde van de oorlog.", "en": "The liberation was in 1945, at the end of the war." },
+            { "nl": "Nederland is een van de oprichters van de Europese Unie.", "en": "The Netherlands is one of the founding members of the European Union (EU)." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "About the VOC and the Golden Age",
+          "body": "In the Gouden Eeuw the Netherlands became one of the richest countries in the world through trade by sea. The VOC (Verenigde Oostindische Compagnie), the Dutch East India Company, traded with Asia. This wealth also paid for the famous paintings of that century. Today people also discuss the darker side of this period, such as slavery and colonialism."
+        },
+        {
+          "type": "pairs",
+          "title": "Nederland en het water",
+          "note": "The Netherlands literally means the low lands. Much of the country sits low, so water management is part of daily life.",
+          "items": [
+            { "nl": "Een groot deel van Nederland ligt onder zeeniveau.", "en": "A large part of the Netherlands lies below sea level." },
+            { "nl": "De dijken houden het water tegen.", "en": "The dikes hold back the water (from the sea and rivers)." },
+            { "nl": "Een polder is land dat de mensen droog hebben gemaakt.", "en": "A polder is land that people have drained and kept dry." },
+            { "nl": "Inpolderen betekent nieuw land winnen op het water.", "en": "Inpolderen means reclaiming new land from the water." },
+            { "nl": "Een gezegde luidt: God schiep de wereld, maar de Nederlanders maakten Nederland.", "en": "A famous saying: God created the world, but the Dutch made the Netherlands." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Het water en de veiligheid",
+          "note": "Two events that shaped Dutch water safety.",
+          "items": [
+            { "nl": "De Watersnoodramp van 1953 was een grote overstroming in Zeeland.", "en": "The North Sea Flood of 1953 was a major flood, mostly in the province of Zeeland." },
+            { "nl": "Na 1953 bouwde Nederland de Deltawerken om het land te beschermen.", "en": "After 1953 the Netherlands built the Delta Works (dams and barriers) to protect the land." },
+            { "nl": "Het Waterschap zorgt voor de dijken en het waterpeil.", "en": "The water board (waterschap) looks after the dikes and the water level." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Water management today",
+          "body": "Because so much land lies low, keeping the water out is a national task. Dijken (dikes) hold back the sea and rivers, gemalen (pumping stations) pump water away, and the Deltawerken protect the southwest after the 1953 disaster. Water boards (waterschappen) manage all of this, and you can even vote in their elections. This is why the Dutch are known worldwide for water management."
+        },
+        {
+          "type": "example",
+          "q": "Wat waren de Deltawerken?",
+          "qEn": "What were the Delta Works?",
+          "options": ["Een groot museum", "Dammen en keringen tegen het water", "Een oude handelsroute"],
+          "answer": "Dammen en keringen tegen het water",
+          "explanation": "The Deltawerken are dams and storm barriers, built after the 1953 flood disaster to protect the low-lying southwest of the Netherlands against the sea."
+        },
+        {
+          "type": "example",
+          "q": "Tegen welk land vocht Nederland in de Tachtigjarige Oorlog?",
+          "qEn": "Which country did the Netherlands fight in the Eighty Years War?",
+          "options": ["Frankrijk", "Spanje", "Duitsland"],
+          "answer": "Spanje",
+          "explanation": "The Eighty Years War (Tachtigjarige Oorlog) was the Dutch fight for independence from Spain. Willem van Oranje was an important leader in this war."
+        }
+      ]
+    }
+  ]
+}

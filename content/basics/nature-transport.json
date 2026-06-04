@@ -1,0 +1,163 @@
+{
+  "chapters": [
+    {
+      "id": "basis-natuur-landschap",
+      "sort": 18.4,
+      "category": "basis",
+      "icon": "🌳",
+      "titleNl": "Natuur & landschap",
+      "titleEn": "Nature & landscape",
+      "intro": "Words for nature, the weather around you and the very flat, watery landscape that is so typical of the Netherlands. Learn each noun with its de or het, and tap 🔊 to hear it.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "Natuur (nature)",
+          "note": "Most nature words are de-words, but het gras and het bos are het-words, so learn the article with each one.",
+          "items": [
+            { "nl": "de boom", "en": "the tree" },
+            { "nl": "de bloem", "en": "the flower" },
+            { "nl": "het gras", "en": "the grass" },
+            { "nl": "het bos", "en": "the forest / woods" },
+            { "nl": "de plant", "en": "the plant" },
+            { "nl": "de lucht", "en": "the sky / air" },
+            { "nl": "de zon", "en": "the sun" },
+            { "nl": "de wolk", "en": "the cloud" },
+            { "nl": "de regen", "en": "the rain" },
+            { "nl": "de wind", "en": "the wind" },
+            { "nl": "de sneeuw", "en": "the snow" },
+            { "nl": "de zee", "en": "the sea" },
+            { "nl": "het strand", "en": "the beach" },
+            { "nl": "de berg", "en": "the mountain" },
+            { "nl": "de rivier", "en": "the river" },
+            { "nl": "het meer", "en": "the lake" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "The weather is a way of life here",
+          "body": "Dutch people talk about the weather all the time, so these words come up daily. Useful sentences: de zon schijnt (the sun is shining), het regent (it is raining), het waait hard (it is very windy) and het sneeuwt (it is snowing). You will hear the forecast called het weerbericht."
+        },
+        {
+          "type": "pairs",
+          "title": "Typisch Nederlands landschap (a typically Dutch landscape)",
+          "note": "These words describe the man-made, watery landscape you see everywhere in the Netherlands. Each one comes with a short note because there is often no exact English word.",
+          "items": [
+            { "nl": "de polder", "en": "the polder — low land reclaimed from water and kept dry by pumps" },
+            { "nl": "de dijk", "en": "the dyke — a high wall of earth that holds back the water" },
+            { "nl": "de gracht", "en": "the canal — a city canal, like the famous ones in Amsterdam" },
+            { "nl": "het kanaal", "en": "the canal — a larger waterway dug for boats" },
+            { "nl": "de molen", "en": "the windmill — historically used to pump water and grind grain" },
+            { "nl": "het weiland", "en": "the meadow — green grassland where cows graze" },
+            { "nl": "de duinen", "en": "the dunes — the sandy hills along the coast (plural)" },
+            { "nl": "het platteland", "en": "the countryside — the rural area outside the cities" },
+            { "nl": "de sloot", "en": "the ditch — a narrow water channel between fields" },
+            { "nl": "de tulpen", "en": "the tulips — the famous spring flowers, often grown in long coloured fields (plural)" },
+            { "nl": "de koe in de wei", "en": "the cow in the meadow — a classic Dutch sight" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "A country below sea level",
+          "body": "A large part of the Netherlands lies below sea level, so without protection it would simply flood. The dijken (dykes) and the huge Deltawerken (Delta Works), a system of dams and barriers in the south-west, keep the sea out. Inside the polders, pumps remove the water so the land stays dry enough to live and farm on. In the older cities the water runs through the grachten (canals), which is why Amsterdam, Utrecht and Leiden are full of bridges and houseboats."
+        },
+        {
+          "type": "pairs",
+          "title": "Handige zinnen (handy sentences)",
+          "items": [
+            { "nl": "Wat is het mooi weer vandaag.", "en": "What lovely weather today." },
+            { "nl": "In de polder zie je veel koeien.", "en": "In the polder you see a lot of cows." },
+            { "nl": "We wandelen door het bos.", "en": "We are walking through the woods." },
+            { "nl": "De dijk beschermt het land tegen de zee.", "en": "The dyke protects the land against the sea." },
+            { "nl": "In het voorjaar bloeien de tulpen.", "en": "In spring the tulips bloom." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Wat houdt het water tegen, zodat het land niet onderloopt?",
+          "qEn": "What holds the water back so the land does not flood?",
+          "options": ["de molen", "de dijk", "het strand"],
+          "answer": "de dijk",
+          "explanation": "Een dijk (a dyke) is a high wall of earth that holds back the sea and rivers. A molen is a windmill and a strand is a beach."
+        }
+      ]
+    },
+    {
+      "id": "basis-vervoer",
+      "sort": 6.4,
+      "category": "basis",
+      "icon": "🚲",
+      "titleNl": "Vervoer: de fiets & voertuigen",
+      "titleEn": "Transport: the bike & vehicles",
+      "intro": "How people get around in the Netherlands, with the bike taking centre stage. Learn each noun with its de or het, and tap 🔊 to hear it.",
+      "sections": [
+        {
+          "type": "pairs",
+          "title": "Voertuigen (vehicles)",
+          "note": "Most vehicles are de-words; het vliegtuig is the odd het-word. Use met to say how you travel: met de bus, met de trein.",
+          "items": [
+            { "nl": "de fiets", "en": "the bike / bicycle" },
+            { "nl": "de auto", "en": "the car" },
+            { "nl": "de bus", "en": "the bus" },
+            { "nl": "de trein", "en": "the train" },
+            { "nl": "de tram", "en": "the tram" },
+            { "nl": "de metro", "en": "the metro / underground" },
+            { "nl": "de scooter", "en": "the scooter (with a step-through frame)" },
+            { "nl": "de brommer", "en": "the moped (a small motorbike)" },
+            { "nl": "de boot", "en": "the boat" },
+            { "nl": "het vliegtuig", "en": "the aeroplane / plane" },
+            { "nl": "de vrachtwagen", "en": "the lorry / truck" },
+            { "nl": "te voet", "en": "on foot" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Saying how you travel",
+          "body": "To say how you get somewhere, use met plus the vehicle: ik ga met de fiets (I go by bike), met de auto (by car), met de trein (by train). The one exception is on foot, which is te voet or simply lopend. To buy a train ride you need a kaartje (ticket) and you tap in and out with your OV-chipkaart."
+        },
+        {
+          "type": "pairs",
+          "title": "De fiets (parts of the bike)",
+          "note": "Handy at the bike shop (de fietsenmaker) when something is broken.",
+          "items": [
+            { "nl": "het stuur", "en": "the handlebars" },
+            { "nl": "het wiel", "en": "the wheel" },
+            { "nl": "de band", "en": "the tyre" },
+            { "nl": "de bel", "en": "the bell" },
+            { "nl": "de rem", "en": "the brake" },
+            { "nl": "het slot", "en": "the lock" },
+            { "nl": "de ketting", "en": "the chain" },
+            { "nl": "de mand", "en": "the basket" },
+            { "nl": "het zadel", "en": "the saddle / seat" },
+            { "nl": "de lamp", "en": "the light / lamp" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "The bike is everywhere",
+          "body": "In the Netherlands the fiets (bike) is central to daily life. People of every age cycle to work, to school and to the shops, and there are more bikes than people. Towns are full of fietspaden (cycle paths) and huge bike parking areas at the stations. Always lock your bike well, because bike theft is common, and switch your lamp on after dark or you can get a fine."
+        },
+        {
+          "type": "pairs",
+          "title": "Onderweg (on the way)",
+          "items": [
+            { "nl": "Ik ga met de fiets.", "en": "I go by bike." },
+            { "nl": "Ik fiets naar mijn werk.", "en": "I cycle to my work." },
+            { "nl": "Mijn band is lek.", "en": "My tyre is flat." },
+            { "nl": "Ik zet mijn fiets op slot.", "en": "I lock my bike." },
+            { "nl": "een snelle auto", "en": "a fast car" },
+            { "nl": "een oude fiets", "en": "an old bike" },
+            { "nl": "met de trein reizen", "en": "to travel by train" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Vul in: Mijn band is lek, dus ik ga naar de ...",
+          "qEn": "Fill in the gap: 'My tyre is flat, so I am going to the ...' (the bike repairer).",
+          "options": ["fietsenmaker", "supermarkt", "apotheek"],
+          "answer": "fietsenmaker",
+          "explanation": "De fietsenmaker is the person who repairs bikes, so that is where you take a flat tyre. De supermarkt is for groceries and de apotheek is the pharmacy."
+        }
+      ]
+    }
+  ]
+}

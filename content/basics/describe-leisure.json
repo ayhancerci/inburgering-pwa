@@ -1,0 +1,181 @@
+{
+  "chapters": [
+    {
+      "id": "basis-vrije-tijd",
+      "sort": 15.3,
+      "category": "basis",
+      "icon": "⚽",
+      "titleNl": "Vrije tijd & hobby's",
+      "titleEn": "Free time & hobbies",
+      "intro": "Talking about your free time and hobbies is a favourite topic at the speaking exam. Here you learn the activities, the phrases to introduce them, and how to say how often you do them. Tap 🔊 to hear each phrase in a natural voice.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "How to talk about free time",
+          "body": "In Dutch 'vrije tijd' is your free time and a 'hobby' is a hobby. Build a sentence with the verb 'doen' (to do) for the general idea, and a specific verb for each activity. The easiest opener is 'In mijn vrije tijd...' followed by what you do, for example 'In mijn vrije tijd sport ik'. When you put a time phrase first, the verb comes before 'ik': 'In het weekend kook ik graag'. Add 'graag' (gladly) after the verb to say you enjoy something."
+        },
+        {
+          "type": "pairs",
+          "title": "Activiteiten",
+          "note": "These are the verbs for the most common free-time activities.",
+          "items": [
+            { "nl": "sporten", "en": "to do sport / to exercise" },
+            { "nl": "voetballen", "en": "to play football" },
+            { "nl": "zwemmen", "en": "to swim" },
+            { "nl": "fietsen", "en": "to cycle" },
+            { "nl": "wandelen", "en": "to walk / to hike" },
+            { "nl": "lezen", "en": "to read" },
+            { "nl": "koken", "en": "to cook" },
+            { "nl": "tuinieren", "en": "to garden" },
+            { "nl": "naar muziek luisteren", "en": "to listen to music" },
+            { "nl": "films kijken", "en": "to watch films" },
+            { "nl": "gamen", "en": "to game / to play video games" },
+            { "nl": "tekenen", "en": "to draw" },
+            { "nl": "dansen", "en": "to dance" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Erover praten",
+          "note": "Ready-made openers to introduce a hobby. Finish each one with an activity.",
+          "items": [
+            { "nl": "In mijn vrije tijd...", "en": "In my free time... (e.g. In mijn vrije tijd lees ik.)" },
+            { "nl": "Ik hou van...", "en": "I love... (e.g. Ik hou van zwemmen.)" },
+            { "nl": "Mijn hobby is...", "en": "My hobby is... (e.g. Mijn hobby is tekenen.)" },
+            { "nl": "Ik speel graag...", "en": "I like to play... (e.g. Ik speel graag voetbal.)" },
+            { "nl": "Ik ga vaak naar...", "en": "I often go to... (e.g. Ik ga vaak naar de sportschool.)" },
+            { "nl": "Een keer per week...", "en": "Once a week... (e.g. Een keer per week ga ik zwemmen.)" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Hoe vaak?",
+          "note": "Use these to say how often you do something. Put them at the start or right after the verb.",
+          "items": [
+            { "nl": "elke dag", "en": "every day" },
+            { "nl": "vaak", "en": "often" },
+            { "nl": "soms", "en": "sometimes" },
+            { "nl": "nooit", "en": "never" },
+            { "nl": "een keer per week", "en": "once a week" },
+            { "nl": "in het weekend", "en": "at the weekend" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Word order with 'graag' and time words",
+          "body": "Dutch likes the verb in second place. So you say 'Ik fiets graag' (I like to cycle) and 'Ik zwem elke dag' (I swim every day). If you begin with a time phrase, swap the order: 'Elke dag zwem ik' or 'In het weekend kook ik'. To say you do not like something, use 'niet': 'Ik hou niet van gamen' (I do not like gaming)."
+        },
+        {
+          "type": "pairs",
+          "title": "Waar en met wie?",
+          "note": "Handy extras to make your answer longer and more natural.",
+          "items": [
+            { "nl": "de sportschool", "en": "the gym" },
+            { "nl": "het park", "en": "the park" },
+            { "nl": "het zwembad", "en": "the swimming pool" },
+            { "nl": "samen met vrienden", "en": "together with friends" },
+            { "nl": "met mijn familie", "en": "with my family" },
+            { "nl": "in mijn eentje", "en": "on my own / by myself" },
+            { "nl": "het is gezellig", "en": "it is cosy / fun (a very Dutch word)" },
+            { "nl": "het is ontspannend", "en": "it is relaxing" }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Beschrijf wat je in je vrije tijd doet.",
+          "qEn": "Describe what you do in your free time.",
+          "answer": "In mijn vrije tijd doe ik graag sport. Ik ga twee keer per week naar het zwembad, want zwemmen is goed voor mijn lichaam. In het weekend fiets ik vaak met mijn vrienden door het park. 's Avonds lees ik graag een boek of kijk ik een film. Soms kook ik samen met mijn familie. Dat vind ik heel gezellig.",
+          "explanation": "It opens with 'In mijn vrije tijd...', names several activities (zwemmen, fietsen, lezen, koken), says how often (twee keer per week, vaak, soms), and adds with whom (vrienden, familie). Notice the verb stays in second place: 'In het weekend fiets ik' and 's Avonds lees ik'."
+        }
+      ]
+    },
+    {
+      "id": "basis-favorieten",
+      "sort": 4.4,
+      "category": "basis",
+      "icon": "⭐",
+      "titleNl": "Mijn favorieten: eten, films & boeken",
+      "titleEn": "My favourites: food, films & books",
+      "intro": "At the speaking exam you often have to say what you like and why. Here you learn how to talk about your favourite food, films and books, and how to describe them in a few simple sentences. Tap 🔊 to hear each phrase in a natural voice.",
+      "sections": [
+        {
+          "type": "note",
+          "title": "Saying what you like",
+          "body": "Dutch has a few easy ways to say you like something. 'Ik hou van...' (I love...) is followed by a noun or a verb: 'Ik hou van pizza' or 'Ik hou van koken'. 'Ik vind ... lekker' works for food and drink and means 'I find ... tasty'. For films, books and almost anything else you use 'Ik vind ... leuk' or 'Ik vind ... mooi'. A 'lievelings-' word means your favourite one, like 'mijn lievelingseten' (my favourite food)."
+        },
+        {
+          "type": "pairs",
+          "title": "Lekker eten",
+          "note": "Talk about food you like and dislike. 'lekker' means tasty.",
+          "items": [
+            { "nl": "Mijn lievelingseten is...", "en": "My favourite food is... (e.g. Mijn lievelingseten is pasta.)" },
+            { "nl": "Ik hou van...", "en": "I love... (e.g. Ik hou van kaas.)" },
+            { "nl": "Ik eet graag...", "en": "I like to eat... (e.g. Ik eet graag groente.)" },
+            { "nl": "Ik vind ... lekker", "en": "I find ... tasty (e.g. Ik vind soep lekker.)" },
+            { "nl": "Ik vind ... niet lekker", "en": "I do not find ... tasty (e.g. Ik vind vis niet lekker.)" },
+            { "nl": "mijn lievelingsdrankje", "en": "my favourite drink" },
+            { "nl": "het toetje", "en": "the dessert" },
+            { "nl": "het recept", "en": "the recipe" }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Films & series",
+          "note": "Use these to talk about what you watch and what kind of film it is.",
+          "items": [
+            { "nl": "Mijn lievelingsfilm is...", "en": "My favourite film is..." },
+            { "nl": "Ik kijk graag naar...", "en": "I like to watch... (e.g. Ik kijk graag naar comedy.)" },
+            { "nl": "Mijn favoriete serie is...", "en": "My favourite series is..." },
+            { "nl": "Het is een komedie.", "en": "It is a comedy." },
+            { "nl": "Het is een actiefilm.", "en": "It is an action film." },
+            { "nl": "de hoofdrolspeler", "en": "the lead actor" },
+            { "nl": "de aflevering", "en": "the episode" },
+            { "nl": "Ik kijk het op de bank.", "en": "I watch it on the sofa." }
+          ]
+        },
+        {
+          "type": "pairs",
+          "title": "Boeken",
+          "note": "Words and phrases to talk about reading and your favourite book.",
+          "items": [
+            { "nl": "Ik lees graag...", "en": "I like to read... (e.g. Ik lees graag thrillers.)" },
+            { "nl": "Mijn lievelingsboek is...", "en": "My favourite book is..." },
+            { "nl": "Het gaat over...", "en": "It is about... (e.g. Het gaat over een familie.)" },
+            { "nl": "de schrijver", "en": "the writer / author" },
+            { "nl": "het verhaal", "en": "the story" },
+            { "nl": "de bladzijde", "en": "the page" },
+            { "nl": "Ik lees het in het Nederlands.", "en": "I read it in Dutch." },
+            { "nl": "Ik kan het boek aanraden.", "en": "I can recommend the book." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "How to describe a film or book",
+          "body": "After you name your favourite, add two or three sentences. Start with 'Het gaat over...' (It is about...) to give the story in a few words. Then say who is in it with 'De hoofdpersoon is...' (The main character is...). Finally give your opinion with one adjective: 'Het is spannend' (exciting), 'Het is grappig' (funny), 'Het is saai' (boring) or 'Het is mooi' (beautiful). With these three steps you always have enough to say."
+        },
+        {
+          "type": "pairs",
+          "title": "Het is...",
+          "note": "Opinion words to describe a film, series or book.",
+          "items": [
+            { "nl": "spannend", "en": "exciting / tense" },
+            { "nl": "grappig", "en": "funny" },
+            { "nl": "saai", "en": "boring" },
+            { "nl": "mooi", "en": "beautiful" },
+            { "nl": "de hoofdpersoon", "en": "the main character" },
+            { "nl": "het einde", "en": "the ending" },
+            { "nl": "Het is echt een aanrader.", "en": "It is really worth it / a must-see." },
+            { "nl": "Ik vind het geweldig.", "en": "I think it is great." }
+          ]
+        },
+        {
+          "type": "example",
+          "q": "Beschrijf je lievelingsfilm of -boek.",
+          "qEn": "Describe your favourite film or book.",
+          "answer": "Mijn lievelingsfilm is The Lion King. Het is een tekenfilm voor kinderen, maar ik vind hem ook leuk als volwassene. Het gaat over een jonge leeuw die koning wil worden. De hoofdpersoon heet Simba en hij beleeft veel avonturen. De film is mooi en soms een beetje spannend. Ik kan hem echt aanraden.",
+          "explanation": "It names the favourite ('Mijn lievelingsfilm is...'), tells the story with 'Het gaat over...', names the main character with 'De hoofdpersoon heet...', and gives an opinion with 'mooi' and 'spannend'. This is exactly the three-step pattern from the note above."
+        }
+      ]
+    }
+  ]
+}

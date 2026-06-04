@@ -3,14 +3,14 @@ import { useSearchParams } from 'react-router-dom'
 import { loadContent } from '../../content'
 import { Panel, Button, cx } from '../../components/ui'
 import { SpeakButton } from '../../components/SpeakButton'
-import { playSequence, type Voice } from '../../lib/audio'
+import { playSequence, roleplayVoice, type VoiceId } from '../../lib/audio'
 import { useTranslationPref } from '../../store/prefs'
 import type { RolePlay, RolePlayTurn } from '../../content/schemas'
 
-// The other person ('A') speaks with the female voice; your line ('you') with the male
+// Your line ('you') uses a fixed male voice; the other person gets a gender-appropriate
 // voice — so a played-back conversation sounds like two different people.
-function turnVoice(t: RolePlayTurn): Voice {
-  return t.voice ?? (t.speaker === 'you' ? 'm' : 'f')
+function turnVoice(t: RolePlayTurn): VoiceId {
+  return roleplayVoice(t.speaker, t.who)
 }
 
 function Player({ rp, onBack }: { rp: RolePlay; onBack: () => void }) {

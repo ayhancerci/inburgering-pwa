@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { loadContent } from '../../content'
 import { Panel } from '../../components/ui'
 import { SpeakButton } from '../../components/SpeakButton'
+import { assignVoices } from '../../lib/audio'
 import { useTranslationPref } from '../../store/prefs'
 import type { Lesson as LessonType, Theme } from '../../content/schemas'
 
@@ -46,9 +47,10 @@ export function Lesson({
   const themeRoleplays = roleplays.filter((r) => r.themeId === theme.id)
   const themeResources = resources.filter((r) => r.themeId === theme.id)
 
-  // Give each speaker in the example dialogue its own voice (1st = female, 2nd = male).
+  // Each named speaker in the example dialogue gets its own consistent, gender-fitting voice.
   const speakers: string[] = []
   for (const l of lesson.dialogue.lines) if (!speakers.includes(l.speaker)) speakers.push(l.speaker)
+  const voiceMap = assignVoices(speakers)
 
   const ytUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(
     `Nederlands leren ${theme.titleNl} A2`,
@@ -130,7 +132,7 @@ export function Lesson({
             <p className="text-xs italic text-slate-400">{lesson.dialogue.title}</p>
           )}
           {lesson.dialogue.lines.map((l, i) => {
-            const voice = l.voice ?? (speakers.indexOf(l.speaker) % 2 === 0 ? 'f' : 'm')
+            const voice = voiceMap[l.speaker]
             return (
               <div key={i} className="flex items-start gap-2">
                 <SpeakButton text={l.nl} voice={voice} className="mt-0.5" />

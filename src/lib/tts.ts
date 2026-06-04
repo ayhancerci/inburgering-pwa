@@ -1,9 +1,10 @@
-// Browser speech synthesis (free; works offline where the OS has the voice).
-// Quality depends on the device's installed Dutch voice. We pick the best one available
-// and, for dialogues, prefer a male vs female voice so two speakers sound different.
-// If the device has only one Dutch voice, both fall back to it (no contrast, still spoken).
+// Browser speech synthesis (free; works offline where the OS has the voice). Used only as a
+// fallback when a pre-generated MP3 isn't available. Quality depends on the device's Dutch
+// voice; we pick the best one and, when asked, prefer a male vs female voice so the two
+// speakers in a dialogue still sound different. If the device has only one Dutch voice, both
+// fall back to it.
 
-import type { Voice } from './audio'
+type Gender = 'f' | 'm'
 
 let voicesCache: SpeechSynthesisVoice[] = []
 
@@ -47,15 +48,15 @@ function dutchVoices(): SpeechSynthesisVoice[] {
     .sort((a, b) => score(b) - score(a))
 }
 
-export function dutchVoice(gender?: Voice): SpeechSynthesisVoice | undefined {
+export function dutchVoice(gender?: Gender): SpeechSynthesisVoice | undefined {
   const nl = dutchVoices()
   if (nl.length === 0) return undefined
   if (gender) {
     const re = gender === 'm' ? MALE : FEMALE
     const match = nl.find((v) => re.test((v.name || '').toLowerCase()))
     if (match) return match
-    // No name match: on multi-voice devices use different voices per gender so the
-    // two speakers still contrast; otherwise fall through to the single best voice.
+    // No name match: on multi-voice devices use different voices per gender so the two
+    // speakers still contrast; otherwise fall through to the single best voice.
     if (nl.length >= 2) return gender === 'm' ? nl[1] : nl[0]
   }
   return nl[0]
@@ -69,7 +70,7 @@ export function dutchVoiceName(): string | null {
   return dutchVoice()?.name ?? null
 }
 
-function utter(text: string, gender?: Voice): SpeechSynthesisUtterance {
+function utter(text: string, gender?: Gender): SpeechSynthesisUtterance {
   const u = new SpeechSynthesisUtterance(text)
   u.lang = 'nl-NL'
   const v = dutchVoice(gender)
@@ -79,7 +80,7 @@ function utter(text: string, gender?: Voice): SpeechSynthesisUtterance {
 }
 
 /** Speak Dutch text aloud (cancels anything already playing). */
-export function speak(text: string, gender?: Voice): void {
+export function speak(text: string, gender?: Gender): void {
   if (!ttsAvailable() || !text.trim()) return
   const synth = window.speechSynthesis
   synth.cancel()
@@ -87,12 +88,12 @@ export function speak(text: string, gender?: Voice): void {
 }
 
 /** Speak several Dutch lines one after another, each in its speaker's voice. */
-export function speakSequence(items: { text: string; voice?: Voice }[]): void {
+export function speakSequence(items: { text: string; gender?: Gender }[]): void {
   if (!ttsAvailable()) return
   const synth = window.speechSynthesis
   synth.cancel()
   for (const it of items) {
-    if (it.text.trim()) synth.speak(utter(it.text, it.voice))
+    if (it.text.trim()) synth.speak(utter(it.text, it.gender))
   }
 }
 

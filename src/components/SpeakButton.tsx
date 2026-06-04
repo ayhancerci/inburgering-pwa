@@ -1,16 +1,16 @@
-import { play, type Voice } from '../lib/audio'
+import { play, type VoiceId } from '../lib/audio'
 import { cx } from './ui'
 
 /** A small 🔊 button that plays the natural-voice MP3 for the given Dutch text
- *  (falling back to browser speech if no clip exists yet). Pass `voice` to choose
- *  the male/female voice (used for the two speakers in a dialogue). */
+ *  (falling back to browser speech if no clip exists yet). Pass `voice` to force a
+ *  specific voice (e.g. the two speakers in a dialogue); otherwise a varied voice is used. */
 export function SpeakButton({
   text,
   voice,
   className,
 }: {
   text: string
-  voice?: Voice
+  voice?: VoiceId
   className?: string
 }) {
   return (

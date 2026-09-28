@@ -1,0 +1,126 @@
+{
+  "id": "quiz-knm-2025c",
+  "title": "KNM 2025 · 3 DigiD, instanties, werk, wonen en school",
+  "skill": "knm",
+  "questions": [
+    {
+      "id": "knm25c-01", "skill": "knm", "format": "mcq",
+      "prompt": "Iemand belt Ivana. Hij zegt dat hij van de gemeente is en vraagt om haar DigiD-wachtwoord. Wat doet Ivana?",
+      "options": ["Ze geeft het, want het is de gemeente.", "Ze geeft haar wachtwoord nooit aan een ander.", "Ze stuurt het per e-mail."],
+      "answer": "Ze geeft haar wachtwoord nooit aan een ander.",
+      "explanation": "Geef je DigiD-wachtwoord of pincode nooit aan iemand anders. Moet iemand iets voor je regelen? Gebruik dan DigiD Machtigen. EN: Never share your DigiD details; use DigiD Machtigen instead."
+    },
+    {
+      "id": "knm25c-02", "skill": "knm", "format": "mcq",
+      "prompt": "Waar krijg je digitale post van de overheid?",
+      "options": ["In de Berichtenbox van MijnOverheid", "Via WhatsApp van de gemeente", "Bij de apotheek"],
+      "answer": "In de Berichtenbox van MijnOverheid",
+      "explanation": "De Berichtenbox van MijnOverheid is je digitale brievenbus voor post van de overheid. EN: Your digital mailbox for post from the government."
+    },
+    {
+      "id": "knm25c-03", "skill": "knm", "format": "mcq",
+      "prompt": "Priya verhuist naar een andere stad. Wanneer moet ze haar nieuwe adres doorgeven aan de gemeente?",
+      "options": ["Binnen 1 jaar", "Dat hoeft niet.", "Uiterlijk 5 dagen na de verhuizing"],
+      "answer": "Uiterlijk 5 dagen na de verhuizing",
+      "explanation": "Een verhuizing geef je uiterlijk 5 dagen na de verhuizing door aan je nieuwe gemeente. EN: Report a move to your new gemeente within 5 days."
+    },
+    {
+      "id": "knm25c-04", "skill": "knm", "format": "mcq",
+      "prompt": "Wat is het BSN?",
+      "options": ["Je persoonlijke nummer voor contact met de overheid", "Het nummer van je bankrekening", "Het nummer van je huisarts"],
+      "answer": "Je persoonlijke nummer voor contact met de overheid",
+      "explanation": "Het burgerservicenummer krijg je als je je inschrijft bij de gemeente. Het staat op je paspoort en ID-kaart. EN: Your citizen service number, for contact with the government."
+    },
+    {
+      "id": "knm25c-05", "skill": "knm", "format": "mcq",
+      "prompt": "Een bedrijf heeft verkeerde gegevens over Yusuf. Wat mag hij doen?",
+      "options": ["Niets. Dat beslist het bedrijf zelf.", "Vragen om de gegevens te verbeteren.", "Alleen klant worden bij een ander bedrijf."],
+      "answer": "Vragen om de gegevens te verbeteren.",
+      "explanation": "Volgens de privacywet (AVG) mag je zien welke gegevens een organisatie over je heeft, en foute gegevens laten verbeteren. EN: Under the AVG you may see your data and have wrong data corrected."
+    },
+    {
+      "id": "knm25c-06", "skill": "knm", "format": "mcq",
+      "prompt": "Waar vraag je een Nederlands paspoort of een ID-kaart aan?",
+      "options": ["Bij de gemeente", "Bij de IND", "Bij de politie"],
+      "answer": "Bij de gemeente",
+      "explanation": "Een paspoort, ID-kaart of rijbewijs vraag je aan bij de gemeente. EN: At your gemeente."
+    },
+    {
+      "id": "knm25c-07", "skill": "knm", "format": "mcq",
+      "prompt": "Wie betaalt de kinderbijslag?",
+      "options": ["Het UWV", "De gemeente", "De SVB"],
+      "answer": "De SVB",
+      "explanation": "De Sociale Verzekeringsbank (SVB) betaalt de kinderbijslag en de AOW. EN: The SVB pays child benefit and the state pension."
+    },
+    {
+      "id": "knm25c-08", "skill": "knm", "format": "mcq",
+      "prompt": "Waar vraag je zorgtoeslag of huurtoeslag aan?",
+      "options": ["Bij de zorgverzekeraar", "Bij de Belastingdienst (Dienst Toeslagen)", "Bij de woningcorporatie"],
+      "answer": "Bij de Belastingdienst (Dienst Toeslagen)",
+      "explanation": "Toeslagen vraag je aan bij Dienst Toeslagen, via Mijn toeslagen op toeslagen.nl (met DigiD). Vroeger hoorde Dienst Toeslagen bij de Belastingdienst, daarom zeggen veel mensen nog 'de Belastingdienst'. Verandert je inkomen? Geef dat op tijd door. EN: Apply via Dienst Toeslagen on toeslagen.nl; it used to be part of the Belastingdienst, so many people still say that. Report income changes on time."
+    },
+    {
+      "id": "knm25c-09", "skill": "knm", "format": "mcq",
+      "prompt": "Daan heeft een vraag over zijn rechten, maar weinig geld voor een advocaat. Waar kan hij terecht?",
+      "options": ["Bij het CJIB", "Bij de SVB", "Bij het Juridisch Loket"],
+      "answer": "Bij het Juridisch Loket",
+      "explanation": "Het Juridisch Loket geeft informatie over je rechten. Met een laag inkomen is het advies gratis. Bel 0800-8020. EN: Legal information and advice, free with a low income."
+    },
+    {
+      "id": "knm25c-10", "skill": "knm", "format": "mcq",
+      "prompt": "Maria en haar verhuurder zijn het niet eens over de hoogte van de huur. Wie kan hierover een uitspraak doen?",
+      "options": ["De Huurcommissie", "Het UWV", "De GGD"],
+      "answer": "De Huurcommissie",
+      "explanation": "De Huurcommissie helpt bij een ruzie tussen huurder en verhuurder, bijvoorbeeld over de huur of het onderhoud. Allebei moeten zich aan de uitspraak houden. EN: The Huurcommissie rules on tenant and landlord disputes."
+    },
+    {
+      "id": "knm25c-11", "skill": "knm", "format": "mcq",
+      "prompt": "Sanne krijgt een boete omdat ze te hard heeft gereden. Aan wie betaalt ze de boete?",
+      "options": ["Aan de gemeente", "Aan het CJIB", "Aan de politieagent op straat"],
+      "answer": "Aan het CJIB",
+      "explanation": "Een verkeersboete krijg je van het CJIB, en je betaalt ook aan het CJIB. EN: The CJIB sends and collects traffic fines."
+    },
+    {
+      "id": "knm25c-12", "skill": "knm", "format": "mcq",
+      "prompt": "Bij Elif is ingebroken toen ze op vakantie was. De dief is al weg. Welk nummer belt ze?",
+      "options": ["112", "0900-8844", "0800-8020"],
+      "answer": "0900-8844",
+      "explanation": "Geen spoed? Bel de politie op 0900-8844. Bij spoed bel je 112. EN: Police without urgency: 0900-8844; emergencies: 112."
+    },
+    {
+      "id": "knm25c-13", "skill": "knm", "format": "mcq",
+      "prompt": "Tom is ziek en kan niet werken. Wat moet hij doen?",
+      "options": ["Zich ziek melden bij zijn werkgever", "Een e-mail sturen naar de gemeente", "Niets. Hij blijft gewoon thuis."],
+      "answer": "Zich ziek melden bij zijn werkgever",
+      "explanation": "Ben je ziek? Meld je ziek bij je werkgever. De werkgever betaalt dan minstens 70 procent van je loon door. EN: Report sick to your employer; they keep paying at least 70% of your wage."
+    },
+    {
+      "id": "knm25c-14", "skill": "knm", "format": "mcq",
+      "prompt": "Mag een werkgever in een sollicitatiegesprek vragen of je kinderen wilt?",
+      "options": ["Ja, dat moet hij altijd vragen.", "Nee, dat mag niet.", "Ja, maar alleen aan vrouwen."],
+      "answer": "Nee, dat mag niet.",
+      "explanation": "Een werkgever mag niet vragen naar je gezondheid of kinderwens. Mannen en vrouwen krijgen hetzelfde loon voor hetzelfde werk. EN: Employers may not ask about your health or plans for children."
+    },
+    {
+      "id": "knm25c-15", "skill": "knm", "format": "mcq",
+      "prompt": "De buren van Kofi maken elke nacht veel lawaai. Wat doet Kofi eerst?",
+      "options": ["Hij belt meteen 112.", "Hij praat met de buren en maakt afspraken.", "Hij zet hun spullen buiten."],
+      "answer": "Hij praat met de buren en maakt afspraken.",
+      "explanation": "Praat eerst samen. Helpt dat niet? Meld het bij de verhuurder of de gemeente. EN: Talk first; if that doesn't help, report it to the landlord or the gemeente."
+    },
+    {
+      "id": "knm25c-16", "skill": "knm", "format": "mcq",
+      "prompt": "Een kind van 12 wil niet meer naar school. Mag dat?",
+      "options": ["Ja, als de ouders het goed vinden.", "Ja, vanaf 12 jaar kiest een kind zelf.", "Nee. Kinderen van 5 tot 16 jaar moeten naar school."],
+      "answer": "Nee. Kinderen van 5 tot 16 jaar moeten naar school.",
+      "explanation": "Er is leerplicht van 5 tot 16 jaar. Daarna moeten jongeren tot 18 jaar blijven leren tot ze een startkwalificatie hebben: een diploma havo, vwo of mbo niveau 2. EN: School is compulsory from 5 to 16; from 16 to 18, young people without a startkwalificatie (havo, vwo or mbo level 2) must keep learning."
+    },
+    {
+      "id": "knm25c-17", "skill": "knm", "format": "mcq",
+      "prompt": "Hoe heet de toets in groep 8 van de basisschool?",
+      "options": ["De doorstroomtoets", "Het inburgeringsexamen", "Het eindexamen"],
+      "answer": "De doorstroomtoets",
+      "explanation": "Sinds schooljaar 2023-2024 heet de toets in groep 8 de doorstroomtoets. Vroeger heette dat de eindtoets. Veel mensen zeggen nog 'de Cito-toets'. EN: Since 2023-24 the groep 8 test is called the doorstroomtoets; many people still call it the Cito-toets."
+    }
+  ]
+}

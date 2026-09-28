@@ -1,0 +1,38 @@
+{
+  "deck": {
+    "id": "deck-knm-2025",
+    "title": "KNM — Nieuwe onderwerpen en instanties",
+    "type": "knm",
+    "lang": "nl-nl",
+    "tags": ["knm"]
+  },
+  "cards": [
+    { "id": "knm25-01", "deckId": "deck-knm-2025", "front": "Welk nummer bel je bij huiselijk geweld?", "back": "Veilig Thuis: 0800-2000. Gratis, dag en nacht. Bij direct gevaar: 112." },
+    { "id": "knm25-02", "deckId": "deck-knm-2025", "front": "Welk nummer bel je voor de politie zonder spoed?", "back": "0900-8844." },
+    { "id": "knm25-03", "deckId": "deck-knm-2025", "front": "Wanneer bel je 112?", "back": "Bij levensgevaar, bij brand, of bij een misdrijf dat nu gebeurt." },
+    { "id": "knm25-04", "deckId": "deck-knm-2025", "front": "Waar meld je discriminatie?", "back": "Bij Discriminatie.nl (0800-0880), of bij de politie." },
+    { "id": "knm25-05", "deckId": "deck-knm-2025", "front": "Wat is het nummer van het Juridisch Loket?", "back": "0800-8020. Gratis bellen." },
+    { "id": "knm25-06", "deckId": "deck-knm-2025", "front": "Hoeveel is het eigen risico in 2026?", "back": "385 euro per jaar, vanaf 18 jaar. De huisarts valt er niet onder." },
+    { "id": "knm25-07", "deckId": "deck-knm-2025", "front": "Wie bel je 's avonds of in het weekend als je snel een dokter nodig hebt?", "back": "De huisartsenpost. Bij levensgevaar: 112." },
+    { "id": "knm25-08", "deckId": "deck-knm-2025", "front": "Wat staat er in artikel 1 van de Grondwet?", "back": "Iedereen wordt in gelijke gevallen gelijk behandeld. Discriminatie is verboden." },
+    { "id": "knm25-09", "deckId": "deck-knm-2025", "front": "Wat is zelfbeschikkingsrecht?", "back": "Je beslist zelf over je eigen leven. Een vrouw mag bijvoorbeeld zelf kiezen of ze werkt." },
+    { "id": "knm25-10", "deckId": "deck-knm-2025", "front": "Wat is huwelijksdwang?", "back": "Iemand dwingen om te trouwen. Dat is strafbaar." },
+    { "id": "knm25-11", "deckId": "deck-knm-2025", "front": "Hoe oud moet je zijn om te trouwen?", "back": "Minstens 18 jaar, voor allebei de partners." },
+    { "id": "knm25-12", "deckId": "deck-knm-2025", "front": "Sinds wanneer mogen twee mannen of twee vrouwen trouwen?", "back": "Sinds 2001." },
+    { "id": "knm25-13", "deckId": "deck-knm-2025", "front": "Wat is antisemitisme?", "back": "Haat tegen Joden. Het is bij wet verboden." },
+    { "id": "knm25-14", "deckId": "deck-knm-2025", "front": "Hoeveel Joden uit Nederland zijn in de oorlog vermoord?", "back": "Ongeveer 102.000. In 1940 woonden er ongeveer 140.000 Joden in Nederland." },
+    { "id": "knm25-15", "deckId": "deck-knm-2025", "front": "Wat was Kamp Westerbork?", "back": "Een doorgangskamp in Drenthe. Van daar gingen treinen naar Auschwitz en andere kampen." },
+    { "id": "knm25-16", "deckId": "deck-knm-2025", "front": "Wie was Anne Frank?", "back": "Een Joods meisje. Ze zat ondergedoken in het Achterhuis in Amsterdam en schreef een dagboek." },
+    { "id": "knm25-17", "deckId": "deck-knm-2025", "front": "Wat was de Februaristaking?", "back": "Een staking in Amsterdam in februari 1941, tegen de Jodenvervolging." },
+    { "id": "knm25-18", "deckId": "deck-knm-2025", "front": "Wat doen we op 4 mei om 20.00 uur?", "back": "We zijn twee minuten stil voor de doden van de oorlog." },
+    { "id": "knm25-19", "deckId": "deck-knm-2025", "front": "Wie is de minister-president?", "back": "Rob Jetten (september 2026). Kijk vlak voor het examen of dit nog klopt." },
+    { "id": "knm25-20", "deckId": "deck-knm-2025", "front": "Wanneer geef je een verhuizing door aan de gemeente?", "back": "Uiterlijk 5 dagen na de verhuizing." },
+    { "id": "knm25-21", "deckId": "deck-knm-2025", "front": "Mag je je DigiD-wachtwoord aan iemand anders geven?", "back": "Nee, nooit. Moet iemand iets voor je regelen? Gebruik DigiD Machtigen." },
+    { "id": "knm25-22", "deckId": "deck-knm-2025", "front": "Wie betaalt de kinderbijslag en de AOW?", "back": "De SVB, de Sociale Verzekeringsbank." },
+    { "id": "knm25-23", "deckId": "deck-knm-2025", "front": "Wat doet de Huurcommissie?", "back": "Ze doet een uitspraak bij een ruzie tussen huurder en verhuurder, bijvoorbeeld over de huur." },
+    { "id": "knm25-24", "deckId": "deck-knm-2025", "front": "Wat is de doorstroomtoets?", "back": "De toets in groep 8 van de basisschool. Vroeger heette dat de eindtoets." },
+    { "id": "knm25-25", "deckId": "deck-knm-2025", "front": "Mag iemand van buiten de EU stemmen voor de gemeenteraad?", "back": "Ja, na 5 jaar legaal wonen in Nederland." },
+    { "id": "knm25-26", "deckId": "deck-knm-2025", "front": "Wat is belangrijker: de wet of de regels van een geloof?", "back": "De wet van de staat. Die staat boven geloof en traditie." },
+    { "id": "knm25-27", "deckId": "deck-knm-2025", "front": "Bij wie ga je eerst met psychische klachten?", "back": "Bij de huisarts of de praktijkondersteuner (POH)." }
+  ]
+}

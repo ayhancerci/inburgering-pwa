@@ -1,0 +1,98 @@
+{
+  "id": "quiz-knm-2025b",
+  "title": "KNM 2025 · 2 Gezondheid en zorg",
+  "skill": "knm",
+  "questions": [
+    {
+      "id": "knm25b-01", "skill": "knm", "format": "mcq",
+      "prompt": "Li voelt zich al weken somber en slaapt slecht. Bij wie kan zij het beste eerst terecht?",
+      "options": ["Bij de spoedeisende hulp van het ziekenhuis", "Bij de huisarts of de praktijkondersteuner", "Bij de apotheek"],
+      "answer": "Bij de huisarts of de praktijkondersteuner",
+      "explanation": "De huisarts en de praktijkondersteuner (POH) zijn het eerste aanspreekpunt, ook voor psychische klachten. EN: The GP and the practice nurse come first, also for mental-health complaints."
+    },
+    {
+      "id": "knm25b-02", "skill": "knm", "format": "mcq",
+      "prompt": "Mag de huisarts zonder toestemming van Daan aan zijn werkgever vertellen welke ziekte Daan heeft?",
+      "options": ["Nee. De huisarts heeft beroepsgeheim.", "Ja, als de werkgever erom vraagt.", "Ja, dat mag altijd."],
+      "answer": "Nee. De huisarts heeft beroepsgeheim.",
+      "explanation": "Wat je met de huisarts bespreekt, blijft geheim. Alleen met jouw toestemming mag de huisarts iets doorgeven. EN: Medical confidentiality: only with your permission."
+    },
+    {
+      "id": "knm25b-03", "skill": "knm", "format": "mcq",
+      "prompt": "Kofi spreekt nog weinig Nederlands. Hij moet naar de huisarts. Wat mag hij doen?",
+      "options": ["Niets. Hij moet Nederlands spreken.", "Alleen een huisarts in zijn eigen land bellen.", "Een tolk gebruiken."],
+      "answer": "Een tolk gebruiken.",
+      "explanation": "Bij de huisarts mag je een tolk gebruiken. EN: You may use an interpreter at the GP."
+    },
+    {
+      "id": "knm25b-04", "skill": "knm", "format": "mcq",
+      "prompt": "Het is zaterdagavond. Het zoontje van Maria heeft hoge koorts en is erg ziek. De huisarts is dicht. Wat doet Maria?",
+      "options": ["Ze belt de huisartsenpost.", "Ze wacht tot maandag.", "Ze gaat zonder te bellen naar de spoedeisende hulp."],
+      "answer": "Ze belt de huisartsenpost.",
+      "explanation": "'s Avonds, 's nachts, in het weekend en op feestdagen bel je de huisartsenpost. Die heet soms ook huisartsen-spoedpost. Bij levensgevaar bel je 112. EN: Evenings, nights, weekends and holidays: call the huisartsenpost (also called huisartsen-spoedpost); in a life-threatening situation, 112."
+    },
+    {
+      "id": "knm25b-05", "skill": "knm", "format": "mcq",
+      "prompt": "Wanneer ga je naar de spoedeisende hulp (SEH) van het ziekenhuis?",
+      "options": ["Als je je niet lekker voelt.", "Na een verwijzing van de huisarts of de huisartsenpost, of bij levensgevaar via 112.", "Als de huisarts geen tijd heeft voor een controle."],
+      "answer": "Na een verwijzing van de huisarts of de huisartsenpost, of bij levensgevaar via 112.",
+      "explanation": "Ga niet zomaar naar de SEH. Overdag bel je eerst de huisarts, 's avonds en in het weekend de huisartsenpost. Bij levensgevaar bel je 112. Ga je zonder noodzaak of verwijzing naar de SEH, dan betaal je de kosten helemaal zelf. EN: Call your GP by day or the huisartsenpost out of hours first; in a life-threatening situation call 112. Without need or a referral you pay the full cost yourself."
+    },
+    {
+      "id": "knm25b-06", "skill": "knm", "format": "mcq",
+      "prompt": "Tomasz ziet brand in het huis van zijn buren. Welk nummer belt hij?",
+      "options": ["0900-8844", "0800-2000", "112"],
+      "answer": "112",
+      "explanation": "Bij brand, levensgevaar of een misdrijf dat nu gebeurt, bel je 112. EN: 112 for a fire, danger to life, or a crime happening now."
+    },
+    {
+      "id": "knm25b-07", "skill": "knm", "format": "mcq",
+      "prompt": "Ahmed moet naar een specialist in het ziekenhuis. Wat heeft hij meestal nodig?",
+      "options": ["Een brief van de gemeente", "Een verwijsbrief van de huisarts", "Een recept van de apotheek"],
+      "answer": "Een verwijsbrief van de huisarts",
+      "explanation": "Voor een specialist heb je meestal een verwijsbrief van de huisarts nodig. Anders betaal je misschien zelf. EN: You usually need a referral letter from your GP."
+    },
+    {
+      "id": "knm25b-08", "skill": "knm", "format": "mcq",
+      "prompt": "Noor is 25. Ze woont en werkt in Nederland. Welke zorgverzekering moet ze hebben?",
+      "options": ["Een basisverzekering", "Een aanvullende verzekering", "Geen. Een zorgverzekering is niet verplicht."],
+      "answer": "Een basisverzekering",
+      "explanation": "Iedereen die in Nederland woont of werkt, moet een basisverzekering hebben. Een aanvullende verzekering is niet verplicht. EN: Basic insurance is compulsory; supplementary insurance is optional."
+    },
+    {
+      "id": "knm25b-09", "skill": "knm", "format": "mcq",
+      "prompt": "Wat is het eigen risico?",
+      "options": ["Het geld dat je krijgt als je ziek bent.", "De kosten van de huisarts.", "Het deel van je zorgkosten dat je eerst zelf betaalt. In 2026 is dat 385 euro."],
+      "answer": "Het deel van je zorgkosten dat je eerst zelf betaalt. In 2026 is dat 385 euro.",
+      "explanation": "Vanaf 18 jaar betaal je per jaar de eerste 385 euro van je zorgkosten zelf (2026). De huisarts en de huisartsenpost vallen niet onder het eigen risico. EN: From 18 you pay the first €385 of your care costs yourself each year (2026); the GP and huisartsenpost don't count."
+    },
+    {
+      "id": "knm25b-10", "skill": "knm", "format": "mcq",
+      "prompt": "Moeten ouders premie en eigen risico betalen voor hun kinderen onder de 18?",
+      "options": ["Ja, net als voor volwassenen.", "Nee. Kinderen zijn gratis verzekerd.", "Alleen het eigen risico."],
+      "answer": "Nee. Kinderen zijn gratis verzekerd.",
+      "explanation": "Kinderen onder de 18 zijn gratis verzekerd, zonder eigen risico. Een baby meld je wel binnen 4 maanden aan bij de verzekeraar. EN: Under-18s are insured free with no deductible; register a baby within 4 months."
+    },
+    {
+      "id": "knm25b-11", "skill": "knm", "format": "mcq",
+      "prompt": "Betaalt de basisverzekering de controle bij de tandarts voor volwassenen?",
+      "options": ["Ja, altijd.", "Ja, met een verwijsbrief.", "Nee. Dat betaal je zelf of met een aanvullende verzekering."],
+      "answer": "Nee. Dat betaal je zelf of met een aanvullende verzekering.",
+      "explanation": "Voor kinderen betaalt de basisverzekering de tandarts grotendeels. Volwassenen betalen de controle zelf. EN: Adults pay dental check-ups themselves, or through supplementary insurance."
+    },
+    {
+      "id": "knm25b-12", "skill": "knm", "format": "mcq",
+      "prompt": "Fatima heeft een baby van 2 maanden. Waar wordt de baby gewogen en krijgt hij zijn prikken?",
+      "options": ["Bij het consultatiebureau", "Bij de huisartsenpost", "Bij de apotheek"],
+      "answer": "Bij het consultatiebureau",
+      "explanation": "Het consultatiebureau is gratis voor kinderen van 0 tot 4 jaar. Het volgt de groei en geeft de vaccinaties. EN: The consultatiebureau, free for children aged 0 to 4, tracks growth and gives vaccinations."
+    },
+    {
+      "id": "knm25b-13", "skill": "knm", "format": "mcq",
+      "prompt": "Waar haal je medicijnen die de huisarts op een recept heeft gezet?",
+      "options": ["Bij de drogist", "Bij de apotheek", "Bij het consultatiebureau"],
+      "answer": "Bij de apotheek",
+      "explanation": "Medicijnen op recept haal je bij de apotheek. Sommige medicijnen koop je zonder recept bij de drogist. EN: Prescription medicines come from the apotheek; some others from the drogist."
+    }
+  ]
+}

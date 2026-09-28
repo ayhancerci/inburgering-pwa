@@ -10,7 +10,7 @@
         { "id": "t1-fc", "label": "Flashcards: Thema 1 woorden", "kind": "flashcards", "ref": "deck-t01", "estMinutes": 20 },
         { "id": "t1-quiz", "label": "Quiz: Thema 1", "kind": "quiz", "ref": "quiz-t01", "estMinutes": 15 },
         { "id": "t1-gram", "label": "Grammatica: lidwoorden de / het", "kind": "quiz", "ref": "quiz-de-het", "estMinutes": 10 },
-        { "id": "t1-duo", "label": "Verken de gratis DUO-oefenomgeving", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30 },
+        { "id": "t1-duo", "label": "Verken de gratis DUO-oefenomgeving", "kind": "duo_link", "ref": "https://www.inburgeren.nl/examen-doen/oefenen.jsp", "estMinutes": 30 },
         { "id": "t1-pip", "label": "Meld je aan bij de gemeente (start je PIP)", "kind": "admin", "estMinutes": 30 }
       ]
     },
@@ -129,7 +129,7 @@
         { "id": "t20-fc", "label": "Flashcards: Thema 20 woorden", "kind": "flashcards", "ref": "deck-t20", "estMinutes": 15 },
         { "id": "t20-quiz", "label": "Quiz: Thema 20", "kind": "quiz", "ref": "quiz-t20", "estMinutes": 15 },
         { "id": "t12-knm", "label": "KNM: feiten herhalen", "kind": "knm", "ref": "deck-knm-basis", "estMinutes": 20 },
-        { "id": "t12-duo", "label": "DUO: oefenexamen Lezen (A2)", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30 },
+        { "id": "t12-duo", "label": "DUO: oefenexamen Lezen (A2)", "kind": "duo_link", "ref": "https://www.inburgeren.nl/examen-doen/oefenen.jsp", "estMinutes": 30 },
         { "id": "t12-speak", "label": "Gesprek: iets ruilen in de winkel", "kind": "speaking", "estMinutes": 15 }
       ]
     },
@@ -139,7 +139,7 @@
         { "id": "w13-fc", "label": "Flashcards: alle woorden herhalen", "kind": "flashcards", "estMinutes": 20 },
         { "id": "w13-knm", "label": "Oefenexamen KNM (in de app, met timer)", "kind": "mock", "estMinutes": 45 },
         { "id": "w13-write", "label": "Schrijven: een korte e-mail (zie les Thema 1)", "kind": "writing", "estMinutes": 25 },
-        { "id": "w13-duo", "label": "DUO: oefenexamen Lezen", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30 },
+        { "id": "w13-duo", "label": "DUO: oefenexamen Lezen", "kind": "duo_link", "ref": "https://www.inburgeren.nl/examen-doen/oefenen.jsp", "estMinutes": 30 },
         { "id": "w13-rev", "label": "Herhaal je fouten", "kind": "review", "estMinutes": 15 }
       ]
     },
@@ -166,7 +166,7 @@
       "id": "wk-16", "weekNumber": 16, "theme": "Herhaling 16–20 + Schrijven & Spreken", "dateLabel": "15 – 21 sep",
       "tasks": [
         { "id": "w16-write", "label": "Schrijven: oefen brief + formulier", "kind": "writing", "estMinutes": 30 },
-        { "id": "w16-speak", "label": "Spreken: oefen de DUO-opdrachten (officieel)", "kind": "duo_link", "ref": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "estMinutes": 30 },
+        { "id": "w16-speak", "label": "Spreken: oefen de DUO-opdrachten (officieel)", "kind": "duo_link", "ref": "https://www.inburgeren.nl/examen-doen/oefenen.jsp", "estMinutes": 30 },
         { "id": "w16-roleplay", "label": "Gesprekken: gemeente + huisarts", "kind": "speaking", "estMinutes": 20 },
         { "id": "w16-fc", "label": "Flashcards herhalen", "kind": "flashcards", "estMinutes": 20 }
       ]

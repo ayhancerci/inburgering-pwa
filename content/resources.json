@@ -1,6 +1,6 @@
 {
   "resources": [
-    { "id": "res-duo-facet", "title": "DUO oefenexamens (officieel)", "url": "https://nt2-oefenomgeving.facet.onl/facet-openbaar-portaal/", "type": "practice", "level": "A2", "free": true, "description": "The official free DUO practice exams — the exact format for Lezen, Luisteren, Schrijven, Spreken and KNM. Use Chrome/Edge for Speaking." },
+    { "id": "res-duo-facet", "title": "DUO oefenexamens (officieel)", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp", "type": "practice", "level": "A2", "free": true, "description": "The official free DUO practice exams — the exact format for Lezen, Luisteren, Schrijven, Spreken and KNM. Use Chrome/Edge for Speaking." },
     { "id": "res-inburgeren-oefenen", "title": "Inburgeren.nl — oefenen", "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp", "type": "practice", "level": "A2", "free": true, "description": "DUO's official practice page with example exams for every part of the exam." },
     { "id": "res-nt2taalmenu", "title": "NT2 TaalMenu — A2 oefeningen", "url": "https://nt2taalmenu.nl/nt2-a2-oefeningen/", "type": "practice", "skill": "grammar", "level": "A2", "free": true, "description": "Lots of free A2 exercises at exactly the inburgering-exam level." },
     { "id": "res-knmoefenen", "title": "KNM Oefenen", "url": "https://knmoefenen.nl/inburgering-knm-oefenen", "type": "knm", "skill": "knm", "level": "A2", "free": true, "description": "450+ free KNM questions and full practice exams (Knowledge of Dutch Society)." },

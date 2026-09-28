@@ -1,0 +1,175 @@
+{
+  "id": "quiz-knm-2025a",
+  "title": "KNM 2025 · 1 Rechten, vrijheid en de oorlog",
+  "skill": "knm",
+  "questions": [
+    {
+      "id": "knm25a-01", "skill": "knm", "format": "mcq",
+      "prompt": "Sara is getrouwd. Ze wil gaan werken, maar haar man wil dat niet. Mag Sara gaan werken?",
+      "options": ["Ja. Sara beslist zelf over haar leven.", "Nee. Haar man moet het goed vinden.", "Alleen als ze geen kinderen heeft."],
+      "answer": "Ja. Sara beslist zelf over haar leven.",
+      "explanation": "Vrouwen in Nederland hebben zelfbeschikkingsrecht: een vrouw mag werken en zelf haar leven regelen. EN: Women here decide about their own lives, including whether to work."
+    },
+    {
+      "id": "knm25a-02", "skill": "knm", "format": "mcq",
+      "prompt": "Wat staat er in artikel 1 van de Grondwet?",
+      "options": ["De koning maakt de wetten.", "Iedereen moet in gelijke gevallen gelijk behandeld worden.", "Iedereen moet stemmen bij verkiezingen."],
+      "answer": "Iedereen moet in gelijke gevallen gelijk behandeld worden.",
+      "explanation": "Artikel 1 verbiedt discriminatie, bijvoorbeeld om geloof, geslacht, afkomst of seksuele gerichtheid. EN: Article 1 says everyone must be treated equally; discrimination is forbidden."
+    },
+    {
+      "id": "knm25a-03", "skill": "knm", "format": "mcq",
+      "prompt": "Een vrouw van 19 wil niet trouwen met de man die haar ouders voor haar hebben gekozen. Mogen haar ouders haar dwingen om met hem te trouwen?",
+      "options": ["Ja, als het bij hun traditie hoort.", "Ja, als de ouders de bruiloft betalen.", "Nee. Iemand dwingen om te trouwen is strafbaar."],
+      "answer": "Nee. Iemand dwingen om te trouwen is strafbaar.",
+      "explanation": "Iedereen kiest zelf met wie hij of zij trouwt. Huwelijksdwang is een misdrijf, en de wet staat boven traditie. EN: Forced marriage is a crime; the law stands above tradition."
+    },
+    {
+      "id": "knm25a-04", "skill": "knm", "format": "mcq",
+      "prompt": "Hoe oud moet je minstens zijn om in Nederland te trouwen?",
+      "options": ["16 jaar", "18 jaar", "21 jaar"],
+      "answer": "18 jaar",
+      "explanation": "Allebei de partners moeten minstens 18 jaar zijn, en ze kiezen zelf met wie ze trouwen. EN: Both partners must be at least 18."
+    },
+    {
+      "id": "knm25a-05", "skill": "knm", "format": "mcq",
+      "prompt": "Mogen twee mannen of twee vrouwen in Nederland met elkaar trouwen?",
+      "options": ["Nee, dat mag niet.", "Alleen in Amsterdam.", "Ja, dat mag sinds 2001."],
+      "answer": "Ja, dat mag sinds 2001.",
+      "explanation": "Sinds 2001 mogen mensen van hetzelfde geslacht trouwen en kinderen adopteren. EN: Same-sex couples may marry and adopt since 2001."
+    },
+    {
+      "id": "knm25a-06", "skill": "knm", "format": "mcq",
+      "prompt": "Een man en een vrouw zijn getrouwd. Ze willen scheiden. Bij wie moeten ze de scheiding aanvragen?",
+      "options": ["Bij de rechter", "Bij een religieuze leider", "Bij de familie"],
+      "answer": "Bij de rechter",
+      "explanation": "Een scheiding vraag je aan bij de rechter, via een advocaat. Dat kan samen, maar ook alleen. EN: You apply to the court through a lawyer, together or alone."
+    },
+    {
+      "id": "knm25a-07", "skill": "knm", "format": "mcq",
+      "prompt": "Anna wordt thuis geslagen door haar partner. Er is nu geen direct gevaar. Wie kan Anna bellen voor hulp?",
+      "options": ["Het UWV", "Veilig Thuis", "De Belastingdienst"],
+      "answer": "Veilig Thuis",
+      "explanation": "Bij huiselijk geweld bel je Veilig Thuis: 0800-2000, gratis, dag en nacht, en je mag anoniem blijven. Bij direct gevaar bel je 112. EN: For domestic violence call Veilig Thuis on 0800-2000; in direct danger call 112."
+    },
+    {
+      "id": "knm25a-08", "skill": "knm", "format": "mcq",
+      "prompt": "Is meisjesbesnijdenis in Nederland toegestaan?",
+      "options": ["Ja, als de ouders het willen.", "Nee. Het is strafbaar, ook als het in het buitenland gebeurt.", "Ja, als het in het buitenland gebeurt."],
+      "answer": "Nee. Het is strafbaar, ook als het in het buitenland gebeurt.",
+      "explanation": "Alle vormen van meisjesbesnijdenis zijn verboden en strafbaar, ook in het buitenland. EN: All forms of female genital mutilation are punishable, also abroad."
+    },
+    {
+      "id": "knm25a-09", "skill": "knm", "format": "mcq",
+      "prompt": "Mogen ouders in Nederland hun kind slaan als straf?",
+      "options": ["Ja, als het kind niet luistert.", "Ja, maar alleen thuis.", "Nee, dat is verboden."],
+      "answer": "Nee, dat is verboden.",
+      "explanation": "Geweld is strafbaar, ook tegen je eigen kind. EN: Violence is punishable, including hitting your own child."
+    },
+    {
+      "id": "knm25a-10", "skill": "knm", "format": "mcq",
+      "prompt": "Wanneer viel Duitsland Nederland binnen?",
+      "options": ["In mei 1940", "In mei 1945", "In september 1939"],
+      "answer": "In mei 1940",
+      "explanation": "Op 10 mei 1940 viel Duitsland Nederland binnen. Nederland was bezet tot de bevrijding in 1945. EN: On 10 May 1940; occupied until the liberation in 1945."
+    },
+    {
+      "id": "knm25a-11", "skill": "knm", "format": "mcq",
+      "prompt": "Wat was de Holocaust?",
+      "options": ["Een grote overstroming in 1953", "De moord op miljoenen Joden in Europa door de nazi's", "De oorlog tussen Nederland en Spanje"],
+      "answer": "De moord op miljoenen Joden in Europa door de nazi's",
+      "explanation": "De nazi's hebben ongeveer 6 miljoen Joden vermoord, en ook Sinti en Roma. EN: The Nazis murdered about 6 million Jews, and also Sinti and Roma."
+    },
+    {
+      "id": "knm25a-12", "skill": "knm", "format": "mcq",
+      "prompt": "Hoeveel Joden uit Nederland zijn in de Tweede Wereldoorlog vermoord?",
+      "options": ["Ongeveer 1.000", "Ongeveer 10.000", "Ongeveer 102.000"],
+      "answer": "Ongeveer 102.000",
+      "explanation": "In 1940 woonden er ongeveer 140.000 Joden in Nederland. Ongeveer 102.000 van hen zijn vermoord. EN: About 102,000 of about 140,000 Dutch Jews were murdered."
+    },
+    {
+      "id": "knm25a-13", "skill": "knm", "format": "mcq",
+      "prompt": "Wat was Kamp Westerbork in de oorlog?",
+      "options": ["Een doorgangskamp. Van daaruit gingen treinen naar kampen zoals Auschwitz.", "Een ziekenhuis voor soldaten.", "Een school voor Joodse kinderen."],
+      "answer": "Een doorgangskamp. Van daaruit gingen treinen naar kampen zoals Auschwitz.",
+      "explanation": "Kamp Westerbork ligt in Drenthe. Van 1942 tot 1944 reden er meer dan 100 treinen naar kampen in het oosten. EN: A transit camp in Drenthe; more than 100 trains left for camps in the east."
+    },
+    {
+      "id": "knm25a-14", "skill": "knm", "format": "mcq",
+      "prompt": "Wie was Anne Frank?",
+      "options": ["De eerste vrouwelijke minister.", "Een Joods meisje dat ondergedoken zat en een dagboek schreef.", "De leider van de Februaristaking."],
+      "answer": "Een Joods meisje dat ondergedoken zat en een dagboek schreef.",
+      "explanation": "Anne Frank zat met haar familie ondergedoken in het Achterhuis in Amsterdam. Ze stierf in 1945 in kamp Bergen-Belsen. EN: A Jewish girl who hid in the Achterhuis in Amsterdam and wrote her diary."
+    },
+    {
+      "id": "knm25a-15", "skill": "knm", "format": "mcq",
+      "prompt": "Wat was de Februaristaking van 1941?",
+      "options": ["Een staking voor een hoger loon", "Een staking in Amsterdam tegen de Jodenvervolging", "Het einde van de oorlog"],
+      "answer": "Een staking in Amsterdam tegen de Jodenvervolging",
+      "explanation": "In februari 1941 protesteerden veel mensen in Amsterdam tegen de vervolging van de Joden. EN: A strike in Amsterdam against the persecution of Jews."
+    },
+    {
+      "id": "knm25a-16", "skill": "knm", "format": "mcq",
+      "prompt": "Wat doen mensen in Nederland op 4 mei om 20.00 uur?",
+      "options": ["Ze zijn twee minuten stil voor de doden van de oorlog.", "Ze vieren de verjaardag van de koning.", "Ze steken vuurwerk af."],
+      "answer": "Ze zijn twee minuten stil voor de doden van de oorlog.",
+      "explanation": "Op 4 mei is de Nationale Dodenherdenking en hangt de vlag halfstok. Op 5 mei vieren we de bevrijding. EN: Two minutes of silence for the war dead; 5 May celebrates the liberation."
+    },
+    {
+      "id": "knm25a-17", "skill": "knm", "format": "mcq",
+      "prompt": "Heeft iedereen op 5 mei, Bevrijdingsdag, vrij van zijn werk?",
+      "options": ["Ja, iedereen heeft elk jaar vrij.", "Nee, want het is geen feestdag.", "Nee. Dat hangt af van de werkgever of de cao."],
+      "answer": "Nee. Dat hangt af van de werkgever of de cao.",
+      "explanation": "Bevrijdingsdag is elk jaar een nationale feestdag, maar niet iedereen heeft vrij. Dat staat in de cao of het contract. EN: A national holiday every year, but not automatically a day off."
+    },
+    {
+      "id": "knm25a-18", "skill": "knm", "format": "mcq",
+      "prompt": "Wat is antisemitisme?",
+      "options": ["Een Joodse feestdag", "Een ander woord voor geloofsvrijheid", "Haat tegen Joden"],
+      "answer": "Haat tegen Joden",
+      "explanation": "Antisemitisme en discriminatie zijn in Nederland bij wet verboden. EN: Hatred of Jews; forbidden by law, like all discrimination."
+    },
+    {
+      "id": "knm25a-19", "skill": "knm", "format": "mcq",
+      "prompt": "Omar zoekt een huis. Een verhuurder zegt: 'Ik verhuur niet aan buitenlanders.' Waar kan Omar dit melden?",
+      "options": ["Bij Discriminatie.nl", "Bij de Belastingdienst", "Bij DUO"],
+      "answer": "Bij Discriminatie.nl",
+      "explanation": "Discriminatie meld je gratis bij Discriminatie.nl (0800-0880), eventueel anoniem, of bij de politie. EN: Report discrimination for free at Discriminatie.nl, or to the police."
+    },
+    {
+      "id": "knm25a-20", "skill": "knm", "format": "mcq",
+      "prompt": "Een regel van een geloof gaat tegen de Nederlandse wet in. Wat is belangrijker?",
+      "options": ["De regel van het geloof", "De Nederlandse wet", "Wat de familie wil"],
+      "answer": "De Nederlandse wet",
+      "explanation": "Je mag zelf je geloof kiezen, maar de wet van de staat staat boven de regels van een geloof of traditie. EN: State law stands above religion and tradition."
+    },
+    {
+      "id": "knm25a-21", "skill": "knm", "format": "mcq",
+      "prompt": "Mag je in Nederland alles zeggen wat je denkt?",
+      "options": ["Ja, alles, zonder uitzondering.", "Ja, maar je mag niet discrimineren of oproepen tot haat.", "Nee, je mag geen kritiek op de regering hebben."],
+      "answer": "Ja, maar je mag niet discrimineren of oproepen tot haat.",
+      "explanation": "Er is vrijheid van meningsuiting, ook voor kritiek op de regering. Discrimineren en oproepen tot haat zijn wel verboden. EN: Free speech, but discrimination and inciting hatred are forbidden."
+    },
+    {
+      "id": "knm25a-22", "skill": "knm", "format": "mcq",
+      "prompt": "Mehmet is 35 jaar. Hij komt niet uit de EU en is geen Nederlander. Hij woont al 6 jaar legaal in Nederland. Mag hij stemmen voor de gemeenteraad?",
+      "options": ["Nee, alleen Nederlanders mogen stemmen.", "Nee, pas na 10 jaar.", "Ja, want hij woont hier langer dan 5 jaar."],
+      "answer": "Ja, want hij woont hier langer dan 5 jaar.",
+      "explanation": "Wie niet uit de EU komt, mag voor de gemeenteraad stemmen als hij 18 jaar of ouder is en 5 jaar of langer legaal in Nederland woont. Voor de Tweede Kamer moet je Nederlander zijn. EN: Non-EU residents aged 18+ may vote for the gemeenteraad after 5 years of legal residence; parliament needs Dutch nationality."
+    },
+    {
+      "id": "knm25a-23", "skill": "knm", "format": "mcq",
+      "prompt": "Wie is de minister-president van Nederland? (september 2026)",
+      "options": ["Rob Jetten", "Willem-Alexander", "Mark Rutte"],
+      "answer": "Rob Jetten",
+      "explanation": "Rob Jetten leidt sinds februari 2026 het kabinet-Jetten. Willem-Alexander is de koning. Kijk vlak voor je examen of dit nog klopt. EN: Rob Jetten leads the cabinet; Willem-Alexander is the king. Check again just before your exam."
+    },
+    {
+      "id": "knm25a-24", "skill": "knm", "format": "mcq",
+      "prompt": "Wat doet de koning in Nederland?",
+      "options": ["Hij beslist in zijn eentje over alle wetten.", "Hij heeft vooral een ceremoniële rol. De ministers zijn verantwoordelijk.", "Hij is de baas van de gemeenteraad."],
+      "answer": "Hij heeft vooral een ceremoniële rol. De ministers zijn verantwoordelijk.",
+      "explanation": "Nederland is een koninkrijk met een parlement. De koning heeft vooral een ceremoniële rol en de ministers zijn verantwoordelijk. EN: The king's role is mainly ceremonial; the ministers are responsible."
+    }
+  ]
+}

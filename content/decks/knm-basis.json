@@ -12,7 +12,7 @@
     { "id": "knm-03", "deckId": "deck-knm-basis", "front": "In welke stad zit de regering?", "back": "In Den Haag." },
     { "id": "knm-04", "deckId": "deck-knm-basis", "front": "Wie is het staatshoofd?", "back": "De koning: koning Willem-Alexander." },
     { "id": "knm-05", "deckId": "deck-knm-basis", "front": "Welke kleuren heeft de Nederlandse vlag?", "back": "Rood, wit en blauw." },
-    { "id": "knm-06", "deckId": "deck-knm-basis", "front": "Wat is de nationale feestdag?", "back": "Koningsdag, op 27 april." },
+    { "id": "knm-06", "deckId": "deck-knm-basis", "front": "Wanneer is Koningsdag?", "back": "Op 27 april, de verjaardag van de koning. Valt 27 april op een zondag, dan is het op 26 april." },
     { "id": "knm-07", "deckId": "deck-knm-basis", "front": "Hoe heet het parlement?", "back": "De Staten-Generaal: de Eerste en Tweede Kamer." },
     { "id": "knm-08", "deckId": "deck-knm-basis", "front": "Welk geld (munt) gebruik je in Nederland?", "back": "De euro." },
     { "id": "knm-09", "deckId": "deck-knm-basis", "front": "Welke taal is de officiële taal?", "back": "Nederlands (en Fries in Friesland)." },

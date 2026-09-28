@@ -26,8 +26,9 @@ export function BackupCard() {
       const { imported } = await importData(await file.text())
       setStatus(`Hersteld: ${imported} items ✓ — even verversen…`)
       setTimeout(() => location.reload(), 900)
-    } catch {
-      setStatus('Kon dit bestand niet lezen ✗')
+    } catch (err) {
+      const msg = err instanceof Error && err.message.startsWith('Dit is geen') ? err.message : 'Kon dit bestand niet lezen.'
+      setStatus(`${msg} ✗`)
     }
   }
 

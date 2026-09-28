@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db/database'
@@ -44,6 +44,41 @@ export function correctText(q: Question): string {
   return Array.isArray(q.answer) ? q.answer.join(', ') : q.answer
 }
 
+// Most content files list the correct answer first, so options are rendered in a shuffled
+// order. The seed combines the question id with a per-session value: the order stays put
+// while you answer, and changes each time the app is reopened, so position never gives
+// the answer away.
+const SESSION_SEED = Math.floor(Math.random() * 0x7fffffff)
+
+function hashString(s: string): number {
+  let h = 2166136261
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i)
+    h = Math.imul(h, 16777619)
+  }
+  return h >>> 0
+}
+
+function shuffledOptions(id: string, options: string[]): string[] {
+  // Article choice reads naturally in a fixed order, and "de, het" carries no answer bias.
+  const lower = options.map((o) => o.trim().toLowerCase())
+  if (options.length === 2 && lower.includes('de') && lower.includes('het')) {
+    return lower[0] === 'de' ? [...options] : [options[1], options[0]]
+  }
+  const out = [...options]
+  let x = (hashString(id) ^ SESSION_SEED) >>> 0 || 1
+  for (let i = out.length - 1; i > 0; i--) {
+    x ^= x << 13
+    x >>>= 0
+    x ^= x >>> 17
+    x ^= x << 5
+    x >>>= 0
+    const j = x % (i + 1)
+    ;[out[i], out[j]] = [out[j], out[i]]
+  }
+  return out
+}
+
 export function QuestionInput({
   q,
   value,
@@ -53,10 +88,12 @@ export function QuestionInput({
   value: Answer | undefined
   onChange: (v: Answer) => void
 }) {
+  const options = useMemo(() => shuffledOptions(q.id, q.options ?? []), [q.id, q.options])
+
   if (q.format === 'mcq') {
     return (
       <div className="space-y-2">
-        {(q.options ?? []).map((opt) => {
+        {options.map((opt) => {
           const selected = value === opt
           return (
             <button

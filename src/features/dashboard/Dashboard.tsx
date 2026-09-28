@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db/database'
 import { loadContent } from '../../content'
@@ -99,7 +99,33 @@ export function Dashboard() {
     [progressRows],
   )
 
-  const weekNo = currentWeekNumber(planMeta.startDate, weeks)
+  // The calendar decides which week "this week" is, but a learner who is behind needs to
+  // see the week they are actually on. `?week=N` picks a week; without it we show the
+  // calendar week and point back to the first week that still has open study tasks.
+  const [params, setParams] = useSearchParams()
+  const calendarWeek = currentWeekNumber(planMeta.startDate, weeks)
+  const weekNumbers = weeks.map((w) => w.weekNumber)
+  const minWeek = weekNumbers.length ? Math.min(...weekNumbers) : 1
+  const maxWeek = weekNumbers.length ? Math.max(...weekNumbers) : 1
+  const requested = Number(params.get('week'))
+  const weekNo =
+    Number.isInteger(requested) && requested >= minWeek && requested <= maxWeek
+      ? requested
+      : calendarWeek
+  const goToWeek = (n: number) => {
+    const next = new URLSearchParams(params)
+    if (n === calendarWeek) next.delete('week')
+    else next.set('week', String(n))
+    setParams(next, { replace: true })
+  }
+  const firstOpenWeek = useMemo(() => {
+    for (const w of weeks) {
+      if (w.tasks.some((t) => t.kind !== 'admin' && !doneSet.has(t.id))) return w.weekNumber
+    }
+    return null
+  }, [weeks, doneSet])
+  const isCalendarWeek = weekNo === calendarWeek
+
   const week = weeks.find((w) => w.weekNumber === weekNo)
   const weekTasks = week?.tasks ?? []
   const weekDone = weekTasks.filter((t) => doneSet.has(t.id)).length
@@ -148,7 +174,30 @@ export function Dashboard() {
         <div className="bg-yellow-400 px-5 py-4">
           <div className="flex items-center justify-between gap-2">
             <div>
-              <p className="text-xs font-bold uppercase tracking-wide text-slate-700">Week {weekNo}</p>
+              <div className="flex items-center gap-1.5">
+                <button
+                  type="button"
+                  aria-label="Vorige week"
+                  disabled={weekNo <= minWeek}
+                  onClick={() => goToWeek(weekNo - 1)}
+                  className="grid size-6 place-items-center rounded-md bg-yellow-300 text-base font-bold leading-none text-slate-800 transition hover:bg-yellow-200 disabled:opacity-30"
+                >
+                  ‹
+                </button>
+                <p className="text-xs font-bold uppercase tracking-wide text-slate-700">
+                  Week {weekNo}
+                  {isCalendarWeek ? ' · deze week' : ''}
+                </p>
+                <button
+                  type="button"
+                  aria-label="Volgende week"
+                  disabled={weekNo >= maxWeek}
+                  onClick={() => goToWeek(weekNo + 1)}
+                  className="grid size-6 place-items-center rounded-md bg-yellow-300 text-base font-bold leading-none text-slate-800 transition hover:bg-yellow-200 disabled:opacity-30"
+                >
+                  ›
+                </button>
+              </div>
               <h1 className="text-xl font-extrabold text-slate-900">{week?.theme ?? 'Studieplan'}</h1>
               {week?.dateLabel && <p className="text-xs font-medium text-slate-700">{week.dateLabel}</p>}
             </div>
@@ -170,8 +219,30 @@ export function Dashboard() {
           </div>
         </div>
         <div className="space-y-1 px-5 py-3">
+          {((firstOpenWeek != null && firstOpenWeek < weekNo) || !isCalendarWeek) && (
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 pb-2 text-xs">
+              {firstOpenWeek != null && firstOpenWeek < weekNo && (
+                <button
+                  type="button"
+                  onClick={() => goToWeek(firstOpenWeek)}
+                  className="font-semibold text-sky-600 hover:underline"
+                >
+                  ← Ga naar de eerste onafgemaakte week (week {firstOpenWeek})
+                </button>
+              )}
+              {!isCalendarWeek && (
+                <button
+                  type="button"
+                  onClick={() => goToWeek(calendarWeek)}
+                  className="font-semibold text-slate-500 hover:underline"
+                >
+                  Terug naar deze week (week {calendarWeek}) →
+                </button>
+              )}
+            </div>
+          )}
           <div className="flex items-center justify-between text-xs font-semibold text-slate-500">
-            <span>Deze week</span>
+            <span>{isCalendarWeek ? 'Deze week' : `Week ${weekNo}`}</span>
             <span>
               {weekDone}/{weekTasks.length}
             </span>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { ReactNode } from 'react'
 import { seed } from '../db/seed'
-import { requestPersistentStorage } from '../db/backup'
+import { repairCardDates, requestPersistentStorage } from '../db/backup'
 
 /** Seeds the local database once, then renders the app. */
 export function Boot({ children }: { children: ReactNode }) {
@@ -11,6 +11,12 @@ export function Boot({ children }: { children: ReactNode }) {
   useEffect(() => {
     void requestPersistentStorage()
     seed()
+      .then(() =>
+        repairCardDates().catch((e) => {
+          // Best effort: a failed repair must never stop the app from opening.
+          console.error('[repair] card dates', e)
+        }),
+      )
       .then(() => setReady(true))
       .catch((e) => {
         console.error('[seed] failed', e)
